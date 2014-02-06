@@ -1,0 +1,761 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: 文件成员</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li class="current"><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow3" class="tabs2">
+    <ul class="tablist">
+      <li><a href="globals.html"><span>全部</span></a></li>
+      <li><a href="globals_func.html"><span>函数</span></a></li>
+      <li><a href="globals_vars.html"><span>变量</span></a></li>
+      <li><a href="globals_type.html"><span>类型定义</span></a></li>
+      <li><a href="globals_enum.html"><span>枚举</span></a></li>
+      <li><a href="globals_eval.html"><span>枚举值</span></a></li>
+      <li class="current"><a href="globals_defs.html"><span>宏定义</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow4" class="tabs3">
+    <ul class="tablist">
+      <li><a href="#index_a"><span>a</span></a></li>
+      <li><a href="#index_b"><span>b</span></a></li>
+      <li><a href="#index_c"><span>c</span></a></li>
+      <li><a href="#index_d"><span>d</span></a></li>
+      <li><a href="#index_e"><span>e</span></a></li>
+      <li><a href="#index_f"><span>f</span></a></li>
+      <li><a href="#index_g"><span>g</span></a></li>
+      <li><a href="#index_h"><span>h</span></a></li>
+      <li><a href="#index_i"><span>i</span></a></li>
+      <li><a href="#index_j"><span>j</span></a></li>
+      <li><a href="#index_k"><span>k</span></a></li>
+      <li><a href="#index_l"><span>l</span></a></li>
+      <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_n"><span>n</span></a></li>
+      <li><a href="#index_p"><span>p</span></a></li>
+      <li><a href="#index_r"><span>r</span></a></li>
+      <li><a href="#index_s"><span>s</span></a></li>
+      <li><a href="#index_t"><span>t</span></a></li>
+      <li><a href="#index_u"><span>u</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('globals_defs.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+&#160;
+
+<h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
+<li>Accord_Msg
+: <a class="el" href="_m_c_string_define_8h.html#a1c33d573cd29521c3bd63a558c570487">MCStringDefine.h</a>
+</li>
+<li>Audio_BackGroundSound_Loop
+: <a class="el" href="_m_c_string_define_8h.html#af86ea55b48165d1b56acac808e933af5">MCStringDefine.h</a>
+</li>
+<li>Audio_BackGroundSound_Loop_key
+: <a class="el" href="_m_c_string_define_8h.html#af647e4acb2810a4887e36065cb64ddd3">MCStringDefine.h</a>
+</li>
+<li>Audio_RotateSound_Ding
+: <a class="el" href="_m_c_string_define_8h.html#a68e29292ace0183823a27cc3d1f90c01">MCStringDefine.h</a>
+</li>
+<li>Audio_RotateSound_Ding_key
+: <a class="el" href="_m_c_string_define_8h.html#afe6754442a99c93c4f43cb3a36e99f7a">MCStringDefine.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
+<li>BLACK_BAR_COMPONENTS
+: <a class="el" href="_ask_reload_view_8m.html#a29e65d49038dc2a8e219162e0709b635">AskReloadView.m</a>
+, <a class="el" href="_learn_page_pause_menu_8m.html#a29e65d49038dc2a8e219162e0709b635">LearnPagePauseMenu.m</a>
+, <a class="el" href="_solve_page_pause_menu_8m.html#a29e65d49038dc2a8e219162e0709b635">SolvePagePauseMenu.m</a>
+, <a class="el" href="_pause_menu_8m.html#a29e65d49038dc2a8e219162e0709b635">PauseMenu.m</a>
+</li>
+<li>BLACK_BAR_COMPONENTS_Finish
+: <a class="el" href="_finish_view_8m.html#a2dfc7a2b8eb459c0750634ca4d184822">FinishView.m</a>
+, <a class="el" href="_counting_finish_view_8m.html#a2dfc7a2b8eb459c0750634ca4d184822">CountingFinishView.m</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>Congig_Sound_File
+: <a class="el" href="_m_c_string_define_8h.html#acb4e1b4e7f9e417900342a3e3752c85f">MCStringDefine.h</a>
+</li>
+<li>CUBE_CUBE_GAP
+: <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h.html#a8e18a12929298aa53844910b6a6526f8">MCMagicCubeUIModelController.h</a>
+</li>
+<li>Cube_polygon_count
+: <a class="el" href="_test_cube_data_8h.html#adfa23413f13483b071afae19271e4829">TestCubeData.h</a>
+</li>
+<li>Cube_polygon_count_f
+: <a class="el" href="data_8hpp.html#a1954ea80997f5bfa2e01ad1ea1d76b7a">data.hpp</a>
+</li>
+<li>Cube_vertex_array_size
+: <a class="el" href="_test_cube_data_8h.html#a6208c77a0470b0f950a8ae979e005a1f">TestCubeData.h</a>
+</li>
+<li>Cube_vertex_array_size_f
+: <a class="el" href="data_8hpp.html#af41c106a896afc66ce50bdbf61b9a786">data.hpp</a>
+</li>
+<li>Cube_vertex_count
+: <a class="el" href="_test_cube_data_8h.html#a3489fa745e09a90d4d84510b395b46bf">TestCubeData.h</a>
+</li>
+<li>Cube_vertex_count_f
+: <a class="el" href="data_8hpp.html#aaef3f6a99b62e6cb96710912c98a2a95">data.hpp</a>
+</li>
+<li>CubieCouldBeLockMaxNum
+: <a class="el" href="_m_c_working_memory_8h.html#a867b8adb5a0acc736a285d526a57d51b">MCWorkingMemory.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
+<li>DB_PATTERN_TABLE_NAME
+: <a class="el" href="_global_8h.html#ad3f6d63630360b5b1e0a602b2178b084">Global.h</a>
+</li>
+<li>DB_RULE_TABLE_NAME
+: <a class="el" href="_global_8h.html#ae4482f3fc5f8923bbb07297ff71dbf14">Global.h</a>
+</li>
+<li>DB_SPECIAL_PATTERN_TABLE_NAME
+: <a class="el" href="_global_8h.html#a61872ff3650149cf92f42cb51ec160d1">Global.h</a>
+</li>
+<li>DB_SPECIAL_RULE_TABLE_NAME
+: <a class="el" href="_global_8h.html#ac709b1b8b363bec5d533fbfafc07962a">Global.h</a>
+</li>
+<li>DB_STATE_TABLE_NAME
+: <a class="el" href="_global_8h.html#a820d8eb6ead545daeb14f55c09ea5fea">Global.h</a>
+</li>
+<li>DBName
+: <a class="el" href="_m_c_d_b_controller_8h.html#a9cf98612250c7e00c4e72771f580a151">MCDBController.h</a>
+</li>
+<li>DEBUG_DRAW_COLLIDERS
+: <a class="el" href="_m_c_configuration_8h.html#a6100ea416a805fd127d96dc3186ae761">MCConfiguration.h</a>
+</li>
+<li>DEFAULT_ACTION_INFOMATION_NUM
+: <a class="el" href="_m_c_play_helper_8h.html#a5b491b56f7c6ab57031c2edff644bf5b">MCPlayHelper.h</a>
+</li>
+<li>DEFAULT_BACKGROUND_COLOR
+: <a class="el" href="_u_a_modal_panel_8m.html#a55c47ddc491898ae3a895f9955f35d57">UAModalPanel.m</a>
+</li>
+<li>DEFAULT_BORDER_COLOR
+: <a class="el" href="_u_a_modal_panel_8m.html#a8db9781c6b0588b6e1a9100d28dbf8e9">UAModalPanel.m</a>
+</li>
+<li>DEFAULT_BORDER_WIDTH
+: <a class="el" href="_u_a_modal_panel_8m.html#a587c4ed5174ce355fa54e6d363102a95">UAModalPanel.m</a>
+</li>
+<li>DEFAULT_BOUNCE
+: <a class="el" href="_u_a_modal_panel_8m.html#ade2c0839d9100bc6b365b691a79edd0e">UAModalPanel.m</a>
+</li>
+<li>DEFAULT_CORNER_RADIUS
+: <a class="el" href="_u_a_modal_panel_8m.html#a5a19cc8787f03dfe77009cd15647a6cb">UAModalPanel.m</a>
+</li>
+<li>DEFAULT_MARGIN
+: <a class="el" href="_u_a_modal_panel_8m.html#a566cf4649f4c06f548990c1140a87eb4">UAModalPanel.m</a>
+</li>
+<li>DEFAULT_PATTERN_ACCORDANCE_MESSAGE_NUM
+: <a class="el" href="_m_c_explanation_system_8h.html#a325f777ac2d740a5ebbdf752fd9aee06">MCExplanationSystem.h</a>
+</li>
+<li>DEFAULT_RESIDUAL_ACTION_NUM
+: <a class="el" href="_m_c_working_memory_8h.html#a4f04847cae36d652fcc455649131e498">MCWorkingMemory.h</a>
+</li>
+<li>DEFAULT_SHOW_CLOSE
+: <a class="el" href="_u_a_modal_panel_8m.html#ab897800ff3766406deb59fa96ba7bf7c">UAModalPanel.m</a>
+</li>
+<li>DEFAULT_TITLE_BAR_HEIGHT
+: <a class="el" href="_u_a_titled_modal_panel_8m.html#a289715c18b5c4ca818adbf09bd4ad316">UATitledModalPanel.m</a>
+</li>
+<li>Disaccord_Msg
+: <a class="el" href="_m_c_string_define_8h.html#a40abb77817d774b985d07dab90e66bc5">MCStringDefine.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>END_STATE
+: <a class="el" href="_global_8h.html#a216a83b1eaf55faee62e569b0a1929e5">Global.h</a>
+</li>
+<li>END_TOKEN
+: <a class="el" href="_m_c_basic_element_8m.html#a8db83c03a419492e0806204171a93ca3">MCBasicElement.m</a>
+</li>
+<li>ETFF
+: <a class="el" href="_global_8h.html#afcf27911dd19f491fe762360addb2945">Global.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>Face_BlackKEY
+: <a class="el" href="_m_c_string_define_8h.html#adf7803d5d6b7bd0c22a3164e95261d3b">MCStringDefine.h</a>
+</li>
+<li>Face_BlueKEY
+: <a class="el" href="_m_c_string_define_8h.html#a60e539a2a70ca6fa4aa3dcee5a8af934">MCStringDefine.h</a>
+</li>
+<li>FACE_COLOR_MAPPING_FILE_NAME
+: <a class="el" href="_global_8h.html#a130ad2adb2ffd6ea10f3fcb5dbe728a9">Global.h</a>
+</li>
+<li>Face_GreenKEY
+: <a class="el" href="_m_c_string_define_8h.html#ad3dfafe5f643011a9ef97a5207c7e936">MCStringDefine.h</a>
+</li>
+<li>Face_OrangeKEY
+: <a class="el" href="_m_c_string_define_8h.html#ad8b6f66d2b5832123eb102e9e42bad64">MCStringDefine.h</a>
+</li>
+<li>Face_RedKEY
+: <a class="el" href="_m_c_string_define_8h.html#a3023d05fbfb9ea3b95f22baaed36dce5">MCStringDefine.h</a>
+</li>
+<li>Face_WhiteKEY
+: <a class="el" href="_m_c_string_define_8h.html#a12906140221d13e6dbcb47d2873f4b2b">MCStringDefine.h</a>
+</li>
+<li>Face_YellowKEY
+: <a class="el" href="_m_c_string_define_8h.html#a1bb0fcc7c27e1e826d3b75324ecd1c6c">MCStringDefine.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
+<li>GENERAL_RULES_NUM
+: <a class="el" href="_global_8h.html#a603a534554cbf30e7cbe3a287788a89f">Global.h</a>
+</li>
+<li>GENERAL_STATES_NUM
+: <a class="el" href="_global_8h.html#ad19f48dcd4fa2d063fcf79ec0e229941">Global.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
+<li>highestScore
+: <a class="el" href="_m_c_user_calculator_8m.html#acf37d83cbd467ff4e7b9bb4399d23bab">MCUserCalculator.m</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>Interval
+: <a class="el" href="_m_c_timer_8h.html#a3e528fd40d3747b439f7270573b4951b">MCTimer.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_j"></a>- j -</h3><ul>
+<li>JM_SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO
+: <a class="el" href="_u_i_view_09_j_m_noise_8m.html#a846d8b2bcbdf6a501fd9d9115f33aa84">UIView+JMNoise.m</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_k"></a>- k -</h3><ul>
+<li>K_QUADCURVE_MENU_DEFAULT_CLOSE_ANIM_LAST_TIME
+: <a class="el" href="_global_8h.html#a973881eda7e7517b0c396af56920bb14">Global.h</a>
+</li>
+<li>K_QUADCURVE_MENU_DEFAULT_END_RADIUS
+: <a class="el" href="_global_8h.html#a719ae0257f6985461fae9de166cffdfe">Global.h</a>
+</li>
+<li>K_QUADCURVE_MENU_DEFAULT_FAR_RADIUS
+: <a class="el" href="_global_8h.html#aeb10621bafbbf6d741108fa940d31d81">Global.h</a>
+</li>
+<li>K_QUADCURVE_MENU_DEFAULT_NEAR_RADIUS
+: <a class="el" href="_global_8h.html#a3a3018c5b8be80c98b589183f4afa9ee">Global.h</a>
+</li>
+<li>K_QUADCURVE_MENU_DEFAULT_OPEN_ANIM_LAST_TIME
+: <a class="el" href="_global_8h.html#a4666a0fecf30bc6a8f591ebe39c0ee93">Global.h</a>
+</li>
+<li>K_QUADCURVE_MENU_DEFAULT_ROTATE_ANGLE
+: <a class="el" href="_global_8h.html#a92895de636f3b4acad83781c14f38fe9">Global.h</a>
+</li>
+<li>K_QUADCURVE_MENU_DEFAULT_SELECT_ANIM_LAST_TIME
+: <a class="el" href="_global_8h.html#ae1123212e61e24e9a04b79b491c98a70">Global.h</a>
+</li>
+<li>K_QUADCURVE_MENU_DEFAULT_TIME_OFFSET
+: <a class="el" href="_global_8h.html#ad08df87d0f018490c1ab5326599c2c98">Global.h</a>
+</li>
+<li>K_QUADCURVE_MENU_DEFAULT_WHOLE_ANGLE
+: <a class="el" href="_global_8h.html#abe1c5133acb35c6f912b54a32ee1b324">Global.h</a>
+</li>
+<li>kCompleteFaceNum
+: <a class="el" href="_m_c_cube_8m.html#a7bbdff1d3507c35955901436325ca883">MCCube.m</a>
+</li>
+<li>kCoordinateXKey
+: <a class="el" href="_m_c_cube_8m.html#a07eb08f8dee02e2bbd325ada6f16d303">MCCube.m</a>
+</li>
+<li>kCoordinateYKey
+: <a class="el" href="_m_c_cube_8m.html#afdb82bbd205225c9dd20202159ceb645">MCCube.m</a>
+</li>
+<li>kCoordinateZKey
+: <a class="el" href="_m_c_cube_8m.html#ae5a3d827e3ca9604da9313411921fecb">MCCube.m</a>
+</li>
+<li>KEY_BACK_FACE_COLOR
+: <a class="el" href="_global_8h.html#a8851be0c1ff3a33897664bcfbffcf919">Global.h</a>
+</li>
+<li>KEY_DOWN_FACE_COLOR
+: <a class="el" href="_global_8h.html#ada29b6ebd178fd7b4da147612f5e2617">Global.h</a>
+</li>
+<li>KEY_FRONT_FACE_COLOR
+: <a class="el" href="_global_8h.html#a2a2293dceb3343096d528dd86f0061b3">Global.h</a>
+</li>
+<li>KEY_LEFT_FACE_COLOR
+: <a class="el" href="_global_8h.html#a2a521da36e00441e57fa1d1a54f95274">Global.h</a>
+</li>
+<li>KEY_LOCKED_CUBIES
+: <a class="el" href="_global_8h.html#abdab29c59409095bac21a124392a59b0">Global.h</a>
+</li>
+<li>KEY_RIGHT_FACE_COLOR
+: <a class="el" href="_global_8h.html#aa2d9fd8ddec7fb2c1aa323aa7ef8bf5e">Global.h</a>
+</li>
+<li>KEY_ROTATION_QUEUE
+: <a class="el" href="_global_8h.html#a9228c18241290be6cdba323e1ddc0639">Global.h</a>
+</li>
+<li>KEY_TIPS
+: <a class="el" href="_global_8h.html#afc7327b461cbcae749aeafde5edd49c7">Global.h</a>
+</li>
+<li>KEY_UP_FACE_COLOR
+: <a class="el" href="_global_8h.html#a3c5df6be2d8980caab783339b225c1bb">Global.h</a>
+</li>
+<li>kIdentityKey
+: <a class="el" href="_m_c_cube_8m.html#aea15d46e39e774d7111d1e894712ba67">MCCube.m</a>
+</li>
+<li>kNoiseDefaultOpacity
+: <a class="el" href="_u_i_view_09_j_m_noise_8m.html#aa857c1bdf96b6482b5cffbcde961c904">UIView+JMNoise.m</a>
+</li>
+<li>kNoiseIntensity
+: <a class="el" href="_u_i_view_09_j_m_noise_8m.html#a135f8bcfb2ac5e28a0bba426292cd44c">UIView+JMNoise.m</a>
+</li>
+<li>kNoisePixelWidth
+: <a class="el" href="_u_i_view_09_j_m_noise_8m.html#a113a39fb03e8a6e60bac35c0e0dcd6ff">UIView+JMNoise.m</a>
+</li>
+<li>kNoiseTileDimension
+: <a class="el" href="_u_i_view_09_j_m_noise_8m.html#ac7998daf8f7c9817d0327fce6b2656b5">UIView+JMNoise.m</a>
+</li>
+<li>KNOWLEDGE_DB_FILE_NAME
+: <a class="el" href="_global_8h.html#ad7e0c562fb8d6e63fd728402c35b53b5">Global.h</a>
+</li>
+<li>kSingleColorKeyFormat
+: <a class="el" href="_m_c_cube_8m.html#a81cbcf40e233d685b69c531cd9b30295">MCCube.m</a>
+</li>
+<li>kSingleCubieKeyFormat
+: <a class="el" href="_m_c_magic_cube_8m.html#a831af00255afabe0c960bf6072e0be09">MCMagicCube.m</a>
+</li>
+<li>kSingleOrientationKeyFormat
+: <a class="el" href="_m_c_cube_8m.html#a080ca8c92c5ca02cf61ea6e65024c5f6">MCCube.m</a>
+</li>
+<li>kSingleOrientationToMagicCubeFaceKeyFormat
+: <a class="el" href="_m_c_magic_cube_8m.html#a108c09c5a2185188c0c8dfc3bfec8686">MCMagicCube.m</a>
+</li>
+<li>kSkinNumKey
+: <a class="el" href="_m_c_cube_8m.html#a46c4e8499a3d5b2bf17af56b01a93dad">MCCube.m</a>
+</li>
+<li>kSpaceDirectionIndicatorDown
+: <a class="el" href="_m_c_string_define_8h.html#a6af10d304ef169a170ec1c42debd18af">MCStringDefine.h</a>
+</li>
+<li>kSpaceDirectionIndicatorLeft
+: <a class="el" href="_m_c_string_define_8h.html#a198e6182abe9921efed9ff2f3e2f241c">MCStringDefine.h</a>
+</li>
+<li>kSpaceDirectionIndicatorRight
+: <a class="el" href="_m_c_string_define_8h.html#a53b48932953ae161fdd8f47c21b62d58">MCStringDefine.h</a>
+</li>
+<li>kSpaceDirectionIndicatorUP
+: <a class="el" href="_m_c_string_define_8h.html#ac56a37ede627a0feb73ba801fb2edf88">MCStringDefine.h</a>
+</li>
+<li>kTypeKey
+: <a class="el" href="_m_c_cube_8m.html#a9bb5d57ebd34e345e42d1bcd491300c8">MCCube.m</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>LABELDETAILSFONTSIZE
+: <a class="el" href="_m_b_progress_h_u_d_8m.html#a8131ed071028cf90ebf7dee74a5d57dd">MBProgressHUD.m</a>
+</li>
+<li>LABELFONTSIZE
+: <a class="el" href="_m_b_progress_h_u_d_8m.html#a114a67969551ba0146431d5342e1acc6">MBProgressHUD.m</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>MAT
+: <a class="el" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MCGL.h</a>
+</li>
+<li>MaxDistance
+: <a class="el" href="_m_c_configuration_8h.html#a890c4ad9d87f1fbdf1e8a718158207e5">MCConfiguration.h</a>
+</li>
+<li>MaxLineSize
+: <a class="el" href="_m_c_o_b_j_loader_8h.html#ac4f3e0dcefffbdd4ded3e1ab5499c6ea">MCOBJLoader.h</a>
+</li>
+<li>MC_CONVERT_TO_4444
+: <a class="el" href="_m_c_configuration_8h.html#a7640d4be2432573f8f8716fb7190234d">MCConfiguration.h</a>
+</li>
+<li>MC_FPS
+: <a class="el" href="_m_c_configuration_8h.html#aa62a8962ce3db6702aaf26edd36fdb10">MCConfiguration.h</a>
+</li>
+<li>MC_MAX_PARTICLES
+: <a class="el" href="_m_c_configuration_8h.html#adf477d1d8e5c46ed64ce255c47faf4d5">MCConfiguration.h</a>
+</li>
+<li>MCRADIANS_TO_DEGREES
+: <a class="el" href="_m_c_configuration_8h.html#a1fa7a21ff6bc02dcf50eb08520735a31">MCConfiguration.h</a>
+</li>
+<li>MCSOUNDBOARD_AUDIO_FADE_STEPS
+: <a class="el" href="_m_c_sound_board_8m.html#af55624dc7e6e099cc3975081067bb16b">MCSoundBoard.m</a>
+</li>
+<li>moveWeight
+: <a class="el" href="_m_c_user_calculator_8m.html#ae0df31282a77001e5fdb13128c7eeb45">MCUserCalculator.m</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
+<li>NO_SELECTED_LAYER
+: <a class="el" href="_global_8h.html#a9dc9a555a19690b673669189dd9f3e0c">Global.h</a>
+</li>
+<li>NOISE_DEFAULT_OPACITY
+: <a class="el" href="_u_a_noisy_gradient_background_8m.html#ab50532654c69e10feef5422f32028722">UANoisyGradientBackground.m</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>PADDING
+: <a class="el" href="_m_b_progress_h_u_d_8m.html#a3eebd09a9a94c914de17855816e6ac45">MBProgressHUD.m</a>
+</li>
+<li>PLACEHOLDER
+: <a class="el" href="_global_8h.html#a3ed8e8e82b48344ea24ad11be7fcb9dd">Global.h</a>
+</li>
+<li>POPUP_ITEM_WINDOW_SIZE_RATIO
+: <a class="el" href="_global_8h.html#adc195e340e91cf25d46b3b0967f4ecac">Global.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>RADIANS
+: <a class="el" href="_m_b_progress_h_u_d_8m.html#a4dddbaece4412db60bf53ae8c509f8b8">MBProgressHUD.m</a>
+</li>
+<li>RANDOM_INT
+: <a class="el" href="_m_c_configuration_8h.html#a9fe9e0da760d38f316942c77bc4dbefe">MCConfiguration.h</a>
+</li>
+<li>RANDOM_SEED
+: <a class="el" href="_m_c_configuration_8h.html#a53ec97d409d05b0ed9e77837596527a5">MCConfiguration.h</a>
+</li>
+<li>RandomRotateMaxCount
+: <a class="el" href="_m_c_configuration_8h.html#ae1731d85e2bb359ce0691075fb6dea35">MCConfiguration.h</a>
+</li>
+<li>ROTATION_ANGLE
+: <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h.html#a265e60a40d4e4e68cecaa31f4ce73b89">MCMagicCubeUIModelController.h</a>
+</li>
+<li>RubiksCube_Global_h
+: <a class="el" href="_global_8h.html#ae0678e0803269e902112350971862543">Global.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>S_L_BackGroundMusic
+: <a class="el" href="_m_c_string_define_8h.html#a1d54aeec165d0e6a96cd1d35939baf87">MCStringDefine.h</a>
+</li>
+<li>S_L_BackGroundMusicSwitch
+: <a class="el" href="_m_c_string_define_8h.html#a5ce0f8bc1a97b7ad877566783c632cb1">MCStringDefine.h</a>
+</li>
+<li>S_L_BackGroundMusicValume
+: <a class="el" href="_m_c_string_define_8h.html#abd44e7a9a6089935ad9ac77562d17641">MCStringDefine.h</a>
+</li>
+<li>S_L_RotateEffect
+: <a class="el" href="_m_c_string_define_8h.html#a7d01607643a3cf693929f577b93a2413">MCStringDefine.h</a>
+</li>
+<li>S_L_RotateEffectSwitch
+: <a class="el" href="_m_c_string_define_8h.html#ab8806bf35e0ba5cc2a92bfd93b27b331">MCStringDefine.h</a>
+</li>
+<li>S_L_RotateEffectValume
+: <a class="el" href="_m_c_string_define_8h.html#af0ce56de89395959f9d2d6fc2770118e">MCStringDefine.h</a>
+</li>
+<li>SMASH_SPEED_FACTOR
+: <a class="el" href="_m_c_configuration_8h.html#a644fc2ef788fd1c044383044aa6b2619">MCConfiguration.h</a>
+</li>
+<li>START_STATE
+: <a class="el" href="_global_8h.html#ac80f56298756d54e0e7eb451df72176c">Global.h</a>
+</li>
+<li>StayForATime_Msg
+: <a class="el" href="_m_c_string_define_8h.html#a348b1f0232ea64a599cbef7f55916a9a">MCStringDefine.h</a>
+</li>
+<li>SWAP_ROWS_DOUBLE
+: <a class="el" href="_m_c_g_l_8h.html#a01c1a3f2db63c63fb38336ab8a7d4a78">MCGL.h</a>
+</li>
+<li>SWAP_ROWS_FLOAT
+: <a class="el" href="_m_c_g_l_8h.html#ac2b28cc58df83b61fc60374226f06f0f">MCGL.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
+<li>TextureKey_appTitle
+: <a class="el" href="_m_c_string_define_8h.html#ac38083141821750e56768b6dc427c2bd">MCStringDefine.h</a>
+</li>
+<li>TextureKey_dot
+: <a class="el" href="_m_c_string_define_8h.html#a14ec23aa5757876aafe9db427e61945c">MCStringDefine.h</a>
+</li>
+<li>TextureKey_dotdot
+: <a class="el" href="_m_c_string_define_8h.html#a8853d1b7d5c25e30fd503da54760344b">MCStringDefine.h</a>
+</li>
+<li>TextureKey_eight
+: <a class="el" href="_m_c_string_define_8h.html#a0dc40eeae94e580d1745e96aeb111f71">MCStringDefine.h</a>
+</li>
+<li>TextureKey_five
+: <a class="el" href="_m_c_string_define_8h.html#a95a588f35b94411892f6bd81d0c253db">MCStringDefine.h</a>
+</li>
+<li>TextureKey_four
+: <a class="el" href="_m_c_string_define_8h.html#a06b624ec338adc380e5d7bf344982670">MCStringDefine.h</a>
+</li>
+<li>TextureKey_hideTipsButtonDown
+: <a class="el" href="_m_c_string_define_8h.html#a1af88e9f0c88f656e6eb302f217dac26">MCStringDefine.h</a>
+</li>
+<li>TextureKey_hideTipsButtonUp
+: <a class="el" href="_m_c_string_define_8h.html#ace71a0f929069c22776716591467669f">MCStringDefine.h</a>
+</li>
+<li>TextureKey_learnButtonDown
+: <a class="el" href="_m_c_string_define_8h.html#ac64ba47411b0ef55c27a4a6718c4b004">MCStringDefine.h</a>
+</li>
+<li>TextureKey_learnButtonUp
+: <a class="el" href="_m_c_string_define_8h.html#ac2ce89efd6a6a793a6462c02302ba860">MCStringDefine.h</a>
+</li>
+<li>TextureKey_nextButtonDown
+: <a class="el" href="_m_c_string_define_8h.html#a04d495b440c53618ecad35ac9c057762">MCStringDefine.h</a>
+</li>
+<li>TextureKey_nextButtonUp
+: <a class="el" href="_m_c_string_define_8h.html#a48f0f8ae0e07887b0be3b7e72bb5538c">MCStringDefine.h</a>
+</li>
+<li>TextureKey_night
+: <a class="el" href="_m_c_string_define_8h.html#a1616429a6bf679290548c84480f5fa51">MCStringDefine.h</a>
+</li>
+<li>TextureKey_one
+: <a class="el" href="_m_c_string_define_8h.html#aa0fe0d1837625a26ee92b241bb5aab88">MCStringDefine.h</a>
+</li>
+<li>TextureKey_optionButtonDown
+: <a class="el" href="_m_c_string_define_8h.html#a190734126bac7f4945be02297e280d4f">MCStringDefine.h</a>
+</li>
+<li>TextureKey_optionButtonUp
+: <a class="el" href="_m_c_string_define_8h.html#a12fd43557dac5145ae4073608b77bfe1">MCStringDefine.h</a>
+</li>
+<li>TextureKey_pauseButtonDown
+: <a class="el" href="_m_c_string_define_8h.html#a5f5d71066035c9a55c47c0e5ec226aac">MCStringDefine.h</a>
+</li>
+<li>TextureKey_pauseButtonUp
+: <a class="el" href="_m_c_string_define_8h.html#ae3286d3a7d8b393c8166fc58664dd9d4">MCStringDefine.h</a>
+</li>
+<li>TextureKey_previousButtonDown
+: <a class="el" href="_m_c_string_define_8h.html#aea674149d5bc20ea0d6c119fbe9f7e39">MCStringDefine.h</a>
+</li>
+<li>TextureKey_previousButtonUp
+: <a class="el" href="_m_c_string_define_8h.html#a180a87b6422aa9611b9083e9d0ea4b03">MCStringDefine.h</a>
+</li>
+<li>TextureKey_QsolveButtonDown
+: <a class="el" href="_m_c_string_define_8h.html#a28b4a9e84c978815d46303ba78738468">MCStringDefine.h</a>
+</li>
+<li>TextureKey_QsolveButtonUp
+: <a class="el" href="_m_c_string_define_8h.html#ae8940ea93138d39f0dbdb3867039611a">MCStringDefine.h</a>
+</li>
+<li>TextureKey_raceButtonDown
+: <a class="el" href="_m_c_string_define_8h.html#a222b17647b82cf4c757bfe3d6d376e4d">MCStringDefine.h</a>
+</li>
+<li>TextureKey_raceButtonUp
+: <a class="el" href="_m_c_string_define_8h.html#a62a89b1ec628244d10d7f61a1bcd87f6">MCStringDefine.h</a>
+</li>
+<li>TextureKey_rankButtonDown
+: <a class="el" href="_m_c_string_define_8h.html#a5883cb37c2059a6b628e739813ca0820">MCStringDefine.h</a>
+</li>
+<li>TextureKey_rankButtonUp
+: <a class="el" href="_m_c_string_define_8h.html#ad95db947a36d58c797777cc25243e069">MCStringDefine.h</a>
+</li>
+<li>TextureKey_seven
+: <a class="el" href="_m_c_string_define_8h.html#a0d20e1844a6107f3e6709dfb583f10e0">MCStringDefine.h</a>
+</li>
+<li>TextureKey_showTipsButtonDown
+: <a class="el" href="_m_c_string_define_8h.html#ad4b44f12c627d6e009f7981568b67d91">MCStringDefine.h</a>
+</li>
+<li>TextureKey_showTipsButtonUp
+: <a class="el" href="_m_c_string_define_8h.html#a5bcd5e28cca0fb0c472a649c802a45bb">MCStringDefine.h</a>
+</li>
+<li>TextureKey_six
+: <a class="el" href="_m_c_string_define_8h.html#a49f99c2b3bfcb7124f2b9abe2d460363">MCStringDefine.h</a>
+</li>
+<li>TextureKey_solveButtonDown
+: <a class="el" href="_m_c_string_define_8h.html#aa631ec836a406247c8c7dd34098b2670">MCStringDefine.h</a>
+</li>
+<li>TextureKey_solveButtonUp
+: <a class="el" href="_m_c_string_define_8h.html#a05165acc653ab858b458597549dcc3c7">MCStringDefine.h</a>
+</li>
+<li>TextureKey_step
+: <a class="el" href="_m_c_string_define_8h.html#a018f2d15edee5f6cf3361155c4b1a884">MCStringDefine.h</a>
+</li>
+<li>TextureKey_three
+: <a class="el" href="_m_c_string_define_8h.html#a5192ee14bca8f9314a2975c28f4b743c">MCStringDefine.h</a>
+</li>
+<li>TextureKey_time
+: <a class="el" href="_m_c_string_define_8h.html#a7b36add58e63545ed445773f8b7c5434">MCStringDefine.h</a>
+</li>
+<li>TextureKey_two
+: <a class="el" href="_m_c_string_define_8h.html#add41b4c2063592a589997a5fa2fe90ab">MCStringDefine.h</a>
+</li>
+<li>TextureKey_zero
+: <a class="el" href="_m_c_string_define_8h.html#a73bee2c65d910d0340404a3e81f99980">MCStringDefine.h</a>
+</li>
+<li>THRUST_SPEED_FACTOR
+: <a class="el" href="_m_c_configuration_8h.html#a3637568b704578ada5543a03973d665f">MCConfiguration.h</a>
+</li>
+<li>TIME_PER_ROTATION
+: <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h.html#a7cd8126e38e88e64d8e6fb726801474e">MCMagicCubeUIModelController.h</a>
+</li>
+<li>timeWeight
+: <a class="el" href="_m_c_user_calculator_8m.html#a0200b90e867291ac2d06ec121a7e8eee">MCUserCalculator.m</a>
+</li>
+<li>TmpCounttingPageMagicCubeData
+: <a class="el" href="_global_8h.html#a74e233275d2be7467fbb12252b9c7cf6">Global.h</a>
+</li>
+<li>TmpInputMagicCubeData
+: <a class="el" href="_global_8h.html#a18fbb8edf2d06e7d8604627558f62d07">Global.h</a>
+</li>
+<li>TmpMagicCubeData
+: <a class="el" href="_global_8h.html#ad46aef2a9c854c43c32a76b368eeeb34">Global.h</a>
+</li>
+<li>Token_And
+: <a class="el" href="_global_8h.html#a69c6ff750cd529035f5a0aecefc4c711">Global.h</a>
+</li>
+<li>Token_LeftParentheses
+: <a class="el" href="_global_8h.html#a436fb24443eb1d7b8073e9bfe438258e">Global.h</a>
+</li>
+<li>Token_Not
+: <a class="el" href="_global_8h.html#a56aa8a89ab563e8aa8f0ddb3eeb8f376">Global.h</a>
+</li>
+<li>Token_Or
+: <a class="el" href="_global_8h.html#a73fc1af8b632e553c2b6affbbc9a5187">Global.h</a>
+</li>
+<li>Token_RightParentheses
+: <a class="el" href="_global_8h.html#aa70c071084dca5adbee4a73a96bb5aad">Global.h</a>
+</li>
+<li>TURN_SPEED_FACTOR
+: <a class="el" href="_m_c_configuration_8h.html#a8268383797ad9cd257a6d2b2849ad97b">MCConfiguration.h</a>
+</li>
+<li>TwoPhase_Global_h
+: <a class="el" href="_global_define_8h.html#aa008fcf6d9a70a46d87ad5948fb347cf">GlobalDefine.h</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
+<li>UADebugLog
+: <a class="el" href="_u_a_modal_panel_8h.html#a1dd2cd429d29befc3e25737a59e1c8b3">UAModalPanel.h</a>
+</li>
+<li>UNKNOWN_STATE
+: <a class="el" href="_global_8h.html#ab084339b98fedaba8d2b0c0cacc1de7d">Global.h</a>
+</li>
+<li>USE_DEPTH_BUFFER
+: <a class="el" href="_e_a_g_l_view_8mm.html#a8b156e9ec686f3d82c9ca0ead73648a0">EAGLView.mm</a>
+</li>
+<li>userFile
+: <a class="el" href="_m_c_user_manager_controller_8m.html#a1d2333177bb46a7138a64de84a73dae7">MCUserManagerController.m</a>
+</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:40 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

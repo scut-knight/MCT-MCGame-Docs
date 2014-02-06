@@ -1,0 +1,946 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: UserManagerSystemViewController类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_user_manager_system_view_controller.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_user_manager_system_view_controller-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">UserManagerSystemViewController类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a>&gt;</code></p>
+<div class="dynheader">
+类 UserManagerSystemViewController 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_user_manager_system_view_controller.png" usemap="#UserManagerSystemViewController_map" alt=""/>
+  <map id="UserManagerSystemViewController_map" name="UserManagerSystemViewController_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:abd610511c6d6027e5a6c7bb269f33ecc"><td class="memItemLeft" align="right" valign="top">(IBAction)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#abd610511c6d6027e5a6c7bb269f33ecc">createUserPress:</a></td></tr>
+<tr class="separator:abd610511c6d6027e5a6c7bb269f33ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88317d317133a2f05cebd9e6b1f75f46"><td class="memItemLeft" align="right" valign="top">(IBAction)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#a88317d317133a2f05cebd9e6b1f75f46">changeUserPress:</a></td></tr>
+<tr class="separator:a88317d317133a2f05cebd9e6b1f75f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0f676d6825017075d7b2f4aef660a9c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#ab0f676d6825017075d7b2f4aef660a9c">updateUserInformation</a></td></tr>
+<tr class="separator:ab0f676d6825017075d7b2f4aef660a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab48903c845d25069a68cf62582191a3e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#ab48903c845d25069a68cf62582191a3e">updateScoreInformation</a></td></tr>
+<tr class="separator:ab48903c845d25069a68cf62582191a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a449049b4443837f170a01534f24fed5d"><td class="memItemLeft" align="right" valign="top">(IBAction)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#a449049b4443837f170a01534f24fed5d">totalRankBtnUp:</a></td></tr>
+<tr class="separator:a449049b4443837f170a01534f24fed5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d2b847b9bd57f842e870b237d7988bd"><td class="memItemLeft" align="right" valign="top">(IBAction)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#a8d2b847b9bd57f842e870b237d7988bd">personalRankBtnUp:</a></td></tr>
+<tr class="separator:a8d2b847b9bd57f842e870b237d7988bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a6eafda2bd68c62c1785d7bd4190a01"><td class="memItemLeft" align="right" valign="top">(IBAction)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#a7a6eafda2bd68c62c1785d7bd4190a01">goBackMainMenu:</a></td></tr>
+<tr class="separator:a7a6eafda2bd68c62c1785d7bd4190a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b64dc2a12a02cdff71a1d0f84d51080"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#a9b64dc2a12a02cdff71a1d0f84d51080">viewDidLoad</a><code> [implementation]</code></td></tr>
+<tr class="separator:a9b64dc2a12a02cdff71a1d0f84d51080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bec2249c7fda9a41aebdc1bcc0948c5"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#a9bec2249c7fda9a41aebdc1bcc0948c5">viewDidUnload</a><code> [implementation]</code></td></tr>
+<tr class="separator:a9bec2249c7fda9a41aebdc1bcc0948c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae53b83cc2185190df5fde10e8f940839"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#ae53b83cc2185190df5fde10e8f940839">shouldAutorotateToInterfaceOrientation:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ae53b83cc2185190df5fde10e8f940839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adafd5d18a271cb76de8b4c599b47b614"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#adafd5d18a271cb76de8b4c599b47b614">dealloc</a><code> [implementation]</code></td></tr>
+<tr class="separator:adafd5d18a271cb76de8b4c599b47b614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c5401d4bf98481399529bf46ed254a7"><td class="memItemLeft" align="right" valign="top">(NSInteger)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#a6c5401d4bf98481399529bf46ed254a7">tableView:numberOfRowsInSection:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a6c5401d4bf98481399529bf46ed254a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fc38aa2673175e81efc1fa5883cd137"><td class="memItemLeft" align="right" valign="top">(UITableViewCell *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#a2fc38aa2673175e81efc1fa5883cd137">tableView:cellForRowAtIndexPath:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a2fc38aa2673175e81efc1fa5883cd137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2137eb34f417906a94018563182006f9"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#a2137eb34f417906a94018563182006f9">popoverControllerDidDismissPopover:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a2137eb34f417906a94018563182006f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afadea07b04fd1fb7c5ea6681cb3a20e7"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#afadea07b04fd1fb7c5ea6681cb3a20e7">updateUserAndScore</a><code> [implementation]</code></td></tr>
+<tr class="separator:afadea07b04fd1fb7c5ea6681cb3a20e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1d47db6df3c475f26a793ddbd8ac49f"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_user_manager_system_view_controller.html#ab1d47db6df3c475f26a793ddbd8ac49f">timeInFormatFromTotalSeconds:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ab1d47db6df3c475f26a793ddbd8ac49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:ac63383112a2ea0738bcd057f5e988e49"><td class="memItemLeft" align="right" valign="top">&lt; UITableViewDelegate, <br class="typebreak"/>
+UITableViewDataSource, <br class="typebreak"/>
+UIPopoverControllerDelegate &gt;<br class="typebreak"/>
+ IBOutlet UITableView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_user_manager_system_view_controller.html#ac63383112a2ea0738bcd057f5e988e49">scoreTable</a></td></tr>
+<tr class="separator:ac63383112a2ea0738bcd057f5e988e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d2efb244ea1eab9bdccf0750f917266"><td class="memItemLeft" align="right" valign="top">IBOutlet UILabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_user_manager_system_view_controller.html#a3d2efb244ea1eab9bdccf0750f917266">currentUserLabel</a></td></tr>
+<tr class="separator:a3d2efb244ea1eab9bdccf0750f917266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa699fa8213dec4c3500e1740e9e9b7ef"><td class="memItemLeft" align="right" valign="top">IBOutlet UILabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_user_manager_system_view_controller.html#aa699fa8213dec4c3500e1740e9e9b7ef">totalFinishLabel</a></td></tr>
+<tr class="separator:aa699fa8213dec4c3500e1740e9e9b7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a545a9239e59ff8cc071bedc48c030280"><td class="memItemLeft" align="right" valign="top">IBOutlet UILabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_user_manager_system_view_controller.html#a545a9239e59ff8cc071bedc48c030280">totalGameTimeLabel</a></td></tr>
+<tr class="separator:a545a9239e59ff8cc071bedc48c030280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a558f22aba7b3410fa70579e5fdc4f7e2"><td class="memItemLeft" align="right" valign="top">IBOutlet UILabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_user_manager_system_view_controller.html#a558f22aba7b3410fa70579e5fdc4f7e2">totalMovesLabel</a></td></tr>
+<tr class="separator:a558f22aba7b3410fa70579e5fdc4f7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcf64bb7f2b4b97e50c4c49289974aab"><td class="memItemLeft" align="right" valign="top">IBOutlet UILabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_user_manager_system_view_controller.html#afcf64bb7f2b4b97e50c4c49289974aab">totalLearnTimeLabel</a></td></tr>
+<tr class="separator:afcf64bb7f2b4b97e50c4c49289974aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af15b00e8741e7bb7cf51d34f7a1e185d"><td class="memItemLeft" align="right" valign="top">IBOutlet UIButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_user_manager_system_view_controller.html#af15b00e8741e7bb7cf51d34f7a1e185d">totalRankBtn</a></td></tr>
+<tr class="separator:af15b00e8741e7bb7cf51d34f7a1e185d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a663d3379d7847bd33cb5fb86c9c33ba4"><td class="memItemLeft" align="right" valign="top">IBOutlet UIButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_user_manager_system_view_controller.html#a663d3379d7847bd33cb5fb86c9c33ba4">personalRankBtn</a></td></tr>
+<tr class="separator:a663d3379d7847bd33cb5fb86c9c33ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a803d350affae4299cbbc48166ada7108"><td class="memItemLeft" align="right" valign="top">IBOutlet UIScrollView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_user_manager_system_view_controller.html#a803d350affae4299cbbc48166ada7108">staticScrollPanel</a></td></tr>
+<tr class="separator:a803d350affae4299cbbc48166ada7108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ac047b02cdba6cac37d3cee6eb06f9b"><td class="memItemLeft" align="right" valign="top">UIPopoverController *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_user_manager_system_view_controller.html#a5ac047b02cdba6cac37d3cee6eb06f9b">createUserPopover</a></td></tr>
+<tr class="separator:a5ac047b02cdba6cac37d3cee6eb06f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9f33278651257177148ee19ce5ebc78"><td class="memItemLeft" align="right" valign="top">UIPopoverController *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_user_manager_system_view_controller.html#ae9f33278651257177148ee19ce5ebc78">changeUserPopover</a></td></tr>
+<tr class="separator:ae9f33278651257177148ee19ce5ebc78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acab5be6a913b708fee091afbb09b39a7"><td class="memItemLeft" align="right" valign="top">IBOutlet UIButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_user_manager_system_view_controller.html#acab5be6a913b708fee091afbb09b39a7">backBtn</a></td></tr>
+<tr class="separator:acab5be6a913b708fee091afbb09b39a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>用户管理系统视图界面控制器 </p>
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00018">18</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a88317d317133a2f05cebd9e6b1f75f46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) changeUserPress: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>按下更改用户的按钮</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td>更改用户按钮 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00253">253</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00037">changeUserPopover</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abd610511c6d6027e5a6c7bb269f33ecc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) createUserPress: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>按下创建用户的按钮</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td>创建用户按钮 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00241">241</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00036">createUserPopover</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adafd5d18a271cb76de8b4c599b47b614"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00100">100</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00026">currentUserLabel</a>, <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00027">totalFinishLabel</a>, <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00028">totalGameTimeLabel</a>, <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00030">totalLearnTimeLabel</a> , 以及 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00029">totalMovesLabel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7a6eafda2bd68c62c1785d7bd4190a01"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBAction) goBackMainMenu: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>回到主菜单 </p>
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00284">284</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_coordinating_controller_8m_source.html#l00062">CoordinatingController::requestViewChangeByObject:</a> , 以及 <a class="el" href="_coordinating_controller_8m_source.html#l00031">CoordinatingController::sharedCoordinatingController</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8d2b847b9bd57f842e870b237d7988bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBAction) personalRankBtnUp: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>按下个人排名按钮 </p>
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00273">273</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2137eb34f417906a94018563182006f9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) popoverControllerDidDismissPopover: </td>
+          <td></td>
+          <td class="paramtype">(UIPopoverController *)&#160;</td>
+          <td class="paramname"><em>popoverController</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>弹出框消失之后，对应的处理</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">popoverController</td><td>不同的弹出框 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00220">220</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00037">changeUserPopover</a>, <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00036">createUserPopover</a> , 以及 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00307">updateUserAndScore</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae53b83cc2185190df5fde10e8f940839"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) shouldAutorotateToInterfaceOrientation: </td>
+          <td></td>
+          <td class="paramtype">(UIInterfaceOrientation)&#160;</td>
+          <td class="paramname"><em>interfaceOrientation</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>响应屏幕转动事件</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">interfaceOrientation</td><td>屏幕朝向</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>响应正常情况下的屏幕 </dd></dl>
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00095">95</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2fc38aa2673175e81efc1fa5883cd137"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UITableViewCell *) tableView: </td>
+          <td></td>
+          <td class="paramtype">(UITableView *)&#160;</td>
+          <td class="paramname"><em>tableView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">cellForRowAtIndexPath:</td>
+          <td></td>
+          <td class="paramtype">(NSIndexPath *)&#160;</td>
+          <td class="paramname"><em>indexPath</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>加载单元格图像 </p>
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00135">135</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_score_cell_8m_source.html#l00066">ScoreCell::setCellWithRank:Name:Move:Time:Speed:Score:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6c5401d4bf98481399529bf46ed254a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSInteger) tableView: </td>
+          <td></td>
+          <td class="paramtype">(UITableView *)&#160;</td>
+          <td class="paramname"><em>tableView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">numberOfRowsInSection:</td>
+          <td></td>
+          <td class="paramtype">(NSInteger)&#160;</td>
+          <td class="paramname"><em>section</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>只有一个分栏表格，表格有5行</p>
+<p>之所以这样，是因为数据库控制器被设定成只查询前五个。</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="interface_m_c_d_b_controller.html">MCDBController</a></dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">section</td><td>分栏序号</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>只返回5，表示所有的表格都只有5行 </dd></dl>
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00127">127</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab1d47db6df3c475f26a793ddbd8ac49f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) timeInFormatFromTotalSeconds: </td>
+          <td></td>
+          <td class="paramtype">(NSInteger)&#160;</td>
+          <td class="paramname"><em>totalSeconds</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>将总用时(单位为秒)转换成00:00:00这样的表示形式</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">totalSeconds</td><td>总用时</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>00:00:00字符串 </dd></dl>
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00320">320</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00031">viewDidLoad</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a449049b4443837f170a01534f24fed5d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBAction) totalRankBtnUp: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>按下总排名按钮，注意这里的视觉设置很巧妙，按下会发现按钮变暗了。 那是因为一旦按下，当前按钮就设为disabled，所以变暗了。 </p>
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00264">264</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab48903c845d25069a68cf62582191a3e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updateScoreInformation </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00302">302</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00307">updateUserAndScore</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afadea07b04fd1fb7c5ea6681cb3a20e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updateUserAndScore </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00307">307</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00302">updateScoreInformation</a> , 以及 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00292">updateUserInformation</a>.</p>
+
+<p>参考自 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00220">popoverControllerDidDismissPopover:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab0f676d6825017075d7b2f4aef660a9c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updateUserInformation </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>更新用户信息，包括当前用户名，解开魔方数，总步数，学习时间和竞速时间 </p>
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00292">292</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00307">updateUserAndScore</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9b64dc2a12a02cdff71a1d0f84d51080"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) viewDidLoad </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00031">31</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00042">MCUserManagerController::allocWithZone:</a>, <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00037">changeUserPopover</a>, <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00036">createUserPopover</a> , 以及 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00320">timeInFormatFromTotalSeconds:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9bec2249c7fda9a41aebdc1bcc0948c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) viewDidUnload </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a> 第 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00072">72</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="acab5be6a913b708fee091afbb09b39a7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UIButton*) backBtn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00040">40</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae9f33278651257177148ee19ce5ebc78"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIPopoverController*) changeUserPopover</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00037">37</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00253">changeUserPress:</a>, <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00220">popoverControllerDidDismissPopover:</a> , 以及 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00031">viewDidLoad</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5ac047b02cdba6cac37d3cee6eb06f9b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIPopoverController*) createUserPopover</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00036">36</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00241">createUserPress:</a>, <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00220">popoverControllerDidDismissPopover:</a> , 以及 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00031">viewDidLoad</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3d2efb244ea1eab9bdccf0750f917266"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UILabel*) currentUserLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00026">26</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00100">dealloc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a663d3379d7847bd33cb5fb86c9c33ba4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UIButton*) personalRankBtn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00032">32</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac63383112a2ea0738bcd057f5e988e49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (&lt;UITableViewDelegate,UITableViewDataSource,UIPopoverControllerDelegate&gt; IBOutlet UITableView*) scoreTable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初始值:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    <a class="code" href="interface_m_c_user_manager_controller.html">MCUserManagerController</a> *userManagerController</div>
+</div><!-- fragment -->
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00020">20</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a803d350affae4299cbbc48166ada7108"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UIScrollView*) staticScrollPanel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00033">33</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa699fa8213dec4c3500e1740e9e9b7ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UILabel*) totalFinishLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00027">27</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00100">dealloc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a545a9239e59ff8cc071bedc48c030280"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UILabel*) totalGameTimeLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00028">28</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00100">dealloc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afcf64bb7f2b4b97e50c4c49289974aab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UILabel*) totalLearnTimeLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00030">30</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00100">dealloc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a558f22aba7b3410fa70579e5fdc4f7e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UILabel*) totalMovesLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00029">29</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00100">dealloc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af15b00e8741e7bb7cf51d34f7a1e185d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UIButton*) totalRankBtn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a> 第 <a class="el" href="_user_manager_system_view_controller_8h_source.html#l00031">31</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_user_manager_system_view_controller_8h_source.html">UserManagerSystemViewController.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_user_manager_system_view_controller_8m_source.html">UserManagerSystemViewController.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_user_manager_system_view_controller.html">UserManagerSystemViewController</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:39 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+var interface_m_c_system_setting_view_controller =
+[
+    [ "dealloc", "interface_m_c_system_setting_view_controller.html#a2d3f8e0e542f484a6824948eeffa8553", null ],
+    [ "didReceiveMemoryWarning", "interface_m_c_system_setting_view_controller.html#ab3a10529fd148a005bce0822b9395dd5", null ],
+    [ "effectsSwitch:", "interface_m_c_system_setting_view_controller.html#abd54dcd409fc68b45181c1b70536fa2f", null ],
+    [ "effectsVolume:", "interface_m_c_system_setting_view_controller.html#a5cd12a0d26e75e72dc8487333980959f", null ],
+    [ "goBackMainMenu:", "interface_m_c_system_setting_view_controller.html#a4e0605d0fbbe1721e80517c8c91ef1ef", null ],
+    [ "initWithNibName:bundle:", "interface_m_c_system_setting_view_controller.html#ac7e06a1c1b5db450336eaf5a1f978346", null ],
+    [ "musicSwitch:", "interface_m_c_system_setting_view_controller.html#a612305cf272cd521465516d4f3df01b5", null ],
+    [ "musicVolume:", "interface_m_c_system_setting_view_controller.html#a8619a0775cb21ed7e553d9a7e388ab7e", null ],
+    [ "selectOneColor:", "interface_m_c_system_setting_view_controller.html#a561c6192bbe2ac221299defdc4870694", null ],
+    [ "touchesBegan:withEvent:", "interface_m_c_system_setting_view_controller.html#ad5e1c9ffc560dc8f3d7441a470aae539", null ],
+    [ "touchesCancelled:withEvent:", "interface_m_c_system_setting_view_controller.html#a81453634eeef79af7dac59ef38267d61", null ],
+    [ "touchesEnded:withEvent:", "interface_m_c_system_setting_view_controller.html#af490672a8524f3fd0c3ecf26dbb37877", null ],
+    [ "touchesMoved:withEvent:", "interface_m_c_system_setting_view_controller.html#afda7914b323a8ea65ff8ae7acb703e49", null ],
+    [ "viewDidLoad", "interface_m_c_system_setting_view_controller.html#a4e8281feadaa0a9dbbbbd3fe019156dd", null ],
+    [ "viewDidUnload", "interface_m_c_system_setting_view_controller.html#a2abe6972bff9d874137d59b74fa2abb0", null ],
+    [ "_selectColorItemOne", "interface_m_c_system_setting_view_controller.html#a9208c6b89855ec2c9d11ba354cb04754", null ],
+    [ "_selectColorItemThree", "interface_m_c_system_setting_view_controller.html#aa51719820b7f0f2ead452f7bf60a93a0", null ],
+    [ "_selectColorItemTwo", "interface_m_c_system_setting_view_controller.html#af946761dfe3581470fbffa6ed3c567db", null ],
+    [ "magicCubeSkinLabel", "interface_m_c_system_setting_view_controller.html#a858ff56951eea79f1921681809ec98b9", null ],
+    [ "musicLabel", "interface_m_c_system_setting_view_controller.html#a11f427064032ad0e3ee7aabafe5b3eb4", null ],
+    [ "musicSlider", "interface_m_c_system_setting_view_controller.html#a9e40d44b37a331588e6ff371081eb831", null ],
+    [ "settingLabel", "interface_m_c_system_setting_view_controller.html#a407d24dc4d52dd47200cfdc7f60941ba", null ],
+    [ "soundEffectLabel", "interface_m_c_system_setting_view_controller.html#a235475628f12713c11a17350ea58ea01", null ],
+    [ "soundEffectSlider", "interface_m_c_system_setting_view_controller.html#a46b1c7bd31cdd2341e6df5790f94df0d", null ]
+];

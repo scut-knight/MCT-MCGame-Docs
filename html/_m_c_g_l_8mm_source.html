@@ -1,0 +1,648 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/MCGL.mm 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_m_c_g_l_8mm_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">MCGL.mm</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_m_c_g_l_8mm.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  MCGL.m</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  HelloCone</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by Aha on 12-10-24.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_g_l_8h.html">MCGL.h</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">   14</a></span>&#160;<span class="keyword">static</span> stack&lt;mat4&gt; <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="_m_c_g_l_8mm.html#a43745259010cc534b345a4062c871840">   18</a></span>&#160;<span class="keyword">static</span> <a class="code" href="struct_matrix4.html">mat4</a> <a class="code" href="_m_c_g_l_8mm.html#a43745259010cc534b345a4062c871840">viewMatrix</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="_m_c_g_l_8mm.html#aa6307af2cc42a4b18c3a1d7e102af31c">   22</a></span>&#160;<span class="keyword">static</span> <a class="code" href="struct_matrix4.html">mat4</a> <a class="code" href="_m_c_g_l_8mm.html#aa6307af2cc42a4b18c3a1d7e102af31c">projectionMatrix</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="_m_c_g_l_8mm.html#ac76e3006342c068713a61d8d7e43d8ab">   26</a></span>&#160;GLenum <a class="code" href="_m_c_g_l_8mm.html#ac76e3006342c068713a61d8d7e43d8ab">matrixMode</a> = GL_MODELVIEW;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">@implementation </span><a class="code" href="interface_m_c_g_l.html">MCGL</a></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#aedac822eb99073e9aca31afb6df32912">   32</a></span>&#160;+(BOOL)unProjectfWithScreenX:(<span class="keywordtype">float</span>)screenX</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                     screenY:(<span class="keywordtype">float</span>)screenY</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                      depthZ:(<span class="keywordtype">float</span>)depthZ</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                returnObject:(<span class="keywordtype">float</span>*)object{</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">int</span> viewport[4];</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    glGetIntegerv(GL_VIEWPORT, viewport);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    screenY = viewport[3] - screenY;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">//Transformation matrices</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">float</span> m[16], A[16];</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">float</span> in[4], out[4];</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">//Calculation for inverting a matrix, compute projection x modelview</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">//and store in A[16]</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="interface_m_c_g_l.html#aab2b4d15935a1e26211ee187383e0269">multiplyMatrices4by4OpenGL_FLOAT</a>(A, projectionMatrix.<a class="code" href="struct_matrix4.html#a85a520b646394b3bc31f2b81b6b526cf">Pointer</a>(), viewMatrix.<a class="code" href="struct_matrix4.html#a85a520b646394b3bc31f2b81b6b526cf">Pointer</a>());</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">//Now compute the inverse of matrix A</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="interface_m_c_g_l.html#ad7e9a7dc23a57a46373245e04d677f6e">glhInvertMatrixf2</a>(A, m) == 0) <span class="comment">// 如果计算A的倒置矩阵失败，直接退出</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> NO;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">//Transformation of normalized coordinates between -1 and 1</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    in[0]=(screenX-(float)viewport[0])/(float)viewport[2]*2.0-1.0;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    in[1]=(screenY-(float)viewport[1])/(float)viewport[3]*2.0-1.0;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    in[2]=2.0*depthZ-1.0;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    in[3]=1.0;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">//Objects coordinates</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="interface_m_c_g_l.html#ad13e7ea17649876d78f0388d05e5f087">multiplyMatrixByVector4by4OpenGL_FLOAT</a>(out, m, in);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">if</span>(out[3]==0.0)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">return</span> NO;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    out[3]=1.0/out[3];</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">object</span>[0]=out[0]*out[3];</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">object</span>[1]=out[1]*out[3];</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">object</span>[2]=out[2]*out[3];</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> YES;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#aab2b4d15935a1e26211ee187383e0269">   73</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="interface_m_c_g_l.html#aab2b4d15935a1e26211ee187383e0269">multiplyMatrices4by4OpenGL_FLOAT</a>(<span class="keywordtype">float</span> *result, <span class="keyword">const</span> <span class="keywordtype">float</span> *matrix1, <span class="keyword">const</span> <span class="keywordtype">float</span> *matrix2){</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">// 0,4,8,12</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    result[0]=matrix1[0]*matrix2[0]+</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    matrix1[4]*matrix2[1]+</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    matrix1[8]*matrix2[2]+</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    matrix1[12]*matrix2[3];</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    result[4]=matrix1[0]*matrix2[4]+</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    matrix1[4]*matrix2[5]+</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    matrix1[8]*matrix2[6]+</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    matrix1[12]*matrix2[7];</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    result[8]=matrix1[0]*matrix2[8]+</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    matrix1[4]*matrix2[9]+</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    matrix1[8]*matrix2[10]+</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    matrix1[12]*matrix2[11];</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    result[12]=matrix1[0]*matrix2[12]+</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    matrix1[4]*matrix2[13]+</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    matrix1[8]*matrix2[14]+</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    matrix1[12]*matrix2[15];</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="comment">// 1,5,9,13</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    result[1]=matrix1[1]*matrix2[0]+</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    matrix1[5]*matrix2[1]+</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    matrix1[9]*matrix2[2]+</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    matrix1[13]*matrix2[3];</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    result[5]=matrix1[1]*matrix2[4]+</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    matrix1[5]*matrix2[5]+</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    matrix1[9]*matrix2[6]+</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    matrix1[13]*matrix2[7];</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    result[9]=matrix1[1]*matrix2[8]+</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    matrix1[5]*matrix2[9]+</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    matrix1[9]*matrix2[10]+</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    matrix1[13]*matrix2[11];</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    result[13]=matrix1[1]*matrix2[12]+</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    matrix1[5]*matrix2[13]+</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    matrix1[9]*matrix2[14]+</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    matrix1[13]*matrix2[15];</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="comment">// 2,6,10,14</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    result[2]=matrix1[2]*matrix2[0]+</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    matrix1[6]*matrix2[1]+</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    matrix1[10]*matrix2[2]+</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    matrix1[14]*matrix2[3];</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    result[6]=matrix1[2]*matrix2[4]+</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    matrix1[6]*matrix2[5]+</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    matrix1[10]*matrix2[6]+</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    matrix1[14]*matrix2[7];</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    result[10]=matrix1[2]*matrix2[8]+</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    matrix1[6]*matrix2[9]+</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    matrix1[10]*matrix2[10]+</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    matrix1[14]*matrix2[11];</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    </div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    result[14]=matrix1[2]*matrix2[12]+</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    matrix1[6]*matrix2[13]+</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    matrix1[10]*matrix2[14]+</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    matrix1[14]*matrix2[15];</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="comment">// 3,7,11,15</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    result[3]=matrix1[3]*matrix2[0]+</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    matrix1[7]*matrix2[1]+</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    matrix1[11]*matrix2[2]+</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    matrix1[15]*matrix2[3];</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    </div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    result[7]=matrix1[3]*matrix2[4]+</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    matrix1[7]*matrix2[5]+</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    matrix1[11]*matrix2[6]+</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    matrix1[15]*matrix2[7];</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    </div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    result[11]=matrix1[3]*matrix2[8]+</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    matrix1[7]*matrix2[9]+</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    matrix1[11]*matrix2[10]+</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    matrix1[15]*matrix2[11];</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    </div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    result[15]=matrix1[3]*matrix2[12]+</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    matrix1[7]*matrix2[13]+</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    matrix1[11]*matrix2[14]+</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    matrix1[15]*matrix2[15];</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;}</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
+<div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#ad13e7ea17649876d78f0388d05e5f087">  165</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="interface_m_c_g_l.html#ad13e7ea17649876d78f0388d05e5f087">multiplyMatrixByVector4by4OpenGL_FLOAT</a>(<span class="keywordtype">float</span> *resultvector, <span class="keyword">const</span> <span class="keywordtype">float</span> *matrix, <span class="keyword">const</span> <span class="keywordtype">float</span> *pvector){</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    resultvector[0] = matrix[0]*pvector[0]+matrix[4]*pvector[1]+matrix[8]*pvector[2]+matrix[12]*pvector[3];</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    resultvector[1] = matrix[1]*pvector[0]+matrix[5]*pvector[1]+matrix[9]*pvector[2]+matrix[13]*pvector[3];</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    resultvector[2] = matrix[2]*pvector[0]+matrix[6]*pvector[1]+matrix[10]*pvector[2]+matrix[14]*pvector[3];</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    resultvector[3] = matrix[3]*pvector[0]+matrix[7]*pvector[1]+matrix[11]*pvector[2]+matrix[15]*pvector[3];</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;}</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
+<div class="line"><a name="l00186"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#ad7e9a7dc23a57a46373245e04d677f6e">  186</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="interface_m_c_g_l.html#ad7e9a7dc23a57a46373245e04d677f6e">glhInvertMatrixf2</a>(<span class="keyword">const</span> <span class="keywordtype">float</span> *m, <span class="keywordtype">float</span> *out){</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordtype">float</span> wtmp[4][8];</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordtype">float</span> m0, m1, m2, m3, s;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordtype">float</span> *r0, *r1, *r2, *r3;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    r0 = wtmp[0], r1 = wtmp[1], r2 = wtmp[2], r3 = wtmp[3];</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="comment">/*</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="comment">     wtmp 0         1           2           3</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="comment">     0-3  m[0][0-3] m[1][0-3]   m[2][0-3]   m[3][0-3]</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="comment">     4    1.0       0.0         0.0         0.0</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="comment">     5    0.0       1.0         0.0         0.0</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="comment">     6    0.0       0.0         1.0         0.0</span></div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="comment">     7    0.0       0.0         0.0         1.0</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="comment">     */</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    r0[0] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 0, 0), r0[1] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 0, 1),</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    r0[2] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 0, 2), r0[3] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 0, 3),</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    r0[4] = 1.0, r0[5] = r0[6] = r0[7] = 0.0,</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    </div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    r1[0] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 1, 0), r1[1] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 1, 1),</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    r1[2] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 1, 2), r1[3] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 1, 3),</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    r1[5] = 1.0, r1[4] = r1[6] = r1[7] = 0.0,</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    </div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    r2[0] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 2, 0), r2[1] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 2, 1),</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    r2[2] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 2, 2), r2[3] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 2, 3),</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    r2[6] = 1.0, r2[4] = r2[5] = r2[7] = 0.0,</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    </div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    r3[0] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 3, 0), r3[1] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 3, 1),</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    r3[2] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 3, 2), r3[3] = <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(m, 3, 3),</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    r3[7] = 1.0, r3[4] = r3[5] = r3[6] = 0.0;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    </div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="comment">// 通过初等列变换来实现单位矩阵的转换</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="comment">// 查找第一行的最大值，并进行列的交换，以方便化简出单位矩阵。如果第一列全为0，则不存在矩阵的逆</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <span class="comment">/* choose pivot - or die */</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordflow">if</span> (fabsf(r3[0]) &gt; fabsf(r2[0]))</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <a class="code" href="_m_c_g_l_8h.html#ac2b28cc58df83b61fc60374226f06f0f">SWAP_ROWS_FLOAT</a>(r3, r2);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keywordflow">if</span> (fabsf(r2[0]) &gt; fabsf(r1[0]))</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <a class="code" href="_m_c_g_l_8h.html#ac2b28cc58df83b61fc60374226f06f0f">SWAP_ROWS_FLOAT</a>(r2, r1);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="keywordflow">if</span> (fabsf(r1[0]) &gt; fabsf(r0[0]))</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <a class="code" href="_m_c_g_l_8h.html#ac2b28cc58df83b61fc60374226f06f0f">SWAP_ROWS_FLOAT</a>(r1, r0);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">if</span> (0.0 == r0[0])</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="comment">/* eliminate first variable     */</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    m1 = r1[0] / r0[0];</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    m2 = r2[0] / r0[0];</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    m3 = r3[0] / r0[0];</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    s = r0[1];  <span class="comment">//比例因子</span></div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    r1[1] -= m1 * s;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    r2[1] -= m2 * s;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    r3[1] -= m3 * s;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    s = r0[2];</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    r1[2] -= m1 * s;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    r2[2] -= m2 * s;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    r3[2] -= m3 * s;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    s = r0[3];</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    r1[3] -= m1 * s;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    r2[3] -= m2 * s;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    r3[3] -= m3 * s;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    s = r0[4];</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">if</span> (s != 0.0) {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        r1[4] -= m1 * s;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        r2[4] -= m2 * s;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        r3[4] -= m3 * s;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    }</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    s = r0[5];</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordflow">if</span> (s != 0.0) {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        r1[5] -= m1 * s;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        r2[5] -= m2 * s;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        r3[5] -= m3 * s;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    }</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    s = r0[6];</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="keywordflow">if</span> (s != 0.0) {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        r1[6] -= m1 * s;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        r2[6] -= m2 * s;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        r3[6] -= m3 * s;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    }</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    s = r0[7];</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keywordflow">if</span> (s != 0.0) {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        r1[7] -= m1 * s;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        r2[7] -= m2 * s;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        r3[7] -= m3 * s;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    }</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="comment">// 以下同理</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <span class="comment">/* choose pivot - or die */</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordflow">if</span> (fabsf(r3[1]) &gt; fabsf(r2[1]))</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <a class="code" href="_m_c_g_l_8h.html#ac2b28cc58df83b61fc60374226f06f0f">SWAP_ROWS_FLOAT</a>(r3, r2);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">if</span> (fabsf(r2[1]) &gt; fabsf(r1[1]))</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <a class="code" href="_m_c_g_l_8h.html#ac2b28cc58df83b61fc60374226f06f0f">SWAP_ROWS_FLOAT</a>(r2, r1);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordflow">if</span> (0.0 == r1[1])</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    <span class="comment">/* eliminate second variable */</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    m2 = r2[1] / r1[1];</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    m3 = r3[1] / r1[1];</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    r2[2] -= m2 * r1[2];</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    r3[2] -= m3 * r1[2];</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    r2[3] -= m2 * r1[3];</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    r3[3] -= m3 * r1[3];</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    s = r1[4];</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <span class="keywordflow">if</span> (0.0 != s) {</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        r2[4] -= m2 * s;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        r3[4] -= m3 * s;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    }</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    s = r1[5];</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="keywordflow">if</span> (0.0 != s) {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        r2[5] -= m2 * s;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        r3[5] -= m3 * s;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    s = r1[6];</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordflow">if</span> (0.0 != s) {</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        r2[6] -= m2 * s;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        r3[6] -= m3 * s;</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    }</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    s = r1[7];</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="keywordflow">if</span> (0.0 != s) {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        r2[7] -= m2 * s;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        r3[7] -= m3 * s;</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    }</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    </div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="comment">/* choose pivot - or die */</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <span class="keywordflow">if</span> (fabsf(r3[2]) &gt; fabsf(r2[2]))</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <a class="code" href="_m_c_g_l_8h.html#ac2b28cc58df83b61fc60374226f06f0f">SWAP_ROWS_FLOAT</a>(r3, r2);</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <span class="keywordflow">if</span> (0.0 == r2[2])</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="comment">/* eliminate third variable */</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    m3 = r3[2] / r2[2];</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    r3[3] -= m3 * r2[3], r3[4] -= m3 * r2[4],</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    r3[5] -= m3 * r2[5], r3[6] -= m3 * r2[6], r3[7] -= m3 * r2[7];</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <span class="comment">/* last check */</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordflow">if</span> (0.0 == r3[3])</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    </div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    s = 1.0 / r3[3];        <span class="comment">/* now back substitute row 3 */</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    r3[4] *= s;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    r3[5] *= s;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    r3[6] *= s;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    r3[7] *= s;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    </div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    m2 = r2[3];         <span class="comment">/* now back substitute row 2 */</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    s = 1.0 / r2[2];</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    r2[4] = s * (r2[4] - r3[4] * m2), r2[5] = s * (r2[5] - r3[5] * m2),</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    r2[6] = s * (r2[6] - r3[6] * m2), r2[7] = s * (r2[7] - r3[7] * m2);</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    m1 = r1[3];</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    r1[4] -= r3[4] * m1, r1[5] -= r3[5] * m1,</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    r1[6] -= r3[6] * m1, r1[7] -= r3[7] * m1;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    m0 = r0[3];</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    r0[4] -= r3[4] * m0, r0[5] -= r3[5] * m0,</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    r0[6] -= r3[6] * m0, r0[7] -= r3[7] * m0;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    </div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    m1 = r1[2];         <span class="comment">/* now back substitute row 1 */</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    s = 1.0 / r1[1];</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    r1[4] = s * (r1[4] - r2[4] * m1), r1[5] = s * (r1[5] - r2[5] * m1),</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    r1[6] = s * (r1[6] - r2[6] * m1), r1[7] = s * (r1[7] - r2[7] * m1);</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    m0 = r0[2];</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    r0[4] -= r2[4] * m0, r0[5] -= r2[5] * m0,</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    r0[6] -= r2[6] * m0, r0[7] -= r2[7] * m0;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    </div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    m0 = r0[1];         <span class="comment">/* now back substitute row 0 */</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    s = 1.0 / r0[0];</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    r0[4] = s * (r0[4] - r1[4] * m0), r0[5] = s * (r0[5] - r1[5] * m0),</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    r0[6] = s * (r0[6] - r1[6] * m0), r0[7] = s * (r0[7] - r1[7] * m0);</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    </div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    <span class="comment">// 下面为所求矩阵的逆</span></div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 0, 0) = r0[4];</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 0, 1) = r0[5], <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 0, 2) = r0[6];</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 0, 3) = r0[7], <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 1, 0) = r1[4];</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 1, 1) = r1[5], <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 1, 2) = r1[6];</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 1, 3) = r1[7], <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 2, 0) = r2[4];</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 2, 1) = r2[5], <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 2, 2) = r2[6];</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 2, 3) = r2[7], <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 3, 0) = r3[4];</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 3, 1) = r3[5], <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 3, 2) = r3[6];</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <a class="code" href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a>(out, 3, 3) = r3[7];</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;}</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;</div>
+<div class="line"><a name="l00358"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#aee4e3c5060038c180a55d95c02a15de7">  358</a></span>&#160;+(void)<a class="code" href="_m_c_g_l_8mm.html#ac76e3006342c068713a61d8d7e43d8ab">matrixMode</a>:(GLenum)mode{</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <a class="code" href="_m_c_g_l_8mm.html#ac76e3006342c068713a61d8d7e43d8ab">matrixMode</a> = mode;</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    glMatrixMode(mode);</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;}</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;</div>
+<div class="line"><a name="l00363"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#abb415856bbfd5275a2802083a7999660">  363</a></span>&#160;+(void)<a class="code" href="interface_m_c_g_l.html#abb415856bbfd5275a2802083a7999660">loadIdentity</a>{</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    <span class="keywordflow">switch</span> (<a class="code" href="_m_c_g_l_8mm.html#ac76e3006342c068713a61d8d7e43d8ab">matrixMode</a>) {</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        <span class="keywordflow">case</span> GL_PROJECTION:</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;            projectionMatrix.<a class="code" href="struct_matrix4.html#a53069097c652c7c1fb03026ef9c15d94">Identity</a>();</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;            glLoadMatrixf(projectionMatrix.<a class="code" href="struct_matrix4.html#a85a520b646394b3bc31f2b81b6b526cf">Pointer</a>());</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        <span class="keywordflow">case</span> GL_MODELVIEW:</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;            {</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;                viewMatrix.<a class="code" href="struct_matrix4.html#a53069097c652c7c1fb03026ef9c15d94">Identity</a>();</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;                <span class="keywordtype">int</span> size = <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.size();</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt;size; ++i) {</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                    <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.pop();</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;                }</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;                <a class="code" href="struct_matrix4.html">mat4</a> initMatrix;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;                initMatrix.<a class="code" href="struct_matrix4.html#a53069097c652c7c1fb03026ef9c15d94">Identity</a>();</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;                <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.push(initMatrix);</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;                glLoadMatrixf(viewMatrix.<a class="code" href="struct_matrix4.html#a85a520b646394b3bc31f2b81b6b526cf">Pointer</a>());</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;            }</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    }</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;}</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;</div>
+<div class="line"><a name="l00387"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#a5516acd0eff87f4c8b619a7c4da25140">  387</a></span>&#160;+(void)perspectiveWithFovy:(<span class="keywordtype">float</span>)fovy</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                    aspect:(<span class="keywordtype">float</span>)aspect</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                     zNear:(<span class="keywordtype">float</span>)zNear</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;                      zFar:(<span class="keywordtype">float</span>)zFar{</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    <span class="comment">//avoid error</span></div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    <span class="comment">// 这里为了避免发生错误，先构造出一个新的矩阵，对这个矩阵变换成功后，再赋值给projectionMatrix</span></div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    projectionMatrix.<a class="code" href="struct_matrix4.html#a53069097c652c7c1fb03026ef9c15d94">Identity</a>();</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    </div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    GLfloat halfWidth, halfHeight, deltaZ;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    deltaZ = zFar - zNear;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    halfHeight = tan( (fovy / 2) / 180 * <a class="code" href="_vector_8hpp.html#ad37e1b7740e725cb44517fce48e5e3ab">Pi</a> ) * zNear;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    halfWidth = halfHeight * aspect;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <span class="comment">//fill projection matrix，填充投影矩阵</span></div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    projectionMatrix.<a class="code" href="struct_matrix4.html#a0d0dca7bc4af046260631547b3512922">x</a>.<a class="code" href="struct_vector4.html#a2cedf20d2f695a4f0254681b13311ac9">x</a> = zNear / halfWidth;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    projectionMatrix.<a class="code" href="struct_matrix4.html#abb3db7d1fa32c2abe1110f25b7ce14aa">y</a>.<a class="code" href="struct_vector4.html#aad001ba27515dc2dcb921e9c83596520">y</a> = zNear / halfHeight;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    projectionMatrix.<a class="code" href="struct_matrix4.html#ae83cabb2deaf96f59423bf3c65c6bbd1">z</a>.<a class="code" href="struct_vector4.html#a5a7a1452d661e0b24e4b04c4dbff8ae7">z</a> = - (zFar + zNear) / deltaZ;</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    projectionMatrix.<a class="code" href="struct_matrix4.html#ae83cabb2deaf96f59423bf3c65c6bbd1">z</a>.<a class="code" href="struct_vector4.html#a83daff43fa2b88b4e76474f4b9a45276">w</a> = -1;</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    projectionMatrix.<a class="code" href="struct_matrix4.html#a466f4f34e3c1c78c5b51b577457f3f5e">w</a>.<a class="code" href="struct_vector4.html#a5a7a1452d661e0b24e4b04c4dbff8ae7">z</a> = -2 * zNear * zFar / deltaZ;</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    projectionMatrix.<a class="code" href="struct_matrix4.html#a466f4f34e3c1c78c5b51b577457f3f5e">w</a>.<a class="code" href="struct_vector4.html#a83daff43fa2b88b4e76474f4b9a45276">w</a> = 0;</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    <span class="comment">//load the matrix</span></div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    <span class="comment">//glRotatef(-90.0f, 0.0f, 0.0f, 1.0f);</span></div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    </div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    <span class="comment">// 应用投影变换</span></div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    glMultMatrixf(projectionMatrix.<a class="code" href="struct_matrix4.html#a85a520b646394b3bc31f2b81b6b526cf">Pointer</a>());</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    glTranslatef(0.0, 0.0, -180.0);</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    GLfloat  projection[16];</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    glGetFloatv(GL_PROJECTION_MATRIX, projection);</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    <a class="code" href="struct_matrix4.html">mat4</a> pro = <a class="code" href="struct_matrix4.html">Matrix4&lt;float&gt;</a>(projection);</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    projectionMatrix = pro;</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <span class="comment">//projectionMatrix = projectionMatrix.Rotate(-90);</span></div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;}</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;</div>
+<div class="line"><a name="l00421"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#ab2c77f636bee685b9cd2e593e855b29c">  421</a></span>&#160;+(void)translateWithX:(<span class="keywordtype">float</span>)x</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;                    Y:(<span class="keywordtype">float</span>)y</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;                    Z:(<span class="keywordtype">float</span>)z{</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <span class="comment">//avoid error</span></div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.empty()) {</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        <a class="code" href="struct_matrix4.html">mat4</a> initMatrix;</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        initMatrix.<a class="code" href="struct_matrix4.html#a53069097c652c7c1fb03026ef9c15d94">Identity</a>();</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;        <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.push(initMatrix);</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;    }</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    </div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.top() = <a class="code" href="struct_matrix4.html#afabc9a815acd8651457c2244b8fe7364">mat4::Translate</a>(<a class="code" href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a9f5a1830e6064706ca9dbb980403b966">x</a>, <a class="code" href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a873893470a60333e1385382b83c85fee">y</a>, <a class="code" href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a8160835cd3da227120ddf62bc2bda5d2">z</a>) * <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.top();</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    glLoadMatrixf((<a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.top()*<a class="code" href="_m_c_g_l_8mm.html#a43745259010cc534b345a4062c871840">viewMatrix</a>).Pointer());</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;}</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;</div>
+<div class="line"><a name="l00438"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#a9c34d57517775195d907c4e1195a52a7">  438</a></span>&#160;+(void)rotateWithQuaternion:(<a class="code" href="struct_quaternion_t.html">Quaternion</a>)delta{</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.empty()) {</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;        <a class="code" href="struct_matrix4.html">mat4</a> initMatrix;</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;        initMatrix.<a class="code" href="struct_matrix4.html#a53069097c652c7c1fb03026ef9c15d94">Identity</a>();</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;        <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.push(initMatrix);</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;    }</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    </div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <a class="code" href="struct_matrix4.html">mat4</a> deltaMatrix = delta.<a class="code" href="struct_quaternion_t.html#a73f22df8863ed14fefb3fed20c13d4ae">ToMatrix</a>();</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <span class="comment">// 将四元数与model栈的顶部的矩阵相乘</span></div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.top() = deltaMatrix * <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.top();</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;    glLoadMatrixf((<a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.top()*<a class="code" href="_m_c_g_l_8mm.html#a43745259010cc534b345a4062c871840">viewMatrix</a>).Pointer());</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;}</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;<span class="comment">//it has some problems 为啥捏？</span></div>
+<div class="line"><a name="l00453"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#a9d7b03ada873e4bbb33f9c4631a7ced3">  453</a></span>&#160;+(void)lookAtEyefv:(<a class="code" href="struct_vector3.html">vec3</a>)eye</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;          centerfv:(<a class="code" href="struct_vector3.html">vec3</a>)center</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;              upfv:(<a class="code" href="struct_vector3.html">vec3</a>)up{</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;    <a class="code" href="struct_vector3.html">vec3</a> tmpF, tmpUp, tmpS, tmpT;</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    tmpF.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a> = center.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a> - eye.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>;</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    tmpF.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a> = center.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a> - eye.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>;</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    tmpF.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a> = center.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a> - eye.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>;</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    </div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    tmpF.<a class="code" href="struct_vector3.html#a7f854394bf054208485424371a940aa5">Normalize</a>();</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    tmpUp = up;</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    tmpUp.<a class="code" href="struct_vector3.html#a7f854394bf054208485424371a940aa5">Normalize</a>();</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    </div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;    tmpS = tmpF.<a class="code" href="struct_vector3.html#a6bc7fcc9d1777926d1c4eab878508577">Cross</a>(tmpUp);</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;    tmpT = tmpS.<a class="code" href="struct_vector3.html#a6bc7fcc9d1777926d1c4eab878508577">Cross</a>(tmpF);</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;    </div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;    </div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#a0d0dca7bc4af046260631547b3512922">x</a>.<a class="code" href="struct_vector4.html#a2cedf20d2f695a4f0254681b13311ac9">x</a> = tmpS.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>;</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#a0d0dca7bc4af046260631547b3512922">x</a>.<a class="code" href="struct_vector4.html#aad001ba27515dc2dcb921e9c83596520">y</a> = tmpT.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>;</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#a0d0dca7bc4af046260631547b3512922">x</a>.<a class="code" href="struct_vector4.html#a5a7a1452d661e0b24e4b04c4dbff8ae7">z</a> = -tmpF.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>;</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#a0d0dca7bc4af046260631547b3512922">x</a>.<a class="code" href="struct_vector4.html#a83daff43fa2b88b4e76474f4b9a45276">w</a> = 0;</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    </div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#abb3db7d1fa32c2abe1110f25b7ce14aa">y</a>.<a class="code" href="struct_vector4.html#a2cedf20d2f695a4f0254681b13311ac9">x</a> = tmpS.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>;</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#abb3db7d1fa32c2abe1110f25b7ce14aa">y</a>.<a class="code" href="struct_vector4.html#aad001ba27515dc2dcb921e9c83596520">y</a> = tmpT.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>;</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#abb3db7d1fa32c2abe1110f25b7ce14aa">y</a>.<a class="code" href="struct_vector4.html#a5a7a1452d661e0b24e4b04c4dbff8ae7">z</a> = -tmpF.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>;</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#abb3db7d1fa32c2abe1110f25b7ce14aa">y</a>.<a class="code" href="struct_vector4.html#a83daff43fa2b88b4e76474f4b9a45276">w</a> = 0;</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    </div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#ae83cabb2deaf96f59423bf3c65c6bbd1">z</a>.<a class="code" href="struct_vector4.html#a2cedf20d2f695a4f0254681b13311ac9">x</a> = tmpS.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>;</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#ae83cabb2deaf96f59423bf3c65c6bbd1">z</a>.<a class="code" href="struct_vector4.html#aad001ba27515dc2dcb921e9c83596520">y</a> = tmpT.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>;</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#ae83cabb2deaf96f59423bf3c65c6bbd1">z</a>.<a class="code" href="struct_vector4.html#a5a7a1452d661e0b24e4b04c4dbff8ae7">z</a> = -tmpF.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>;</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#ae83cabb2deaf96f59423bf3c65c6bbd1">z</a>.<a class="code" href="struct_vector4.html#a83daff43fa2b88b4e76474f4b9a45276">w</a> = 0;</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;    </div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#a466f4f34e3c1c78c5b51b577457f3f5e">w</a>.<a class="code" href="struct_vector4.html#a2cedf20d2f695a4f0254681b13311ac9">x</a> = 0;</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#a466f4f34e3c1c78c5b51b577457f3f5e">w</a>.<a class="code" href="struct_vector4.html#aad001ba27515dc2dcb921e9c83596520">y</a> = 0;</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#a466f4f34e3c1c78c5b51b577457f3f5e">w</a>.<a class="code" href="struct_vector4.html#a5a7a1452d661e0b24e4b04c4dbff8ae7">z</a> = 0;</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;    viewMatrix.<a class="code" href="struct_matrix4.html#a466f4f34e3c1c78c5b51b577457f3f5e">w</a>.<a class="code" href="struct_vector4.html#a83daff43fa2b88b4e76474f4b9a45276">w</a> = 1;</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;    </div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;    </div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    viewMatrix = <a class="code" href="struct_matrix4.html#afabc9a815acd8651457c2244b8fe7364">mat4::Translate</a>(-eye.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>, -eye.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>, -eye.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>) * <a class="code" href="_m_c_g_l_8mm.html#a43745259010cc534b345a4062c871840">viewMatrix</a>;</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    </div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    glLoadMatrixf(viewMatrix.<a class="code" href="struct_matrix4.html#a85a520b646394b3bc31f2b81b6b526cf">Pointer</a>());</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;}</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;</div>
+<div class="line"><a name="l00495"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#aba1a16fc547213d0a9b46bc402de6a30">  495</a></span>&#160;+(void)<a class="code" href="interface_m_c_g_l.html#aba1a16fc547213d0a9b46bc402de6a30">pushMatrix</a>{</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.empty())</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;    <span class="comment">// newMatrix 中存储的是当前矩阵的值</span></div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    <a class="code" href="struct_matrix4.html">mat4</a> newMatrix = <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.top();</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    <span class="comment">// 此时有两个矩阵保存着当前矩阵的值，一个是modelMatrix.top(),也就是当前矩阵。</span></div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    <span class="comment">// 另一个是modelMatrix.top()下面的矩阵，是保存了起来的当前矩阵的值</span></div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.push(newMatrix);</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;}</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;</div>
+<div class="line"><a name="l00505"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#a3fd251d289cfaa87087d99d729433993">  505</a></span>&#160;+(void)<a class="code" href="interface_m_c_g_l.html#a3fd251d289cfaa87087d99d729433993">popMatrix</a>{</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.size() &lt;= 1)</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.pop();</div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    <span class="comment">// 先加载视图矩阵，进行视图变换</span></div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    glLoadMatrixf(viewMatrix.<a class="code" href="struct_matrix4.html#a85a520b646394b3bc31f2b81b6b526cf">Pointer</a>());</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    <span class="comment">// glMultMatrixf函数接受一个矩阵，并把它与当前加载的矩阵(这里是viewMatrix)相乘</span></div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <span class="comment">// 然后把结果存储在矩阵堆栈的顶部，也就是成为当前的模型矩阵</span></div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    glMultMatrixf(<a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.top().Pointer());</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;}</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;</div>
+<div class="line"><a name="l00516"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#ae507aed6c6a3adcdb78a768109c8de7b">  516</a></span>&#160;+(<a class="code" href="struct_matrix4.html">mat4</a>)<a class="code" href="interface_m_c_g_l.html#ae507aed6c6a3adcdb78a768109c8de7b">getCurrentViewMatrix</a>{</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="_m_c_g_l_8mm.html#a43745259010cc534b345a4062c871840">viewMatrix</a>;</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;}</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;</div>
+<div class="line"><a name="l00520"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#ab31c2004692c8d326b55771df5b7251e">  520</a></span>&#160;+(<a class="code" href="struct_matrix4.html">mat4</a>)<a class="code" href="interface_m_c_g_l.html#ab31c2004692c8d326b55771df5b7251e">getCurrentModelMatrix</a>{</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a>.top();</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;}</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;</div>
+<div class="line"><a name="l00524"></a><span class="lineno"><a class="line" href="interface_m_c_g_l.html#a4540591940ad0bfbaf36b277fa5a8de0">  524</a></span>&#160;+(<a class="code" href="struct_matrix4.html">mat4</a>)<a class="code" href="interface_m_c_g_l.html#a4540591940ad0bfbaf36b277fa5a8de0">getCurrentProjectionMatrix</a>{</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="_m_c_g_l_8mm.html#aa6307af2cc42a4b18c3a1d7e102af31c">projectionMatrix</a>;</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;}</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;</div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;<span class="keyword">@end</span></div>
+<div class="ttc" id="struct_vector3_html_a561df88b28e106e337a25bb86554a569"><div class="ttname"><a href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">Vector3::y</a></div><div class="ttdeci">T y</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00258">Vector.hpp:258</a></div></div>
+<div class="ttc" id="struct_vector3_html_a6bc7fcc9d1777926d1c4eab878508577"><div class="ttname"><a href="struct_vector3.html#a6bc7fcc9d1777926d1c4eab878508577">Vector3::Cross</a></div><div class="ttdeci">Vector3 Cross(const Vector3 &amp;v) const </div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00155">Vector.hpp:155</a></div></div>
+<div class="ttc" id="struct_matrix4_html_a53069097c652c7c1fb03026ef9c15d94"><div class="ttname"><a href="struct_matrix4.html#a53069097c652c7c1fb03026ef9c15d94">Matrix4::Identity</a></div><div class="ttdeci">static Matrix4&lt; T &gt; Identity()</div><div class="ttdef"><b>Definition:</b> <a href="_matrix_8hpp_source.html#l00171">Matrix.hpp:171</a></div></div>
+<div class="ttc" id="struct_matrix4_html_afabc9a815acd8651457c2244b8fe7364"><div class="ttname"><a href="struct_matrix4.html#afabc9a815acd8651457c2244b8fe7364">Matrix4::Translate</a></div><div class="ttdeci">static Matrix4&lt; T &gt; Translate(const T x, const T y, const T z)</div><div class="ttdef"><b>Definition:</b> <a href="_matrix_8hpp_source.html#l00180">Matrix.hpp:180</a></div></div>
+<div class="ttc" id="namespace_m_c_html_a533f8ce8fb01810e66c16263c376fbd7a873893470a60333e1385382b83c85fee"><div class="ttname"><a href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a873893470a60333e1385382b83c85fee">MC::y</a></div><div class="ttdef"><b>Definition:</b> <a href="_global_8h_source.html#l00185">Global.h:185</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_ad7e9a7dc23a57a46373245e04d677f6e"><div class="ttname"><a href="interface_m_c_g_l.html#ad7e9a7dc23a57a46373245e04d677f6e">-[MCGL glhInvertMatrixf2]</a></div><div class="ttdeci">int glhInvertMatrixf2(const float *m, float *out)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00186">MCGL.mm:186</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_aba1a16fc547213d0a9b46bc402de6a30"><div class="ttname"><a href="interface_m_c_g_l.html#aba1a16fc547213d0a9b46bc402de6a30">+[MCGL pushMatrix]</a></div><div class="ttdeci">void pushMatrix()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00495">MCGL.mm:495</a></div></div>
+<div class="ttc" id="_m_c_g_l_8mm_html_a43745259010cc534b345a4062c871840"><div class="ttname"><a href="_m_c_g_l_8mm.html#a43745259010cc534b345a4062c871840">viewMatrix</a></div><div class="ttdeci">static mat4 viewMatrix</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00018">MCGL.mm:18</a></div></div>
+<div class="ttc" id="struct_vector4_html_aad001ba27515dc2dcb921e9c83596520"><div class="ttname"><a href="struct_vector4.html#aad001ba27515dc2dcb921e9c83596520">Vector4::y</a></div><div class="ttdeci">T y</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00299">Vector.hpp:299</a></div></div>
+<div class="ttc" id="struct_vector3_html_ab3e7f5401dd6e951978bfa746809f74f"><div class="ttname"><a href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">Vector3::z</a></div><div class="ttdeci">T z</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00259">Vector.hpp:259</a></div></div>
+<div class="ttc" id="namespace_m_c_html_a533f8ce8fb01810e66c16263c376fbd7a9f5a1830e6064706ca9dbb980403b966"><div class="ttname"><a href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a9f5a1830e6064706ca9dbb980403b966">MC::x</a></div><div class="ttdef"><b>Definition:</b> <a href="_global_8h_source.html#l00184">Global.h:184</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_ab31c2004692c8d326b55771df5b7251e"><div class="ttname"><a href="interface_m_c_g_l.html#ab31c2004692c8d326b55771df5b7251e">+[MCGL getCurrentModelMatrix]</a></div><div class="ttdeci">mat4 getCurrentModelMatrix()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00520">MCGL.mm:520</a></div></div>
+<div class="ttc" id="struct_matrix4_html"><div class="ttname"><a href="struct_matrix4.html">Matrix4</a></div><div class="ttdef"><b>Definition:</b> <a href="_matrix_8hpp_source.html#l00066">Matrix.hpp:66</a></div></div>
+<div class="ttc" id="_m_c_g_l_8mm_html_a66b13d70e4ca931b0772f48d6a03ae50"><div class="ttname"><a href="_m_c_g_l_8mm.html#a66b13d70e4ca931b0772f48d6a03ae50">modelMatrix</a></div><div class="ttdeci">static stack&lt; mat4 &gt; modelMatrix</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00014">MCGL.mm:14</a></div></div>
+<div class="ttc" id="_vector_8hpp_html_ad37e1b7740e725cb44517fce48e5e3ab"><div class="ttname"><a href="_vector_8hpp.html#ad37e1b7740e725cb44517fce48e5e3ab">Pi</a></div><div class="ttdeci">const double Pi</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00011">Vector.hpp:11</a></div></div>
+<div class="ttc" id="_m_c_g_l_8h_html"><div class="ttname"><a href="_m_c_g_l_8h.html">MCGL.h</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_ae507aed6c6a3adcdb78a768109c8de7b"><div class="ttname"><a href="interface_m_c_g_l.html#ae507aed6c6a3adcdb78a768109c8de7b">+[MCGL getCurrentViewMatrix]</a></div><div class="ttdeci">mat4 getCurrentViewMatrix()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00516">MCGL.mm:516</a></div></div>
+<div class="ttc" id="struct_vector3_html"><div class="ttname"><a href="struct_vector3.html">Vector3&lt; float &gt;</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html"><div class="ttname"><a href="interface_m_c_g_l.html">MCGL</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8h_source.html#l00083">MCGL.h:83</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_a3fd251d289cfaa87087d99d729433993"><div class="ttname"><a href="interface_m_c_g_l.html#a3fd251d289cfaa87087d99d729433993">+[MCGL popMatrix]</a></div><div class="ttdeci">void popMatrix()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00505">MCGL.mm:505</a></div></div>
+<div class="ttc" id="struct_vector4_html_a83daff43fa2b88b4e76474f4b9a45276"><div class="ttname"><a href="struct_vector4.html#a83daff43fa2b88b4e76474f4b9a45276">Vector4::w</a></div><div class="ttdeci">T w</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00301">Vector.hpp:301</a></div></div>
+<div class="ttc" id="_m_c_g_l_8mm_html_ac76e3006342c068713a61d8d7e43d8ab"><div class="ttname"><a href="_m_c_g_l_8mm.html#ac76e3006342c068713a61d8d7e43d8ab">matrixMode</a></div><div class="ttdeci">GLenum matrixMode</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00026">MCGL.mm:26</a></div></div>
+<div class="ttc" id="_m_c_g_l_8h_html_ac2b28cc58df83b61fc60374226f06f0f"><div class="ttname"><a href="_m_c_g_l_8h.html#ac2b28cc58df83b61fc60374226f06f0f">SWAP_ROWS_FLOAT</a></div><div class="ttdeci">#define SWAP_ROWS_FLOAT(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8h_source.html#l00024">MCGL.h:24</a></div></div>
+<div class="ttc" id="namespace_m_c_html_a533f8ce8fb01810e66c16263c376fbd7a8160835cd3da227120ddf62bc2bda5d2"><div class="ttname"><a href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a8160835cd3da227120ddf62bc2bda5d2">MC::z</a></div><div class="ttdef"><b>Definition:</b> <a href="_global_8h_source.html#l00186">Global.h:186</a></div></div>
+<div class="ttc" id="struct_vector3_html_a7f854394bf054208485424371a940aa5"><div class="ttname"><a href="struct_vector3.html#a7f854394bf054208485424371a940aa5">Vector3::Normalize</a></div><div class="ttdeci">void Normalize()</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00127">Vector.hpp:127</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_a4540591940ad0bfbaf36b277fa5a8de0"><div class="ttname"><a href="interface_m_c_g_l.html#a4540591940ad0bfbaf36b277fa5a8de0">+[MCGL getCurrentProjectionMatrix]</a></div><div class="ttdeci">mat4 getCurrentProjectionMatrix()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00524">MCGL.mm:524</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_ad13e7ea17649876d78f0388d05e5f087"><div class="ttname"><a href="interface_m_c_g_l.html#ad13e7ea17649876d78f0388d05e5f087">-[MCGL multiplyMatrixByVector4by4OpenGL_FLOAT]</a></div><div class="ttdeci">void multiplyMatrixByVector4by4OpenGL_FLOAT(float *resultvector, const float *matrix, const float *pvector)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00165">MCGL.mm:165</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_abb415856bbfd5275a2802083a7999660"><div class="ttname"><a href="interface_m_c_g_l.html#abb415856bbfd5275a2802083a7999660">+[MCGL loadIdentity]</a></div><div class="ttdeci">void loadIdentity()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00363">MCGL.mm:363</a></div></div>
+<div class="ttc" id="struct_matrix4_html_abb3db7d1fa32c2abe1110f25b7ce14aa"><div class="ttname"><a href="struct_matrix4.html#abb3db7d1fa32c2abe1110f25b7ce14aa">Matrix4::y</a></div><div class="ttdeci">vec4 y</div><div class="ttdef"><b>Definition:</b> <a href="_matrix_8hpp_source.html#l00246">Matrix.hpp:246</a></div></div>
+<div class="ttc" id="_m_c_g_l_8mm_html_aa6307af2cc42a4b18c3a1d7e102af31c"><div class="ttname"><a href="_m_c_g_l_8mm.html#aa6307af2cc42a4b18c3a1d7e102af31c">projectionMatrix</a></div><div class="ttdeci">static mat4 projectionMatrix</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00022">MCGL.mm:22</a></div></div>
+<div class="ttc" id="struct_vector4_html_a2cedf20d2f695a4f0254681b13311ac9"><div class="ttname"><a href="struct_vector4.html#a2cedf20d2f695a4f0254681b13311ac9">Vector4::x</a></div><div class="ttdeci">T x</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00298">Vector.hpp:298</a></div></div>
+<div class="ttc" id="struct_vector3_html_a1a0f7e168c71ca798099f0ba8a444244"><div class="ttname"><a href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">Vector3::x</a></div><div class="ttdeci">T x</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00257">Vector.hpp:257</a></div></div>
+<div class="ttc" id="struct_matrix4_html_ae83cabb2deaf96f59423bf3c65c6bbd1"><div class="ttname"><a href="struct_matrix4.html#ae83cabb2deaf96f59423bf3c65c6bbd1">Matrix4::z</a></div><div class="ttdeci">vec4 z</div><div class="ttdef"><b>Definition:</b> <a href="_matrix_8hpp_source.html#l00247">Matrix.hpp:247</a></div></div>
+<div class="ttc" id="struct_matrix4_html_a466f4f34e3c1c78c5b51b577457f3f5e"><div class="ttname"><a href="struct_matrix4.html#a466f4f34e3c1c78c5b51b577457f3f5e">Matrix4::w</a></div><div class="ttdeci">vec4 w</div><div class="ttdef"><b>Definition:</b> <a href="_matrix_8hpp_source.html#l00248">Matrix.hpp:248</a></div></div>
+<div class="ttc" id="struct_matrix4_html_a85a520b646394b3bc31f2b81b6b526cf"><div class="ttname"><a href="struct_matrix4.html#a85a520b646394b3bc31f2b81b6b526cf">Matrix4::Pointer</a></div><div class="ttdeci">const T * Pointer() const </div><div class="ttdef"><b>Definition:</b> <a href="_matrix_8hpp_source.html#l00161">Matrix.hpp:161</a></div></div>
+<div class="ttc" id="struct_quaternion_t_html"><div class="ttname"><a href="struct_quaternion_t.html">QuaternionT&lt; float &gt;</a></div></div>
+<div class="ttc" id="struct_quaternion_t_html_a73f22df8863ed14fefb3fed20c13d4ae"><div class="ttname"><a href="struct_quaternion_t.html#a73f22df8863ed14fefb3fed20c13d4ae">QuaternionT::ToMatrix</a></div><div class="ttdeci">Matrix3&lt; T &gt; ToMatrix() const </div><div class="ttdef"><b>Definition:</b> <a href="_quaternion_8hpp_source.html#l00133">Quaternion.hpp:133</a></div></div>
+<div class="ttc" id="_m_c_g_l_8h_html_a04fad4ee8b40909b70143ff909580d07"><div class="ttname"><a href="_m_c_g_l_8h.html#a04fad4ee8b40909b70143ff909580d07">MAT</a></div><div class="ttdeci">#define MAT(m, r, c)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8h_source.html#l00028">MCGL.h:28</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_aab2b4d15935a1e26211ee187383e0269"><div class="ttname"><a href="interface_m_c_g_l.html#aab2b4d15935a1e26211ee187383e0269">-[MCGL multiplyMatrices4by4OpenGL_FLOAT]</a></div><div class="ttdeci">void multiplyMatrices4by4OpenGL_FLOAT(float *result, const float *matrix1, const float *matrix2)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00073">MCGL.mm:73</a></div></div>
+<div class="ttc" id="struct_matrix4_html_a0d0dca7bc4af046260631547b3512922"><div class="ttname"><a href="struct_matrix4.html#a0d0dca7bc4af046260631547b3512922">Matrix4::x</a></div><div class="ttdeci">vec4 x</div><div class="ttdef"><b>Definition:</b> <a href="_matrix_8hpp_source.html#l00245">Matrix.hpp:245</a></div></div>
+<div class="ttc" id="struct_vector4_html_a5a7a1452d661e0b24e4b04c4dbff8ae7"><div class="ttname"><a href="struct_vector4.html#a5a7a1452d661e0b24e4b04c4dbff8ae7">Vector4::z</a></div><div class="ttdeci">T z</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00300">Vector.hpp:300</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_m_c_g_l_8mm.html">MCGL.mm</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:37 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

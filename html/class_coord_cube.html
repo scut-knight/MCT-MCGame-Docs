@@ -1,0 +1,1194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: CoordCube类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_coord_cube.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="class_coord_cube-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">CoordCube类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:abfd91fbf2f2482b7d8c980bb8a8e8006"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#abfd91fbf2f2482b7d8c980bb8a8e8006">CoordCube</a> (<a class="el" href="class_cubie_cube.html">CubieCube</a> &amp;c)</td></tr>
+<tr class="separator:abfd91fbf2f2482b7d8c980bb8a8e8006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab71918398c48afdcc12605f9f741829"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#aab71918398c48afdcc12605f9f741829">move</a> (int m)</td></tr>
+<tr class="separator:aab71918398c48afdcc12605f9f741829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a8bc8006cda34c13ae09cdf531043d898"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a8bc8006cda34c13ae09cdf531043d898">initAllStaticVariables</a> ()</td></tr>
+<tr class="separator:a8bc8006cda34c13ae09cdf531043d898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ce7a4ed4cc31bf7bd2fd36c59dcbdd3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a4ce7a4ed4cc31bf7bd2fd36c59dcbdd3">setPruning</a> (unsigned char table[], int index, unsigned char value)</td></tr>
+<tr class="separator:a4ce7a4ed4cc31bf7bd2fd36c59dcbdd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4801ef2250609930668e6668daff39f"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#ac4801ef2250609930668e6668daff39f">getPruning</a> (unsigned char table[], unsigned int index)</td></tr>
+<tr class="separator:ac4801ef2250609930668e6668daff39f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:ab355b2fab999e4cf433c6cb79cec76a3"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#ab355b2fab999e4cf433c6cb79cec76a3">twist</a></td></tr>
+<tr class="separator:ab355b2fab999e4cf433c6cb79cec76a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce3ce0d8c43e8fdae162427f27d36ed"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#afce3ce0d8c43e8fdae162427f27d36ed">flip</a></td></tr>
+<tr class="separator:afce3ce0d8c43e8fdae162427f27d36ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4320c2d4c69f4b3ac6c56fa4d877cbaa"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a4320c2d4c69f4b3ac6c56fa4d877cbaa">parity</a></td></tr>
+<tr class="separator:a4320c2d4c69f4b3ac6c56fa4d877cbaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a68591f7de8f3235d472735dadee6e"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a03a68591f7de8f3235d472735dadee6e">FRtoBR</a></td></tr>
+<tr class="separator:a03a68591f7de8f3235d472735dadee6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a105986621533a197535dcaa6d458b7f9"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a105986621533a197535dcaa6d458b7f9">URFtoDLF</a></td></tr>
+<tr class="separator:a105986621533a197535dcaa6d458b7f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412afea3bf67d2590f29295f96b4969c"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a412afea3bf67d2590f29295f96b4969c">URtoUL</a></td></tr>
+<tr class="separator:a412afea3bf67d2590f29295f96b4969c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a835e468aac8e767af94a20814113ebe9"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a835e468aac8e767af94a20814113ebe9">UBtoDF</a></td></tr>
+<tr class="separator:a835e468aac8e767af94a20814113ebe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d33c0ffe8393bf9c61fa31698154ea6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a1d33c0ffe8393bf9c61fa31698154ea6">URtoDF</a></td></tr>
+<tr class="separator:a1d33c0ffe8393bf9c61fa31698154ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a30230068b33cd8de11ffb3daac5e165f"><td class="memItemLeft" align="right" valign="top">static const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a30230068b33cd8de11ffb3daac5e165f">N_TWIST</a> = 2187</td></tr>
+<tr class="separator:a30230068b33cd8de11ffb3daac5e165f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a919a0b4e43fb963db16ed7dc27dfa65d"><td class="memItemLeft" align="right" valign="top">static const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a919a0b4e43fb963db16ed7dc27dfa65d">N_FLIP</a> = 2048</td></tr>
+<tr class="memdesc:a919a0b4e43fb963db16ed7dc27dfa65d"><td class="mdescLeft">&#160;</td><td class="mdescRight">3^7 possible corner orientations  <a href="#a919a0b4e43fb963db16ed7dc27dfa65d">更多...</a><br/></td></tr>
+<tr class="separator:a919a0b4e43fb963db16ed7dc27dfa65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5c0999933648c5fba8cece8638547c8"><td class="memItemLeft" align="right" valign="top">static const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#ae5c0999933648c5fba8cece8638547c8">N_SLICE1</a> = 495</td></tr>
+<tr class="memdesc:ae5c0999933648c5fba8cece8638547c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">2^11 possible edge flips  <a href="#ae5c0999933648c5fba8cece8638547c8">更多...</a><br/></td></tr>
+<tr class="separator:ae5c0999933648c5fba8cece8638547c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4926c3a2e32b2bdfd88456ef25d6aba2"><td class="memItemLeft" align="right" valign="top">static const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a4926c3a2e32b2bdfd88456ef25d6aba2">N_SLICE2</a> = 24</td></tr>
+<tr class="memdesc:a4926c3a2e32b2bdfd88456ef25d6aba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">12 choose 4 possible positions of FR,FL,BL,BR edges  <a href="#a4926c3a2e32b2bdfd88456ef25d6aba2">更多...</a><br/></td></tr>
+<tr class="separator:a4926c3a2e32b2bdfd88456ef25d6aba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b1c555a953697526ee651454543dc96"><td class="memItemLeft" align="right" valign="top">static const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a7b1c555a953697526ee651454543dc96">N_PARITY</a> = 2</td></tr>
+<tr class="memdesc:a7b1c555a953697526ee651454543dc96"><td class="mdescLeft">&#160;</td><td class="mdescRight">x 4! permutations of FR,FL,BL,BR edges in phase2  <a href="#a7b1c555a953697526ee651454543dc96">更多...</a><br/></td></tr>
+<tr class="separator:a7b1c555a953697526ee651454543dc96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65f90f0f27287508769c13004c58e26"><td class="memItemLeft" align="right" valign="top">static const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#af65f90f0f27287508769c13004c58e26">N_URFtoDLF</a> = 20160</td></tr>
+<tr class="memdesc:af65f90f0f27287508769c13004c58e26"><td class="mdescLeft">&#160;</td><td class="mdescRight">2 possible corner parities  <a href="#af65f90f0f27287508769c13004c58e26">更多...</a><br/></td></tr>
+<tr class="separator:af65f90f0f27287508769c13004c58e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a33f4d9ae8b9ea8f8b6b35fe4afb72e"><td class="memItemLeft" align="right" valign="top">static const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a6a33f4d9ae8b9ea8f8b6b35fe4afb72e">N_FRtoBR</a> = 11880</td></tr>
+<tr class="memdesc:a6a33f4d9ae8b9ea8f8b6b35fe4afb72e"><td class="mdescLeft">&#160;</td><td class="mdescRight">8!/(8-6)! permutation of URF,UFL,ULB,UBR,DFR,DLF corners  <a href="#a6a33f4d9ae8b9ea8f8b6b35fe4afb72e">更多...</a><br/></td></tr>
+<tr class="separator:a6a33f4d9ae8b9ea8f8b6b35fe4afb72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaed225f12d35136b5e4e51305fcce97"><td class="memItemLeft" align="right" valign="top">static const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#afaed225f12d35136b5e4e51305fcce97">N_URtoUL</a> = 1320</td></tr>
+<tr class="memdesc:afaed225f12d35136b5e4e51305fcce97"><td class="mdescLeft">&#160;</td><td class="mdescRight">12!/(12-4)! permutation of FR,FL,BL,BR edges  <a href="#afaed225f12d35136b5e4e51305fcce97">更多...</a><br/></td></tr>
+<tr class="separator:afaed225f12d35136b5e4e51305fcce97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b80205836bdda5db692b0d8ca856908"><td class="memItemLeft" align="right" valign="top">static const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a4b80205836bdda5db692b0d8ca856908">N_UBtoDF</a> = 1320</td></tr>
+<tr class="memdesc:a4b80205836bdda5db692b0d8ca856908"><td class="mdescLeft">&#160;</td><td class="mdescRight">12!/(12-3)! permutation of UR,UF,UL edges  <a href="#a4b80205836bdda5db692b0d8ca856908">更多...</a><br/></td></tr>
+<tr class="separator:a4b80205836bdda5db692b0d8ca856908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e4cce107ca529165724166fa7d9068a"><td class="memItemLeft" align="right" valign="top">static const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a4e4cce107ca529165724166fa7d9068a">N_URtoDF</a> = 20160</td></tr>
+<tr class="memdesc:a4e4cce107ca529165724166fa7d9068a"><td class="mdescLeft">&#160;</td><td class="mdescRight">12!/(12-3)! permutation of UB,DR,DF edges  <a href="#a4e4cce107ca529165724166fa7d9068a">更多...</a><br/></td></tr>
+<tr class="separator:a4e4cce107ca529165724166fa7d9068a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae28d03c7e0e0a70a1319956f0091508c"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#ae28d03c7e0e0a70a1319956f0091508c">N_URFtoDLB</a> = 40320</td></tr>
+<tr class="memdesc:ae28d03c7e0e0a70a1319956f0091508c"><td class="mdescLeft">&#160;</td><td class="mdescRight">8!/(8-6)! permutation of UR,UF,UL,UB,DR,DF edges in phase2  <a href="#ae28d03c7e0e0a70a1319956f0091508c">更多...</a><br/></td></tr>
+<tr class="separator:ae28d03c7e0e0a70a1319956f0091508c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda2660c5aca26736419caa12932fed6"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#adda2660c5aca26736419caa12932fed6">N_URtoBR</a> = 479001600</td></tr>
+<tr class="memdesc:adda2660c5aca26736419caa12932fed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">8! permutations of the corners  <a href="#adda2660c5aca26736419caa12932fed6">更多...</a><br/></td></tr>
+<tr class="separator:adda2660c5aca26736419caa12932fed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43ec9fe2ccb3beda3b2b347279a59665"><td class="memItemLeft" align="right" valign="top">static const short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a> = 18</td></tr>
+<tr class="memdesc:a43ec9fe2ccb3beda3b2b347279a59665"><td class="mdescLeft">&#160;</td><td class="mdescRight">8! permutations of the corners  <a href="#a43ec9fe2ccb3beda3b2b347279a59665">更多...</a><br/></td></tr>
+<tr class="separator:a43ec9fe2ccb3beda3b2b347279a59665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43cb8422e884aa8064c68d4e28fccab2"><td class="memItemLeft" align="right" valign="top">static short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a43cb8422e884aa8064c68d4e28fccab2">twistMove</a> [<a class="el" href="class_coord_cube.html#a30230068b33cd8de11ffb3daac5e165f">N_TWIST</a>][<a class="el" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>]</td></tr>
+<tr class="separator:a43cb8422e884aa8064c68d4e28fccab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4ee8bfab60fec13b7f206ecae6652fe"><td class="memItemLeft" align="right" valign="top">static short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#ad4ee8bfab60fec13b7f206ecae6652fe">flipMove</a> [<a class="el" href="class_coord_cube.html#a919a0b4e43fb963db16ed7dc27dfa65d">N_FLIP</a>][<a class="el" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>]</td></tr>
+<tr class="separator:ad4ee8bfab60fec13b7f206ecae6652fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2be7c6c1aa113716fbdace3df4bf0181"><td class="memItemLeft" align="right" valign="top">static short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a2be7c6c1aa113716fbdace3df4bf0181">parityMove</a> [2][18]</td></tr>
+<tr class="separator:a2be7c6c1aa113716fbdace3df4bf0181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf809b4179e398696096730a1f9ec923"><td class="memItemLeft" align="right" valign="top">static short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#adf809b4179e398696096730a1f9ec923">FRtoBR_Move</a> [<a class="el" href="class_coord_cube.html#a6a33f4d9ae8b9ea8f8b6b35fe4afb72e">N_FRtoBR</a>][<a class="el" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>]</td></tr>
+<tr class="separator:adf809b4179e398696096730a1f9ec923"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4005be0a74da615d72942046ab8330e"><td class="memItemLeft" align="right" valign="top">static short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#af4005be0a74da615d72942046ab8330e">URFtoDLF_Move</a> [<a class="el" href="class_coord_cube.html#af65f90f0f27287508769c13004c58e26">N_URFtoDLF</a>][<a class="el" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>]</td></tr>
+<tr class="separator:af4005be0a74da615d72942046ab8330e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a021b6b21b413e5b426d34c7d1f4d2604"><td class="memItemLeft" align="right" valign="top">static short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a021b6b21b413e5b426d34c7d1f4d2604">URtoDF_Move</a> [<a class="el" href="class_coord_cube.html#a4e4cce107ca529165724166fa7d9068a">N_URtoDF</a>][<a class="el" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>]</td></tr>
+<tr class="separator:a021b6b21b413e5b426d34c7d1f4d2604"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0391c0db8548dbcff8e48fd8ddec5db8"><td class="memItemLeft" align="right" valign="top">static short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a0391c0db8548dbcff8e48fd8ddec5db8">URtoUL_Move</a> [<a class="el" href="class_coord_cube.html#afaed225f12d35136b5e4e51305fcce97">N_URtoUL</a>][<a class="el" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>]</td></tr>
+<tr class="separator:a0391c0db8548dbcff8e48fd8ddec5db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad26413c70b3b6b61e334cbd25ba3ffdc"><td class="memItemLeft" align="right" valign="top">static short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#ad26413c70b3b6b61e334cbd25ba3ffdc">UBtoDF_Move</a> [<a class="el" href="class_coord_cube.html#a4b80205836bdda5db692b0d8ca856908">N_UBtoDF</a>][<a class="el" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>]</td></tr>
+<tr class="separator:ad26413c70b3b6b61e334cbd25ba3ffdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0dafe5d7d472de0bbb1ed69ae3dde0b"><td class="memItemLeft" align="right" valign="top">static short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#ae0dafe5d7d472de0bbb1ed69ae3dde0b">MergeURtoULandUBtoDF</a> [336][336]</td></tr>
+<tr class="separator:ae0dafe5d7d472de0bbb1ed69ae3dde0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afad800c1fa675549bf276e05081e5ec3"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#afad800c1fa675549bf276e05081e5ec3">Slice_URFtoDLF_Parity_Prun</a> [<a class="el" href="class_coord_cube.html#a4926c3a2e32b2bdfd88456ef25d6aba2">N_SLICE2</a> *<a class="el" href="class_coord_cube.html#af65f90f0f27287508769c13004c58e26">N_URFtoDLF</a> *<a class="el" href="class_coord_cube.html#a7b1c555a953697526ee651454543dc96">N_PARITY</a>/2]</td></tr>
+<tr class="separator:afad800c1fa675549bf276e05081e5ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a306fe601814b1010d1602ad05b7438e9"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a306fe601814b1010d1602ad05b7438e9">Slice_URtoDF_Parity_Prun</a> [<a class="el" href="class_coord_cube.html#a4926c3a2e32b2bdfd88456ef25d6aba2">N_SLICE2</a> *<a class="el" href="class_coord_cube.html#a4e4cce107ca529165724166fa7d9068a">N_URtoDF</a> *<a class="el" href="class_coord_cube.html#a7b1c555a953697526ee651454543dc96">N_PARITY</a>/2]</td></tr>
+<tr class="separator:a306fe601814b1010d1602ad05b7438e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a849d905c339e0650d185456c255b5c26"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#a849d905c339e0650d185456c255b5c26">Slice_Twist_Prun</a> [<a class="el" href="class_coord_cube.html#ae5c0999933648c5fba8cece8638547c8">N_SLICE1</a> *<a class="el" href="class_coord_cube.html#a30230068b33cd8de11ffb3daac5e165f">N_TWIST</a>/2+1]</td></tr>
+<tr class="separator:a849d905c339e0650d185456c255b5c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7caa79189fb5ab657cfce806ec80133"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_cube.html#ae7caa79189fb5ab657cfce806ec80133">Slice_Flip_Prun</a> [<a class="el" href="class_coord_cube.html#ae5c0999933648c5fba8cece8638547c8">N_SLICE1</a> *<a class="el" href="class_coord_cube.html#a919a0b4e43fb963db16ed7dc27dfa65d">N_FLIP</a>/2]</td></tr>
+<tr class="separator:ae7caa79189fb5ab657cfce806ec80133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>two-phase算法中对魔方在coordinate层面上的表示 </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00019">19</a> 行定义.</p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="abfd91fbf2f2482b7d8c980bb8a8e8006"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CoordCube::CoordCube </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_cubie_cube.html">CubieCube</a> &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generate a <a class="el" href="class_coord_cube.html">CoordCube</a> from a <a class="el" href="class_cubie_cube.html">CubieCube</a> </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8cpp_source.html">CoordCube.cpp</a> 第 <a class="el" href="_coord_cube_8cpp_source.html#l00135">135</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8cpp_source.html#l00345">CubieCube::cornerParity()</a>, <a class="el" href="_coord_cube_8h_source.html#l00039">flip</a>, <a class="el" href="_coord_cube_8h_source.html#l00041">FRtoBR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00323">CubieCube::getFlip()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00365">CubieCube::getFRtoBR()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00298">CubieCube::getTwist()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00605">CubieCube::getUBtoDF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00423">CubieCube::getURFtoDLF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00479">CubieCube::getURtoDF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00553">CubieCube::getURtoUL()</a>, <a class="el" href="_coord_cube_8h_source.html#l00040">parity</a>, <a class="el" href="_coord_cube_8h_source.html#l00038">twist</a>, <a class="el" href="_coord_cube_8h_source.html#l00044">UBtoDF</a>, <a class="el" href="_coord_cube_8h_source.html#l00042">URFtoDLF</a>, <a class="el" href="_coord_cube_8h_source.html#l00045">URtoDF</a> , 以及 <a class="el" href="_coord_cube_8h_source.html#l00043">URtoUL</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="ac4801ef2250609930668e6668daff39f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CoordCube::getPruning </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>table</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Extract pruning value </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8cpp_source.html">CoordCube.cpp</a> 第 <a class="el" href="_coord_cube_8cpp_source.html#l00170">170</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">Search::totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8bc8006cda34c13ae09cdf531043d898"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoordCube::initAllStaticVariables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Initial all static variables.</p>
+<p>使用储存好的二进制文件来初始化CoordCube的静态变量 </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8cpp_source.html">CoordCube.cpp</a> 第 <a class="el" href="_coord_cube_8cpp_source.html#l00028">28</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_coord_cube_8h_source.html#l00064">flipMove</a>, <a class="el" href="_coord_cube_8h_source.html#l00084">FRtoBR_Move</a>, <a class="el" href="_coord_cube_8h_source.html#l00128">MergeURtoULandUBtoDF</a>, <a class="el" href="_coord_cube_8h_source.html#l00155">Slice_Flip_Prun</a>, <a class="el" href="_coord_cube_8h_source.html#l00148">Slice_Twist_Prun</a>, <a class="el" href="_coord_cube_8h_source.html#l00136">Slice_URFtoDLF_Parity_Prun</a>, <a class="el" href="_coord_cube_8h_source.html#l00142">Slice_URtoDF_Parity_Prun</a>, <a class="el" href="_coord_cube_8h_source.html#l00056">twistMove</a>, <a class="el" href="_coord_cube_8h_source.html#l00123">UBtoDF_Move</a>, <a class="el" href="_coord_cube_8h_source.html#l00098">URFtoDLF_Move</a>, <a class="el" href="_coord_cube_8h_source.html#l00111">URtoDF_Move</a> , 以及 <a class="el" href="_coord_cube_8h_source.html#l00118">URtoUL_Move</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00048">MCRandomSolveViewInputControllerViewController::loadInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aab71918398c48afdcc12605f9f741829"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoordCube::move </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A move on the coordinate level </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8cpp_source.html">CoordCube.cpp</a> 第 <a class="el" href="_coord_cube_8cpp_source.html#l00147">147</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_coord_cube_8h_source.html#l00039">flip</a>, <a class="el" href="_coord_cube_8h_source.html#l00064">flipMove</a>, <a class="el" href="_coord_cube_8h_source.html#l00041">FRtoBR</a>, <a class="el" href="_coord_cube_8h_source.html#l00084">FRtoBR_Move</a>, <a class="el" href="_coord_cube_8h_source.html#l00128">MergeURtoULandUBtoDF</a>, <a class="el" href="_coord_cube_8h_source.html#l00040">parity</a>, <a class="el" href="_coord_cube_8h_source.html#l00071">parityMove</a>, <a class="el" href="_coord_cube_8h_source.html#l00038">twist</a>, <a class="el" href="_coord_cube_8h_source.html#l00056">twistMove</a>, <a class="el" href="_coord_cube_8h_source.html#l00044">UBtoDF</a>, <a class="el" href="_coord_cube_8h_source.html#l00123">UBtoDF_Move</a>, <a class="el" href="_coord_cube_8h_source.html#l00042">URFtoDLF</a>, <a class="el" href="_coord_cube_8h_source.html#l00098">URFtoDLF_Move</a>, <a class="el" href="_coord_cube_8h_source.html#l00045">URtoDF</a>, <a class="el" href="_coord_cube_8h_source.html#l00043">URtoUL</a> , 以及 <a class="el" href="_coord_cube_8h_source.html#l00118">URtoUL_Move</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4ce7a4ed4cc31bf7bd2fd36c59dcbdd3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoordCube::setPruning </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>table</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set pruning value in table. Two values are stored in one byte. </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8cpp_source.html">CoordCube.cpp</a> 第 <a class="el" href="_coord_cube_8cpp_source.html#l00162">162</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="afce3ce0d8c43e8fdae162427f27d36ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::flip</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00039">39</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad4ee8bfab60fec13b7f206ecae6652fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::flipMove</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Move table for the flips of the edges</p>
+<p>flip &lt; 2048 in phase 1</p>
+<p>flip = 0 in phase 2. </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00064">64</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00028">initAllStaticVariables()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a03a68591f7de8f3235d472735dadee6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::FRtoBR</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00041">41</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adf809b4179e398696096730a1f9ec923"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::FRtoBR_Move</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Move table for the four UD-slice edges FR, FL, Bl and BR</p>
+<p>FRtoBRMove &lt; 11880 in phase 1</p>
+<p>FRtoBRMove &lt; 24 in phase 2</p>
+<p>FRtoBRMove = 0 for solved cube </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00084">84</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00028">initAllStaticVariables()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a>, <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">Search::totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae0dafe5d7d472de0bbb1ed69ae3dde0b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::MergeURtoULandUBtoDF</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Table to merge the coordinates of the UR,UF,UL and UB,DR,DF edges at the beginning of phase2 </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00128">128</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00028">initAllStaticVariables()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">Search::totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a919a0b4e43fb963db16ed7dc27dfa65d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short CoordCube::N_FLIP = 2048</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>3^7 possible corner orientations </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00022">22</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_tools_8cpp_source.html#l00055">Tools::randomCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6a33f4d9ae8b9ea8f8b6b35fe4afb72e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short CoordCube::N_FRtoBR = 11880</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>8!/(8-6)! permutation of URF,UFL,ULB,UBR,DFR,DLF corners </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00027">27</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a43ec9fe2ccb3beda3b2b347279a59665"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short CoordCube::N_MOVE = 18</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>8! permutations of the corners </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00035">35</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7b1c555a953697526ee651454543dc96"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short CoordCube::N_PARITY = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>x 4! permutations of FR,FL,BL,BR edges in phase2 </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00025">25</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae5c0999933648c5fba8cece8638547c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short CoordCube::N_SLICE1 = 495</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>2^11 possible edge flips </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00023">23</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4926c3a2e32b2bdfd88456ef25d6aba2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short CoordCube::N_SLICE2 = 24</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>12 choose 4 possible positions of FR,FL,BL,BR edges </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00024">24</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00254">Search::totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a30230068b33cd8de11ffb3daac5e165f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short CoordCube::N_TWIST = 2187</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00021">21</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_tools_8cpp_source.html#l00055">Tools::randomCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4b80205836bdda5db692b0d8ca856908"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short CoordCube::N_UBtoDF = 1320</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>12!/(12-3)! permutation of UR,UF,UL edges </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00029">29</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae28d03c7e0e0a70a1319956f0091508c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int CoordCube::N_URFtoDLB = 40320</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>8!/(8-6)! permutation of UR,UF,UL,UB,DR,DF edges in phase2 </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00032">32</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_tools_8cpp_source.html#l00055">Tools::randomCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af65f90f0f27287508769c13004c58e26"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short CoordCube::N_URFtoDLF = 20160</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>2 possible corner parities </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00026">26</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="adda2660c5aca26736419caa12932fed6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int CoordCube::N_URtoBR = 479001600</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>8! permutations of the corners </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00033">33</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_tools_8cpp_source.html#l00055">Tools::randomCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4e4cce107ca529165724166fa7d9068a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short CoordCube::N_URtoDF = 20160</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>12!/(12-3)! permutation of UB,DR,DF edges </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00030">30</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="afaed225f12d35136b5e4e51305fcce97"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const short CoordCube::N_URtoUL = 1320</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>12!/(12-4)! permutation of FR,FL,BL,BR edges </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00028">28</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4320c2d4c69f4b3ac6c56fa4d877cbaa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::parity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00040">40</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube()</a> , 以及 <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2be7c6c1aa113716fbdace3df4bf0181"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::parityMove</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初始值:</b><div class="fragment"><div class="line">= { { 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1 },</div>
+<div class="line">    { 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0 } }</div>
+</div><!-- fragment --><p>Parity of the corner permutation. This is the same as the parity for the edge permutation of a valid cube.</p>
+<p>parity has values 0 and 1 </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00071">71</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">Search::totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae7caa79189fb5ab657cfce806ec80133"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CoordCube::Slice_Flip_Prun</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pruning table for the flip of the edges and the position (not permutation) of the UD-slice edges in phase1 The pruning table entries give a lower estimation for the number of moves to reach the H-subgroup. </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00155">155</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00028">initAllStaticVariables()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a849d905c339e0650d185456c255b5c26"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CoordCube::Slice_Twist_Prun</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pruning table for the twist of the corners and the position (not permutation) of the UD-slice edges in phase1 The pruning table entries give a lower estimation for the number of moves to reach the H-subgroup. </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00148">148</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00028">initAllStaticVariables()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afad800c1fa675549bf276e05081e5ec3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CoordCube::Slice_URFtoDLF_Parity_Prun</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pruning table for the permutation of the corners and the UD-slice edges in phase2. The pruning table entries give a lower estimation for the number of moves to reach the solved cube. </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00136">136</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00028">initAllStaticVariables()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">Search::totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a306fe601814b1010d1602ad05b7438e9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CoordCube::Slice_URtoDF_Parity_Prun</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pruning table for the permutation of the edges in phase2. The pruning table entries give a lower estimation for the number of moves to reach the solved cube. </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00142">142</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00028">initAllStaticVariables()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">Search::totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab355b2fab999e4cf433c6cb79cec76a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::twist</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00038">38</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a43cb8422e884aa8064c68d4e28fccab2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::twistMove</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Move table for the twists of the corners</p>
+<p>twist &lt; 2187 in phase 1.</p>
+<p>twist = 0 in phase 2. </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00056">56</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00028">initAllStaticVariables()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a835e468aac8e767af94a20814113ebe9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::UBtoDF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00044">44</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad26413c70b3b6b61e334cbd25ba3ffdc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::UBtoDF_Move</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Move table for the three edges UB,DR and DF in phase1. </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00123">123</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00028">initAllStaticVariables()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">Search::totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a105986621533a197535dcaa6d458b7f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::URFtoDLF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00042">42</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af4005be0a74da615d72942046ab8330e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::URFtoDLF_Move</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Move table for permutation of six corners. The positions of the DBL and DRB corners are determined by the parity.</p>
+<p>URFtoDLF &lt; 20160 in phase 1</p>
+<p>URFtoDLF &lt; 20160 in phase 2</p>
+<p>URFtoDLF = 0 for solved cube. </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00098">98</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00028">initAllStaticVariables()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">Search::totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d33c0ffe8393bf9c61fa31698154ea6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CoordCube::URtoDF</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00045">45</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube()</a> , 以及 <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a021b6b21b413e5b426d34c7d1f4d2604"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::URtoDF_Move</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Move table for the permutation of six U-face and D-face edges in phase2. The positions of the DL and DB edges are determined by the parity.</p>
+<p>URtoDF &lt; 665280 in phase 1</p>
+<p>URtoDF &lt; 20160 in phase 2</p>
+<p>URtoDF = 0 for solved cube. </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00111">111</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00028">initAllStaticVariables()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">Search::totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a412afea3bf67d2590f29295f96b4969c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::URtoUL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00043">43</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00115">Search::solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0391c0db8548dbcff8e48fd8ddec5db8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CoordCube::URtoUL_Move</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Move table for the three edges UR,UF and UL in phase1. </p>
+
+<p>在文件 <a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a> 第 <a class="el" href="_coord_cube_8h_source.html#l00118">118</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00028">initAllStaticVariables()</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00147">move()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">Search::totalDepth()</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_coord_cube_8h_source.html">CoordCube.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_coord_cube_8cpp_source.html">CoordCube.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_coord_cube.html">CoordCube</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:38 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

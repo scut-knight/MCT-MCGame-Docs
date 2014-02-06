@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/CoordCube.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_coord_cube_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">CoordCube.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_coord_cube_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  TPCoordCube.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  TP</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by Aha on 13-6-13.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright (c) 2013年 Aha. All rights reserved.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef __TP__TPCoordCube__</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __TP__TPCoordCube__</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_cubie_cube_8h.html">CubieCube.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"></span><span class="comment">// Representation of the cube on the coordinate level</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_coord_cube.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_coord_cube.html">CoordCube</a> {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a30230068b33cd8de11ffb3daac5e165f">   21</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a30230068b33cd8de11ffb3daac5e165f">N_TWIST</a> = 2187;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a919a0b4e43fb963db16ed7dc27dfa65d">   22</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a919a0b4e43fb963db16ed7dc27dfa65d">N_FLIP</a> = 2048;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_coord_cube.html#ae5c0999933648c5fba8cece8638547c8">   23</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#ae5c0999933648c5fba8cece8638547c8">N_SLICE1</a> = 495;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a4926c3a2e32b2bdfd88456ef25d6aba2">   24</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a4926c3a2e32b2bdfd88456ef25d6aba2">N_SLICE2</a> = 24;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a7b1c555a953697526ee651454543dc96">   25</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a7b1c555a953697526ee651454543dc96">N_PARITY</a> = 2; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_coord_cube.html#af65f90f0f27287508769c13004c58e26">   26</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#af65f90f0f27287508769c13004c58e26">N_URFtoDLF</a> = 20160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a6a33f4d9ae8b9ea8f8b6b35fe4afb72e">   27</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a6a33f4d9ae8b9ea8f8b6b35fe4afb72e">N_FRtoBR</a> = 11880; </div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_coord_cube.html#afaed225f12d35136b5e4e51305fcce97">   28</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#afaed225f12d35136b5e4e51305fcce97">N_URtoUL</a> = 1320; </div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a4b80205836bdda5db692b0d8ca856908">   29</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a4b80205836bdda5db692b0d8ca856908">N_UBtoDF</a> = 1320; </div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a4e4cce107ca529165724166fa7d9068a">   30</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a4e4cce107ca529165724166fa7d9068a">N_URtoDF</a> = 20160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_coord_cube.html#ae28d03c7e0e0a70a1319956f0091508c">   32</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="class_coord_cube.html#ae28d03c7e0e0a70a1319956f0091508c">N_URFtoDLB</a> = 40320;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_coord_cube.html#adda2660c5aca26736419caa12932fed6">   33</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="class_coord_cube.html#adda2660c5aca26736419caa12932fed6">N_URtoBR</a> = 479001600;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    </div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">   35</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a> = 18;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// All coordinates are 0 for a solved cube except for UBtoDF, which is 114</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_coord_cube.html#ab355b2fab999e4cf433c6cb79cec76a3">   38</a></span>&#160;    <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#ab355b2fab999e4cf433c6cb79cec76a3">twist</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_coord_cube.html#afce3ce0d8c43e8fdae162427f27d36ed">   39</a></span>&#160;    <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#afce3ce0d8c43e8fdae162427f27d36ed">flip</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a4320c2d4c69f4b3ac6c56fa4d877cbaa">   40</a></span>&#160;    <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a4320c2d4c69f4b3ac6c56fa4d877cbaa">parity</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a03a68591f7de8f3235d472735dadee6e">   41</a></span>&#160;    <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a03a68591f7de8f3235d472735dadee6e">FRtoBR</a>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a105986621533a197535dcaa6d458b7f9">   42</a></span>&#160;    <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a105986621533a197535dcaa6d458b7f9">URFtoDLF</a>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a412afea3bf67d2590f29295f96b4969c">   43</a></span>&#160;    <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a412afea3bf67d2590f29295f96b4969c">URtoUL</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a835e468aac8e767af94a20814113ebe9">   44</a></span>&#160;    <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a835e468aac8e767af94a20814113ebe9">UBtoDF</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a1d33c0ffe8393bf9c61fa31698154ea6">   45</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_coord_cube.html#a1d33c0ffe8393bf9c61fa31698154ea6">URtoDF</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#pragma mark - Phase 1 move tables</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor"></span>    <span class="comment">// ******************************************Phase 1 move tables*****************************************************</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a43cb8422e884aa8064c68d4e28fccab2">   56</a></span>&#160;<span class="comment"></span>    <span class="keyword">static</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a43cb8422e884aa8064c68d4e28fccab2">twistMove</a>[<a class="code" href="class_coord_cube.html#a30230068b33cd8de11ffb3daac5e165f">N_TWIST</a>][<a class="code" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>];</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_coord_cube.html#ad4ee8bfab60fec13b7f206ecae6652fe">   64</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#ad4ee8bfab60fec13b7f206ecae6652fe">flipMove</a>[<a class="code" href="class_coord_cube.html#a919a0b4e43fb963db16ed7dc27dfa65d">N_FLIP</a>][<a class="code" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>];</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a2be7c6c1aa113716fbdace3df4bf0181">   71</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a2be7c6c1aa113716fbdace3df4bf0181">parityMove</a>[2][18];</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#pragma mark - Phase 1 and 2 move tables</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor"></span>    <span class="comment">// ***********************************Phase 1 and 2 movetable********************************************************</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="class_coord_cube.html#adf809b4179e398696096730a1f9ec923">   84</a></span>&#160;<span class="comment"></span>    <span class="keyword">static</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#adf809b4179e398696096730a1f9ec923">FRtoBR_Move</a>[<a class="code" href="class_coord_cube.html#a6a33f4d9ae8b9ea8f8b6b35fe4afb72e">N_FRtoBR</a>][<a class="code" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>];</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="comment">// *******************************************Phase 1 and 2 movetable************************************************</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="class_coord_cube.html#af4005be0a74da615d72942046ab8330e">   98</a></span>&#160;<span class="comment"></span>    <span class="keyword">static</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#af4005be0a74da615d72942046ab8330e">URFtoDLF_Move</a>[<a class="code" href="class_coord_cube.html#af65f90f0f27287508769c13004c58e26">N_URFtoDLF</a>][<a class="code" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>];</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    </div>
+<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a021b6b21b413e5b426d34c7d1f4d2604">  111</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a021b6b21b413e5b426d34c7d1f4d2604">URtoDF_Move</a>[<a class="code" href="class_coord_cube.html#a4e4cce107ca529165724166fa7d9068a">N_URtoDF</a>][<a class="code" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>];</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="comment">// **************************helper move tables to compute URtoDF for the beginning of phase2************************</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a0391c0db8548dbcff8e48fd8ddec5db8">  118</a></span>&#160;<span class="comment"></span>    <span class="keyword">static</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#a0391c0db8548dbcff8e48fd8ddec5db8">URtoUL_Move</a>[<a class="code" href="class_coord_cube.html#afaed225f12d35136b5e4e51305fcce97">N_URtoUL</a>][<a class="code" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>];</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    </div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="class_coord_cube.html#ad26413c70b3b6b61e334cbd25ba3ffdc">  123</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#ad26413c70b3b6b61e334cbd25ba3ffdc">UBtoDF_Move</a>[<a class="code" href="class_coord_cube.html#a4b80205836bdda5db692b0d8ca856908">N_UBtoDF</a>][<a class="code" href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">N_MOVE</a>];</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    </div>
+<div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="class_coord_cube.html#ae0dafe5d7d472de0bbb1ed69ae3dde0b">  128</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">short</span> <a class="code" href="class_coord_cube.html#ae0dafe5d7d472de0bbb1ed69ae3dde0b">MergeURtoULandUBtoDF</a>[336][336];</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    </div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="comment">// ****************************************Pruning tables for the search*********************************************</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno"><a class="line" href="class_coord_cube.html#afad800c1fa675549bf276e05081e5ec3">  136</a></span>&#160;<span class="comment"></span>    <span class="keyword">static</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="class_coord_cube.html#afad800c1fa675549bf276e05081e5ec3">Slice_URFtoDLF_Parity_Prun</a>[<a class="code" href="class_coord_cube.html#a4926c3a2e32b2bdfd88456ef25d6aba2">N_SLICE2</a> * <a class="code" href="class_coord_cube.html#af65f90f0f27287508769c13004c58e26">N_URFtoDLF</a> * <a class="code" href="class_coord_cube.html#a7b1c555a953697526ee651454543dc96">N_PARITY</a> / 2];</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    </div>
+<div class="line"><a name="l00142"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a306fe601814b1010d1602ad05b7438e9">  142</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="class_coord_cube.html#a306fe601814b1010d1602ad05b7438e9">Slice_URtoDF_Parity_Prun</a>[<a class="code" href="class_coord_cube.html#a4926c3a2e32b2bdfd88456ef25d6aba2">N_SLICE2</a> * <a class="code" href="class_coord_cube.html#a4e4cce107ca529165724166fa7d9068a">N_URtoDF</a> * <a class="code" href="class_coord_cube.html#a7b1c555a953697526ee651454543dc96">N_PARITY</a> / 2];</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    </div>
+<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="class_coord_cube.html#a849d905c339e0650d185456c255b5c26">  148</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="class_coord_cube.html#a849d905c339e0650d185456c255b5c26">Slice_Twist_Prun</a>[<a class="code" href="class_coord_cube.html#ae5c0999933648c5fba8cece8638547c8">N_SLICE1</a> * <a class="code" href="class_coord_cube.html#a30230068b33cd8de11ffb3daac5e165f">N_TWIST</a> / 2 + 1];</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    </div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    </div>
+<div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="class_coord_cube.html#ae7caa79189fb5ab657cfce806ec80133">  155</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="class_coord_cube.html#ae7caa79189fb5ab657cfce806ec80133">Slice_Flip_Prun</a>[<a class="code" href="class_coord_cube.html#ae5c0999933648c5fba8cece8638547c8">N_SLICE1</a> * <a class="code" href="class_coord_cube.html#a919a0b4e43fb963db16ed7dc27dfa65d">N_FLIP</a> / 2];</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    </div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="comment">// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="comment"></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_coord_cube.html#a8bc8006cda34c13ae09cdf531043d898">initAllStaticVariables</a>();</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    </div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <a class="code" href="class_coord_cube.html#abfd91fbf2f2482b7d8c980bb8a8e8006">CoordCube</a>(<a class="code" href="class_cubie_cube.html">CubieCube</a> &amp;c);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_coord_cube.html#aab71918398c48afdcc12605f9f741829">move</a>(<span class="keywordtype">int</span> m);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    </div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_coord_cube.html#a4ce7a4ed4cc31bf7bd2fd36c59dcbdd3">setPruning</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> table[], <span class="keywordtype">int</span> index, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> value);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    </div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="class_coord_cube.html#ac4801ef2250609930668e6668daff39f">getPruning</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> table[], <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> index);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;};</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* defined(__TP__TPCoordCube__) */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="class_coord_cube_html_a30230068b33cd8de11ffb3daac5e165f"><div class="ttname"><a href="class_coord_cube.html#a30230068b33cd8de11ffb3daac5e165f">CoordCube::N_TWIST</a></div><div class="ttdeci">static const short N_TWIST</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00021">CoordCube.h:21</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a4320c2d4c69f4b3ac6c56fa4d877cbaa"><div class="ttname"><a href="class_coord_cube.html#a4320c2d4c69f4b3ac6c56fa4d877cbaa">CoordCube::parity</a></div><div class="ttdeci">short parity</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00040">CoordCube.h:40</a></div></div>
+<div class="ttc" id="class_coord_cube_html_aab71918398c48afdcc12605f9f741829"><div class="ttname"><a href="class_coord_cube.html#aab71918398c48afdcc12605f9f741829">CoordCube::move</a></div><div class="ttdeci">void move(int m)</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8cpp_source.html#l00147">CoordCube.cpp:147</a></div></div>
+<div class="ttc" id="class_coord_cube_html_af65f90f0f27287508769c13004c58e26"><div class="ttname"><a href="class_coord_cube.html#af65f90f0f27287508769c13004c58e26">CoordCube::N_URFtoDLF</a></div><div class="ttdeci">static const short N_URFtoDLF</div><div class="ttdoc">2 possible corner parities </div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00026">CoordCube.h:26</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a849d905c339e0650d185456c255b5c26"><div class="ttname"><a href="class_coord_cube.html#a849d905c339e0650d185456c255b5c26">CoordCube::Slice_Twist_Prun</a></div><div class="ttdeci">static unsigned char Slice_Twist_Prun[N_SLICE1 *N_TWIST/2+1]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00148">CoordCube.h:148</a></div></div>
+<div class="ttc" id="class_coord_cube_html_afaed225f12d35136b5e4e51305fcce97"><div class="ttname"><a href="class_coord_cube.html#afaed225f12d35136b5e4e51305fcce97">CoordCube::N_URtoUL</a></div><div class="ttdeci">static const short N_URtoUL</div><div class="ttdoc">12!/(12-4)! permutation of FR,FL,BL,BR edges </div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00028">CoordCube.h:28</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a105986621533a197535dcaa6d458b7f9"><div class="ttname"><a href="class_coord_cube.html#a105986621533a197535dcaa6d458b7f9">CoordCube::URFtoDLF</a></div><div class="ttdeci">short URFtoDLF</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00042">CoordCube.h:42</a></div></div>
+<div class="ttc" id="class_coord_cube_html_afce3ce0d8c43e8fdae162427f27d36ed"><div class="ttname"><a href="class_coord_cube.html#afce3ce0d8c43e8fdae162427f27d36ed">CoordCube::flip</a></div><div class="ttdeci">short flip</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00039">CoordCube.h:39</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a4ce7a4ed4cc31bf7bd2fd36c59dcbdd3"><div class="ttname"><a href="class_coord_cube.html#a4ce7a4ed4cc31bf7bd2fd36c59dcbdd3">CoordCube::setPruning</a></div><div class="ttdeci">static void setPruning(unsigned char table[], int index, unsigned char value)</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8cpp_source.html#l00162">CoordCube.cpp:162</a></div></div>
+<div class="ttc" id="class_cubie_cube_html"><div class="ttname"><a href="class_cubie_cube.html">CubieCube</a></div><div class="ttdef"><b>Definition:</b> <a href="_cubie_cube_8h_source.html#l00023">CubieCube.h:23</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a4e4cce107ca529165724166fa7d9068a"><div class="ttname"><a href="class_coord_cube.html#a4e4cce107ca529165724166fa7d9068a">CoordCube::N_URtoDF</a></div><div class="ttdeci">static const short N_URtoDF</div><div class="ttdoc">12!/(12-3)! permutation of UB,DR,DF edges </div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00030">CoordCube.h:30</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a03a68591f7de8f3235d472735dadee6e"><div class="ttname"><a href="class_coord_cube.html#a03a68591f7de8f3235d472735dadee6e">CoordCube::FRtoBR</a></div><div class="ttdeci">short FRtoBR</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00041">CoordCube.h:41</a></div></div>
+<div class="ttc" id="class_coord_cube_html_afad800c1fa675549bf276e05081e5ec3"><div class="ttname"><a href="class_coord_cube.html#afad800c1fa675549bf276e05081e5ec3">CoordCube::Slice_URFtoDLF_Parity_Prun</a></div><div class="ttdeci">static unsigned char Slice_URFtoDLF_Parity_Prun[N_SLICE2 *N_URFtoDLF *N_PARITY/2]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00136">CoordCube.h:136</a></div></div>
+<div class="ttc" id="class_coord_cube_html_ad4ee8bfab60fec13b7f206ecae6652fe"><div class="ttname"><a href="class_coord_cube.html#ad4ee8bfab60fec13b7f206ecae6652fe">CoordCube::flipMove</a></div><div class="ttdeci">static short flipMove[N_FLIP][N_MOVE]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00064">CoordCube.h:64</a></div></div>
+<div class="ttc" id="class_coord_cube_html_ac4801ef2250609930668e6668daff39f"><div class="ttname"><a href="class_coord_cube.html#ac4801ef2250609930668e6668daff39f">CoordCube::getPruning</a></div><div class="ttdeci">static unsigned char getPruning(unsigned char table[], unsigned int index)</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8cpp_source.html#l00170">CoordCube.cpp:170</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a4926c3a2e32b2bdfd88456ef25d6aba2"><div class="ttname"><a href="class_coord_cube.html#a4926c3a2e32b2bdfd88456ef25d6aba2">CoordCube::N_SLICE2</a></div><div class="ttdeci">static const short N_SLICE2</div><div class="ttdoc">12 choose 4 possible positions of FR,FL,BL,BR edges </div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00024">CoordCube.h:24</a></div></div>
+<div class="ttc" id="class_coord_cube_html"><div class="ttname"><a href="class_coord_cube.html">CoordCube</a></div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00019">CoordCube.h:19</a></div></div>
+<div class="ttc" id="class_coord_cube_html_ad26413c70b3b6b61e334cbd25ba3ffdc"><div class="ttname"><a href="class_coord_cube.html#ad26413c70b3b6b61e334cbd25ba3ffdc">CoordCube::UBtoDF_Move</a></div><div class="ttdeci">static short UBtoDF_Move[N_UBtoDF][N_MOVE]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00123">CoordCube.h:123</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a0391c0db8548dbcff8e48fd8ddec5db8"><div class="ttname"><a href="class_coord_cube.html#a0391c0db8548dbcff8e48fd8ddec5db8">CoordCube::URtoUL_Move</a></div><div class="ttdeci">static short URtoUL_Move[N_URtoUL][N_MOVE]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00118">CoordCube.h:118</a></div></div>
+<div class="ttc" id="class_coord_cube_html_adda2660c5aca26736419caa12932fed6"><div class="ttname"><a href="class_coord_cube.html#adda2660c5aca26736419caa12932fed6">CoordCube::N_URtoBR</a></div><div class="ttdeci">static const int N_URtoBR</div><div class="ttdoc">8! permutations of the corners </div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00033">CoordCube.h:33</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a412afea3bf67d2590f29295f96b4969c"><div class="ttname"><a href="class_coord_cube.html#a412afea3bf67d2590f29295f96b4969c">CoordCube::URtoUL</a></div><div class="ttdeci">short URtoUL</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00043">CoordCube.h:43</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a7b1c555a953697526ee651454543dc96"><div class="ttname"><a href="class_coord_cube.html#a7b1c555a953697526ee651454543dc96">CoordCube::N_PARITY</a></div><div class="ttdeci">static const short N_PARITY</div><div class="ttdoc">x 4! permutations of FR,FL,BL,BR edges in phase2 </div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00025">CoordCube.h:25</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a8bc8006cda34c13ae09cdf531043d898"><div class="ttname"><a href="class_coord_cube.html#a8bc8006cda34c13ae09cdf531043d898">CoordCube::initAllStaticVariables</a></div><div class="ttdeci">static void initAllStaticVariables()</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8cpp_source.html#l00028">CoordCube.cpp:28</a></div></div>
+<div class="ttc" id="class_coord_cube_html_ab355b2fab999e4cf433c6cb79cec76a3"><div class="ttname"><a href="class_coord_cube.html#ab355b2fab999e4cf433c6cb79cec76a3">CoordCube::twist</a></div><div class="ttdeci">short twist</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00038">CoordCube.h:38</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a4b80205836bdda5db692b0d8ca856908"><div class="ttname"><a href="class_coord_cube.html#a4b80205836bdda5db692b0d8ca856908">CoordCube::N_UBtoDF</a></div><div class="ttdeci">static const short N_UBtoDF</div><div class="ttdoc">12!/(12-3)! permutation of UR,UF,UL edges </div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00029">CoordCube.h:29</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a306fe601814b1010d1602ad05b7438e9"><div class="ttname"><a href="class_coord_cube.html#a306fe601814b1010d1602ad05b7438e9">CoordCube::Slice_URtoDF_Parity_Prun</a></div><div class="ttdeci">static unsigned char Slice_URtoDF_Parity_Prun[N_SLICE2 *N_URtoDF *N_PARITY/2]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00142">CoordCube.h:142</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a6a33f4d9ae8b9ea8f8b6b35fe4afb72e"><div class="ttname"><a href="class_coord_cube.html#a6a33f4d9ae8b9ea8f8b6b35fe4afb72e">CoordCube::N_FRtoBR</a></div><div class="ttdeci">static const short N_FRtoBR</div><div class="ttdoc">8!/(8-6)! permutation of URF,UFL,ULB,UBR,DFR,DLF corners </div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00027">CoordCube.h:27</a></div></div>
+<div class="ttc" id="class_coord_cube_html_ae28d03c7e0e0a70a1319956f0091508c"><div class="ttname"><a href="class_coord_cube.html#ae28d03c7e0e0a70a1319956f0091508c">CoordCube::N_URFtoDLB</a></div><div class="ttdeci">static const int N_URFtoDLB</div><div class="ttdoc">8!/(8-6)! permutation of UR,UF,UL,UB,DR,DF edges in phase2 </div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00032">CoordCube.h:32</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a43cb8422e884aa8064c68d4e28fccab2"><div class="ttname"><a href="class_coord_cube.html#a43cb8422e884aa8064c68d4e28fccab2">CoordCube::twistMove</a></div><div class="ttdeci">static short twistMove[N_TWIST][N_MOVE]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00056">CoordCube.h:56</a></div></div>
+<div class="ttc" id="class_coord_cube_html_abfd91fbf2f2482b7d8c980bb8a8e8006"><div class="ttname"><a href="class_coord_cube.html#abfd91fbf2f2482b7d8c980bb8a8e8006">CoordCube::CoordCube</a></div><div class="ttdeci">CoordCube(CubieCube &amp;c)</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8cpp_source.html#l00135">CoordCube.cpp:135</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a919a0b4e43fb963db16ed7dc27dfa65d"><div class="ttname"><a href="class_coord_cube.html#a919a0b4e43fb963db16ed7dc27dfa65d">CoordCube::N_FLIP</a></div><div class="ttdeci">static const short N_FLIP</div><div class="ttdoc">3^7 possible corner orientations </div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00022">CoordCube.h:22</a></div></div>
+<div class="ttc" id="class_coord_cube_html_ae5c0999933648c5fba8cece8638547c8"><div class="ttname"><a href="class_coord_cube.html#ae5c0999933648c5fba8cece8638547c8">CoordCube::N_SLICE1</a></div><div class="ttdeci">static const short N_SLICE1</div><div class="ttdoc">2^11 possible edge flips </div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00023">CoordCube.h:23</a></div></div>
+<div class="ttc" id="class_coord_cube_html_af4005be0a74da615d72942046ab8330e"><div class="ttname"><a href="class_coord_cube.html#af4005be0a74da615d72942046ab8330e">CoordCube::URFtoDLF_Move</a></div><div class="ttdeci">static short URFtoDLF_Move[N_URFtoDLF][N_MOVE]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00098">CoordCube.h:98</a></div></div>
+<div class="ttc" id="class_coord_cube_html_ae0dafe5d7d472de0bbb1ed69ae3dde0b"><div class="ttname"><a href="class_coord_cube.html#ae0dafe5d7d472de0bbb1ed69ae3dde0b">CoordCube::MergeURtoULandUBtoDF</a></div><div class="ttdeci">static short MergeURtoULandUBtoDF[336][336]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00128">CoordCube.h:128</a></div></div>
+<div class="ttc" id="_cubie_cube_8h_html"><div class="ttname"><a href="_cubie_cube_8h.html">CubieCube.h</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a835e468aac8e767af94a20814113ebe9"><div class="ttname"><a href="class_coord_cube.html#a835e468aac8e767af94a20814113ebe9">CoordCube::UBtoDF</a></div><div class="ttdeci">short UBtoDF</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00044">CoordCube.h:44</a></div></div>
+<div class="ttc" id="class_coord_cube_html_adf809b4179e398696096730a1f9ec923"><div class="ttname"><a href="class_coord_cube.html#adf809b4179e398696096730a1f9ec923">CoordCube::FRtoBR_Move</a></div><div class="ttdeci">static short FRtoBR_Move[N_FRtoBR][N_MOVE]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00084">CoordCube.h:84</a></div></div>
+<div class="ttc" id="class_coord_cube_html_ae7caa79189fb5ab657cfce806ec80133"><div class="ttname"><a href="class_coord_cube.html#ae7caa79189fb5ab657cfce806ec80133">CoordCube::Slice_Flip_Prun</a></div><div class="ttdeci">static unsigned char Slice_Flip_Prun[N_SLICE1 *N_FLIP/2]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00155">CoordCube.h:155</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a43ec9fe2ccb3beda3b2b347279a59665"><div class="ttname"><a href="class_coord_cube.html#a43ec9fe2ccb3beda3b2b347279a59665">CoordCube::N_MOVE</a></div><div class="ttdeci">static const short N_MOVE</div><div class="ttdoc">8! permutations of the corners </div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00035">CoordCube.h:35</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a1d33c0ffe8393bf9c61fa31698154ea6"><div class="ttname"><a href="class_coord_cube.html#a1d33c0ffe8393bf9c61fa31698154ea6">CoordCube::URtoDF</a></div><div class="ttdeci">int URtoDF</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00045">CoordCube.h:45</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a2be7c6c1aa113716fbdace3df4bf0181"><div class="ttname"><a href="class_coord_cube.html#a2be7c6c1aa113716fbdace3df4bf0181">CoordCube::parityMove</a></div><div class="ttdeci">static short parityMove[2][18]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00071">CoordCube.h:71</a></div></div>
+<div class="ttc" id="class_coord_cube_html_a021b6b21b413e5b426d34c7d1f4d2604"><div class="ttname"><a href="class_coord_cube.html#a021b6b21b413e5b426d34c7d1f4d2604">CoordCube::URtoDF_Move</a></div><div class="ttdeci">static short URtoDF_Move[N_URtoDF][N_MOVE]</div><div class="ttdef"><b>Definition:</b> <a href="_coord_cube_8h_source.html#l00111">CoordCube.h:111</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_coord_cube_8h.html">CoordCube.h</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:36 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

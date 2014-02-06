@@ -1,0 +1,769 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: Matrix4&lt; T &gt; 模板结构体 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('struct_matrix4.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="struct_matrix4-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">Matrix4&lt; T &gt; 模板结构体 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ab24760b5fdf4cac34df976d6820394c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#ab24760b5fdf4cac34df976d6820394c2">Matrix4</a> ()</td></tr>
+<tr class="separator:ab24760b5fdf4cac34df976d6820394c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9625da4eb17fd485b2f10b29dbabee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#a1b9625da4eb17fd485b2f10b29dbabee">Matrix4</a> (const <a class="el" href="struct_matrix3.html">Matrix3</a>&lt; T &gt; &amp;m)</td></tr>
+<tr class="separator:a1b9625da4eb17fd485b2f10b29dbabee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a921390ede6cce182dd178b1e51fbe484"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#a921390ede6cce182dd178b1e51fbe484">Matrix4</a> (const T *m)</td></tr>
+<tr class="separator:a921390ede6cce182dd178b1e51fbe484"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98a9e299cbda094e0486e6a7c0663703"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_matrix4.html">Matrix4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#a98a9e299cbda094e0486e6a7c0663703">operator*</a> (const <a class="el" href="struct_matrix4.html">Matrix4</a> &amp;b) const </td></tr>
+<tr class="separator:a98a9e299cbda094e0486e6a7c0663703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a452f417ab56588f80bc45fc49efb731a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_matrix4.html">Matrix4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#a452f417ab56588f80bc45fc49efb731a">operator*=</a> (const <a class="el" href="struct_matrix4.html">Matrix4</a> &amp;b)</td></tr>
+<tr class="separator:a452f417ab56588f80bc45fc49efb731a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82c6c10a18b42859868544c1979ec828"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_matrix4.html">Matrix4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#a82c6c10a18b42859868544c1979ec828">Transposed</a> () const </td></tr>
+<tr class="separator:a82c6c10a18b42859868544c1979ec828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec618992fe8e91c79dd7f1d84bf4abe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_matrix3.html">Matrix3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#aec618992fe8e91c79dd7f1d84bf4abe7">ToMat3</a> () const </td></tr>
+<tr class="separator:aec618992fe8e91c79dd7f1d84bf4abe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d5e3a9fa7e74dc8be3ffa14eb7dbfcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#a6d5e3a9fa7e74dc8be3ffa14eb7dbfcd">transform</a> (<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a> in, <a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a> &amp;out)</td></tr>
+<tr class="separator:a6d5e3a9fa7e74dc8be3ffa14eb7dbfcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85a520b646394b3bc31f2b81b6b526cf"><td class="memItemLeft" align="right" valign="top">const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#a85a520b646394b3bc31f2b81b6b526cf">Pointer</a> () const </td></tr>
+<tr class="separator:a85a520b646394b3bc31f2b81b6b526cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a53069097c652c7c1fb03026ef9c15d94"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#a53069097c652c7c1fb03026ef9c15d94">Identity</a> ()</td></tr>
+<tr class="separator:a53069097c652c7c1fb03026ef9c15d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabc9a815acd8651457c2244b8fe7364"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#afabc9a815acd8651457c2244b8fe7364">Translate</a> (const T <a class="el" href="struct_matrix4.html#a0d0dca7bc4af046260631547b3512922">x</a>, const T <a class="el" href="struct_matrix4.html#abb3db7d1fa32c2abe1110f25b7ce14aa">y</a>, const T <a class="el" href="struct_matrix4.html#ae83cabb2deaf96f59423bf3c65c6bbd1">z</a>)</td></tr>
+<tr class="separator:afabc9a815acd8651457c2244b8fe7364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d53c6f446a90dfcd8bec32c9424bcf7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#a9d53c6f446a90dfcd8bec32c9424bcf7">Scale</a> (T s)</td></tr>
+<tr class="separator:a9d53c6f446a90dfcd8bec32c9424bcf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca022ebe24fd185468e51fd62d3f6ecb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#aca022ebe24fd185468e51fd62d3f6ecb">Rotate</a> (T degrees)</td></tr>
+<tr class="separator:aca022ebe24fd185468e51fd62d3f6ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a694dbd44efee69a1fef2e99cbe75639f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#a694dbd44efee69a1fef2e99cbe75639f">Frustum</a> (T left, T right, T bottom, T top, T near, T far)</td></tr>
+<tr class="separator:a694dbd44efee69a1fef2e99cbe75639f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a0d0dca7bc4af046260631547b3512922"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_vector_8hpp.html#a30aa57cdc59b2168ee87b95e0cfe8f83">vec4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#a0d0dca7bc4af046260631547b3512922">x</a></td></tr>
+<tr class="separator:a0d0dca7bc4af046260631547b3512922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb3db7d1fa32c2abe1110f25b7ce14aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_vector_8hpp.html#a30aa57cdc59b2168ee87b95e0cfe8f83">vec4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#abb3db7d1fa32c2abe1110f25b7ce14aa">y</a></td></tr>
+<tr class="separator:abb3db7d1fa32c2abe1110f25b7ce14aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae83cabb2deaf96f59423bf3c65c6bbd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_vector_8hpp.html#a30aa57cdc59b2168ee87b95e0cfe8f83">vec4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#ae83cabb2deaf96f59423bf3c65c6bbd1">z</a></td></tr>
+<tr class="separator:ae83cabb2deaf96f59423bf3c65c6bbd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a466f4f34e3c1c78c5b51b577457f3f5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_vector_8hpp.html#a30aa57cdc59b2168ee87b95e0cfe8f83">vec4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_matrix4.html#a466f4f34e3c1c78c5b51b577457f3f5e">w</a></td></tr>
+<tr class="separator:a466f4f34e3c1c78c5b51b577457f3f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br/>
+struct Matrix4&lt; T &gt;</h3>
+
+<p>4维矩阵 </p>
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00066">66</a> 行定义.</p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="ab24760b5fdf4cac34df976d6820394c2"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::<a class="el" href="struct_matrix4.html">Matrix4</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>4维矩阵的默认构造函数，其主对角线被初始化为全1 </p>
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00070">70</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00248">Matrix4&lt; T &gt;::w</a>, <a class="el" href="_vector_8hpp_source.html#l00301">Vector4&lt; T &gt;::w</a>, <a class="el" href="_matrix_8hpp_source.html#l00245">Matrix4&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00298">Vector4&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00246">Matrix4&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00299">Vector4&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00247">Matrix4&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00300">Vector4&lt; T &gt;::z</a>.</p>
+
+<p>参考自 <a class="el" href="_matrix_8hpp_source.html#l00171">Matrix4&lt; T &gt;::Identity()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1b9625da4eb17fd485b2f10b29dbabee"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::<a class="el" href="struct_matrix4.html">Matrix4</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_matrix3.html">Matrix3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00077">77</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00248">Matrix4&lt; T &gt;::w</a>, <a class="el" href="_vector_8hpp_source.html#l00301">Vector4&lt; T &gt;::w</a>, <a class="el" href="_matrix_8hpp_source.html#l00057">Matrix3&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00245">Matrix4&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00257">Vector3&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00298">Vector4&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00058">Matrix3&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00246">Matrix4&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00258">Vector3&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00299">Vector4&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00059">Matrix3&lt; T &gt;::z</a>, <a class="el" href="_matrix_8hpp_source.html#l00247">Matrix4&lt; T &gt;::z</a>, <a class="el" href="_vector_8hpp_source.html#l00259">Vector3&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00300">Vector4&lt; T &gt;::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a921390ede6cce182dd178b1e51fbe484"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::<a class="el" href="struct_matrix4.html">Matrix4</a> </td>
+          <td>(</td>
+          <td class="paramtype">const T *&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00084">84</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00248">Matrix4&lt; T &gt;::w</a>, <a class="el" href="_vector_8hpp_source.html#l00301">Vector4&lt; T &gt;::w</a>, <a class="el" href="_matrix_8hpp_source.html#l00245">Matrix4&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00298">Vector4&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00246">Matrix4&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00299">Vector4&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00247">Matrix4&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00300">Vector4&lt; T &gt;::z</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a694dbd44efee69a1fef2e99cbe75639f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_matrix4.html">Matrix4</a>&lt;T&gt; <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::Frustum </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>right</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>bottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>top</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>near</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>far</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Frustum 平锥头体(又名，视锥体)。</p>
+<p>透过透射投影的方法，将软件中的3D画面投影成眼前的2D画面。这里软件中的三维坐标相当于平锥头体的底部，屏幕的二维坐标相当于平锥头体的顶面。</p>
+<p>这里采用了6个参数来构造一个投影矩阵。 </p>
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00227">227</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00248">Matrix4&lt; T &gt;::w</a>, <a class="el" href="_vector_8hpp_source.html#l00301">Vector4&lt; T &gt;::w</a>, <a class="el" href="_matrix_8hpp_source.html#l00245">Matrix4&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00298">Vector4&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00246">Matrix4&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00299">Vector4&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00247">Matrix4&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00300">Vector4&lt; T &gt;::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a53069097c652c7c1fb03026ef9c15d94"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_matrix4.html">Matrix4</a>&lt;T&gt; <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::Identity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>静态函数</p>
+<dl class="section return"><dt>返回</dt><dd>返回一个由Matrix4()构造的默认4*4矩阵 </dd></dl>
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00171">171</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00070">Matrix4&lt; T &gt;::Matrix4()</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_g_l_8mm_source.html#l00363">MCGL::loadIdentity</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00387">MCGL::perspectiveWithFovy:aspect:zNear:zFar:</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00438">MCGL::rotateWithQuaternion:</a> , 以及 <a class="el" href="_m_c_g_l_8mm_source.html#l00421">MCGL::translateWithX:Y:Z:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a98a9e299cbda094e0486e6a7c0663703"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_matrix4.html">Matrix4</a> <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00091">91</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00248">Matrix4&lt; T &gt;::w</a>, <a class="el" href="_vector_8hpp_source.html#l00301">Vector4&lt; T &gt;::w</a>, <a class="el" href="_matrix_8hpp_source.html#l00245">Matrix4&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00298">Vector4&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00246">Matrix4&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00299">Vector4&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00247">Matrix4&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00300">Vector4&lt; T &gt;::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a452f417ab56588f80bc45fc49efb731a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_matrix4.html">Matrix4</a>&amp; <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::operator*= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00112">112</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a85a520b646394b3bc31f2b81b6b526cf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const T* <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::Pointer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>返回一个指向该矩阵的指针 </p>
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00161">161</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00245">Matrix4&lt; T &gt;::x</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00298">Vector4&lt; T &gt;::x</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01808">MCMagicCubeUIModelController::adjustWithCenter</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01953">MCMagicCubeUIModelController::adjustWithCenter_2</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00363">MCGL::loadIdentity</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00453">MCGL::lookAtEyefv:centerfv:upfv:</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00387">MCGL::perspectiveWithFovy:aspect:zNear:zFar:</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00505">MCGL::popMatrix</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00032">MCGL::unProjectfWithScreenX:screenY:depthZ:returnObject:</a> , 以及 <a class="el" href="_m_c_scene_object_8mm_source.html#l00061">MCSceneObject::update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aca022ebe24fd185468e51fd62d3f6ecb"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_matrix4.html">Matrix4</a>&lt;T&gt; <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::Rotate </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>degrees</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>z轴旋转 </p>
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00206">206</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00248">Matrix4&lt; T &gt;::w</a>, <a class="el" href="_vector_8hpp_source.html#l00301">Vector4&lt; T &gt;::w</a>, <a class="el" href="_matrix_8hpp_source.html#l00245">Matrix4&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00298">Vector4&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00246">Matrix4&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00299">Vector4&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00247">Matrix4&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00300">Vector4&lt; T &gt;::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9d53c6f446a90dfcd8bec32c9424bcf7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_matrix4.html">Matrix4</a>&lt;T&gt; <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::Scale </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>缩放 </p>
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00193">193</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00248">Matrix4&lt; T &gt;::w</a>, <a class="el" href="_vector_8hpp_source.html#l00301">Vector4&lt; T &gt;::w</a>, <a class="el" href="_matrix_8hpp_source.html#l00245">Matrix4&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00298">Vector4&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00246">Matrix4&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00299">Vector4&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00247">Matrix4&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00300">Vector4&lt; T &gt;::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aec618992fe8e91c79dd7f1d84bf4abe7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_matrix3.html">Matrix3</a>&lt;T&gt; <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::ToMat3 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>返回一个三维矩阵，忽略第四个维度 </p>
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00134">134</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00057">Matrix3&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00245">Matrix4&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00257">Vector3&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00298">Vector4&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00058">Matrix3&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00246">Matrix4&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00258">Vector3&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00299">Vector4&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00059">Matrix3&lt; T &gt;::z</a>, <a class="el" href="_matrix_8hpp_source.html#l00247">Matrix4&lt; T &gt;::z</a>, <a class="el" href="_vector_8hpp_source.html#l00259">Vector3&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00300">Vector4&lt; T &gt;::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6d5e3a9fa7e74dc8be3ffa14eb7dbfcd"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::transform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a> &amp;&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>利用矩阵的三个维度变换3维矢量</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">in</td><td>用于变换的矢量 </td></tr>
+    <tr><td class="paramname">out</td><td>输出的矢量 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00149">149</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00245">Matrix4&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00257">Vector3&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00298">Vector4&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00246">Matrix4&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00258">Vector3&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00299">Vector4&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00247">Matrix4&lt; T &gt;::z</a>, <a class="el" href="_vector_8hpp_source.html#l00259">Vector3&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00300">Vector4&lt; T &gt;::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_ray_8mm_source.html#l00191">MCRay::transformWithMatrix:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afabc9a815acd8651457c2244b8fe7364"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_matrix4.html">Matrix4</a>&lt;T&gt; <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::Translate </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>转换第四个维度(用于矩阵变换的维度) </p>
+<dl class="section return"><dt>返回</dt><dd>新的四维矩阵 </dd></dl>
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00180">180</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00248">Matrix4&lt; T &gt;::w</a>, <a class="el" href="_vector_8hpp_source.html#l00301">Vector4&lt; T &gt;::w</a>, <a class="el" href="_matrix_8hpp_source.html#l00245">Matrix4&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00298">Vector4&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00246">Matrix4&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00299">Vector4&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00247">Matrix4&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00300">Vector4&lt; T &gt;::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_g_l_8mm_source.html#l00453">MCGL::lookAtEyefv:centerfv:upfv:</a> , 以及 <a class="el" href="_m_c_g_l_8mm_source.html#l00421">MCGL::translateWithX:Y:Z:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a82c6c10a18b42859868544c1979ec828"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_matrix4.html">Matrix4</a> <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::Transposed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>返回一个新的矩阵，含有跟当前矩阵相同的值 </p>
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00121">121</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00248">Matrix4&lt; T &gt;::w</a>, <a class="el" href="_vector_8hpp_source.html#l00301">Vector4&lt; T &gt;::w</a>, <a class="el" href="_matrix_8hpp_source.html#l00245">Matrix4&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00298">Vector4&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00246">Matrix4&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00299">Vector4&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00247">Matrix4&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00300">Vector4&lt; T &gt;::z</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a466f4f34e3c1c78c5b51b577457f3f5e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_vector_8hpp.html#a30aa57cdc59b2168ee87b95e0cfe8f83">vec4</a> <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::w</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00248">248</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_matrix_8hpp_source.html#l00227">Matrix4&lt; T &gt;::Frustum()</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00453">MCGL::lookAtEyefv:centerfv:upfv:</a>, <a class="el" href="_matrix_8hpp_source.html#l00070">Matrix4&lt; T &gt;::Matrix4()</a>, <a class="el" href="_matrix_8hpp_source.html#l00091">Matrix4&lt; T &gt;::operator*()</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00387">MCGL::perspectiveWithFovy:aspect:zNear:zFar:</a>, <a class="el" href="_matrix_8hpp_source.html#l00206">Matrix4&lt; T &gt;::Rotate()</a>, <a class="el" href="_matrix_8hpp_source.html#l00193">Matrix4&lt; T &gt;::Scale()</a>, <a class="el" href="_matrix_8hpp_source.html#l00180">Matrix4&lt; T &gt;::Translate()</a> , 以及 <a class="el" href="_matrix_8hpp_source.html#l00121">Matrix4&lt; T &gt;::Transposed()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0d0dca7bc4af046260631547b3512922"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_vector_8hpp.html#a30aa57cdc59b2168ee87b95e0cfe8f83">vec4</a> <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::x</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>内部有四个public的4维向量 </p>
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00245">245</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_matrix_8hpp_source.html#l00227">Matrix4&lt; T &gt;::Frustum()</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00453">MCGL::lookAtEyefv:centerfv:upfv:</a>, <a class="el" href="_matrix_8hpp_source.html#l00070">Matrix4&lt; T &gt;::Matrix4()</a>, <a class="el" href="_matrix_8hpp_source.html#l00091">Matrix4&lt; T &gt;::operator*()</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00387">MCGL::perspectiveWithFovy:aspect:zNear:zFar:</a>, <a class="el" href="_matrix_8hpp_source.html#l00161">Matrix4&lt; T &gt;::Pointer()</a>, <a class="el" href="_matrix_8hpp_source.html#l00206">Matrix4&lt; T &gt;::Rotate()</a>, <a class="el" href="_matrix_8hpp_source.html#l00193">Matrix4&lt; T &gt;::Scale()</a>, <a class="el" href="_matrix_8hpp_source.html#l00134">Matrix4&lt; T &gt;::ToMat3()</a>, <a class="el" href="_matrix_8hpp_source.html#l00149">Matrix4&lt; T &gt;::transform()</a>, <a class="el" href="_matrix_8hpp_source.html#l00180">Matrix4&lt; T &gt;::Translate()</a> , 以及 <a class="el" href="_matrix_8hpp_source.html#l00121">Matrix4&lt; T &gt;::Transposed()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abb3db7d1fa32c2abe1110f25b7ce14aa"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_vector_8hpp.html#a30aa57cdc59b2168ee87b95e0cfe8f83">vec4</a> <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::y</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00246">246</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_matrix_8hpp_source.html#l00227">Matrix4&lt; T &gt;::Frustum()</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00453">MCGL::lookAtEyefv:centerfv:upfv:</a>, <a class="el" href="_matrix_8hpp_source.html#l00070">Matrix4&lt; T &gt;::Matrix4()</a>, <a class="el" href="_matrix_8hpp_source.html#l00091">Matrix4&lt; T &gt;::operator*()</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00387">MCGL::perspectiveWithFovy:aspect:zNear:zFar:</a>, <a class="el" href="_matrix_8hpp_source.html#l00206">Matrix4&lt; T &gt;::Rotate()</a>, <a class="el" href="_matrix_8hpp_source.html#l00193">Matrix4&lt; T &gt;::Scale()</a>, <a class="el" href="_matrix_8hpp_source.html#l00134">Matrix4&lt; T &gt;::ToMat3()</a>, <a class="el" href="_matrix_8hpp_source.html#l00149">Matrix4&lt; T &gt;::transform()</a>, <a class="el" href="_matrix_8hpp_source.html#l00180">Matrix4&lt; T &gt;::Translate()</a> , 以及 <a class="el" href="_matrix_8hpp_source.html#l00121">Matrix4&lt; T &gt;::Transposed()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae83cabb2deaf96f59423bf3c65c6bbd1"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_vector_8hpp.html#a30aa57cdc59b2168ee87b95e0cfe8f83">vec4</a> <a class="el" href="struct_matrix4.html">Matrix4</a>&lt; T &gt;::z</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a> 第 <a class="el" href="_matrix_8hpp_source.html#l00247">247</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_matrix_8hpp_source.html#l00227">Matrix4&lt; T &gt;::Frustum()</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00453">MCGL::lookAtEyefv:centerfv:upfv:</a>, <a class="el" href="_matrix_8hpp_source.html#l00070">Matrix4&lt; T &gt;::Matrix4()</a>, <a class="el" href="_matrix_8hpp_source.html#l00091">Matrix4&lt; T &gt;::operator*()</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00387">MCGL::perspectiveWithFovy:aspect:zNear:zFar:</a>, <a class="el" href="_matrix_8hpp_source.html#l00206">Matrix4&lt; T &gt;::Rotate()</a>, <a class="el" href="_matrix_8hpp_source.html#l00193">Matrix4&lt; T &gt;::Scale()</a>, <a class="el" href="_matrix_8hpp_source.html#l00134">Matrix4&lt; T &gt;::ToMat3()</a>, <a class="el" href="_matrix_8hpp_source.html#l00149">Matrix4&lt; T &gt;::transform()</a>, <a class="el" href="_matrix_8hpp_source.html#l00180">Matrix4&lt; T &gt;::Translate()</a> , 以及 <a class="el" href="_matrix_8hpp_source.html#l00121">Matrix4&lt; T &gt;::Transposed()</a>.</p>
+
+</div>
+</div>
+<hr/>该结构体的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_matrix_8hpp_source.html">Matrix.hpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="struct_matrix4.html">Matrix4</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:38 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,589 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/MCPoint.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_m_c_point_8h.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#typedef-members">类型定义</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">MCPoint.h 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="_vector_8hpp_source.html">Vector.hpp</a>&quot;</code><br/>
+</div>
+<p><a href="_m_c_point_8h_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_c_point.html">MCPoint</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_c_range.html">MCRange</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+类型定义</h2></td></tr>
+<tr class="memitem:af40192bfe354b09c7449cd9c98ce8a80"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="struct_m_c_point.html">MCPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_c_point_8h.html#af40192bfe354b09c7449cd9c98ce8a80">MCPointPtr</a></td></tr>
+<tr class="separator:af40192bfe354b09c7449cd9c98ce8a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ac0e03321ee4d440dceac6bdf2fbe7b18"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_c_point_8h.html#ac0e03321ee4d440dceac6bdf2fbe7b18">MCPointMake</a> (CGFloat x, CGFloat y, CGFloat z)</td></tr>
+<tr class="separator:ac0e03321ee4d440dceac6bdf2fbe7b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a35202fd8963d108c8cade0c458cd2408"><td class="memItemLeft" align="right" valign="top">static NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_c_point_8h.html#a35202fd8963d108c8cade0c458cd2408">NSStringFromMCPoint</a> (<a class="el" href="struct_m_c_point.html">MCPoint</a> p)</td></tr>
+<tr class="separator:a35202fd8963d108c8cade0c458cd2408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339279171edcfb00920e60979e64331f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_m_c_range.html">MCRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_c_point_8h.html#a339279171edcfb00920e60979e64331f">MCRangeMake</a> (CGFloat start, CGFloat len)</td></tr>
+<tr class="separator:a339279171edcfb00920e60979e64331f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab8ce9b04ed6e1d8402e6d72c7a80d9f"><td class="memItemLeft" align="right" valign="top">static NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_c_point_8h.html#aab8ce9b04ed6e1d8402e6d72c7a80d9f">NSStringFromMCRange</a> (<a class="el" href="struct_m_c_range.html">MCRange</a> p)</td></tr>
+<tr class="separator:aab8ce9b04ed6e1d8402e6d72c7a80d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab165e210544f88b64e9c888f830733fa"><td class="memItemLeft" align="right" valign="top">static CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_c_point_8h.html#ab165e210544f88b64e9c888f830733fa">MCRandomFloat</a> (<a class="el" href="struct_m_c_range.html">MCRange</a> range)</td></tr>
+<tr class="separator:ab165e210544f88b64e9c888f830733fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74b85dc1758ba72e51a00ca7a6d04e39"><td class="memItemLeft" align="right" valign="top">static NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_c_point_8h.html#a74b85dc1758ba72e51a00ca7a6d04e39">NSStringFromMatrix</a> (CGFloat *m)</td></tr>
+<tr class="separator:a74b85dc1758ba72e51a00ca7a6d04e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecf26502b6b1668ab6eaa28804ab0576"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_c_point_8h.html#aecf26502b6b1668ab6eaa28804ab0576">MCPointMatrixMultiply</a> (<a class="el" href="struct_m_c_point.html">MCPoint</a> p, CGFloat *m)</td></tr>
+<tr class="separator:aecf26502b6b1668ab6eaa28804ab0576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5a2ef1c45a35873102f45a65cf7ab56"><td class="memItemLeft" align="right" valign="top">static GLfloat *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_c_point_8h.html#aa5a2ef1c45a35873102f45a65cf7ab56">VertexesArray_Matrix_Multiply</a> (GLfloat *ptr, int vertexStride, int vertexesCount, CGFloat *m)</td></tr>
+<tr class="separator:aa5a2ef1c45a35873102f45a65cf7ab56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01cdce253c60534a86293a31572557e2"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_c_point_8h.html#a01cdce253c60534a86293a31572557e2">MCPointDistance</a> (<a class="el" href="struct_m_c_point.html">MCPoint</a> p1, <a class="el" href="struct_m_c_point.html">MCPoint</a> p2)</td></tr>
+<tr class="separator:a01cdce253c60534a86293a31572557e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a049d9b9f501f3671c8bc28fb51495371"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_m_c_point_8h.html#a049d9b9f501f3671c8bc28fb51495371">VectorPointDistance</a> (<a class="el" href="_vector_8hpp.html#a0802581f468608f30e20dbdf80e8c83a">vec2</a> p1, <a class="el" href="_vector_8hpp.html#a0802581f468608f30e20dbdf80e8c83a">vec2</a> p2)</td></tr>
+<tr class="separator:a049d9b9f501f3671c8bc28fb51495371"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">类型定义说明</h2>
+<a class="anchor" id="af40192bfe354b09c7449cd9c98ce8a80"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="struct_m_c_point.html">MCPoint</a>* <a class="el" href="_m_c_point_8h.html#af40192bfe354b09c7449cd9c98ce8a80">MCPointPtr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p><a class="el" href="struct_m_c_point.html">MCPoint</a> 指针 </p>
+
+<p>在文件 <a class="el" href="_m_c_point_8h_source.html">MCPoint.h</a> 第 <a class="el" href="_m_c_point_8h_source.html#l00041">41</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">函数说明</h2>
+<a class="anchor" id="a01cdce253c60534a86293a31572557e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float MCPointDistance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td>
+          <td class="paramname"><em>p2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>返回两个三维点的距离 </p>
+
+<p>在文件 <a class="el" href="_m_c_point_8h_source.html">MCPoint.h</a> 第 <a class="el" href="_m_c_point_8h_source.html#l00156">156</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a> , 以及 <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_mesh_8mm_source.html#l00067">MCMesh::calculateRadius</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac0e03321ee4d440dceac6bdf2fbe7b18"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_m_c_point.html">MCPoint</a> MCPointMake </td>
+          <td>(</td>
+          <td class="paramtype">CGFloat&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CGFloat&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CGFloat&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>返回一个MCPoint，类似于CGPointMake </p>
+
+<p>在文件 <a class="el" href="_m_c_point_8h_source.html">MCPoint.h</a> 第 <a class="el" href="_m_c_point_8h_source.html#l00046">46</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00184">MC::x</a> , 以及 <a class="el" href="_global_8h_source.html#l00185">MC::y</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_textured_button_8m_source.html#l00043">MCTexturedButton::awake</a>, <a class="el" href="_m_c_mesh_8mm_source.html#l00044">MCMesh::calculateCentroid</a>, <a class="el" href="_m_c_mesh_8mm_source.html#l00067">MCMesh::calculateRadius</a>, <a class="el" href="_m_c_particle_system_8m_source.html#l00246">MCParticleSystem::emitNewParticles</a>, <a class="el" href="_m_c_material_controller_8m_source.html#l00384">MCMaterialController::getWidthAndHeightFromTextureFile:forKey:</a>, <a class="el" href="_m_c_scene_object_8mm_source.html#l00024">MCSceneObject::init</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">MCMagicCubeUIModelController::initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">MCMagicCubeUIModelController::initiateWithState:</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">MCCountingPlayInputViewController::loadInterface</a>, <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00048">MCRandomSolveViewInputControllerViewController::loadInterface</a>, <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00028">MCNormalPlayInputViewController::loadInterface</a>, <a class="el" href="_m_c_input_view_controller_8mm_source.html#l00022">MCInputViewController::loadInterface</a>, <a class="el" href="_m_c_scene_controller_8mm_source.html#l00042">MCSceneController::loadScene</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00057">MCCountingPlaySceneController::loadScene</a>, <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00039">MCRandomSolveSceneController::loadScene</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00045">MCNormalPlaySceneController::loadScene</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01432">MCMagicCubeUIModelController::MapToLayerCenter:</a>, <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00089">MCMultiDigitCounter::setScale:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00047">MCTimer::setScale:</a>, <a class="el" href="_m_c_action_queue_8m_source.html#l00083">MCActionQueue::setTranslation:</a>, <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00104">MCMultiDigitCounter::setTranslation:</a>, <a class="el" href="_input_controller_8mm_source.html#l00106">InputController::touchesBegan:withEvent:</a>, <a class="el" href="_input_controller_8mm_source.html#l00223">InputController::touchesEnded:withEvent:</a>, <a class="el" href="_input_controller_8mm_source.html#l00168">InputController::touchesMoved:withEvent:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">MCMagicCubeUIModelController::update</a> , 以及 <a class="el" href="_m_c_collider_8mm_source.html#l00038">MCCollider::updateCollider:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aecf26502b6b1668ab6eaa28804ab0576"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_m_c_point.html">MCPoint</a> MCPointMatrixMultiply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CGFloat *&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>进行MCPoint 和 CGFloat[16] 的矩阵乘法</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">p</td><td>用于矩阵乘法的MCPoint </td></tr>
+    <tr><td class="paramname">m</td><td>CGFloat[16] 代表一个4 * 4 矩阵,用于将来的魔方转动处理</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>经过矩阵变换后新的MCPoint </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_point_8h_source.html">MCPoint.h</a> 第 <a class="el" href="_m_c_point_8h_source.html#l00117">117</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01432">MCMagicCubeUIModelController::MapToLayerCenter:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">MCMagicCubeUIModelController::update</a> , 以及 <a class="el" href="_m_c_collider_8mm_source.html#l00038">MCCollider::updateCollider:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab165e210544f88b64e9c888f830733fa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static CGFloat MCRandomFloat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_c_range.html">MCRange</a>&#160;</td>
+          <td class="paramname"><em>range</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>返回一个在range内的浮点数 精度到小数点后三位 </p>
+
+<p>在文件 <a class="el" href="_m_c_point_8h_source.html">MCPoint.h</a> 第 <a class="el" href="_m_c_point_8h_source.html#l00088">88</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_point_8h_source.html#l00064">MCRange::length</a> , 以及 <a class="el" href="_m_c_point_8h_source.html#l00064">MCRange::start</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_particle_system_8m_source.html#l00246">MCParticleSystem::emitNewParticles</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a339279171edcfb00920e60979e64331f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_m_c_range.html">MCRange</a> MCRangeMake </td>
+          <td>(</td>
+          <td class="paramtype">CGFloat&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CGFloat&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>类似于CGRangeMake </p>
+
+<p>在文件 <a class="el" href="_m_c_point_8h_source.html">MCPoint.h</a> 第 <a class="el" href="_m_c_point_8h_source.html#l00070">70</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_textured_button_8m_source.html#l00043">MCTexturedButton::awake</a>, <a class="el" href="_input_controller_8mm_source.html#l00314">InputController::loadInterface</a> , 以及 <a class="el" href="_m_c_particle_system_8m_source.html#l00033">MCParticleSystem::setDefaultSystem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a74b85dc1758ba72e51a00ca7a6d04e39"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static NSString* NSStringFromMatrix </td>
+          <td>(</td>
+          <td class="paramtype">CGFloat *&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>接受一个CGFloat[16]数组，并且将它输出成描述本身的字符串</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m</td><td>CGFloat[16]</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>"x.xx y.yy z.zz k.kk"类似这样的4 * 4 矩阵 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_point_8h_source.html">MCPoint.h</a> 第 <a class="el" href="_m_c_point_8h_source.html#l00104">104</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a35202fd8963d108c8cade0c458cd2408"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static NSString* NSStringFromMCPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>返回一个描述MCPoint的字符串 </p>
+<dl class="section return"><dt>返回</dt><dd>x.xx,y.yy,z.zz} </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_point_8h_source.html">MCPoint.h</a> 第 <a class="el" href="_m_c_point_8h_source.html#l00055">55</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a> , 以及 <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aab8ce9b04ed6e1d8402e6d72c7a80d9f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static NSString* NSStringFromMCRange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_m_c_range.html">MCRange</a>&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>返回一个描述MCRange的字符串 </p>
+<dl class="section return"><dt>返回</dt><dd>x.xx,y.yy} </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_point_8h_source.html">MCPoint.h</a> 第 <a class="el" href="_m_c_point_8h_source.html#l00079">79</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_point_8h_source.html#l00064">MCRange::length</a> , 以及 <a class="el" href="_m_c_point_8h_source.html#l00064">MCRange::start</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a049d9b9f501f3671c8bc28fb51495371"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float VectorPointDistance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_vector_8hpp.html#a0802581f468608f30e20dbdf80e8c83a">vec2</a>&#160;</td>
+          <td class="paramname"><em>p1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_vector_8hpp.html#a0802581f468608f30e20dbdf80e8c83a">vec2</a>&#160;</td>
+          <td class="paramname"><em>p2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>返回两个矢量间的距离 </p>
+
+<p>在文件 <a class="el" href="_m_c_point_8h_source.html">MCPoint.h</a> 第 <a class="el" href="_m_c_point_8h_source.html#l00166">166</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_vector_8hpp_source.html#l00112">Vector2&lt; T &gt;::x</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00113">Vector2&lt; T &gt;::y</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">MCMagicCubeUIModelController::handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa5a2ef1c45a35873102f45a65cf7ab56"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static GLfloat* VertexesArray_Matrix_Multiply </td>
+          <td>(</td>
+          <td class="paramtype">GLfloat *&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>vertexStride</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>vertexesCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CGFloat *&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>顶点数组与矩阵乘积。</p>
+<p>高危注意！这里面返回的tmp数组new了没有delete。 推荐使用智能指针来处理内存，但是由于重构太麻烦，所以只能调用者自己处理了。 不要骂我，骂原作者。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr</td><td>: GLfloat类型的顶点数组，GLfloat类型类似于CGFloat，是专门为OpenGL使用的 </td></tr>
+    <tr><td class="paramname">vertexStride</td><td>顶点步幅 </td></tr>
+    <tr><td class="paramname">vertexesCount</td><td>每个步幅内的顶点数 </td></tr>
+    <tr><td class="paramname">m</td><td>CGFloat[16]矩阵</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>新的乘积矩阵 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_point_8h_source.html">MCPoint.h</a> 第 <a class="el" href="_m_c_point_8h_source.html#l00140">140</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01808">MCMagicCubeUIModelController::adjustWithCenter</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01953">MCMagicCubeUIModelController::adjustWithCenter_2</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">MCMagicCubeUIModelController::handleTouches</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02216">MCMagicCubeUIModelController::isSelectOneFace:</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_m_c_point_8h.html">MCPoint.h</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:38 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

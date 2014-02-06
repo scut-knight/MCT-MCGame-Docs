@@ -1,0 +1,697 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: Search类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_search.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="class_search-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">Search类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_search_8h_source.html">Search.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a68d8179b0e5aeed931338c48d3f6c4fc"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#a68d8179b0e5aeed931338c48d3f6c4fc">solutionToString</a> (int length)</td></tr>
+<tr class="memdesc:a68d8179b0e5aeed931338c48d3f6c4fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate the solution string from the array data  <a href="#a68d8179b0e5aeed931338c48d3f6c4fc">更多...</a><br/></td></tr>
+<tr class="separator:a68d8179b0e5aeed931338c48d3f6c4fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addf8c62d82802a3d74a103067b6ac87d"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#addf8c62d82802a3d74a103067b6ac87d">solutionToString</a> (int length, int depthPhase1)</td></tr>
+<tr class="memdesc:addf8c62d82802a3d74a103067b6ac87d"><td class="mdescLeft">&#160;</td><td class="mdescRight">generate the solution string from the array data including a separator between phase1 and phase2 moves  <a href="#addf8c62d82802a3d74a103067b6ac87d">更多...</a><br/></td></tr>
+<tr class="separator:addf8c62d82802a3d74a103067b6ac87d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc01e4a7c0f1599f57730fd2c8d35751"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#afc01e4a7c0f1599f57730fd2c8d35751">solution</a> (string facelets, int maxDepth, long timeOut, bool useSeparator)</td></tr>
+<tr class="separator:afc01e4a7c0f1599f57730fd2c8d35751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecdef71bed9ac334a81c630425e030f6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#aecdef71bed9ac334a81c630425e030f6">totalDepth</a> (int depthPhase1, int maxDepth)</td></tr>
+<tr class="separator:aecdef71bed9ac334a81c630425e030f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a7384dea57445993f2b33d63b4c9f6de5"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#a7384dea57445993f2b33d63b4c9f6de5">ax</a> [31]</td></tr>
+<tr class="separator:a7384dea57445993f2b33d63b4c9f6de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27b7812a0d5832fa52fee9234e95fbbb"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#a27b7812a0d5832fa52fee9234e95fbbb">po</a> [31]</td></tr>
+<tr class="memdesc:a27b7812a0d5832fa52fee9234e95fbbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The axis of the move.  <a href="#a27b7812a0d5832fa52fee9234e95fbbb">更多...</a><br/></td></tr>
+<tr class="separator:a27b7812a0d5832fa52fee9234e95fbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40cf409863ab17913e0bc1e3c38571cc"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#a40cf409863ab17913e0bc1e3c38571cc">flip</a> [31]</td></tr>
+<tr class="memdesc:a40cf409863ab17913e0bc1e3c38571cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The power of the move.  <a href="#a40cf409863ab17913e0bc1e3c38571cc">更多...</a><br/></td></tr>
+<tr class="separator:a40cf409863ab17913e0bc1e3c38571cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0fe57b53c1042a81ff280e5d712636b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#af0fe57b53c1042a81ff280e5d712636b">twist</a> [31]</td></tr>
+<tr class="memdesc:af0fe57b53c1042a81ff280e5d712636b"><td class="mdescLeft">&#160;</td><td class="mdescRight">phase1 coordinates  <a href="#af0fe57b53c1042a81ff280e5d712636b">更多...</a><br/></td></tr>
+<tr class="separator:af0fe57b53c1042a81ff280e5d712636b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2172bcf6469f64751f5e53405bf89c30"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#a2172bcf6469f64751f5e53405bf89c30">slice</a> [31]</td></tr>
+<tr class="separator:a2172bcf6469f64751f5e53405bf89c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b56da7e9c5486599551d40ec1f71bb1"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#a4b56da7e9c5486599551d40ec1f71bb1">parity</a> [31]</td></tr>
+<tr class="separator:a4b56da7e9c5486599551d40ec1f71bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac7763eb8b3e6a0322022c1664211162"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#aac7763eb8b3e6a0322022c1664211162">URFtoDLF</a> [31]</td></tr>
+<tr class="memdesc:aac7763eb8b3e6a0322022c1664211162"><td class="mdescLeft">&#160;</td><td class="mdescRight">phase2 coordinates  <a href="#aac7763eb8b3e6a0322022c1664211162">更多...</a><br/></td></tr>
+<tr class="separator:aac7763eb8b3e6a0322022c1664211162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4beaf8251f74d10ca5732abe6b256f5f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#a4beaf8251f74d10ca5732abe6b256f5f">FRtoBR</a> [31]</td></tr>
+<tr class="separator:a4beaf8251f74d10ca5732abe6b256f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6840216660fb135474fd35783a7f6a37"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#a6840216660fb135474fd35783a7f6a37">URtoUL</a> [31]</td></tr>
+<tr class="separator:a6840216660fb135474fd35783a7f6a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe1037747c94c3810cc57eccc391f6b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#a3fe1037747c94c3810cc57eccc391f6b">UBtoDF</a> [31]</td></tr>
+<tr class="separator:a3fe1037747c94c3810cc57eccc391f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae32cdd61dda47c552130c7bb7d39a5f3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#ae32cdd61dda47c552130c7bb7d39a5f3">URtoDF</a> [31]</td></tr>
+<tr class="separator:ae32cdd61dda47c552130c7bb7d39a5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2aa7a5a1167ffcefb94ff2ab3f21c8f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#ac2aa7a5a1167ffcefb94ff2ab3f21c8f">minDistPhase1</a> [31]</td></tr>
+<tr class="separator:ac2aa7a5a1167ffcefb94ff2ab3f21c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fd4ba6f81e144f4931ec7573f4a0cf3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search.html#a1fd4ba6f81e144f4931ec7573f4a0cf3">minDistPhase2</a> [31]</td></tr>
+<tr class="memdesc:a1fd4ba6f81e144f4931ec7573f4a0cf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">IDA* distance do goal estimations.  <a href="#a1fd4ba6f81e144f4931ec7573f4a0cf3">更多...</a><br/></td></tr>
+<tr class="separator:a1fd4ba6f81e144f4931ec7573f4a0cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>Class <a class="el" href="class_search.html">Search</a> implements the Two-Phase-Algorithm.</p>
+<p>这个类实现了Two-Phase-Algorithm </p>
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00024">24</a> 行定义.</p>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="afc01e4a7c0f1599f57730fd2c8d35751"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Search::solution </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>facelets</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxDepth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>timeOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useSeparator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Computes the solver string for a given cube.</p>
+<p>从所给的cube中计算出一个描述解的字符串</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">facelets</td><td>is the cube definition string, see <a class="el" href="">Facelet</a> for the format.</td></tr>
+    <tr><td class="paramname">maxDepth</td><td>defines the maximal allowed maneuver length. For random cubes, a maxDepth of 21 usually will return a solution in less than 0.5 seconds. With a maxDepth of 20 it takes a few seconds on average to find a solution, but it may take much longer for specific cubes.</td></tr>
+    <tr><td class="paramname">timeOut</td><td>defines the maximum computing time of the method in seconds. If it does not return with a solution, it returns with an error code.</td></tr>
+    <tr><td class="paramname">useSeparator</td><td>determines if a " . " separates the phase1 and phase2 parts of the solver string like in F' R B R L2 F . U2 U D for example.<br/>
+ </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>The solution string or an error code:<br/>
+ Error 1: There is not exactly one facelet of each colour<br/>
+ Error 2: Not all 12 edges exist exactly once<br/>
+ Error 3: Flip error: One edge has to be flipped<br/>
+ Error 4: Not all corners exist exactly once<br/>
+ Error 5: Twist error: One corner has to be twisted<br/>
+ Error 6: Parity error: Two corners or two edges have to be exchanged<br/>
+ Error 7: No solution exists for the given maxDepth<br/>
+ Error 8: Timeout, no solution within given time </dd></dl>
+
+<p>在文件 <a class="el" href="_search_8cpp_source.html">Search.cpp</a> 第 <a class="el" href="_search_8cpp_source.html#l00115">115</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_search_8h_source.html#l00027">ax</a>, <a class="el" href="_global_8h_source.html#l00179">MC::B</a>, <a class="el" href="_global_8h_source.html#l00183">MC::D</a>, <a class="el" href="_global_8h_source.html#l00178">MC::F</a>, <a class="el" href="_search_8h_source.html#l00030">flip</a>, <a class="el" href="_coord_cube_8h_source.html#l00039">CoordCube::flip</a>, <a class="el" href="_coord_cube_8h_source.html#l00064">CoordCube::flipMove</a>, <a class="el" href="_search_8h_source.html#l00036">FRtoBR</a>, <a class="el" href="_coord_cube_8h_source.html#l00041">CoordCube::FRtoBR</a>, <a class="el" href="_coord_cube_8h_source.html#l00084">CoordCube::FRtoBR_Move</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00170">CoordCube::getPruning()</a>, <a class="el" href="_global_8h_source.html#l00181">MC::L</a>, <a class="el" href="_search_8h_source.html#l00041">minDistPhase1</a>, <a class="el" href="_coord_cube_8h_source.html#l00023">CoordCube::N_SLICE1</a>, <a class="el" href="_search_8h_source.html#l00028">po</a>, <a class="el" href="_global_8h_source.html#l00180">MC::R</a>, <a class="el" href="_search_8h_source.html#l00032">slice</a>, <a class="el" href="_coord_cube_8h_source.html#l00155">CoordCube::Slice_Flip_Prun</a>, <a class="el" href="_coord_cube_8h_source.html#l00148">CoordCube::Slice_Twist_Prun</a>, <a class="el" href="_search_8cpp_source.html#l00033">solutionToString()</a>, <a class="el" href="_face_cube_8cpp_source.html#l00131">FaceCube::toCubieCube()</a>, <a class="el" href="_search_8cpp_source.html#l00254">totalDepth()</a>, <a class="el" href="_search_8h_source.html#l00031">twist</a>, <a class="el" href="_coord_cube_8h_source.html#l00038">CoordCube::twist</a>, <a class="el" href="_coord_cube_8h_source.html#l00056">CoordCube::twistMove</a>, <a class="el" href="_global_8h_source.html#l00182">MC::U</a>, <a class="el" href="_search_8h_source.html#l00038">UBtoDF</a>, <a class="el" href="_coord_cube_8h_source.html#l00044">CoordCube::UBtoDF</a>, <a class="el" href="_search_8h_source.html#l00035">URFtoDLF</a>, <a class="el" href="_coord_cube_8h_source.html#l00042">CoordCube::URFtoDLF</a>, <a class="el" href="_search_8h_source.html#l00037">URtoUL</a> , 以及 <a class="el" href="_coord_cube_8h_source.html#l00043">CoordCube::URtoUL</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a68d8179b0e5aeed931338c48d3f6c4fc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Search::solutionToString </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>length</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>generate the solution string from the array data </p>
+
+<p>在文件 <a class="el" href="_search_8cpp_source.html">Search.cpp</a> 第 <a class="el" href="_search_8cpp_source.html#l00033">33</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_search_8h_source.html#l00027">ax</a> , 以及 <a class="el" href="_search_8h_source.html#l00028">po</a>.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="addf8c62d82802a3d74a103067b6ac87d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Search::solutionToString </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>depthPhase1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>generate the solution string from the array data including a separator between phase1 and phase2 moves </p>
+
+<p>在文件 <a class="el" href="_search_8cpp_source.html">Search.cpp</a> 第 <a class="el" href="_search_8cpp_source.html#l00074">74</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_search_8h_source.html#l00027">ax</a> , 以及 <a class="el" href="_search_8h_source.html#l00028">po</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aecdef71bed9ac334a81c630425e030f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::totalDepth </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>depthPhase1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxDepth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Apply phase2 of algorithm and return the combined phase1 and phase2 depth. In phase2, only the moves U,D,R2,F2,L2 and B2 are allowed. </p>
+
+<p>在文件 <a class="el" href="_search_8cpp_source.html">Search.cpp</a> 第 <a class="el" href="_search_8cpp_source.html#l00254">254</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_search_8h_source.html#l00027">ax</a>, <a class="el" href="_search_8h_source.html#l00036">FRtoBR</a>, <a class="el" href="_coord_cube_8h_source.html#l00084">CoordCube::FRtoBR_Move</a>, <a class="el" href="_coord_cube_8cpp_source.html#l00170">CoordCube::getPruning()</a>, <a class="el" href="_coord_cube_8h_source.html#l00128">CoordCube::MergeURtoULandUBtoDF</a>, <a class="el" href="_search_8h_source.html#l00042">minDistPhase2</a>, <a class="el" href="_coord_cube_8h_source.html#l00024">CoordCube::N_SLICE2</a>, <a class="el" href="_search_8h_source.html#l00034">parity</a>, <a class="el" href="_coord_cube_8h_source.html#l00071">CoordCube::parityMove</a>, <a class="el" href="_search_8h_source.html#l00028">po</a>, <a class="el" href="_coord_cube_8h_source.html#l00136">CoordCube::Slice_URFtoDLF_Parity_Prun</a>, <a class="el" href="_coord_cube_8h_source.html#l00142">CoordCube::Slice_URtoDF_Parity_Prun</a>, <a class="el" href="_search_8h_source.html#l00038">UBtoDF</a>, <a class="el" href="_coord_cube_8h_source.html#l00123">CoordCube::UBtoDF_Move</a>, <a class="el" href="_search_8h_source.html#l00035">URFtoDLF</a>, <a class="el" href="_coord_cube_8h_source.html#l00098">CoordCube::URFtoDLF_Move</a>, <a class="el" href="_search_8h_source.html#l00039">URtoDF</a>, <a class="el" href="_coord_cube_8h_source.html#l00111">CoordCube::URtoDF_Move</a>, <a class="el" href="_search_8h_source.html#l00037">URtoUL</a> , 以及 <a class="el" href="_coord_cube_8h_source.html#l00118">CoordCube::URtoUL_Move</a>.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">solution()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a7384dea57445993f2b33d63b4c9f6de5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::ax</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00027">27</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">solution()</a>, <a class="el" href="_search_8cpp_source.html#l00033">solutionToString()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a40cf409863ab17913e0bc1e3c38571cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::flip</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The power of the move. </p>
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00030">30</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4beaf8251f74d10ca5732abe6b256f5f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::FRtoBR</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00036">36</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">solution()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac2aa7a5a1167ffcefb94ff2ab3f21c8f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::minDistPhase1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00041">41</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1fd4ba6f81e144f4931ec7573f4a0cf3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::minDistPhase2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>IDA* distance do goal estimations. </p>
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00042">42</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00254">totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4b56da7e9c5486599551d40ec1f71bb1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::parity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00034">34</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00254">totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a27b7812a0d5832fa52fee9234e95fbbb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::po</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The axis of the move. </p>
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00028">28</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">solution()</a>, <a class="el" href="_search_8cpp_source.html#l00033">solutionToString()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2172bcf6469f64751f5e53405bf89c30"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::slice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00032">32</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af0fe57b53c1042a81ff280e5d712636b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::twist</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>phase1 coordinates </p>
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00031">31</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">solution()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3fe1037747c94c3810cc57eccc391f6b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::UBtoDF</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00038">38</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">solution()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac7763eb8b3e6a0322022c1664211162"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::URFtoDLF</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>phase2 coordinates </p>
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00035">35</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">solution()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae32cdd61dda47c552130c7bb7d39a5f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::URtoDF</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00039">39</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00254">totalDepth()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6840216660fb135474fd35783a7f6a37"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Search::URtoUL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_search_8h_source.html">Search.h</a> 第 <a class="el" href="_search_8h_source.html#l00037">37</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_search_8cpp_source.html#l00115">solution()</a> , 以及 <a class="el" href="_search_8cpp_source.html#l00254">totalDepth()</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_search_8h_source.html">Search.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_search_8cpp_source.html">Search.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_search.html">Search</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:39 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

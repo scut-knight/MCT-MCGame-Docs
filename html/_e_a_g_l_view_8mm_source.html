@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/EAGLView.mm 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_e_a_g_l_view_8mm_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">EAGLView.mm</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_e_a_g_l_view_8mm.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  EAGLView.m</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  MCOpenGLIntro</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// </span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by ruitaoCC@gmail.com on 1/09/12.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright __MyCompanyName__ 2012. All rights reserved.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#import &lt;QuartzCore/QuartzCore.h&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#import &lt;OpenGLES/EAGLDrawable.h&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_e_a_g_l_view_8h.html">EAGLView.h</a>&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="_e_a_g_l_view_8mm.html#a8b156e9ec686f3d82c9ca0ead73648a0">   16</a></span>&#160;<span class="preprocessor">#define USE_DEPTH_BUFFER 1</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">// A class extension to declare private methods</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">@interface </span><a class="code" href="class_e_a_g_l_view.html">EAGLView</a> ()</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html#a543153b07d231fde7a84269410c8b4e2">   21</a></span>&#160;<span class="keyword">@property</span> (nonatomic, retain) EAGLContext *context;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;- (BOOL) <a class="code" href="class_e_a_g_l_view.html#a48781aa16584941c3e5c7232168ef0d4">createFramebuffer</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;- (void) <a class="code" href="class_e_a_g_l_view.html#af9f1d9887baecc11cc511b504d33510c">destroyFramebuffer</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html">   30</a></span>&#160;<span class="keyword">@implementation </span><a class="code" href="class_e_a_g_l_view.html">EAGLView</a></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">@synthesize</span> context;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">// You must implement this method</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html#ae2da2579ee5cec90be82e209697ec4c7">   40</a></span>&#160;<span class="comment"></span>+ (Class)<a class="code" href="class_e_a_g_l_view.html#ae2da2579ee5cec90be82e209697ec4c7">layerClass</a> {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">return</span> [CAEAGLLayer class];</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html#afdbff9441d0aa8a0fed499f10d7e7867">   51</a></span>&#160;- (id)initWithFrame:(CGRect)rect {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> ((<span class="keyword">self</span> = [super initWithFrame:rect])) {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="comment">// Get the layer</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        CAEAGLLayer *eaglLayer = (CAEAGLLayer *)<span class="keyword">self</span>.layer;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        eaglLayer.opaque = YES;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        eaglLayer.drawableProperties = [NSDictionary dictionaryWithObjectsAndKeys:</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                                        [NSNumber numberWithBool:NO], kEAGLDrawablePropertyRetainedBacking, kEAGLColorFormatRGBA8, kEAGLDrawablePropertyColorFormat, nil];</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="class_e_a_g_l_view.html#a543153b07d231fde7a84269410c8b4e2">context</a> = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES1];</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="class_e_a_g_l_view.html#a543153b07d231fde7a84269410c8b4e2">context</a> || ![EAGLContext setCurrentContext:<a class="code" href="class_e_a_g_l_view.html#a543153b07d231fde7a84269410c8b4e2">context</a>]) {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            [<span class="keyword">self</span> release];</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">return</span> nil;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keyword">self</span>.multipleTouchEnabled = YES;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        isNeedToLayView = YES;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">self</span>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html#a35c7640681911b22eae0961a15250ed5">   76</a></span>&#160;- (void)<a class="code" href="class_e_a_g_l_view.html#a35c7640681911b22eae0961a15250ed5">setupViewLandscape</a></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;{   <span class="comment">/*      </span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">    // Sets up matrices and transforms for OpenGL ES</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">    glViewport(0, 0, backingWidth, backingHeight);</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">    glMatrixMode(GL_PROJECTION);</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">    glLoadIdentity();</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">    glRotatef(-90.0f, 0.0f, 0.0f, 1.0f);</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">    // set up the viewport so that it is analagous to the screen pixels</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">    [self perspectiveFovY:60 aspect:1024.0/768.0 zNear:0.01 zFar:1000.0];</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">    //280</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">    glTranslatef(0.0, 0.0, -180.0);</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">     */</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    glViewport(0, 0, backingWidth, backingHeight);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="comment">//You can see that instead of glMatrixMode(GL_PROJECTION) you use this function.</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    [<a class="code" href="interface_m_c_g_l.html">MCGL</a> <a class="code" href="interface_m_c_g_l.html#aee4e3c5060038c180a55d95c02a15de7">matrixMode</a>:GL_PROJECTION];</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="comment">//You can see that instead of glLoadIdentity() you use this function.</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    [<a class="code" href="interface_m_c_g_l.html">MCGL</a> <a class="code" href="interface_m_c_g_l.html#abb415856bbfd5275a2802083a7999660">loadIdentity</a>];</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="comment">//Here, you can use this advanced function to set the projection matrix.</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    [<a class="code" href="interface_m_c_g_l.html">MCGL</a> <a class="code" href="interface_m_c_g_l.html#a5516acd0eff87f4c8b619a7c4da25140">perspectiveWithFovy</a>:60.0</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                       <a class="code" href="interface_m_c_g_l.html#a5516acd0eff87f4c8b619a7c4da25140">aspect</a>:1024.0/768.0</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                        <a class="code" href="interface_m_c_g_l.html#a5516acd0eff87f4c8b619a7c4da25140">zNear</a>:100.01</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                         <a class="code" href="interface_m_c_g_l.html#a5516acd0eff87f4c8b619a7c4da25140">zFar</a>:1000];</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    glMatrixMode(GL_MODELVIEW);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="comment">// Clears the view with gray</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    glClearColor(0.7f, 0.7f, 0.7f, 1.0f);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html#a1af2abd45287d7391b8b869c4d78ced4">  111</a></span>&#160;- (void)<a class="code" href="class_e_a_g_l_view.html#a1af2abd45287d7391b8b869c4d78ced4">setupViewPortrait</a></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;{       </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="comment">// Set up the window that we will view the scene through</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    glViewport(0, 0, backingWidth, backingHeight);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="comment">// switch to the projection matrix and setup our &#39;camera lens&#39;</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    glMatrixMode(GL_PROJECTION);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    glLoadIdentity();</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    glOrthof(-1.0f, 1.0f, -1.5f, 1.5f, -1.0f, 1.0f);    </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    </div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="comment">// switch to model mode and set our background color</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    glMatrixMode(GL_MODELVIEW);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    glClearColor(0.5f, 0.5f, 0.5f, 1.0f);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html#a05e6ee068a9b32ab8b8b223b4265325c">  126</a></span>&#160;-(void)<a class="code" href="class_e_a_g_l_view.html#a05e6ee068a9b32ab8b8b223b4265325c">beginDraw</a></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;{</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="comment">// Make sure that you are drawing to the current context</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    [EAGLContext setCurrentContext:context];</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    glBindFramebufferOES(GL_FRAMEBUFFER_OES, viewFramebuffer);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="comment">// make sure we are in model matrix mode and clear the frame</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    glMatrixMode(GL_MODELVIEW);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="comment">// set a clean transform</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    glLoadIdentity();   </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;}</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html#a51e808dd6570392801d71b0f03bb690a">  138</a></span>&#160;-(void)<a class="code" href="class_e_a_g_l_view.html#a51e808dd6570392801d71b0f03bb690a">finishDraw</a></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;{</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    glBindRenderbufferOES(GL_RENDERBUFFER_OES, viewRenderbuffer);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    [<a class="code" href="class_e_a_g_l_view.html#a543153b07d231fde7a84269410c8b4e2">context</a> presentRenderbuffer:GL_RENDERBUFFER_OES];  </div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;}</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html#a4aa0b0a2468501b9bef3dc2d80bdec2b">  147</a></span>&#160;- (void)<a class="code" href="class_e_a_g_l_view.html#a4aa0b0a2468501b9bef3dc2d80bdec2b">layoutSubviews</a> </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;{</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordflow">if</span> (isNeedToLayView) {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        [EAGLContext setCurrentContext:context];</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        [<span class="keyword">self</span> <a class="code" href="class_e_a_g_l_view.html#af9f1d9887baecc11cc511b504d33510c">destroyFramebuffer</a>];</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        [<span class="keyword">self</span> <a class="code" href="class_e_a_g_l_view.html#a48781aa16584941c3e5c7232168ef0d4">createFramebuffer</a>];</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        [<span class="keyword">self</span> <a class="code" href="class_e_a_g_l_view.html#a35c7640681911b22eae0961a15250ed5">setupViewLandscape</a>];</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        isNeedToLayView = NO;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;}</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
+<div class="line"><a name="l00163"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html#a48781aa16584941c3e5c7232168ef0d4">  163</a></span>&#160;- (BOOL)<a class="code" href="class_e_a_g_l_view.html#a48781aa16584941c3e5c7232168ef0d4">createFramebuffer</a> {    </div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    glGenFramebuffersOES(1, &amp;viewFramebuffer);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    glGenRenderbuffersOES(1, &amp;viewRenderbuffer);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    </div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    glBindFramebufferOES(GL_FRAMEBUFFER_OES, viewFramebuffer);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    glBindRenderbufferOES(GL_RENDERBUFFER_OES, viewRenderbuffer);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    </div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    [<a class="code" href="class_e_a_g_l_view.html#a543153b07d231fde7a84269410c8b4e2">context</a> renderbufferStorage:GL_RENDERBUFFER_OES fromDrawable:(CAEAGLLayer*)self.layer];</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    glFramebufferRenderbufferOES(GL_FRAMEBUFFER_OES, GL_COLOR_ATTACHMENT0_OES, GL_RENDERBUFFER_OES, viewRenderbuffer);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    </div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    glGetRenderbufferParameterivOES(GL_RENDERBUFFER_OES, GL_RENDERBUFFER_WIDTH_OES, &amp;backingWidth);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    glGetRenderbufferParameterivOES(GL_RENDERBUFFER_OES, GL_RENDERBUFFER_HEIGHT_OES, &amp;backingHeight);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    </div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="_e_a_g_l_view_8mm.html#a8b156e9ec686f3d82c9ca0ead73648a0">USE_DEPTH_BUFFER</a>) {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        glGenRenderbuffersOES(1, &amp;depthRenderbuffer);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        glBindRenderbufferOES(GL_RENDERBUFFER_OES, depthRenderbuffer);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        glRenderbufferStorageOES(GL_RENDERBUFFER_OES, GL_DEPTH_COMPONENT16_OES, backingWidth, backingHeight);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        glFramebufferRenderbufferOES(GL_FRAMEBUFFER_OES, GL_DEPTH_ATTACHMENT_OES, GL_RENDERBUFFER_OES, depthRenderbuffer);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        glEnable(GL_DEPTH_TEST);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    }</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    </div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">if</span>(glCheckFramebufferStatusOES(GL_FRAMEBUFFER_OES) != GL_FRAMEBUFFER_COMPLETE_OES) {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        NSLog(<span class="stringliteral">@&quot;failed to make complete framebuffer object %x&quot;</span>, glCheckFramebufferStatusOES(GL_FRAMEBUFFER_OES));</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="keywordflow">return</span> NO;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    glEnable(GL_LINE_SMOOTH_HINT);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    glHint(GL_LINE_SMOOTH,GL_NICEST);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keywordflow">return</span> YES;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;}</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div>
+<div class="line"><a name="l00195"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html#af9f1d9887baecc11cc511b504d33510c">  195</a></span>&#160;- (void)<a class="code" href="class_e_a_g_l_view.html#af9f1d9887baecc11cc511b504d33510c">destroyFramebuffer</a> {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    </div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    glDeleteFramebuffersOES(1, &amp;viewFramebuffer);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    viewFramebuffer = 0;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    glDeleteRenderbuffersOES(1, &amp;viewRenderbuffer);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    viewRenderbuffer = 0;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    </div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordflow">if</span>(depthRenderbuffer) {</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        glDeleteRenderbuffersOES(1, &amp;depthRenderbuffer);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        depthRenderbuffer = 0;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    }</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;}</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div>
+<div class="line"><a name="l00213"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html#a18a911a98a35540636197164efed952a">  213</a></span>&#160;-(void)perspectiveFovY:(GLfloat)fovY</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                aspect:(GLfloat)aspect </div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                 zNear:(GLfloat)zNear</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                  zFar:(GLfloat)zFar </div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;{</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keyword">const</span> GLfloat pi = 3.1415926;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="comment">//  Half of the size of the x and y clipping planes.</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="comment">// - halfWidth = left, halfWidth = right</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="comment">// - halfHeight = bottom, halfHeight = top</span></div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    GLfloat halfWidth, halfHeight;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="comment">//  Calculate the distance from 0 of the y clipping plane. Basically trig to calculate</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="comment">//  position of clip plane at zNear.</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    halfHeight = tan( (fovY / 2) / 180 * pi ) * zNear;  </div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="comment">//  Calculate the distance from 0 of the x clipping plane based on the aspect ratio.</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    halfWidth = halfHeight * aspect;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="comment">//  Finally call glFrustum with our calculated values.</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    glFrustumf( -halfWidth, halfWidth, -halfHeight, halfHeight, zNear, zFar );</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;}</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;</div>
+<div class="line"><a name="l00234"></a><span class="lineno"><a class="line" href="class_e_a_g_l_view.html#a018b2bd2e8c58c699e0c152ec311e6a2">  234</a></span>&#160;- (void)<a class="code" href="class_e_a_g_l_view.html#a018b2bd2e8c58c699e0c152ec311e6a2">dealloc</a> {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    </div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="keywordflow">if</span> ([EAGLContext currentContext] == <a class="code" href="class_e_a_g_l_view.html#a543153b07d231fde7a84269410c8b4e2">context</a>) {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        [EAGLContext setCurrentContext:nil];</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    }</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    </div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    [<a class="code" href="class_e_a_g_l_view.html#a543153b07d231fde7a84269410c8b4e2">context</a> release];  </div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    [<span class="keyword">super</span> dealloc];</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;}</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
+<div class="ttc" id="class_e_a_g_l_view_html_a51e808dd6570392801d71b0f03bb690a"><div class="ttname"><a href="class_e_a_g_l_view.html#a51e808dd6570392801d71b0f03bb690a">-[EAGLView finishDraw]</a></div><div class="ttdeci">void finishDraw()</div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00138">EAGLView.mm:138</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_a5516acd0eff87f4c8b619a7c4da25140"><div class="ttname"><a href="interface_m_c_g_l.html#a5516acd0eff87f4c8b619a7c4da25140">+[MCGL perspectiveWithFovy:aspect:zNear:zFar:]</a></div><div class="ttdeci">void perspectiveWithFovy:aspect:zNear:zFar:(float fovy,[aspect] float aspect,[zNear] float zNear,[zFar] float zFar)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00387">MCGL.mm:387</a></div></div>
+<div class="ttc" id="class_e_a_g_l_view_html_a4aa0b0a2468501b9bef3dc2d80bdec2b"><div class="ttname"><a href="class_e_a_g_l_view.html#a4aa0b0a2468501b9bef3dc2d80bdec2b">-[EAGLView layoutSubviews]</a></div><div class="ttdeci">void layoutSubviews()</div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00147">EAGLView.mm:147</a></div></div>
+<div class="ttc" id="class_e_a_g_l_view_html"><div class="ttname"><a href="class_e_a_g_l_view.html">EAGLView</a></div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00030">EAGLView.mm:30</a></div></div>
+<div class="ttc" id="_e_a_g_l_view_8mm_html_a8b156e9ec686f3d82c9ca0ead73648a0"><div class="ttname"><a href="_e_a_g_l_view_8mm.html#a8b156e9ec686f3d82c9ca0ead73648a0">USE_DEPTH_BUFFER</a></div><div class="ttdeci">#define USE_DEPTH_BUFFER</div><div class="ttdoc">使用深度缓冲 </div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00016">EAGLView.mm:16</a></div></div>
+<div class="ttc" id="class_e_a_g_l_view_html_a1af2abd45287d7391b8b869c4d78ced4"><div class="ttname"><a href="class_e_a_g_l_view.html#a1af2abd45287d7391b8b869c4d78ced4">-[EAGLView setupViewPortrait]</a></div><div class="ttdeci">void setupViewPortrait()</div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00111">EAGLView.mm:111</a></div></div>
+<div class="ttc" id="_e_a_g_l_view_8h_html"><div class="ttname"><a href="_e_a_g_l_view_8h.html">EAGLView.h</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html"><div class="ttname"><a href="interface_m_c_g_l.html">MCGL</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8h_source.html#l00083">MCGL.h:83</a></div></div>
+<div class="ttc" id="class_e_a_g_l_view_html_ae2da2579ee5cec90be82e209697ec4c7"><div class="ttname"><a href="class_e_a_g_l_view.html#ae2da2579ee5cec90be82e209697ec4c7">+[EAGLView layerClass]</a></div><div class="ttdeci">Class layerClass()</div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00040">EAGLView.mm:40</a></div></div>
+<div class="ttc" id="class_e_a_g_l_view_html_a018b2bd2e8c58c699e0c152ec311e6a2"><div class="ttname"><a href="class_e_a_g_l_view.html#a018b2bd2e8c58c699e0c152ec311e6a2">-[EAGLView dealloc]</a></div><div class="ttdeci">void dealloc()</div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00234">EAGLView.mm:234</a></div></div>
+<div class="ttc" id="class_e_a_g_l_view_html_a543153b07d231fde7a84269410c8b4e2"><div class="ttname"><a href="class_e_a_g_l_view.html#a543153b07d231fde7a84269410c8b4e2">EAGLView::context</a></div><div class="ttdeci">EAGLContext * context</div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00021">EAGLView.mm:21</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_abb415856bbfd5275a2802083a7999660"><div class="ttname"><a href="interface_m_c_g_l.html#abb415856bbfd5275a2802083a7999660">+[MCGL loadIdentity]</a></div><div class="ttdeci">void loadIdentity()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00363">MCGL.mm:363</a></div></div>
+<div class="ttc" id="class_e_a_g_l_view_html_a48781aa16584941c3e5c7232168ef0d4"><div class="ttname"><a href="class_e_a_g_l_view.html#a48781aa16584941c3e5c7232168ef0d4">-[EAGLView createFramebuffer]</a></div><div class="ttdeci">BOOL createFramebuffer()</div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00163">EAGLView.mm:163</a></div></div>
+<div class="ttc" id="class_e_a_g_l_view_html_a05e6ee068a9b32ab8b8b223b4265325c"><div class="ttname"><a href="class_e_a_g_l_view.html#a05e6ee068a9b32ab8b8b223b4265325c">-[EAGLView beginDraw]</a></div><div class="ttdeci">void beginDraw()</div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00126">EAGLView.mm:126</a></div></div>
+<div class="ttc" id="class_e_a_g_l_view_html_af9f1d9887baecc11cc511b504d33510c"><div class="ttname"><a href="class_e_a_g_l_view.html#af9f1d9887baecc11cc511b504d33510c">-[EAGLView destroyFramebuffer]</a></div><div class="ttdeci">void destroyFramebuffer()</div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00195">EAGLView.mm:195</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_aee4e3c5060038c180a55d95c02a15de7"><div class="ttname"><a href="interface_m_c_g_l.html#aee4e3c5060038c180a55d95c02a15de7">+[MCGL matrixMode:]</a></div><div class="ttdeci">void matrixMode:(GLenum mode)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00358">MCGL.mm:358</a></div></div>
+<div class="ttc" id="class_e_a_g_l_view_html_a35c7640681911b22eae0961a15250ed5"><div class="ttname"><a href="class_e_a_g_l_view.html#a35c7640681911b22eae0961a15250ed5">-[EAGLView setupViewLandscape]</a></div><div class="ttdeci">void setupViewLandscape()</div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00076">EAGLView.mm:76</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_e_a_g_l_view_8mm.html">EAGLView.mm</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:36 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

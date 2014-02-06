@@ -1,0 +1,2470 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCMagicCubeUIModelController类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_m_c_magic_cube_u_i_model_controller.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_m_c_magic_cube_u_i_model_controller-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MCMagicCubeUIModelController类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a>&gt;</code></p>
+<div class="dynheader">
+类 MCMagicCubeUIModelController 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_m_c_magic_cube_u_i_model_controller.png" usemap="#MCMagicCubeUIModelController_map" alt=""/>
+  <map id="MCMagicCubeUIModelController_map" name="MCMagicCubeUIModelController_map">
+<area href="interface_m_c_mobile_object.html" alt="MCMobileObject" shape="rect" coords="0,112,199,136"/>
+<area href="interface_m_c_scene_object.html" alt="MCSceneObject" shape="rect" coords="0,56,199,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:a73e811508987ca428e6544444f62e69f"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a73e811508987ca428e6544444f62e69f">initiate</a></td></tr>
+<tr class="separator:a73e811508987ca428e6544444f62e69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0d50a3b85bea7aeee00c3105e7a43eb"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ad0d50a3b85bea7aeee00c3105e7a43eb">initiateWithState:</a></td></tr>
+<tr class="separator:ad0d50a3b85bea7aeee00c3105e7a43eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f61044fb5194a70adc4361e3300e2a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a03f61044fb5194a70adc4361e3300e2a">flashWithState:</a></td></tr>
+<tr class="separator:a03f61044fb5194a70adc4361e3300e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be2e3eac43203b67c3c399d21e5d9a3"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a6be2e3eac43203b67c3c399d21e5d9a3">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a></td></tr>
+<tr class="separator:a6be2e3eac43203b67c3c399d21e5d9a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2640f054f54cb3267235f7fa7bd97669"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a2640f054f54cb3267235f7fa7bd97669">nextSpaceIndicatorWithRotateNotationType:</a></td></tr>
+<tr class="separator:a2640f054f54cb3267235f7fa7bd97669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8c8d78d98dd18c3aa5cb797c195563e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#aa8c8d78d98dd18c3aa5cb797c195563e">awake</a></td></tr>
+<tr class="separator:aa8c8d78d98dd18c3aa5cb797c195563e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fd28e5877dccf2507fd6ec034ff34b3"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a9fd28e5877dccf2507fd6ec034ff34b3">render</a></td></tr>
+<tr class="separator:a9fd28e5877dccf2507fd6ec034ff34b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96e81d99443ea7fb303877f4e5c75a39"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a96e81d99443ea7fb303877f4e5c75a39">update</a></td></tr>
+<tr class="separator:a96e81d99443ea7fb303877f4e5c75a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0d2accb72bd40ab34410e53d48b6f8f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ab0d2accb72bd40ab34410e53d48b6f8f">adjustWithCenter</a></td></tr>
+<tr class="separator:ab0d2accb72bd40ab34410e53d48b6f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a105235ed4d22b051afd787f0a1e32d93"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a105235ed4d22b051afd787f0a1e32d93">adjustWithCenter_2</a></td></tr>
+<tr class="separator:a105235ed4d22b051afd787f0a1e32d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3abb663d342156101bb22033a2d8cddb"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a3abb663d342156101bb22033a2d8cddb">closeSpaceIndicator</a></td></tr>
+<tr class="separator:a3abb663d342156101bb22033a2d8cddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3511427a3483718c7746a3ab25780a9"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ac3511427a3483718c7746a3ab25780a9">executeInvocation:withUndoInvocation:</a></td></tr>
+<tr class="separator:ac3511427a3483718c7746a3ab25780a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00142351faf041a6423313188c3190ba"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a00142351faf041a6423313188c3190ba">unexecuteInvocation:withRedoInvocation:</a></td></tr>
+<tr class="separator:a00142351faf041a6423313188c3190ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c76c832f26bba00b7cb6f48159b2a6"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a69c76c832f26bba00b7cb6f48159b2a6">previousSolution</a></td></tr>
+<tr class="separator:a69c76c832f26bba00b7cb6f48159b2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad08ad490b3d679dd2e403cf251326a55"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ad08ad490b3d679dd2e403cf251326a55">nextSolution</a></td></tr>
+<tr class="separator:ad08ad490b3d679dd2e403cf251326a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada26419772eae2e1aa3c9c2e4684fe28"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ada26419772eae2e1aa3c9c2e4684fe28">isSelectOneFace:</a></td></tr>
+<tr class="separator:ada26419772eae2e1aa3c9c2e4684fe28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5a09483261f897f5464f63fa77436e"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#aae5a09483261f897f5464f63fa77436e">MapToSphere:</a></td></tr>
+<tr class="separator:aae5a09483261f897f5464f63fa77436e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ae8458b76ae3426abc3c2b7a1bc2c12"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a4ae8458b76ae3426abc3c2b7a1bc2c12">switchToOrignalPlace</a></td></tr>
+<tr class="separator:a4ae8458b76ae3426abc3c2b7a1bc2c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed7c25c26aac369411ad526907077e2b"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#aed7c25c26aac369411ad526907077e2b">dealloc</a><code> [implementation]</code></td></tr>
+<tr class="separator:aed7c25c26aac369411ad526907077e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff6dd943307a4e6bfb78671212b1fd9"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a4ff6dd943307a4e6bfb78671212b1fd9">handleTouches</a><code> [implementation]</code></td></tr>
+<tr class="separator:a4ff6dd943307a4e6bfb78671212b1fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a192eec804dd0315594739b2f632f867c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a192eec804dd0315594739b2f632f867c">updatetweice</a><code> [implementation]</code></td></tr>
+<tr class="separator:a192eec804dd0315594739b2f632f867c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c1e2ae0b0056eb01c5d04bc7e0f2f0b"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a5c1e2ae0b0056eb01c5d04bc7e0f2f0b">MapToLayerCenter:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a5c1e2ae0b0056eb01c5d04bc7e0f2f0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a341d4fceef122412353effa43a067b0e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a341d4fceef122412353effa43a067b0e">SelectLayer</a><code> [implementation]</code></td></tr>
+<tr class="separator:a341d4fceef122412353effa43a067b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57e2a33909f2a35a8fc7711f2684829b"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a57e2a33909f2a35a8fc7711f2684829b">stepCounterAdd</a><code> [implementation]</code></td></tr>
+<tr class="separator:a57e2a33909f2a35a8fc7711f2684829b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4c35dcb83f0b5b76d6c7152291eb10b"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ab4c35dcb83f0b5b76d6c7152291eb10b">stepCounterMinus</a><code> [implementation]</code></td></tr>
+<tr class="separator:ab4c35dcb83f0b5b76d6c7152291eb10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac73fd296bfd401e895218fd0005fd905"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ac73fd296bfd401e895218fd0005fd905">updateState</a><code> [implementation]</code></td></tr>
+<tr class="separator:ac73fd296bfd401e895218fd0005fd905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa250dba744229b4fabcfc34399cdffe9"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#aa250dba744229b4fabcfc34399cdffe9">updateMagicCubeIndexState</a><code> [implementation]</code></td></tr>
+<tr class="separator:aa250dba744229b4fabcfc34399cdffe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1ea6dca32b726bb4a9a12d611fdb3e6"><td class="memItemLeft" align="right" valign="top">(NSInvocation *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ac1ea6dca32b726bb4a9a12d611fdb3e6">createInvocationOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ac1ea6dca32b726bb4a9a12d611fdb3e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8ca5248070a981f9f351babaa651442"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ad8ca5248070a981f9f351babaa651442">addInvocation:withUndoInvocation:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ad8ca5248070a981f9f351babaa651442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcebe31c7b31eb3e01ee1fcb4ec077f0"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#adcebe31c7b31eb3e01ee1fcb4ec077f0">middleOfV1:V2:</a><code> [implementation]</code></td></tr>
+<tr class="separator:adcebe31c7b31eb3e01ee1fcb4ec077f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c79a0f679727636c754a35224cdb443"><td class="memItemLeft" align="right" valign="top">(float)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a8c79a0f679727636c754a35224cdb443">AngleV0V1withV:V0:V1:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a8c79a0f679727636c754a35224cdb443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1cd5d0295643ba3a87bedaa635c86d2"><td class="memItemLeft" align="right" valign="top">(double)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#af1cd5d0295643ba3a87bedaa635c86d2">ThetaBetweenV1andV2</a><code> [implementation]</code></td></tr>
+<tr class="separator:af1cd5d0295643ba3a87bedaa635c86d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c309a3365aa41696588c798ff7cdf2a"><td class="memItemLeft" align="right" valign="top">(double)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a9c309a3365aa41696588c798ff7cdf2a">FabsThetaBetweenV1andV2</a><code> [implementation]</code></td></tr>
+<tr class="separator:a9c309a3365aa41696588c798ff7cdf2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interface_m_c_mobile_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_m_c_mobile_object')"><img src="closed.png" alt="-"/>&#160;Instance Methods 继承自 <a class="el" href="interface_m_c_mobile_object.html">MCMobileObject</a></td></tr>
+<tr class="memitem:a2df7209aa86e5552e848661555a7b38c inherit pub_methods_interface_m_c_mobile_object"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_mobile_object.html#a2df7209aa86e5552e848661555a7b38c">checkArenaBounds</a></td></tr>
+<tr class="separator:a2df7209aa86e5552e848661555a7b38c inherit pub_methods_interface_m_c_mobile_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interface_m_c_scene_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_m_c_scene_object')"><img src="closed.png" alt="-"/>&#160;Instance Methods 继承自 <a class="el" href="interface_m_c_scene_object.html">MCSceneObject</a></td></tr>
+<tr class="memitem:ad014e9a76b1a359b90fadd5b31fb7f18 inherit pub_methods_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_scene_object.html#ad014e9a76b1a359b90fadd5b31fb7f18">init</a></td></tr>
+<tr class="separator:ad014e9a76b1a359b90fadd5b31fb7f18 inherit pub_methods_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a674c7c24a6ea23e45f7089d1c200298c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_cube.html">Cube</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a674c7c24a6ea23e45f7089d1c200298c">layerPtr</a> [9]</td></tr>
+<tr class="separator:a674c7c24a6ea23e45f7089d1c200298c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c0623833fee1f60384e5626bc1d43bd"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a9c0623833fee1f60384e5626bc1d43bd">isAutoRotate</a></td></tr>
+<tr class="separator:a9c0623833fee1f60384e5626bc1d43bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab08fdb6c6e189c0bdb0054cea83b7ee7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ab08fdb6c6e189c0bdb0054cea83b7ee7">rest_rotate_time</a></td></tr>
+<tr class="separator:ab08fdb6c6e189c0bdb0054cea83b7ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade5e1f0c8fbfa97c897ace1f2be3f318"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ade5e1f0c8fbfa97c897ace1f2be3f318">rest_rotate_angle</a></td></tr>
+<tr class="separator:ade5e1f0c8fbfa97c897ace1f2be3f318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d97265e4b64f5962a5385b32e352cde"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a0d97265e4b64f5962a5385b32e352cde">isTribleAutoRotateIn_TECH_MODE</a></td></tr>
+<tr class="separator:a0d97265e4b64f5962a5385b32e352cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb8db914117553e4fe50edac6477bef0"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#abb8db914117553e4fe50edac6477bef0">is_TECH_MODE_Rotate</a></td></tr>
+<tr class="separator:abb8db914117553e4fe50edac6477bef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71c7c29586d4557a42a07d0a3e80c6a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_c.html#a502f9c93aadad029c5ce87ec73fd9416">AxisType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a71c7c29586d4557a42a07d0a3e80c6a5">current_rotate_axis</a></td></tr>
+<tr class="separator:a71c7c29586d4557a42a07d0a3e80c6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f49820e279108c21d14f79748bdef2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_c.html#a3a1a456f5dbd90d6073271dc9bb4ec44">LayerRotationDirectionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a48f49820e279108c21d14f79748bdef2">current_rotate_direction</a></td></tr>
+<tr class="separator:a48f49820e279108c21d14f79748bdef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a297065864a5cd2146c885e995c4d15c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a297065864a5cd2146c885e995c4d15c7">current_rotate_layer</a></td></tr>
+<tr class="separator:a297065864a5cd2146c885e995c4d15c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ff24d40ecaf71271fee203c5da6ab1a"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a5ff24d40ecaf71271fee203c5da6ab1a">m_spinning</a></td></tr>
+<tr class="separator:a5ff24d40ecaf71271fee203c5da6ab1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c38d2a7ccb792c1836e9070aa119be"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ae0c38d2a7ccb792c1836e9070aa119be">m_trackballRadius</a></td></tr>
+<tr class="separator:ae0c38d2a7ccb792c1836e9070aa119be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991532e5158339732147859f545b6314"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_vector_8hpp.html#a93a9da68b4d7f0b6563ca53d682d1062">ivec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a991532e5158339732147859f545b6314">m_fingerStart</a></td></tr>
+<tr class="separator:a991532e5158339732147859f545b6314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a275e562317cf739adbda5054c8adbc64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_ray.html">MCRay</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a275e562317cf739adbda5054c8adbc64">ray</a></td></tr>
+<tr class="separator:a275e562317cf739adbda5054c8adbc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93e45530c517eaba7a97b50a0f9427dc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a93e45530c517eaba7a97b50a0f9427dc">cuculated_angle</a></td></tr>
+<tr class="separator:a93e45530c517eaba7a97b50a0f9427dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ece45d5ba0daa1705715e2284ec8ecc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a3ece45d5ba0daa1705715e2284ec8ecc">directionVector</a> [2]</td></tr>
+<tr class="separator:a3ece45d5ba0daa1705715e2284ec8ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c687c6d093b34b73f655cf40823764f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_vector_8hpp.html#a0802581f468608f30e20dbdf80e8c83a">vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a2c687c6d093b34b73f655cf40823764f">firstThreePoint</a> [3]</td></tr>
+<tr class="separator:a2c687c6d093b34b73f655cf40823764f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04677a1a844dbc6083db6369160b5e23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_cube.html">Cube</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a04677a1a844dbc6083db6369160b5e23">selected</a></td></tr>
+<tr class="separator:a04677a1a844dbc6083db6369160b5e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6024418a19ba570ea889c53ed3cdb61"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ac6024418a19ba570ea889c53ed3cdb61">selected_triangle</a> [9]</td></tr>
+<tr class="separator:ac6024418a19ba570ea889c53ed3cdb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82d87552017c4e2848a70975067b480c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a82d87552017c4e2848a70975067b480c">select_trackballRadius</a></td></tr>
+<tr class="separator:a82d87552017c4e2848a70975067b480c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab782aa7212449360d97adde07923c014"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ab782aa7212449360d97adde07923c014">firstThreePointCount</a></td></tr>
+<tr class="separator:ab782aa7212449360d97adde07923c014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f8c684f80b6fe2ed2952112fec45a3"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a98f8c684f80b6fe2ed2952112fec45a3">isLayerRotating</a></td></tr>
+<tr class="separator:a98f8c684f80b6fe2ed2952112fec45a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fae93aa6b31ec1d0feeb95046a92301"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a0fae93aa6b31ec1d0feeb95046a92301">fingerRotate_angle</a></td></tr>
+<tr class="separator:a0fae93aa6b31ec1d0feeb95046a92301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90271a8d551281b24e94915ad22a0554"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a90271a8d551281b24e94915ad22a0554">fingerRotate_angle_mod90</a></td></tr>
+<tr class="separator:a90271a8d551281b24e94915ad22a0554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81edf6c7fb2bbdee899a09084646a74d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a81edf6c7fb2bbdee899a09084646a74d">rest_fingerRotate_angle</a></td></tr>
+<tr class="separator:a81edf6c7fb2bbdee899a09084646a74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a425ef25900ac815a55deb03ba0482362"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a425ef25900ac815a55deb03ba0482362">rest_fingerRotate_time</a></td></tr>
+<tr class="separator:a425ef25900ac815a55deb03ba0482362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a012f300bb8f4bf5a7e0b64615826021c"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a012f300bb8f4bf5a7e0b64615826021c">isNeededToAdjustment</a></td></tr>
+<tr class="separator:a012f300bb8f4bf5a7e0b64615826021c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9443916aec1dc3dddda209bfc9635d1"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ad9443916aec1dc3dddda209bfc9635d1">isNeededToUpdateMagicCubeState</a></td></tr>
+<tr class="separator:ad9443916aec1dc3dddda209bfc9635d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9bb59381daa9a8d0019663543972680"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#af9bb59381daa9a8d0019663543972680">isNeededToUpadteTwice</a></td></tr>
+<tr class="separator:af9bb59381daa9a8d0019663543972680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a0dbe14dfbd22b7b0090f9ac903918"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ae2a0dbe14dfbd22b7b0090f9ac903918">isAddStepWhenUpdateState</a></td></tr>
+<tr class="separator:ae2a0dbe14dfbd22b7b0090f9ac903918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e3d05bb49fb961cedf1d1fdd0075576"><td class="memItemLeft" align="right" valign="top">UITouch *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a4e3d05bb49fb961cedf1d1fdd0075576">touch</a></td></tr>
+<tr class="separator:a4e3d05bb49fb961cedf1d1fdd0075576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b42b4601a3e042192a7318d0690f82b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a0b42b4601a3e042192a7318d0690f82b">rrrr</a></td></tr>
+<tr class="separator:a0b42b4601a3e042192a7318d0690f82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad82d34d330537c0a7a42b23118d14a68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_m_c_magic_cube_u_i_model_controller_8h.html#a8c97a48615b8eda614cd9baf2dac32f8">MagicCubeUIUsingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ad82d34d330537c0a7a42b23118d14a68">_usingMode</a></td></tr>
+<tr class="separator:ad82d34d330537c0a7a42b23118d14a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfaff79b8601fddd09376fb4d20b9798"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_cube.html">Cube</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#acfaff79b8601fddd09376fb4d20b9798">MagicCubeIndexState</a> [27]</td></tr>
+<tr class="separator:acfaff79b8601fddd09376fb4d20b9798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a283b5390102cbdb7ede4947b469ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_cube.html">Cube</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a12a283b5390102cbdb7ede4947b469ed">spaceIndicatorlayerPtr</a> [9]</td></tr>
+<tr class="separator:a12a283b5390102cbdb7ede4947b469ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ed52406207c2c0f80d1844558348ff"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#aa9ed52406207c2c0f80d1844558348ff">twoLayerFlag</a> [3]</td></tr>
+<tr class="separator:aa9ed52406207c2c0f80d1844558348ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:ad99dcc92cc6e327b725d3bb0af5e4581"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ad99dcc92cc6e327b725d3bb0af5e4581">lockedarray</a></td></tr>
+<tr class="separator:ad99dcc92cc6e327b725d3bb0af5e4581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c526e18888a6815e5c44364d424e32"><td class="memItemLeft" align="right" valign="top">id&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ac5c526e18888a6815e5c44364d424e32">target</a></td></tr>
+<tr class="separator:ac5c526e18888a6815e5c44364d424e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1015c5529f715200dcabf4c168929cc"><td class="memItemLeft" align="right" valign="top">SEL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ab1015c5529f715200dcabf4c168929cc">stepcounterAddAction</a></td></tr>
+<tr class="separator:ab1015c5529f715200dcabf4c168929cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acae1a996a684a1cff4564c3a6a1e5244"><td class="memItemLeft" align="right" valign="top">SEL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#acae1a996a684a1cff4564c3a6a1e5244">stepcounterMinusAction</a></td></tr>
+<tr class="separator:acae1a996a684a1cff4564c3a6a1e5244"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8576f92f58b4509be1eca3fabd11b286"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a8576f92f58b4509be1eca3fabd11b286">array27Cube</a></td></tr>
+<tr class="separator:a8576f92f58b4509be1eca3fabd11b286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17b411f37a66ae10534dfe349bb0a185"><td class="memItemLeft" align="right" valign="top">NSUndoManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a17b411f37a66ae10534dfe349bb0a185">undoManger</a></td></tr>
+<tr class="separator:a17b411f37a66ae10534dfe349bb0a185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf06451a4ab352101b3defb8812099b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_m_c_magic_cube_u_i_model_controller_8h.html#a8c97a48615b8eda614cd9baf2dac32f8">MagicCubeUIUsingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#aeaf06451a4ab352101b3defb8812099b">usingMode</a></td></tr>
+<tr class="separator:aeaf06451a4ab352101b3defb8812099b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31189fd77dd6e7f7d28dc552027fc73b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#a31189fd77dd6e7f7d28dc552027fc73b">selected_cube_index</a></td></tr>
+<tr class="separator:a31189fd77dd6e7f7d28dc552027fc73b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab89eaa397c864419cd7a8487d580aa59"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html#ab89eaa397c864419cd7a8487d580aa59">selected_cube_face_index</a></td></tr>
+<tr class="separator:ab89eaa397c864419cd7a8487d580aa59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_interface_m_c_mobile_object"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_m_c_mobile_object')"><img src="closed.png" alt="-"/>&#160;属性 继承自 <a class="el" href="interface_m_c_mobile_object.html">MCMobileObject</a></td></tr>
+<tr class="memitem:a526d2cc663715de0e11fb68bc95cc30f inherit properties_interface_m_c_mobile_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_mobile_object.html#a526d2cc663715de0e11fb68bc95cc30f">speed</a></td></tr>
+<tr class="separator:a526d2cc663715de0e11fb68bc95cc30f inherit properties_interface_m_c_mobile_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaed096dc339feccbc6fdef2a017d64f inherit properties_interface_m_c_mobile_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_mobile_object.html#abaed096dc339feccbc6fdef2a017d64f">rotationalSpeed</a></td></tr>
+<tr class="separator:abaed096dc339feccbc6fdef2a017d64f inherit properties_interface_m_c_mobile_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_interface_m_c_scene_object"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_m_c_scene_object')"><img src="closed.png" alt="-"/>&#160;属性 继承自 <a class="el" href="interface_m_c_scene_object.html">MCSceneObject</a></td></tr>
+<tr class="memitem:a2155e70cd17c061dcd8d0e1b5f8d08bd inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_mesh.html">MCMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a></td></tr>
+<tr class="separator:a2155e70cd17c061dcd8d0e1b5f8d08bd inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac51fd997445bf143626cff3f2a76814c inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a></td></tr>
+<tr class="separator:ac51fd997445bf143626cff3f2a76814c inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a00ea500c0650e1577781acc3d39b32 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a9a00ea500c0650e1577781acc3d39b32">rotation</a></td></tr>
+<tr class="separator:a9a00ea500c0650e1577781acc3d39b32 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a6874d872cf94e2125f3a2cc26cc2a inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a21a6874d872cf94e2125f3a2cc26cc2a">scale</a></td></tr>
+<tr class="separator:a21a6874d872cf94e2125f3a2cc26cc2a inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac01258da90af2ab20a9e4b7ab0981da inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">CGFloat *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#aac01258da90af2ab20a9e4b7ab0981da">matrix</a></td></tr>
+<tr class="separator:aac01258da90af2ab20a9e4b7ab0981da inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ef7dda62f4ba6c5dfbb2caa5861e71 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a55ef7dda62f4ba6c5dfbb2caa5861e71">pretranslation</a></td></tr>
+<tr class="separator:a55ef7dda62f4ba6c5dfbb2caa5861e71 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71e4629285258a415e222e9f32ccaad3 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a71e4629285258a415e222e9f32ccaad3">prerotation</a></td></tr>
+<tr class="separator:a71e4629285258a415e222e9f32ccaad3 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a3e5b6483d920fdfc048f2e3bf230d0 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_quaternion_8hpp.html#aa9330d8ed843f8959bbaaee47c127b73">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a4a3e5b6483d920fdfc048f2e3bf230d0">quaRotation</a></td></tr>
+<tr class="separator:a4a3e5b6483d920fdfc048f2e3bf230d0 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af048918c64ce127d405d3fa0e2a13737 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_quaternion_8hpp.html#aa9330d8ed843f8959bbaaee47c127b73">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#af048918c64ce127d405d3fa0e2a13737">quaPreviousRotation</a></td></tr>
+<tr class="separator:af048918c64ce127d405d3fa0e2a13737 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60f0c749f93ec502dbf46bdd2a4e8088 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_quaternion_8hpp.html#aa9330d8ed843f8959bbaaee47c127b73">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a60f0c749f93ec502dbf46bdd2a4e8088">start_quaRotation</a></td></tr>
+<tr class="separator:a60f0c749f93ec502dbf46bdd2a4e8088 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94dac412ff59d1e8af7db635de280a18 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_quaternion_8hpp.html#aa9330d8ed843f8959bbaaee47c127b73">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a94dac412ff59d1e8af7db635de280a18">finish_quaRotation</a></td></tr>
+<tr class="separator:a94dac412ff59d1e8af7db635de280a18 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76987e2ce1907832ee44ea37103db7a6 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a76987e2ce1907832ee44ea37103db7a6">active</a></td></tr>
+<tr class="separator:a76987e2ce1907832ee44ea37103db7a6 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb90bb7dadb9e9e44f19768120315cf3 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">CGRect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">meshBounds</a></td></tr>
+<tr class="separator:adb90bb7dadb9e9e44f19768120315cf3 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>最终的魔方造型 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00056">56</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="ad8ca5248070a981f9f351babaa651442"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) addInvocation: </td>
+          <td></td>
+          <td class="paramtype">(NSInvocation *)&#160;</td>
+          <td class="paramname"><em>invocation</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withUndoInvocation:</td>
+          <td></td>
+          <td class="paramtype">(NSInvocation *)&#160;</td>
+          <td class="paramname"><em>undoInvocation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>手动转动时 添加但是不执行（添加到NSUndoManager,但是不调用[invocation invoke]） </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01778">1778</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01374">updatetweice</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab0d2accb72bd40ab34410e53d48b6f8f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) adjustWithCenter </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>微调x/y轴，使魔方模型处于中心。 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01808">1808</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>, <a class="el" href="struct_quaternion_t.html#a393eb46fdc1a78e25a5de7bee7b092dc">QuaternionT&lt; float &gt;::CreateFromVectors</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00092">current_rotate_axis</a>, <a class="el" href="_vector_8hpp_source.html#l00165">Vector3&lt; T &gt;::Dot()</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02200">FabsThetaBetweenV1andV2</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00064">layerPtr</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00061">MCSceneObject::matrix</a>, <a class="el" href="_matrix_8hpp_source.html#l00161">Matrix4&lt; T &gt;::Pointer()</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00039">MCSceneObject::prerotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00052">MCSceneObject::quaPreviousRotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00051">MCSceneObject::quaRotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00049">MCSceneObject::rotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00045">MCSceneObject::scale</a>, <a class="el" href="_quaternion_8hpp_source.html#l00133">QuaternionT&lt; T &gt;::ToMatrix()</a>, <a class="el" href="_m_c_point_8h_source.html#l00140">VertexesArray_Matrix_Multiply()</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_global_8h_source.html#l00085">MC::X</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a>, <a class="el" href="_global_8h_source.html#l00086">MC::Y</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::z</a> , 以及 <a class="el" href="_global_8h_source.html#l00087">MC::Z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">updateState</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a105235ed4d22b051afd787f0a1e32d93"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) adjustWithCenter_2 </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>微调x/y/z轴，使魔方模型处于中心。调节方法之终结版。 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01953">1953</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>, <a class="el" href="struct_quaternion_t.html#a393eb46fdc1a78e25a5de7bee7b092dc">QuaternionT&lt; float &gt;::CreateFromVectors</a>, <a class="el" href="_vector_8hpp_source.html#l00165">Vector3&lt; T &gt;::Dot()</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02200">FabsThetaBetweenV1andV2</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00159">MagicCubeIndexState</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00061">MCSceneObject::matrix</a>, <a class="el" href="_matrix_8hpp_source.html#l00161">Matrix4&lt; T &gt;::Pointer()</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00039">MCSceneObject::prerotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00052">MCSceneObject::quaPreviousRotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00051">MCSceneObject::quaRotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00049">MCSceneObject::rotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00045">MCSceneObject::scale</a>, <a class="el" href="_quaternion_8hpp_source.html#l00133">QuaternionT&lt; T &gt;::ToMatrix()</a>, <a class="el" href="_m_c_point_8h_source.html#l00140">VertexesArray_Matrix_Multiply()</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a> , 以及 <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8c79a0f679727636c754a35224cdb443"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (float) AngleV0V1withV: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>)&#160;</td>
+          <td class="paramname"><em>v</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">V0:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>)&#160;</td>
+          <td class="paramname"><em>v0</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">V1:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>)&#160;</td>
+          <td class="paramname"><em>v1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>求V到V0与V1构成的平面的平面角</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td>三维向量 </td></tr>
+    <tr><td class="paramname">v0</td><td>三维向量，构成平面的一部分 </td></tr>
+    <tr><td class="paramname">v1</td><td>三维向量，构成平面的另一部分</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>平面角角度，float类型 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02172">2172</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_vector_8hpp_source.html#l00155">Vector3&lt; T &gt;::Cross()</a>, <a class="el" href="_vector_8hpp_source.html#l00165">Vector3&lt; T &gt;::Dot()</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00140">Vector3&lt; T &gt;::Module()</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa8c8d78d98dd18c3aa5cb797c195563e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) awake </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>唤醒每一个Cube实例 </p>
+
+<p>重载 <a class="el" href="interface_m_c_scene_object.html#a40eda25f5e31b2a4dfe6214069db9254">MCSceneObject</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00242">242</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3abb663d342156101bb22033a2d8cddb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) closeSpaceIndicator </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>关闭方向指示器（就是那些箭头）的显示 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02283">2283</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00182">MCRandomSolveSceneController::closeSingmasterNotation</a> , 以及 <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00302">MCNormalPlaySceneController::closeSpaceIndicator</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac1ea6dca32b726bb4a9a12d611fdb3e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSInvocation *) createInvocationOnAxis: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a502f9c93aadad029c5ce87ec73fd9416">AxisType</a>)&#160;</td>
+          <td class="paramname"><em>axis</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">onLayer:</td>
+          <td></td>
+          <td class="paramtype">(int)&#160;</td>
+          <td class="paramname"><em>layer</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">inDirection:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a3a1a456f5dbd90d6073271dc9bb4ec44">LayerRotationDirectionType</a>)&#160;</td>
+          <td class="paramname"><em>direction</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">isTribleRotate:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>is_trible_roate</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">isTwoTimes:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>isTwoTimes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>创建撤销操作点NSInvocation对象 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01757">1757</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01374">updatetweice</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aed7c25c26aac369411ad526907077e2b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重载 <a class="el" href="interface_m_c_scene_object.html#a384adc168b4ba7f096fd956045d6fd40">MCSceneObject</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00185">185</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>, <a class="el" href="_m_c_scene_object_8mm_source.html#l00117">MCSceneObject::dealloc</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00160">lockedarray</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00108">ray</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00114">selected</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00149">undoManger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac3511427a3483718c7746a3ab25780a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) executeInvocation: </td>
+          <td></td>
+          <td class="paramtype">(NSInvocation *)&#160;</td>
+          <td class="paramname"><em>invocation</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withUndoInvocation:</td>
+          <td></td>
+          <td class="paramtype">(NSInvocation *)&#160;</td>
+          <td class="paramname"><em>undoInvocation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>正常撤销 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01787">1787</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9c309a3365aa41696588c798ff7cdf2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) FabsThetaBetweenV1andV2 </td>
+          <td></td>
+          <td class="paramtype">(const <a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a> &amp;)&#160;</td>
+          <td class="paramname"><em>v1</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(const <a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a> &amp;)&#160;</td>
+          <td class="paramname"><em>v2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>同ThetaBetweenV1andV2，不过角度取绝对值</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v1</td><td>三维向量 </td></tr>
+    <tr><td class="paramname">v2</td><td>三维向量</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>夹角角度（0-90度），double类型 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02200">2200</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_vector_8hpp_source.html#l00165">Vector3&lt; T &gt;::Dot()</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00140">Vector3&lt; T &gt;::Module()</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01808">adjustWithCenter</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01953">adjustWithCenter_2</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a03f61044fb5194a70adc4361e3300e2a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) flashWithState: </td>
+          <td></td>
+          <td class="paramtype">(NSArray *)&#160;</td>
+          <td class="paramname"><em>stateList</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>根据状态列表来为各个立方块上色。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stateList</td><td>颜色状态列表 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00199">199</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>, <a class="el" href="_m_c_magic_cube_8m_source.html#l00621">MCMagicCube::coordinateValueOfCubieWithColorCombination:</a>, <a class="el" href="_cube_8m_source.html#l00112">Cube::flashWithState:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00160">lockedarray</a>, <a class="el" href="_m_c_normal_play_scene_controller_8h_source.html#l00026">MCNormalPlaySceneController::magicCube</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00051">MCSceneObject::quaRotation</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00032">MCNormalPlaySceneController::sharedNormalPlaySceneController</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00142">target</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00160">MCRandomSolveSceneController::clearState</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00157">MCCountingPlaySceneController::flashScene</a>, <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00153">MCRandomSolveSceneController::flashSecne</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00129">MCNormalPlaySceneController::reloadLastTime</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00093">MCNormalPlaySceneController::reloadScene</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00044">MCCountingPlaySceneController::rotate:</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00140">MCNormalPlaySceneController::rotate:</a> , 以及 <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00177">MCNormalPlaySceneController::showQueue</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4ff6dd943307a4e6bfb78671212b1fd9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) handleTouches </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>处理触控事件，根据不同的触控结果来对魔方模型进行不同操作 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">707</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01778">addInvocation:withUndoInvocation:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02172">AngleV0V1withV:V0:V1:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>, <a class="el" href="_global_8h_source.html#l00080">MC::CCW</a>, <a class="el" href="struct_quaternion_t.html#a393eb46fdc1a78e25a5de7bee7b092dc">QuaternionT&lt; float &gt;::CreateFromVectors</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01757">createInvocationOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a>, <a class="el" href="_vector_8hpp_source.html#l00155">Vector3&lt; T &gt;::Cross()</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00092">current_rotate_axis</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00096">current_rotate_direction</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00100">current_rotate_layer</a>, <a class="el" href="_coordinating_controller_8h_source.html#l00027">CoordinatingController::currentController</a>, <a class="el" href="_global_8h_source.html#l00079">MC::CW</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00112">directionVector</a>, <a class="el" href="_vector_8hpp_source.html#l00165">Vector3&lt; T &gt;::Dot()</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02200">FabsThetaBetweenV1andV2</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00127">fingerRotate_angle</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00131">fingerRotate_angle_mod90</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00113">firstThreePoint</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00117">firstThreePointCount</a>, <a class="el" href="_cube_8h_source.html#l00026">Cube::index</a>, <a class="el" href="_m_c_ray_8mm_source.html#l00047">MCRay::intersectWithTriangleMadeUpOfV0:V1:V2:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00086">is_TECH_MODE_Rotate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00069">isAutoRotate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00121">isLayerRotating</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00134">isNeededToAdjustment</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00139">isNeededToUpadteTwice</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00135">isNeededToUpdateMagicCubeState</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00142">kState_F1</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00159">kState_F2</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00137">kState_M1</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00154">kState_M2</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00133">kState_S1</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00150">kState_S2</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00064">layerPtr</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00105">m_fingerStart</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00103">m_spinning</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00159">MagicCubeIndexState</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01432">MapToLayerCenter:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01404">MapToSphere:</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00061">MCSceneObject::matrix</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00081">MaxDistance</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02157">middleOfV1:V2:</a>, <a class="el" href="_vector_8hpp_source.html#l00140">Vector3&lt; T &gt;::Module()</a>, <a class="el" href="_vector_8hpp_source.html#l00011">Pi</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00038">PLAY_MODE</a>, <a class="el" href="_m_c_ray_8mm_source.html#l00120">MCRay::pointIntersectWithTriangleMadeUpOfV0:V1:V2:</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00039">MCSceneObject::prerotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00052">MCSceneObject::quaPreviousRotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00051">MCSceneObject::quaRotation</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00108">ray</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00132">rest_fingerRotate_angle</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00133">rest_fingerRotate_time</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00049">MCSceneObject::rotation</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00021">ROTATION_ANGLE</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00045">MCSceneObject::scale</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00114">selected</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00115">selected_triangle</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01485">SelectLayer</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00031">CoordinatingController::sharedCoordinatingController</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00046">SOlVE_Input_MODE</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00050">SOlVE_Play_MODE</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00042">TECH_MODE</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02186">ThetaBetweenV1andV2</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00017">TIME_PER_ROTATION</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00150">touch</a>, <a class="el" href="_m_c_ray_8mm_source.html#l00018">MCRay::updateWithScreenX:screenY:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00181">usingMode</a>, <a class="el" href="_m_c_point_8h_source.html#l00166">VectorPointDistance()</a>, <a class="el" href="_m_c_point_8h_source.html#l00140">VertexesArray_Matrix_Multiply()</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_global_8h_source.html#l00085">MC::X</a>, <a class="el" href="_vector_8hpp_source.html#l00112">Vector2&lt; T &gt;::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a>, <a class="el" href="_global_8h_source.html#l00086">MC::Y</a>, <a class="el" href="_vector_8hpp_source.html#l00113">Vector2&lt; T &gt;::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::z</a>, <a class="el" href="_global_8h_source.html#l00087">MC::Z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a73e811508987ca428e6544444f62e69f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initiate </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">29</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00025">CUBE_CUBE_GAP</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00127">fingerRotate_angle</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00117">firstThreePointCount</a>, <a class="el" href="_cube_8h_source.html#l00026">Cube::index</a>, <a class="el" href="_m_c_scene_object_8mm_source.html#l00024">MCSceneObject::init</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00086">is_TECH_MODE_Rotate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00143">isAddStepWhenUpdateState</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00069">isAutoRotate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00139">isNeededToUpadteTwice</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00082">isTribleAutoRotateIn_TECH_MODE</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00064">layerPtr</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00160">lockedarray</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00103">m_spinning</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00104">m_trackballRadius</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00159">MagicCubeIndexState</a>, <a class="el" href="_m_c_point_8h_source.html#l00046">MCPointMake()</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00039">MCSceneObject::prerotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00035">MCSceneObject::pretranslation</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00108">ray</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00049">MCSceneObject::rotation</a>, <a class="el" href="_m_c_mobile_object_8h_source.html#l00021">MCMobileObject::rotationalSpeed</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00151">rrrr</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00045">MCSceneObject::scale</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00116">select_trackballRadius</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00044">MCSceneObject::translation</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00172">twoLayerFlag</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00149">undoManger</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0d50a3b85bea7aeee00c3105e7a43eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initiateWithState: </td>
+          <td></td>
+          <td class="paramtype">(NSArray *)&#160;</td>
+          <td class="paramname"><em>stateList</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>构造魔方并按照状态列表来上色</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stateList</td><td>颜色状态列表</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>MCMagicCubeUIModelController实例 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">110</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00025">CUBE_CUBE_GAP</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00127">fingerRotate_angle</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00117">firstThreePointCount</a>, <a class="el" href="_cube_8h_source.html#l00026">Cube::index</a>, <a class="el" href="_m_c_scene_object_8mm_source.html#l00024">MCSceneObject::init</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00086">is_TECH_MODE_Rotate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00143">isAddStepWhenUpdateState</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00069">isAutoRotate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00082">isTribleAutoRotateIn_TECH_MODE</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00064">layerPtr</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00160">lockedarray</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00103">m_spinning</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00104">m_trackballRadius</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00159">MagicCubeIndexState</a>, <a class="el" href="_m_c_point_8h_source.html#l00046">MCPointMake()</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00039">MCSceneObject::prerotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00035">MCSceneObject::pretranslation</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00108">ray</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00049">MCSceneObject::rotation</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00151">rrrr</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00045">MCSceneObject::scale</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00116">select_trackballRadius</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00044">MCSceneObject::translation</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00172">twoLayerFlag</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00149">undoManger</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ada26419772eae2e1aa3c9c2e4684fe28"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isSelectOneFace: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_vector_8hpp.html#a0802581f468608f30e20dbdf80e8c83a">vec2</a>)&#160;</td>
+          <td class="paramname"><em>touchpoint</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>检测是否有小块被拾取。 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02216">2216</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00112">directionVector</a>, <a class="el" href="_m_c_ray_8mm_source.html#l00047">MCRay::intersectWithTriangleMadeUpOfV0:V1:V2:</a>, <a class="el" href="_m_c_ray_8mm_source.html#l00120">MCRay::pointIntersectWithTriangleMadeUpOfV0:V1:V2:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00108">ray</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00167">selected_cube_face_index</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00166">selected_cube_index</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00115">selected_triangle</a>, <a class="el" href="_m_c_ray_8mm_source.html#l00018">MCRay::updateWithScreenX:screenY:</a> , 以及 <a class="el" href="_m_c_point_8h_source.html#l00140">VertexesArray_Matrix_Multiply()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5c1e2ae0b0056eb01c5d04bc7e0f2f0b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>) MapToLayerCenter: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_vector_8hpp.html#a0802581f468608f30e20dbdf80e8c83a">vec2</a>)&#160;</td>
+          <td class="paramname"><em>touchpoint</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>映射到图像层</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">touchpoint</td><td>触摸点的二维向量</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>三维向量的图像 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01432">1432</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>, <a class="el" href="_vector_8hpp_source.html#l00155">Vector3&lt; T &gt;::Cross()</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00092">current_rotate_axis</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00100">current_rotate_layer</a>, <a class="el" href="_vector_8hpp_source.html#l00069">Vector2&lt; T &gt;::Length()</a>, <a class="el" href="_vector_8hpp_source.html#l00065">Vector2&lt; T &gt;::LengthSquared()</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00061">MCSceneObject::matrix</a>, <a class="el" href="_m_c_point_8h_source.html#l00046">MCPointMake()</a>, <a class="el" href="_m_c_point_8h_source.html#l00117">MCPointMatrixMultiply()</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00116">select_trackballRadius</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00044">MCSceneObject::translation</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_global_8h_source.html#l00085">MC::X</a>, <a class="el" href="_vector_8hpp_source.html#l00112">Vector2&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00257">Vector3&lt; T &gt;::x</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a>, <a class="el" href="_global_8h_source.html#l00086">MC::Y</a>, <a class="el" href="_vector_8hpp_source.html#l00113">Vector2&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00258">Vector3&lt; T &gt;::y</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::z</a>, <a class="el" href="_global_8h_source.html#l00186">MC::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00259">Vector3&lt; T &gt;::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aae5a09483261f897f5464f63fa77436e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>) MapToSphere: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_vector_8hpp.html#a0802581f468608f30e20dbdf80e8c83a">vec2</a>)&#160;</td>
+          <td class="paramname"><em>touchpoint</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>映射到平头锥体</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">touchpoint</td><td>二维的触摸点向量</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>三维的平头锥体 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01404">1404</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_vector_8hpp_source.html#l00069">Vector2&lt; T &gt;::Length()</a>, <a class="el" href="_vector_8hpp_source.html#l00065">Vector2&lt; T &gt;::LengthSquared()</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00104">m_trackballRadius</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00044">MCSceneObject::translation</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_vector_8hpp_source.html#l00112">Vector2&lt; T &gt;::x</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a>, <a class="el" href="_vector_8hpp_source.html#l00113">Vector2&lt; T &gt;::y</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adcebe31c7b31eb3e01ee1fcb4ec077f0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>) middleOfV1: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>)&#160;</td>
+          <td class="paramname"><em>v1</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">V2:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a>)&#160;</td>
+          <td class="paramname"><em>v2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>求v1和v2的平均向量</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v1</td><td>三维向量 </td></tr>
+    <tr><td class="paramname">v2</td><td>三维向量</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>由坐标原点到v1和v2的中点的三维向量 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02157">2157</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_vector_8hpp_source.html#l00127">Vector3&lt; T &gt;::Normalize()</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad08ad490b3d679dd2e403cf251326a55"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) nextSolution </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>前进到后一步 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02399">2399</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00143">isAddStepWhenUpdateState</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00069">isAutoRotate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00121">isLayerRotating</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00149">undoManger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2640f054f54cb3267235f7fa7bd97669"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) nextSpaceIndicatorWithRotateNotationType: </td>
+          <td></td>
+          <td class="paramtype">(struct <a class="el" href="struct_m_c_1_1_rotate_notation_type.html">RotateNotationType</a>)&#160;</td>
+          <td class="paramname"><em>rotationNotationType</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>将指示箭头调整为下次旋转需要的方向</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rotationNotationType</td><td>魔方公式中的旋转类型 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02295">2295</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>, <a class="el" href="_global_8h_source.html#l00294">MC::RotateNotationType::axis</a>, <a class="el" href="_global_8h_source.html#l00296">MC::RotateNotationType::direction</a>, <a class="el" href="_global_8h_source.html#l00284">MC::Double</a>, <a class="el" href="_global_8h_source.html#l00287">MC::DoubleTwoTimes</a>, <a class="el" href="_global_8h_source.html#l00295">MC::RotateNotationType::layer</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00159">MagicCubeIndexState</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02295">nextSpaceIndicatorWithRotateNotationType:</a>, <a class="el" href="_global_8h_source.html#l00283">MC::Single</a>, <a class="el" href="_global_8h_source.html#l00286">MC::SingleTwoTimes</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00164">spaceIndicatorlayerPtr</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00172">twoLayerFlag</a>, <a class="el" href="_global_8h_source.html#l00297">MC::RotateNotationType::type</a>, <a class="el" href="_global_8h_source.html#l00085">MC::X</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_global_8h_source.html#l00086">MC::Y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_global_8h_source.html#l00087">MC::Z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00173">MCRandomSolveSceneController::nextSingmasterNotation:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02295">nextSpaceIndicatorWithRotateNotationType:</a> , 以及 <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00177">MCNormalPlaySceneController::showQueue</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a69c76c832f26bba00b7cb6f48159b2a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) previousSolution </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>回退到前一步 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02387">2387</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00143">isAddStepWhenUpdateState</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00069">isAutoRotate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00121">isLayerRotating</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00149">undoManger</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9fd28e5877dccf2507fd6ec034ff34b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) render </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>渲染每一个Cube实例 </p>
+
+<p>重载 <a class="el" href="interface_m_c_scene_object.html#a914c66ec3303ff8830b61d2d6fc84c8f">MCSceneObject</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00234">234</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a> , 以及 <a class="el" href="_m_c_scene_object_8mm_source.html#l00105">MCSceneObject::render</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6be2e3eac43203b67c3c399d21e5d9a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) rotateOnAxis: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a502f9c93aadad029c5ce87ec73fd9416">AxisType</a>)&#160;</td>
+          <td class="paramname"><em>axis</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">onLayer:</td>
+          <td></td>
+          <td class="paramtype">(int)&#160;</td>
+          <td class="paramname"><em>layer</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">inDirection:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a3a1a456f5dbd90d6073271dc9bb4ec44">LayerRotationDirectionType</a>)&#160;</td>
+          <td class="paramname"><em>direction</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">isTribleRotate:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>is_trible_roate</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">isTwoTimes:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>is_twotimes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>实现魔方的某一层响应手势进行旋转</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axis</td><td>AXisType 旋转轴，x/y/z </td></tr>
+    <tr><td class="paramname">layer</td><td>旋转的层的序号 </td></tr>
+    <tr><td class="paramname">direction</td><td>LayerRotationDirection 旋转方向 </td></tr>
+    <tr><td class="paramname">is_trible_roate</td><td>旋转是否多余 </td></tr>
+    <tr><td class="paramname">is_twotimes</td><td>是否需要旋转两次 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">256</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00110">cuculated_angle</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00092">current_rotate_axis</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00096">current_rotate_direction</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00100">current_rotate_layer</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00069">isAutoRotate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00121">isLayerRotating</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00134">isNeededToAdjustment</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00082">isTribleAutoRotateIn_TECH_MODE</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00064">layerPtr</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00159">MagicCubeIndexState</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00077">rest_rotate_angle</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00073">rest_rotate_time</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00021">ROTATION_ANGLE</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00017">TIME_PER_ROTATION</a>, <a class="el" href="_global_8h_source.html#l00085">MC::X</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_global_8h_source.html#l00086">MC::Y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_global_8h_source.html#l00087">MC::Z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00166">MCNormalPlaySceneController::rotateOnAxis:onLayer:inDirection:isTribleRotate:</a> , 以及 <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00129">MCRandomSolveSceneController::rotateWithSingmasterNotation:isNeedStay:isTwoTimes:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a341d4fceef122412353effa43a067b0e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) SelectLayer </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>获取被选择的魔方层 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01485">1485</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00092">current_rotate_axis</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00100">current_rotate_layer</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00064">layerPtr</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00159">MagicCubeIndexState</a>, <a class="el" href="_global_8h_source.html#l00085">MC::X</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_global_8h_source.html#l00086">MC::Y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_global_8h_source.html#l00087">MC::Z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a57e2a33909f2a35a8fc7711f2684829b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) stepCounterAdd </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>计步器加 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01528">1528</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00144">stepcounterAddAction</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00142">target</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">updateState</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab4c35dcb83f0b5b76d6c7152291eb10b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) stepCounterMinus </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>计步器减 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01538">1538</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00145">stepcounterMinusAction</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00142">target</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">updateState</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4ae8458b76ae3426abc3c2b7a1bc2c12"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) switchToOrignalPlace </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>旋转到初始状态 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02376">2376</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00117">MCRandomSolveSceneController::turnTheMCUI_Into_SOlVE_Play_MODE</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1cd5d0295643ba3a87bedaa635c86d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) ThetaBetweenV1andV2 </td>
+          <td></td>
+          <td class="paramtype">(const <a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a> &amp;)&#160;</td>
+          <td class="paramname"><em>v1</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(const <a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a> &amp;)&#160;</td>
+          <td class="paramname"><em>v2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>求V1与V2的角度</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v1</td><td>三维向量 </td></tr>
+    <tr><td class="paramname">v2</td><td>三维向量</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>夹角角度，double类型 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02186">2186</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_vector_8hpp_source.html#l00165">Vector3&lt; T &gt;::Dot()</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00140">Vector3&lt; T &gt;::Module()</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a00142351faf041a6423313188c3190ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) unexecuteInvocation: </td>
+          <td></td>
+          <td class="paramtype">(NSInvocation *)&#160;</td>
+          <td class="paramname"><em>invocation</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withRedoInvocation:</td>
+          <td></td>
+          <td class="paramtype">(NSInvocation *)&#160;</td>
+          <td class="paramname"><em>redoInvocation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>正常恢复,与撤销操作相反。 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01797">1797</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a96e81d99443ea7fb303877f4e5c75a39"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) update </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>在旋转时更新魔方UI模型 </p>
+
+<p>重载 <a class="el" href="interface_m_c_mobile_object.html#a7744ea6703d27fbc9adbf3d7fc374875">MCMobileObject</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">321</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">array27Cube</a>, <a class="el" href="_global_8h_source.html#l00080">MC::CCW</a>, <a class="el" href="struct_quaternion_t.html#a393eb46fdc1a78e25a5de7bee7b092dc">QuaternionT&lt; float &gt;::CreateFromVectors</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00110">cuculated_angle</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00092">current_rotate_axis</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00096">current_rotate_direction</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00100">current_rotate_layer</a>, <a class="el" href="_coordinating_controller_8h_source.html#l00027">CoordinatingController::currentController</a>, <a class="el" href="_global_8h_source.html#l00079">MC::CW</a>, <a class="el" href="scene_controller_8h_source.html#l00046">sceneController::deltaTime</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00127">fingerRotate_angle</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00131">fingerRotate_angle_mod90</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00069">isAutoRotate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00134">isNeededToAdjustment</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00139">isNeededToUpadteTwice</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00135">isNeededToUpdateMagicCubeState</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00082">isTribleAutoRotateIn_TECH_MODE</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00064">layerPtr</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00159">MagicCubeIndexState</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00061">MCSceneObject::matrix</a>, <a class="el" href="_m_c_point_8h_source.html#l00046">MCPointMake()</a>, <a class="el" href="_m_c_point_8h_source.html#l00117">MCPointMatrixMultiply()</a>, <a class="el" href="_global_8h_source.html#l00215">NO_SELECTED_LAYER</a>, <a class="el" href="_vector_8hpp_source.html#l00011">Pi</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00052">MCSceneObject::quaPreviousRotation</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00051">MCSceneObject::quaRotation</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00133">rest_fingerRotate_time</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00073">rest_rotate_time</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00021">ROTATION_ANGLE</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00031">CoordinatingController::sharedCoordinatingController</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00017">TIME_PER_ROTATION</a>, <a class="el" href="_m_c_mobile_object_8m_source.html#l00022">MCMobileObject::update</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">updateState</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_global_8h_source.html#l00085">MC::X</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a>, <a class="el" href="_global_8h_source.html#l00086">MC::Y</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::z</a> , 以及 <a class="el" href="_global_8h_source.html#l00087">MC::Z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa250dba744229b4fabcfc34399cdffe9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updateMagicCubeIndexState </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>更新魔方各方块的状态，比如颜色、朝向等等。 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01602">1602</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00092">current_rotate_axis</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00096">current_rotate_direction</a>, <a class="el" href="_global_8h_source.html#l00079">MC::CW</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00159">MagicCubeIndexState</a>, <a class="el" href="_global_8h_source.html#l00085">MC::X</a>, <a class="el" href="_global_8h_source.html#l00086">MC::Y</a> , 以及 <a class="el" href="_global_8h_source.html#l00087">MC::Z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">updateState</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac73fd296bfd401e895218fd0005fd905"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updateState </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>更新计步器，魔方解法数据，魔方背后的数据模型。 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">1548</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01808">adjustWithCenter</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00100">current_rotate_layer</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l00423">MCTransformUtil::getRotateNotationTypeWithSingmasterNotation:</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l00076">MCTransformUtil::getSingmasterNotationFromAxis:layer:direction:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00143">isAddStepWhenUpdateState</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00082">isTribleAutoRotateIn_TECH_MODE</a>, <a class="el" href="_global_8h_source.html#l00295">MC::RotateNotationType::layer</a>, <a class="el" href="_global_8h_source.html#l00215">NO_SELECTED_LAYER</a>, <a class="el" href="_global_8h_source.html#l00283">MC::Single</a>, <a class="el" href="_global_8h_source.html#l00286">MC::SingleTwoTimes</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01528">stepCounterAdd</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01538">stepCounterMinus</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00142">target</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00172">twoLayerFlag</a>, <a class="el" href="_global_8h_source.html#l00297">MC::RotateNotationType::type</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01602">updateMagicCubeIndexState</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a192eec804dd0315594739b2f632f867c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updatetweice </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>旋转180度时的更新 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01374">1374</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01778">addInvocation:withUndoInvocation:</a>, <a class="el" href="_global_8h_source.html#l00080">MC::CCW</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01757">createInvocationOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00096">current_rotate_direction</a>, <a class="el" href="_global_8h_source.html#l00079">MC::CW</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00127">fingerRotate_angle</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00131">fingerRotate_angle_mod90</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="ad82d34d330537c0a7a42b23118d14a68"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="_m_c_magic_cube_u_i_model_controller_8h.html#a8c97a48615b8eda614cd9baf2dac32f8">MagicCubeUIUsingMode</a>) _usingMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>魔方当前使用状态 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00155">155</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a93e45530c517eaba7a97b50a0f9427dc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) cuculated_angle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00110">110</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a71c7c29586d4557a42a07d0a3e80c6a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="namespace_m_c.html#a502f9c93aadad029c5ce87ec73fd9416">AxisType</a>) current_rotate_axis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>本次旋转的旋转轴 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00092">92</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01808">adjustWithCenter</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01432">MapToLayerCenter:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01485">SelectLayer</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01602">updateMagicCubeIndexState</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a48f49820e279108c21d14f79748bdef2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="namespace_m_c.html#a3a1a456f5dbd90d6073271dc9bb4ec44">LayerRotationDirectionType</a>) current_rotate_direction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>本次旋转的旋转方向 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00096">96</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01602">updateMagicCubeIndexState</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01374">updatetweice</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a297065864a5cd2146c885e995c4d15c7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (int) current_rotate_layer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>本次需要旋转的层序号 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00100">100</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01432">MapToLayerCenter:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01485">SelectLayer</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">updateState</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3ece45d5ba0daa1705715e2284ec8ecc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="_vector_8hpp.html#a0899f2d9ab745b4ac7625cbfda9bdaab">vec3</a> directionVector[2])</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00112">112</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02216">isSelectOneFace:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0fae93aa6b31ec1d0feeb95046a92301"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) fingerRotate_angle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>手动转动点角度 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00127">127</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01374">updatetweice</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a90271a8d551281b24e94915ad22a0554"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) fingerRotate_angle_mod90</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>手动转动点角度 对90度取模 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00131">131</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01374">updatetweice</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2c687c6d093b34b73f655cf40823764f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="_vector_8hpp.html#a0802581f468608f30e20dbdf80e8c83a">vec2</a> firstThreePoint[3])</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00113">113</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab782aa7212449360d97adde07923c014"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (int) firstThreePointCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00117">117</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abb8db914117553e4fe50edac6477bef0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) is_TECH_MODE_Rotate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>教学模式下魔方整体旋转 输入处理 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00086">86</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae2a0dbe14dfbd22b7b0090f9ac903918"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isAddStepWhenUpdateState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00143">143</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02399">nextSolution</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02387">previousSolution</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">updateState</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9c0623833fee1f60384e5626bc1d43bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isAutoRotate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>auto rotate </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00069">69</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02399">nextSolution</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02387">previousSolution</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a98f8c684f80b6fe2ed2952112fec45a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isLayerRotating</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>是否正在执行单层任务 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00121">121</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02399">nextSolution</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02387">previousSolution</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a012f300bb8f4bf5a7e0b64615826021c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isNeededToAdjustment</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00134">134</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af9bb59381daa9a8d0019663543972680"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isNeededToUpadteTwice</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>但转过的角度时180时，需要更新魔方数据模型两次 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00139">139</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad9443916aec1dc3dddda209bfc9635d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isNeededToUpdateMagicCubeState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00135">135</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0d97265e4b64f5962a5385b32e352cde"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isTribleAutoRotateIn_TECH_MODE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>教学模式下魔方整体旋转 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00082">82</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">updateState</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a674c7c24a6ea23e45f7089d1c200298c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_cube.html">Cube</a>* layerPtr[9])</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>需要旋转的那一层，共有9个Cube实例 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00064">64</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01808">adjustWithCenter</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01485">SelectLayer</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a991532e5158339732147859f545b6314"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="_vector_8hpp.html#a93a9da68b4d7f0b6563ca53d682d1062">ivec2</a>) m_fingerStart</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00105">105</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5ff24d40ecaf71271fee203c5da6ab1a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) m_spinning</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00103">103</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae0c38d2a7ccb792c1836e9070aa119be"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (float) m_trackballRadius</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00104">104</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01404">MapToSphere:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acfaff79b8601fddd09376fb4d20b9798"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_cube.html">Cube</a>* MagicCubeIndexState[27])</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>当前整个魔方索引的状态，存储索引值 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00159">159</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01953">adjustWithCenter_2</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02295">nextSpaceIndicatorWithRotateNotationType:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01485">SelectLayer</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01602">updateMagicCubeIndexState</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a275e562317cf739adbda5054c8adbc64"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_ray.html">MCRay</a>*) ray</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00108">108</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00185">dealloc</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02216">isSelectOneFace:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a81edf6c7fb2bbdee899a09084646a74d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) rest_fingerRotate_angle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00132">132</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a425ef25900ac815a55deb03ba0482362"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) rest_fingerRotate_time</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00133">133</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ade5e1f0c8fbfa97c897ace1f2be3f318"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) rest_rotate_angle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>完成旋转所剩余的角度 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00077">77</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab08fdb6c6e189c0bdb0054cea83b7ee7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (double) rest_rotate_time</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>完成旋转所剩余的时间 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00073">73</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00256">rotateOnAxis:onLayer:inDirection:isTribleRotate:isTwoTimes:</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0b42b4601a3e042192a7318d0690f82b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (int) rrrr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00151">151</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a82d87552017c4e2848a70975067b480c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (float) select_trackballRadius</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00116">116</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01432">MapToLayerCenter:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a04677a1a844dbc6083db6369160b5e23"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_cube.html">Cube</a>*) selected</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00114">114</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00185">dealloc</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac6024418a19ba570ea889c53ed3cdb61"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (float selected_triangle[9])</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00115">115</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02216">isSelectOneFace:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a12a283b5390102cbdb7ede4947b469ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_cube.html">Cube</a>* spaceIndicatorlayerPtr[9])</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>需要旋转的那一层，包括了空间指示箭头的显示。 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00164">164</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02295">nextSpaceIndicatorWithRotateNotationType:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4e3d05bb49fb961cedf1d1fdd0075576"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UITouch*) touch</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00150">150</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa9ed52406207c2c0f80d1844558348ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL twoLayerFlag[3])</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>标记两层转动 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00172">172</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02295">nextSpaceIndicatorWithRotateNotationType:</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">updateState</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="a8576f92f58b4509be1eca3fabd11b286"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSMutableArray *) array27Cube</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>27个Cube类型构成的数组 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">60</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01808">adjustWithCenter</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01953">adjustWithCenter_2</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00242">awake</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02283">closeSpaceIndicator</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00185">dealloc</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00199">flashWithState:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02216">isSelectOneFace:</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00057">MCCountingPlaySceneController::loadScene</a>, <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00039">MCRandomSolveSceneController::loadScene</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00045">MCNormalPlaySceneController::loadScene</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01432">MapToLayerCenter:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02295">nextSpaceIndicatorWithRotateNotationType:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00234">render</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00177">MCNormalPlaySceneController::showQueue</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02376">switchToOrignalPlace</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad99dcc92cc6e327b725d3bb0af5e4581"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSMutableArray *) lockedarray</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00160">160</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00185">dealloc</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00199">flashWithState:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a> , 以及 <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00177">MCNormalPlaySceneController::showQueue</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab89eaa397c864419cd7a8487d580aa59"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (int) selected_cube_face_index</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00167">167</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00141">MCRandomSolveSceneController::isSelectOneFace:</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02216">isSelectOneFace:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a31189fd77dd6e7f7d28dc552027fc73b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (int) selected_cube_index</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00166">166</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00141">MCRandomSolveSceneController::isSelectOneFace:</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02216">isSelectOneFace:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab1015c5529f715200dcabf4c168929cc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (SEL) stepcounterAddAction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00144">144</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01528">stepCounterAdd</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acae1a996a684a1cff4564c3a6a1e5244"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (SEL) stepcounterMinusAction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00145">145</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01538">stepCounterMinus</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac5c526e18888a6815e5c44364d424e32"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) target</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00142">142</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00199">flashWithState:</a>, <a class="el" href="_m_c_scene_controller_8mm_source.html#l00042">MCSceneController::loadScene</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00057">MCCountingPlaySceneController::loadScene</a>, <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00039">MCRandomSolveSceneController::loadScene</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00045">MCNormalPlaySceneController::loadScene</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01528">stepCounterAdd</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01538">stepCounterMinus</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">updateState</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a17b411f37a66ae10534dfe349bb0a185"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSUndoManager *) undoManger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>撤销恢复管理栈 </p>
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00149">149</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00185">dealloc</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00029">initiate</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00110">initiateWithState:</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02399">nextSolution</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l02387">previousSolution</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeaf06451a4ab352101b3defb8812099b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="_m_c_magic_cube_u_i_model_controller_8h.html#a8c97a48615b8eda614cd9baf2dac32f8">MagicCubeUIUsingMode</a>) usingMode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a> 第 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00181">181</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00707">handleTouches</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_magic_cube_u_i_model_controller_8h_source.html">MCMagicCubeUIModelController.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html">MCMagicCubeUIModelController.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_m_c_magic_cube_u_i_model_controller.html">MCMagicCubeUIModelController</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:38 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

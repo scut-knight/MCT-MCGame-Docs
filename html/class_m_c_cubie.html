@@ -1,0 +1,850 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCCubie类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_m_c_cubie.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_m_c_cubie-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MCCubie类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_m_c_cubie_8h_source.html">MCCubie.h</a>&gt;</code></p>
+<div class="dynheader">
+类 MCCubie 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_m_c_cubie.png" usemap="#MCCubie_map" alt=""/>
+  <map id="MCCubie_map" name="MCCubie_map">
+<area href="protocol_m_c_cubie_delegate-p.html" alt="&lt;MCCubieDelegate&gt;" shape="rect" coords="278,56,407,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:ad0671f65a4c5775db7067e58eb8de941"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#ad0671f65a4c5775db7067e58eb8de941">initRightCubeWithCoordinate:</a></td></tr>
+<tr class="memdesc:ad0671f65a4c5775db7067e58eb8de941"><td class="mdescLeft">&#160;</td><td class="mdescRight">initial the cube's data by orignal coordinate value  <a href="#ad0671f65a4c5775db7067e58eb8de941">更多...</a><br/></td></tr>
+<tr class="separator:ad0671f65a4c5775db7067e58eb8de941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc6962ccbe14b17d6c45bd21d13bad6a"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#adc6962ccbe14b17d6c45bd21d13bad6a">redefinedWithCoordinate:orderedColors:orderedOrientations:</a></td></tr>
+<tr class="separator:adc6962ccbe14b17d6c45bd21d13bad6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac1f31618f5d3a1546f4c1c723be334f"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#aac1f31618f5d3a1546f4c1c723be334f">initOnlyCenterColor:</a></td></tr>
+<tr class="separator:aac1f31618f5d3a1546f4c1c723be334f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7735b9b55df3e503c954152a8685600"><td class="memItemLeft" align="right" valign="top">(NSDictionary *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#ab7735b9b55df3e503c954152a8685600">getCubieOrientationOfAxis</a></td></tr>
+<tr class="separator:ab7735b9b55df3e503c954152a8685600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cf446797dca5ffbc2cdf87860498bc4"><td class="memItemLeft" align="right" valign="top">(NSDictionary *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#a8cf446797dca5ffbc2cdf87860498bc4">getCubieColorInOrientations</a></td></tr>
+<tr class="separator:a8cf446797dca5ffbc2cdf87860498bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af81acd4491ce20c7ddf58131132bb784"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#af81acd4491ce20c7ddf58131132bb784">hasAllFacesBeenFilledWithColors</a></td></tr>
+<tr class="separator:af81acd4491ce20c7ddf58131132bb784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5d9db604a9e876ca15a1f3099d3ea02"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#af5d9db604a9e876ca15a1f3099d3ea02">dealloc</a><code> [implementation]</code></td></tr>
+<tr class="separator:af5d9db604a9e876ca15a1f3099d3ea02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad88908ad2ae2e73f6ff7e10de2f09b8e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#ad88908ad2ae2e73f6ff7e10de2f09b8e">shiftOnAxis:inDirection:</a><code> [implementation]</code></td></tr>
+<tr class="memdesc:ad88908ad2ae2e73f6ff7e10de2f09b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">shift the cube‘s data  <a href="#ad88908ad2ae2e73f6ff7e10de2f09b8e">更多...</a><br/></td></tr>
+<tr class="separator:ad88908ad2ae2e73f6ff7e10de2f09b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7ca34b9d2fe8e5a162db700b679d5a6"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="namespace_m_c.html#ae3eb946313cd2905a8d0cca389a411c5">FaceColorType</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#ae7ca34b9d2fe8e5a162db700b679d5a6">faceColorInOrientation:</a><code> [implementation]</code></td></tr>
+<tr class="memdesc:ae7ca34b9d2fe8e5a162db700b679d5a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the faceColor in specified orientation  <a href="#ae7ca34b9d2fe8e5a162db700b679d5a6">更多...</a><br/></td></tr>
+<tr class="separator:ae7ca34b9d2fe8e5a162db700b679d5a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f2fccbf2f2b03061ec59a4b787259b8"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#a8f2fccbf2f2b03061ec59a4b787259b8">isFaceColor:inOrientation:</a><code> [implementation]</code></td></tr>
+<tr class="memdesc:a8f2fccbf2f2b03061ec59a4b787259b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">return wheather the face color on the specified orientation is the specified color  <a href="#a8f2fccbf2f2b03061ec59a4b787259b8">更多...</a><br/></td></tr>
+<tr class="separator:a8f2fccbf2f2b03061ec59a4b787259b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eb4cb6c32158d8bcc6e6fb30492ec8d"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#a5eb4cb6c32158d8bcc6e6fb30492ec8d">setFaceColor:inOrientation:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a5eb4cb6c32158d8bcc6e6fb30492ec8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62ddfa378a6d9eefe8fb8c80e81ca9bc"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#a62ddfa378a6d9eefe8fb8c80e81ca9bc">clearData</a><code> [implementation]</code></td></tr>
+<tr class="memdesc:a62ddfa378a6d9eefe8fb8c80e81ca9bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear all data, ready for re-initiate  <a href="#a62ddfa378a6d9eefe8fb8c80e81ca9bc">更多...</a><br/></td></tr>
+<tr class="separator:a62ddfa378a6d9eefe8fb8c80e81ca9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4221f448bfddeff41d956436fdec81d7"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#a4221f448bfddeff41d956436fdec81d7">encodeWithCoder:</a><code> [implementation]</code></td></tr>
+<tr class="memdesc:a4221f448bfddeff41d956436fdec81d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">encode the object  <a href="#a4221f448bfddeff41d956436fdec81d7">更多...</a><br/></td></tr>
+<tr class="separator:a4221f448bfddeff41d956436fdec81d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37b43a7bb79413f7a49013387cafa758"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#a37b43a7bb79413f7a49013387cafa758">initWithCoder:</a><code> [implementation]</code></td></tr>
+<tr class="memdesc:a37b43a7bb79413f7a49013387cafa758"><td class="mdescLeft">&#160;</td><td class="mdescRight">decode the object  <a href="#a37b43a7bb79413f7a49013387cafa758">更多...</a><br/></td></tr>
+<tr class="separator:a37b43a7bb79413f7a49013387cafa758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9070307d2c6d6ade1d5281aacbb714a"><td class="memItemLeft" align="right" valign="top">(NSArray *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#ac9070307d2c6d6ade1d5281aacbb714a">allFaceColors</a><code> [implementation]</code></td></tr>
+<tr class="separator:ac9070307d2c6d6ade1d5281aacbb714a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cfd6b067fdebbdfdd6fbb38244c71a3"><td class="memItemLeft" align="right" valign="top">(NSArray *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#a7cfd6b067fdebbdfdd6fbb38244c71a3">allOrientations</a><code> [implementation]</code></td></tr>
+<tr class="separator:a7cfd6b067fdebbdfdd6fbb38244c71a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6991e8464ffa5cb3ebb626775e47212"><td class="memItemLeft" align="right" valign="top">(NSDictionary *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="class_m_c_cubie.html#ac6991e8464ffa5cb3ebb626775e47212">getCubieColorInOrientationsWithoutNoColor</a><code> [implementation]</code></td></tr>
+<tr class="separator:ac6991e8464ffa5cb3ebb626775e47212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_protocol_m_c_cubie_delegate-p"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_protocol_m_c_cubie_delegate-p')"><img src="closed.png" alt="-"/>&#160;Instance Methods 继承自 <a class="el" href="protocol_m_c_cubie_delegate-p.html">&lt;MCCubieDelegate&gt;</a></td></tr>
+<tr class="memitem:ae33ab62c90eb8ffa8958bcf0d54e1f37 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_cubie_delegate-p.html#ae33ab62c90eb8ffa8958bcf0d54e1f37">shiftOnAxis:inDirection:</a></td></tr>
+<tr class="separator:ae33ab62c90eb8ffa8958bcf0d54e1f37 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb2df8b7814b67cab395ec88442208db inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="namespace_m_c.html#ae3eb946313cd2905a8d0cca389a411c5">FaceColorType</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_cubie_delegate-p.html#afb2df8b7814b67cab395ec88442208db">faceColorInOrientation:</a></td></tr>
+<tr class="memdesc:afb2df8b7814b67cab395ec88442208db inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the faceColor in specified orientation  <a href="#afb2df8b7814b67cab395ec88442208db">更多...</a><br/></td></tr>
+<tr class="separator:afb2df8b7814b67cab395ec88442208db inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c33d80e144afd79c9b758b5b545d107 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_cubie_delegate-p.html#a9c33d80e144afd79c9b758b5b545d107">isFaceColor:inOrientation:</a></td></tr>
+<tr class="memdesc:a9c33d80e144afd79c9b758b5b545d107 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return wheather the face color on the specified orientation is the specified color.  <a href="#a9c33d80e144afd79c9b758b5b545d107">更多...</a><br/></td></tr>
+<tr class="separator:a9c33d80e144afd79c9b758b5b545d107 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e9afeb79e94fb4147ad6548014ad56a inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_cubie_delegate-p.html#a4e9afeb79e94fb4147ad6548014ad56a">setFaceColor:inOrientation:</a></td></tr>
+<tr class="separator:a4e9afeb79e94fb4147ad6548014ad56a inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba497d84569680fd96eaea5c70049d86 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memItemLeft" align="right" valign="top">(NSInteger)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_cubie_delegate-p.html#aba497d84569680fd96eaea5c70049d86">skinNum</a></td></tr>
+<tr class="memdesc:aba497d84569680fd96eaea5c70049d86 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of cubie's faces.  <a href="#aba497d84569680fd96eaea5c70049d86">更多...</a><br/></td></tr>
+<tr class="separator:aba497d84569680fd96eaea5c70049d86 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e4aba672cd3ed63af51c07282211598 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="namespace_m_c.html#ad81cf448be7efd399cfb1ff509aec9bd">ColorCombinationType</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_cubie_delegate-p.html#a3e4aba672cd3ed63af51c07282211598">identity</a></td></tr>
+<tr class="memdesc:a3e4aba672cd3ed63af51c07282211598 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the identity of the cubie.  <a href="#a3e4aba672cd3ed63af51c07282211598">更多...</a><br/></td></tr>
+<tr class="separator:a3e4aba672cd3ed63af51c07282211598 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ebb8bee43e89977516fcfcb4ffd90c9 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="struct_m_c_1_1_point3i.html">Point3i</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_cubie_delegate-p.html#a5ebb8bee43e89977516fcfcb4ffd90c9">coordinateValue</a></td></tr>
+<tr class="memdesc:a5ebb8bee43e89977516fcfcb4ffd90c9 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the coordinate of the cubie.  <a href="#a5ebb8bee43e89977516fcfcb4ffd90c9">更多...</a><br/></td></tr>
+<tr class="separator:a5ebb8bee43e89977516fcfcb4ffd90c9 inherit pub_methods_protocol_m_c_cubie_delegate-p"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:abfc14f3cb68dea1275205e1964306073"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="struct_m_c_1_1_point3i.html">Point3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_c_cubie.html#abfc14f3cb68dea1275205e1964306073">coordinateValue</a></td></tr>
+<tr class="separator:abfc14f3cb68dea1275205e1964306073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c1d7e64c1c47f41c6275b8815b4a3ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_c_cubie.html#a6c1d7e64c1c47f41c6275b8815b4a3ed">skinNum</a></td></tr>
+<tr class="separator:a6c1d7e64c1c47f41c6275b8815b4a3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7559d21b20e1a3a5d3cd9d3d95ed94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_c.html#ae0d778053331a59c18721deae9794a90">CubieType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_c_cubie.html#a4e7559d21b20e1a3a5d3cd9d3d95ed94">type</a></td></tr>
+<tr class="separator:a4e7559d21b20e1a3a5d3cd9d3d95ed94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79032d7345e3abee08a823a6536f9d13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_c.html#ad81cf448be7efd399cfb1ff509aec9bd">ColorCombinationType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_c_cubie.html#a79032d7345e3abee08a823a6536f9d13">identity</a></td></tr>
+<tr class="separator:a79032d7345e3abee08a823a6536f9d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb2bdf4ef2ed41451a876d166660fa7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_c.html#ae3eb946313cd2905a8d0cca389a411c5">FaceColorType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_c_cubie.html#abb2bdf4ef2ed41451a876d166660fa7b">faceColors</a></td></tr>
+<tr class="separator:abb2bdf4ef2ed41451a876d166660fa7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfd509d5be359ec22a607f72eccb6972"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_c.html#a5aaee85da207736fdcbc116de9926127">FaceOrientationType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_c_cubie.html#acfd509d5be359ec22a607f72eccb6972">orientations</a></td></tr>
+<tr class="separator:acfd509d5be359ec22a607f72eccb6972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>普通立方体 </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00024">24</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="ac9070307d2c6d6ade1d5281aacbb714a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSArray *) allFaceColors </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>所有的表面颜色</p>
+<dl class="section return"><dt>返回</dt><dd>包括了表面颜色的NSArray </dd></dl>
+
+<p>重载 <a class="el" href="protocol_m_c_cubie_delegate-p.html#a4bfc5e0838f27d78889608a9a1e650de">&lt;MCCubieDelegate&gt;</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00679">679</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7cfd6b067fdebbdfdd6fbb38244c71a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSArray *) allOrientations </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>所有的朝向</p>
+<dl class="section return"><dt>返回</dt><dd>包括了朝向的NSArray </dd></dl>
+
+<p>重载 <a class="el" href="protocol_m_c_cubie_delegate-p.html#a7c2a4e12634a6ca1d657c180e535dce0">&lt;MCCubieDelegate&gt;</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00693">693</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a62ddfa378a6d9eefe8fb8c80e81ca9bc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) clearData </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>clear all data, ready for re-initiate </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00627">627</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_cube_8m_source.html#l00193">initOnlyCenterColor:</a>, <a class="el" href="_m_c_cube_8m_source.html#l00036">initRightCubeWithCoordinate:</a> , 以及 <a class="el" href="_m_c_cube_8m_source.html#l00128">redefinedWithCoordinate:orderedColors:orderedOrientations:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af5d9db604a9e876ca15a1f3099d3ea02"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00335">335</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4221f448bfddeff41d956436fdec81d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) encodeWithCoder: </td>
+          <td></td>
+          <td class="paramtype">(NSCoder *)&#160;</td>
+          <td class="paramname"><em>aCoder</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>encode the object </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00639">639</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae7ca34b9d2fe8e5a162db700b679d5a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="namespace_m_c.html#ae3eb946313cd2905a8d0cca389a411c5">FaceColorType</a>) faceColorInOrientation: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a5aaee85da207736fdcbc116de9926127">FaceOrientationType</a>)&#160;</td>
+          <td class="paramname"><em>orientation</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the faceColor in specified orientation </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00522">522</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00042">MC::NoColor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8cf446797dca5ffbc2cdf87860498bc4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSDictionary *) getCubieColorInOrientations </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return state in the "format" orientation-facecolor All 6 faces will be returned. </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00706">706</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac6991e8464ffa5cb3ebb626775e47212"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSDictionary *) getCubieColorInOrientationsWithoutNoColor </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>返回一个以Orientation的数值作为键，以faceColor的数值作为值的不可变字典 </p>
+
+<p>重载 <a class="el" href="protocol_m_c_cubie_delegate-p.html#a305f0bdc3d9621bec13b3051cc3f3a51">&lt;MCCubieDelegate&gt;</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00753">753</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab7735b9b55df3e503c954152a8685600"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSDictionary *) getCubieOrientationOfAxis </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return state in the "format" axis-orientation </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00720">720</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00039">MC::BackColor</a>, <a class="el" href="_global_8h_source.html#l00037">MC::DownColor</a>, <a class="el" href="_global_8h_source.html#l00038">MC::FrontColor</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l00020">MCTransformUtil::getContraryOrientation:</a>, <a class="el" href="_global_8h_source.html#l00040">MC::LeftColor</a>, <a class="el" href="_global_8h_source.html#l00041">MC::RightColor</a> , 以及 <a class="el" href="_global_8h_source.html#l00036">MC::UpColor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af81acd4491ce20c7ddf58131132bb784"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) hasAllFacesBeenFilledWithColors </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If all faces of this cubie have been filled. </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00764">764</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac1f31618f5d3a1546f4c1c723be334f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initOnlyCenterColor: </td>
+          <td></td>
+          <td class="paramtype">(struct <a class="el" href="struct_m_c_1_1_point3i.html">Point3i</a>)&#160;</td>
+          <td class="paramname"><em>value</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Only the center color will be filled, others will be filled with 'NoColor'</p>
+<p>只有中间的颜色被填充，其他的颜色为无颜色。用于求解模式 </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00193">193</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00063">MC::Back</a>, <a class="el" href="_global_8h_source.html#l00039">MC::BackColor</a>, <a class="el" href="_global_8h_source.html#l00101">MC::CenterBlank</a>, <a class="el" href="_global_8h_source.html#l00072">MC::CentralCubie</a>, <a class="el" href="_m_c_cube_8m_source.html#l00627">clearData</a>, <a class="el" href="_global_8h_source.html#l00074">MC::CornerCubie</a>, <a class="el" href="_global_8h_source.html#l00061">MC::Down</a>, <a class="el" href="_global_8h_source.html#l00037">MC::DownColor</a>, <a class="el" href="_global_8h_source.html#l00073">MC::EdgeCubie</a>, <a class="el" href="_global_8h_source.html#l00062">MC::Front</a>, <a class="el" href="_global_8h_source.html#l00038">MC::FrontColor</a>, <a class="el" href="_global_8h_source.html#l00064">MC::Left</a>, <a class="el" href="_global_8h_source.html#l00040">MC::LeftColor</a>, <a class="el" href="_global_8h_source.html#l00042">MC::NoColor</a>, <a class="el" href="_global_8h_source.html#l00065">MC::Right</a>, <a class="el" href="_global_8h_source.html#l00041">MC::RightColor</a>, <a class="el" href="_global_8h_source.html#l00060">MC::Up</a> , 以及 <a class="el" href="_global_8h_source.html#l00036">MC::UpColor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0671f65a4c5775db7067e58eb8de941"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initRightCubeWithCoordinate: </td>
+          <td></td>
+          <td class="paramtype">(struct <a class="el" href="struct_m_c_1_1_point3i.html">Point3i</a>)&#160;</td>
+          <td class="paramname"><em>value</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>初始值:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    NSInteger _completeFaceNum</div>
+</div><!-- fragment -->
+<p>initial the cube's data by orignal coordinate value </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00036">36</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00063">MC::Back</a>, <a class="el" href="_global_8h_source.html#l00039">MC::BackColor</a>, <a class="el" href="_global_8h_source.html#l00072">MC::CentralCubie</a>, <a class="el" href="_m_c_cube_8m_source.html#l00627">clearData</a>, <a class="el" href="_global_8h_source.html#l00074">MC::CornerCubie</a>, <a class="el" href="_global_8h_source.html#l00061">MC::Down</a>, <a class="el" href="_global_8h_source.html#l00037">MC::DownColor</a>, <a class="el" href="_global_8h_source.html#l00073">MC::EdgeCubie</a>, <a class="el" href="_global_8h_source.html#l00062">MC::Front</a>, <a class="el" href="_global_8h_source.html#l00038">MC::FrontColor</a>, <a class="el" href="_global_8h_source.html#l00064">MC::Left</a>, <a class="el" href="_global_8h_source.html#l00040">MC::LeftColor</a>, <a class="el" href="_global_8h_source.html#l00065">MC::Right</a>, <a class="el" href="_global_8h_source.html#l00041">MC::RightColor</a>, <a class="el" href="_global_8h_source.html#l00060">MC::Up</a> , 以及 <a class="el" href="_global_8h_source.html#l00036">MC::UpColor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a37b43a7bb79413f7a49013387cafa758"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initWithCoder: </td>
+          <td></td>
+          <td class="paramtype">(NSCoder *)&#160;</td>
+          <td class="paramname"><em>aDecoder</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>decode the object </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00654">654</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_cube_8m_source.html#l00020">kIdentityKey</a>, <a class="el" href="_m_c_cube_8m_source.html#l00021">kSingleColorKeyFormat</a>, <a class="el" href="_m_c_cube_8m_source.html#l00022">kSingleOrientationKeyFormat</a> , 以及 <a class="el" href="_m_c_cube_8m_source.html#l00018">kTypeKey</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8f2fccbf2f2b03061ec59a4b787259b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isFaceColor: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#ae3eb946313cd2905a8d0cca389a411c5">FaceColorType</a>)&#160;</td>
+          <td class="paramname"><em>color</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">inOrientation:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a5aaee85da207736fdcbc116de9926127">FaceOrientationType</a>)&#160;</td>
+          <td class="paramname"><em>orientation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return wheather the face color on the specified orientation is the specified color </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00533">533</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="adc6962ccbe14b17d6c45bd21d13bad6a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) redefinedWithCoordinate: </td>
+          <td></td>
+          <td class="paramtype">(struct <a class="el" href="struct_m_c_1_1_point3i.html">Point3i</a>)&#160;</td>
+          <td class="paramname"><em>value</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">orderedColors:</td>
+          <td></td>
+          <td class="paramtype">(NSArray *)&#160;</td>
+          <td class="paramname"><em>colors</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">orderedOrientations:</td>
+          <td></td>
+          <td class="paramtype">(NSArray *)&#160;</td>
+          <td class="paramname"><em>ors</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Re-initiate the cube</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>original coordinate value </td></tr>
+    <tr><td class="paramname">colors</td><td>按顺序排列的颜色组合 </td></tr>
+    <tr><td class="paramname">ors</td><td>按顺序排列的朝向组合</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>self </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00128">128</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00039">MC::BackColor</a>, <a class="el" href="_global_8h_source.html#l00072">MC::CentralCubie</a>, <a class="el" href="_m_c_cube_8m_source.html#l00627">clearData</a>, <a class="el" href="_global_8h_source.html#l00074">MC::CornerCubie</a>, <a class="el" href="_global_8h_source.html#l00037">MC::DownColor</a>, <a class="el" href="_global_8h_source.html#l00073">MC::EdgeCubie</a>, <a class="el" href="_global_8h_source.html#l00038">MC::FrontColor</a>, <a class="el" href="_global_8h_source.html#l00040">MC::LeftColor</a>, <a class="el" href="_global_8h_source.html#l00041">MC::RightColor</a> , 以及 <a class="el" href="_global_8h_source.html#l00036">MC::UpColor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5eb4cb6c32158d8bcc6e6fb30492ec8d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) setFaceColor: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#ae3eb946313cd2905a8d0cca389a411c5">FaceColorType</a>)&#160;</td>
+          <td class="paramname"><em>color</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">inOrientation:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a5aaee85da207736fdcbc116de9926127">FaceOrientationType</a>)&#160;</td>
+          <td class="paramname"><em>orientation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set the face color on the specified orientation. If the cubie has face on this orientation, set the color. Otherwise, return NO. </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00548">548</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00039">MC::BackColor</a>, <a class="el" href="_global_8h_source.html#l00074">MC::CornerCubie</a>, <a class="el" href="_global_8h_source.html#l00037">MC::DownColor</a>, <a class="el" href="_m_c_cubie_color_constraint_util_8m_source.html#l00101">MCCubieColorConstraintUtil::fillRightFaceColorAtCubie:inOrientation:</a>, <a class="el" href="_global_8h_source.html#l00038">MC::FrontColor</a>, <a class="el" href="_global_8h_source.html#l00040">MC::LeftColor</a>, <a class="el" href="_global_8h_source.html#l00042">MC::NoColor</a>, <a class="el" href="_global_8h_source.html#l00041">MC::RightColor</a> , 以及 <a class="el" href="_global_8h_source.html#l00036">MC::UpColor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad88908ad2ae2e73f6ff7e10de2f09b8e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) shiftOnAxis: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a502f9c93aadad029c5ce87ec73fd9416">AxisType</a>)&#160;</td>
+          <td class="paramname"><em>axis</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">inDirection:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a3a1a456f5dbd90d6073271dc9bb4ec44">LayerRotationDirectionType</a>)&#160;</td>
+          <td class="paramname"><em>direction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>shift the cube‘s data </p>
+
+<p>在文件 <a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a> 第 <a class="el" href="_m_c_cube_8m_source.html#l00342">342</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00063">MC::Back</a>, <a class="el" href="_global_8h_source.html#l00079">MC::CW</a>, <a class="el" href="_global_8h_source.html#l00061">MC::Down</a>, <a class="el" href="_global_8h_source.html#l00062">MC::Front</a>, <a class="el" href="_global_8h_source.html#l00064">MC::Left</a>, <a class="el" href="_global_8h_source.html#l00065">MC::Right</a>, <a class="el" href="_global_8h_source.html#l00060">MC::Up</a>, <a class="el" href="_global_8h_source.html#l00085">MC::X</a>, <a class="el" href="_global_8h_source.html#l00086">MC::Y</a> , 以及 <a class="el" href="_global_8h_source.html#l00087">MC::Z</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="abfc14f3cb68dea1275205e1964306073"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (struct <a class="el" href="struct_m_c_1_1_point3i.html">Point3i</a>) coordinateValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_cubie_8h_source.html">MCCubie.h</a> 第 <a class="el" href="_m_c_cubie_8h_source.html#l00017">17</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_8m_source.html#l00621">MCMagicCube::coordinateValueOfCubieWithColorCombination:</a> , 以及 <a class="el" href="_m_c_magic_cube_8m_source.html#l00158">MCMagicCube::rotateOnAxis:onLayer:inDirection:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abb2bdf4ef2ed41451a876d166660fa7b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="namespace_m_c.html#ae3eb946313cd2905a8d0cca389a411c5">FaceColorType</a>*) faceColors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_cubie_8h_source.html">MCCubie.h</a> 第 <a class="el" href="_m_c_cubie_8h_source.html#l00021">21</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a79032d7345e3abee08a823a6536f9d13"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="namespace_m_c.html#ad81cf448be7efd399cfb1ff509aec9bd">ColorCombinationType</a>) identity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_cubie_8h_source.html">MCCubie.h</a> 第 <a class="el" href="_m_c_cubie_8h_source.html#l00020">20</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="acfd509d5be359ec22a607f72eccb6972"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="namespace_m_c.html#a5aaee85da207736fdcbc116de9926127">FaceOrientationType</a>*) orientations</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_cubie_8h_source.html">MCCubie.h</a> 第 <a class="el" href="_m_c_cubie_8h_source.html#l00022">22</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6c1d7e64c1c47f41c6275b8815b4a3ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (int) skinNum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_cubie_8h_source.html">MCCubie.h</a> 第 <a class="el" href="_m_c_cubie_8h_source.html#l00018">18</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4e7559d21b20e1a3a5d3cd9d3d95ed94"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="namespace_m_c.html#ae0d778053331a59c18721deae9794a90">CubieType</a>) type</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_cubie_8h_source.html">MCCubie.h</a> 第 <a class="el" href="_m_c_cubie_8h_source.html#l00019">19</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_cube_8m_source.html">MCCube.m</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_cubie_8h_source.html">MCCubie.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_m_c_cubie.html">MCCubie</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:38 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

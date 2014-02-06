@@ -1,0 +1,796 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCCountingPlayInputViewController类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_m_c_counting_play_input_view_controller.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_m_c_counting_play_input_view_controller-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MCCountingPlayInputViewController类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html">MCCountingPlayInputViewController__1.h</a>&gt;</code></p>
+<div class="dynheader">
+类 MCCountingPlayInputViewController 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_m_c_counting_play_input_view_controller.png" usemap="#MCCountingPlayInputViewController_map" alt=""/>
+  <map id="MCCountingPlayInputViewController_map" name="MCCountingPlayInputViewController_map">
+<area href="interface_input_controller.html" alt="InputController" shape="rect" coords="0,56,218,80"/>
+<area href="protocol_u_a_modal_panel_delegate-p.html" alt="&lt;UAModalPanelDelegate&gt;" shape="rect" coords="228,56,446,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:a64cacf2ad5b26f25c479ce30338143df"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#a64cacf2ad5b26f25c479ce30338143df">loadInterface</a></td></tr>
+<tr class="separator:a64cacf2ad5b26f25c479ce30338143df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1617026703ae0c93c3852a330162b6d4"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#a1617026703ae0c93c3852a330162b6d4">previousSolutionBtnUp</a></td></tr>
+<tr class="separator:a1617026703ae0c93c3852a330162b6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac06130141db365508fa99402dd16efc8"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#ac06130141db365508fa99402dd16efc8">previousSolutionBtnDown</a></td></tr>
+<tr class="separator:ac06130141db365508fa99402dd16efc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47a564cf8693779222187f452f13d5b8"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#a47a564cf8693779222187f452f13d5b8">pauseSolutionBtnUp</a></td></tr>
+<tr class="separator:a47a564cf8693779222187f452f13d5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6c9c95f203e862c705609e88835d45e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#af6c9c95f203e862c705609e88835d45e">pauseSolutionBtnDown</a></td></tr>
+<tr class="separator:af6c9c95f203e862c705609e88835d45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a508162cc7271648551b18b7592380071"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#a508162cc7271648551b18b7592380071">nextSolutionBtnUp</a></td></tr>
+<tr class="separator:a508162cc7271648551b18b7592380071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf7118809402f51779ea8dcd4af66ad4"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#acf7118809402f51779ea8dcd4af66ad4">nextSolutionBtnDown</a></td></tr>
+<tr class="separator:acf7118809402f51779ea8dcd4af66ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34c7b8dd72268f248020db309ac59289"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#a34c7b8dd72268f248020db309ac59289">mainMenuBtnDown</a></td></tr>
+<tr class="separator:a34c7b8dd72268f248020db309ac59289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae728a02e8ae9b5ae84291fd9dfaeec51"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#ae728a02e8ae9b5ae84291fd9dfaeec51">mainMenuBtnUp</a></td></tr>
+<tr class="separator:ae728a02e8ae9b5ae84291fd9dfaeec51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432d6312464faf371ddf6eaa32aea015"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#a432d6312464faf371ddf6eaa32aea015">releaseInterface</a></td></tr>
+<tr class="separator:a432d6312464faf371ddf6eaa32aea015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a536043b41f375ddfced86868aaef6e42"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#a536043b41f375ddfced86868aaef6e42">showFinishView</a></td></tr>
+<tr class="separator:a536043b41f375ddfced86868aaef6e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07781ffa23fcc089bb4f791c499c20d8"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#a07781ffa23fcc089bb4f791c499c20d8">willShowModalPanel:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a07781ffa23fcc089bb4f791c499c20d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04ef247d710a4b882cfc863c8a42970b"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#a04ef247d710a4b882cfc863c8a42970b">didShowModalPanel:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a04ef247d710a4b882cfc863c8a42970b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae957b4d2bbeeec45929b8c607fbae91c"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#ae957b4d2bbeeec45929b8c607fbae91c">shouldCloseModalPanel:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ae957b4d2bbeeec45929b8c607fbae91c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1114c7d86a1270e14047b7a81203f238"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#a1114c7d86a1270e14047b7a81203f238">willCloseModalPanel:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a1114c7d86a1270e14047b7a81203f238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd8a9fa51aca836a80e2133d589f081"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#abcd8a9fa51aca836a80e2133d589f081">didCloseModalPanel:</a><code> [implementation]</code></td></tr>
+<tr class="separator:abcd8a9fa51aca836a80e2133d589f081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60232da68189edf19acb16e9724b0a3c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_counting_play_input_view_controller.html#a60232da68189edf19acb16e9724b0a3c">askReload</a><code> [implementation]</code></td></tr>
+<tr class="separator:a60232da68189edf19acb16e9724b0a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interface_input_controller"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_input_controller')"><img src="closed.png" alt="-"/>&#160;Instance Methods 继承自 <a class="el" href="interface_input_controller.html">InputController</a></td></tr>
+<tr class="memitem:a968f2b1d2ace5eccfebd87ce7f7a159d inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(CGRect)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#a968f2b1d2ace5eccfebd87ce7f7a159d">screenRectFromMeshRect:atPoint:</a></td></tr>
+<tr class="separator:a968f2b1d2ace5eccfebd87ce7f7a159d inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39ecb232865f460c3bddfdfd108be117 inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#a39ecb232865f460c3bddfdfd108be117">initWithNibName:bundle:</a></td></tr>
+<tr class="separator:a39ecb232865f460c3bddfdfd108be117 inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5a6650aa1fe7917b53b03cdeb9cd239 inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#af5a6650aa1fe7917b53b03cdeb9cd239">clearEvents</a></td></tr>
+<tr class="separator:af5a6650aa1fe7917b53b03cdeb9cd239 inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80564909543926a0292d32517a218290 inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#a80564909543926a0292d32517a218290">dealloc</a></td></tr>
+<tr class="separator:a80564909543926a0292d32517a218290 inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73098d8fdc64bd6f2b22cdad0fb52abf inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#a73098d8fdc64bd6f2b22cdad0fb52abf">didReceiveMemoryWarning</a></td></tr>
+<tr class="separator:a73098d8fdc64bd6f2b22cdad0fb52abf inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1f46ad381765ac58b61213e5d577936 inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#aa1f46ad381765ac58b61213e5d577936">loadView</a></td></tr>
+<tr class="separator:aa1f46ad381765ac58b61213e5d577936 inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f25a07e598fbaef2a6b1c3208c8b11e inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#a0f25a07e598fbaef2a6b1c3208c8b11e">viewDidUnload</a></td></tr>
+<tr class="separator:a0f25a07e598fbaef2a6b1c3208c8b11e inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea36b65df8e98782f44b5699a3ee0b69 inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#aea36b65df8e98782f44b5699a3ee0b69">renderInterface</a></td></tr>
+<tr class="separator:aea36b65df8e98782f44b5699a3ee0b69 inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa1ee585ec8a1e111b16b75db8ae3862 inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#aaa1ee585ec8a1e111b16b75db8ae3862">updateInterface</a></td></tr>
+<tr class="separator:aaa1ee585ec8a1e111b16b75db8ae3862 inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36dfc86d1eb1df8aaa24f49d05aefa31 inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#a36dfc86d1eb1df8aaa24f49d05aefa31">touchesBegan:withEvent:</a></td></tr>
+<tr class="separator:a36dfc86d1eb1df8aaa24f49d05aefa31 inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7b9a29ea1e91bcd47e884d736585251 inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#ae7b9a29ea1e91bcd47e884d736585251">touchesEnded:withEvent:</a></td></tr>
+<tr class="separator:ae7b9a29ea1e91bcd47e884d736585251 inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8a918a6aa0d1af952e77d5836489100 inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#ad8a918a6aa0d1af952e77d5836489100">touchesMoved:withEvent:</a></td></tr>
+<tr class="separator:ad8a918a6aa0d1af952e77d5836489100 inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab399f1b14f92315109583e8c415555b1 inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#ab399f1b14f92315109583e8c415555b1">touchesCancelled:withEvent:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ab399f1b14f92315109583e8c415555b1 inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a150a1137513f458934651636bba603f0 inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#a150a1137513f458934651636bba603f0">shouldAutorotateToInterfaceOrientation:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a150a1137513f458934651636bba603f0 inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055513806917280f6843a3a9cd53d9af inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#a055513806917280f6843a3a9cd53d9af">shouldAutorotate</a><code> [implementation]</code></td></tr>
+<tr class="separator:a055513806917280f6843a3a9cd53d9af inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2184bcc6e3fc1920c56908487d4ddcb8 inherit pub_methods_interface_input_controller"><td class="memItemLeft" align="right" valign="top">(NSUInteger)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_input_controller.html#a2184bcc6e3fc1920c56908487d4ddcb8">supportedInterfaceOrientations</a><code> [implementation]</code></td></tr>
+<tr class="separator:a2184bcc6e3fc1920c56908487d4ddcb8 inherit pub_methods_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a5bec6e946186fb0847c4db0f96b7db7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_pause_menu.html">PauseMenu</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_counting_play_input_view_controller.html#a5bec6e946186fb0847c4db0f96b7db7f">puseMenu</a></td></tr>
+<tr class="separator:a5bec6e946186fb0847c4db0f96b7db7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3432670722d819d1a4344cf31e3ab3d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_counting_finish_view.html">CountingFinishView</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_counting_play_input_view_controller.html#a3432670722d819d1a4344cf31e3ab3d4">finishView</a></td></tr>
+<tr class="separator:a3432670722d819d1a4344cf31e3ab3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab91a055783f166640e1e15ae8308af9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_ask_reload_view.html">AskReloadView</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_counting_play_input_view_controller.html#ab91a055783f166640e1e15ae8308af9b">askReloadView</a></td></tr>
+<tr class="separator:ab91a055783f166640e1e15ae8308af9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_interface_input_controller"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_interface_input_controller')"><img src="closed.png" alt="-"/>&#160;Protected 属性 继承自 <a class="el" href="interface_input_controller.html">InputController</a></td></tr>
+<tr class="memitem:a19644457239b061e643ce8fa4a8330e4 inherit pro_attribs_interface_input_controller"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_input_controller.html#a19644457239b061e643ce8fa4a8330e4">interfaceObjects</a></td></tr>
+<tr class="separator:a19644457239b061e643ce8fa4a8330e4 inherit pro_attribs_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:a1b5acf1ff4736a1c4084bff93e6b2e07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_multi_digit_counter.html">MCMultiDigitCounter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_counting_play_input_view_controller.html#a1b5acf1ff4736a1c4084bff93e6b2e07">stepcounter</a></td></tr>
+<tr class="separator:a1b5acf1ff4736a1c4084bff93e6b2e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4820be6f178f67d0f4f0df87626d44d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_timer.html">MCTimer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_counting_play_input_view_controller.html#a4820be6f178f67d0f4f0df87626d44d4">timer</a></td></tr>
+<tr class="separator:a4820be6f178f67d0f4f0df87626d44d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_interface_input_controller"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_input_controller')"><img src="closed.png" alt="-"/>&#160;属性 继承自 <a class="el" href="interface_input_controller.html">InputController</a></td></tr>
+<tr class="memitem:a32595ddc7a47c9245e4f31e49bd30644 inherit properties_interface_input_controller"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_input_controller.html#a32595ddc7a47c9245e4f31e49bd30644">touchCount</a></td></tr>
+<tr class="separator:a32595ddc7a47c9245e4f31e49bd30644 inherit properties_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadcd300939d5f614fd49f06e6c473331 inherit properties_interface_input_controller"><td class="memItemLeft" align="right" valign="top">NSMutableSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_input_controller.html#aadcd300939d5f614fd49f06e6c473331">touchEvents</a></td></tr>
+<tr class="separator:aadcd300939d5f614fd49f06e6c473331 inherit properties_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44fc5e27fed85daac28780c74d1383b7 inherit properties_interface_input_controller"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9f">FSM_Interaction_State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_input_controller.html#a44fc5e27fed85daac28780c74d1383b7">fsm_Previous_State</a></td></tr>
+<tr class="separator:a44fc5e27fed85daac28780c74d1383b7 inherit properties_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad531e0ab5ccdd4714ac70f4638c8d396 inherit properties_interface_input_controller"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9f">FSM_Interaction_State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_input_controller.html#ad531e0ab5ccdd4714ac70f4638c8d396">fsm_Current_State</a></td></tr>
+<tr class="separator:ad531e0ab5ccdd4714ac70f4638c8d396 inherit properties_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf3206f708bdd7d28f06d3899688fece inherit properties_interface_input_controller"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_c_particle_system.html">MCParticleSystem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_input_controller.html#abf3206f708bdd7d28f06d3899688fece">particleEmitter</a></td></tr>
+<tr class="separator:abf3206f708bdd7d28f06d3899688fece inherit properties_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be93e21e2f5c9da3c98fc0c37931fcf inherit properties_interface_input_controller"><td class="memItemLeft" align="right" valign="top">CGPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_input_controller.html#a7be93e21e2f5c9da3c98fc0c37931fcf">lastpoint</a></td></tr>
+<tr class="separator:a7be93e21e2f5c9da3c98fc0c37931fcf inherit properties_interface_input_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>竞速模式下的交互控制器。 实现了UAModalPanelDelegate，可以加载UAModalPanel类型的对话框 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html">MCCountingPlayInputViewController__1.h</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00022">22</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a60232da68189edf19acb16e9724b0a3c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) askReload </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>在重新加载场景时弹出的对话框 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00345">345</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00042">askReloadView</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00044">UAModalPanel::delegate</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00061">UAModalPanel::isShowColseBtn</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00265">UAModalPanel::showFromPoint:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abcd8a9fa51aca836a80e2133d589f081"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) didCloseModalPanel: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_u_a_modal_panel.html">UAModalPanel</a> *)&#160;</td>
+          <td class="paramname"><em>modalPanel</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Optional: This is called after the close animations. Only used if delegate is set.</p>
+<p>根据模态对话框的不同选项进行不同的操作。 在模态对话框关闭后执行。</p>
+<dl class="section see"><dt>参见</dt><dd>MCNormalPlayInputViewController::didCloseModalPanel </dd></dl>
+
+<p>重载 <a class="el" href="protocol_u_a_modal_panel_delegate-p.html#a217f85b2dbaf8f709d304a95f37d1785">&lt;UAModalPanelDelegate&gt;</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00240">240</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00042">askReloadView</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00038">finishView</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00157">MCCountingPlaySceneController::flashScene</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00088">kAskReloadView_LoadLastTime</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00089">kAskReloadView_Reload</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00112">kFinishView_GoBack</a>, <a class="el" href="_pause_menu_8h_source.html#l00020">kPauseSelect_GoBack</a>, <a class="el" href="_pause_menu_8h_source.html#l00019">kPauseSelect_GoOn</a>, <a class="el" href="_pause_menu_8h_source.html#l00021">kPauseSelect_Restart</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8h_source.html#l00027">MCCountingPlaySceneController::magicCube</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00175">mainMenuBtnUp</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00034">puseMenu</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00137">MCCountingPlaySceneController::randomMagiccube</a>, <a class="el" href="_m_c_timer_8m_source.html#l00039">MCTimer::reset</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00026">MCCountingPlaySceneController::sharedCountingPlaySceneController</a>, <a class="el" href="_m_c_timer_8m_source.html#l00107">MCTimer::startTimer</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00030">timer</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00026">UADebugLog</a> , 以及 <a class="el" href="_m_c_magic_cube_8m_source.html#l00047">MCMagicCube::unarchiveMagicCubeWithFile:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a04ef247d710a4b882cfc863c8a42970b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) didShowModalPanel: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_u_a_modal_panel.html">UAModalPanel</a> *)&#160;</td>
+          <td class="paramname"><em>modalPanel</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Optional: This is called after the open animations. Only used if delegate is set. </p>
+
+<p>重载 <a class="el" href="protocol_u_a_modal_panel_delegate-p.html#a587f1618002a564865d3354d7f8ad3f6">&lt;UAModalPanelDelegate&gt;</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00204">204</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00026">UADebugLog</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a64cacf2ad5b26f25c479ce30338143df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) loadInterface </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>加载场景 </p>
+
+<p>重载 <a class="el" href="interface_input_controller.html#abd201297b9d0f89d7c0ebfb5432a95cc">InputController</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">24</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_scene_object_8h_source.html#l00058">MCSceneObject::active</a>, <a class="el" href="_m_c_label_8m_source.html#l00027">MCLabel::awake</a>, <a class="el" href="_m_c_textured_button_8m_source.html#l00043">MCTexturedButton::awake</a>, <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00151">MCMultiDigitCounter::awake</a>, <a class="el" href="_m_c_timer_8m_source.html#l00116">MCTimer::awake</a>, <a class="el" href="_m_c_button_8h_source.html#l00026">MCButton::buttonDownAction</a>, <a class="el" href="_m_c_button_8h_source.html#l00030">MCButton::buttonUpAction</a>, <a class="el" href="_input_controller_8h_source.html#l00020">InputController::interfaceObjects</a>, <a class="el" href="_input_controller_8mm_source.html#l00314">InputController::loadInterface</a>, <a class="el" href="_m_c_point_8h_source.html#l00046">MCPointMake()</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00166">nextSolutionBtnDown</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00157">nextSolutionBtnUp</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00152">pauseSolutionBtnDown</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00131">pauseSolutionBtnUp</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00126">previousSolutionBtnDown</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00117">previousSolutionBtnUp</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00045">MCSceneObject::scale</a>, <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00143">MCMultiDigitCounter::setActive:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00157">MCTimer::setActive:</a>, <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00089">MCMultiDigitCounter::setScale:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00047">MCTimer::setScale:</a>, <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00104">MCMultiDigitCounter::setTranslation:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00059">MCTimer::setTranslation:</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00026">stepcounter</a>, <a class="el" href="_m_c_button_8h_source.html#l00022">MCButton::target</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00030">timer</a> , 以及 <a class="el" href="_m_c_scene_object_8h_source.html#l00044">MCSceneObject::translation</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a34c7b8dd72268f248020db309ac59289"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mainMenuBtnDown </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00168">168</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae728a02e8ae9b5ae84291fd9dfaeec51"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mainMenuBtnUp </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>保存魔方状态，并把控制权交由场景迁徙协调控制器。 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00175">175</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_counting_play_scene_controller____1_8h_source.html#l00027">MCCountingPlaySceneController::magicCube</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00062">CoordinatingController::requestViewChangeByObject:</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00031">CoordinatingController::sharedCoordinatingController</a> , 以及 <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00026">MCCountingPlaySceneController::sharedCountingPlaySceneController</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00240">didCloseModalPanel:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf7118809402f51779ea8dcd4af66ad4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) nextSolutionBtnDown </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>空的方法，为了配合nextSolutionBtnUp而存在，不要删掉。 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00166">166</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">loadInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a508162cc7271648551b18b7592380071"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) nextSolutionBtnUp </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>按下了下一步按钮，恢复操作 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00157">157</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00127">MCCountingPlaySceneController::nextSolution</a> , 以及 <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00026">MCCountingPlaySceneController::sharedCountingPlaySceneController</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">loadInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af6c9c95f203e862c705609e88835d45e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) pauseSolutionBtnDown </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>空的方法，为了配合pauseSolutionBtnUp而存在，不要删掉。 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00152">152</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">loadInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a47a564cf8693779222187f452f13d5b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) pauseSolutionBtnUp </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>按下暂停按钮，开始暂停操作。 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00131">131</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00044">UAModalPanel::delegate</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00061">UAModalPanel::isShowColseBtn</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00034">puseMenu</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00265">UAModalPanel::showFromPoint:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00111">MCTimer::stopTimer</a> , 以及 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00030">timer</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">loadInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac06130141db365508fa99402dd16efc8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) previousSolutionBtnDown </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>空的方法，为了配合previousSolutionBtnUp而存在，不要删掉。 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00126">126</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">loadInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1617026703ae0c93c3852a330162b6d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) previousSolutionBtnUp </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>按下了上一步按钮，撤销操作 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00117">117</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00119">MCCountingPlaySceneController::previousSolution</a> , 以及 <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00026">MCCountingPlaySceneController::sharedCountingPlaySceneController</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">loadInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a432d6312464faf371ddf6eaa32aea015"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) releaseInterface </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>撤销视图 </p>
+
+<p>重载 <a class="el" href="interface_input_controller.html#a23a3aa9c7d5ed623bc8a0b8fb8980e82">InputController</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00227">227</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_input_controller_8mm_source.html#l00374">InputController::releaseInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae957b4d2bbeeec45929b8c607fbae91c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) shouldCloseModalPanel: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_u_a_modal_panel.html">UAModalPanel</a> *)&#160;</td>
+          <td class="paramname"><em>modalPanel</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Optional: This is called when the close button is pressed You can use it to perform validations Return YES to close the panel, otherwise NO Only used if delegate is set. </p>
+
+<p>重载 <a class="el" href="protocol_u_a_modal_panel_delegate-p.html#a947a0d88b14c8d7add791c4fdfd8b029">&lt;UAModalPanelDelegate&gt;</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00214">214</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00026">UADebugLog</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a536043b41f375ddfced86868aaef6e42"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) showFinishView </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>竞速模式结束时弹出的对话框 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00305">305</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_calculator_8m_source.html#l00027">MCUserCalculator::calculateScoreForMove:Time:</a>, <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00024">MCUserManagerController::calculator</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00044">UAModalPanel::delegate</a>, <a class="el" href="_m_c_timer_8m_source.html#l00184">MCTimer::description</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00038">finishView</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00061">UAModalPanel::isShowColseBtn</a>, <a class="el" href="_counting_finish_view_8h_source.html#l00040">CountingFinishView::lastingTime</a>, <a class="el" href="_m_c_multi_digit_counter_8h_source.html#l00018">MCMultiDigitCounter::m_counterValue</a>, <a class="el" href="_counting_finish_view_8h_source.html#l00039">CountingFinishView::raceScoreLabel</a>, <a class="el" href="_counting_finish_view_8h_source.html#l00038">CountingFinishView::raceStepCountLabel</a>, <a class="el" href="_counting_finish_view_8h_source.html#l00037">CountingFinishView::raceTimeLabel</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00030">MCUserManagerController::sharedInstance</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00265">UAModalPanel::showFromPoint:</a>, <a class="el" href="_counting_finish_view_8h_source.html#l00041">CountingFinishView::stepCount</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00026">stepcounter</a>, <a class="el" href="_m_c_timer_8m_source.html#l00111">MCTimer::stopTimer</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00030">timer</a>, <a class="el" href="_m_c_timer_8h_source.html#l00022">MCTimer::totalTime</a> , 以及 <a class="el" href="_counting_finish_view_8h_source.html#l00035">CountingFinishView::userNameEditField</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1114c7d86a1270e14047b7a81203f238"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) willCloseModalPanel: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_u_a_modal_panel.html">UAModalPanel</a> *)&#160;</td>
+          <td class="paramname"><em>modalPanel</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Optional: This is called before the close animations. Only used if delegate is set. </p>
+
+<p>重载 <a class="el" href="protocol_u_a_modal_panel_delegate-p.html#acb3270f9df2e8c37eeca37972d6cb465">&lt;UAModalPanelDelegate&gt;</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00223">223</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00026">UADebugLog</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a07781ffa23fcc089bb4f791c499c20d8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) willShowModalPanel: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_u_a_modal_panel.html">UAModalPanel</a> *)&#160;</td>
+          <td class="paramname"><em>modalPanel</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Optional: This is called before the open animations. Only used if delegate is set. </p>
+
+<p>重载 <a class="el" href="protocol_u_a_modal_panel_delegate-p.html#a5b567055571e99d4005719f7a01fc349">&lt;UAModalPanelDelegate&gt;</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00196">196</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00026">UADebugLog</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="ab91a055783f166640e1e15ae8308af9b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_ask_reload_view.html">AskReloadView</a>*) askReloadView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>重新加载时弹出的菜单 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html">MCCountingPlayInputViewController__1.h</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00042">42</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00345">askReload</a> , 以及 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00240">didCloseModalPanel:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3432670722d819d1a4344cf31e3ab3d4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_counting_finish_view.html">CountingFinishView</a>*) finishView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>竞速模式结束时的弹出菜单 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html">MCCountingPlayInputViewController__1.h</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00038">38</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00240">didCloseModalPanel:</a> , 以及 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00305">showFinishView</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5bec6e946186fb0847c4db0f96b7db7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_pause_menu.html">PauseMenu</a>*) puseMenu</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>暂停时的弹出菜单 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html">MCCountingPlayInputViewController__1.h</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00034">34</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00240">didCloseModalPanel:</a> , 以及 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00131">pauseSolutionBtnUp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="a1b5acf1ff4736a1c4084bff93e6b2e07"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_multi_digit_counter.html">MCMultiDigitCounter</a> *) stepcounter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>计步器 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html">MCCountingPlayInputViewController__1.h</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00026">26</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">loadInterface</a> , 以及 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00305">showFinishView</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4820be6f178f67d0f4f0df87626d44d4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_timer.html">MCTimer</a> *) timer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>计时器 </p>
+
+<p>在文件 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html">MCCountingPlayInputViewController__1.h</a> 第 <a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html#l00030">30</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00240">didCloseModalPanel:</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">loadInterface</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00131">pauseSolutionBtnUp</a> , 以及 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00305">showFinishView</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_counting_play_input_view_controller____1_8h_source.html">MCCountingPlayInputViewController__1.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html">MCCountingPlayInputViewController__1.mm</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_m_c_counting_play_input_view_controller.html">MCCountingPlayInputViewController</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:38 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

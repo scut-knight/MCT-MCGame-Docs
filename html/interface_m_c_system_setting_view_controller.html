@@ -1,0 +1,911 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCSystemSettingViewController类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_m_c_system_setting_view_controller.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="class_m_c_system_setting_view_controller-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MCSystemSettingViewController类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_m_c_system_setting_view_controller_8h_source.html">MCSystemSettingViewController.h</a>&gt;</code></p>
+<div class="dynheader">
+类 MCSystemSettingViewController 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_m_c_system_setting_view_controller.png" usemap="#MCSystemSettingViewController_map" alt=""/>
+  <map id="MCSystemSettingViewController_map" name="MCSystemSettingViewController_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:a4e0605d0fbbe1721e80517c8c91ef1ef"><td class="memItemLeft" align="right" valign="top">(IBAction)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#a4e0605d0fbbe1721e80517c8c91ef1ef">goBackMainMenu:</a></td></tr>
+<tr class="separator:a4e0605d0fbbe1721e80517c8c91ef1ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a561c6192bbe2ac221299defdc4870694"><td class="memItemLeft" align="right" valign="top">(IBAction)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#a561c6192bbe2ac221299defdc4870694">selectOneColor:</a></td></tr>
+<tr class="separator:a561c6192bbe2ac221299defdc4870694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7e06a1c1b5db450336eaf5a1f978346"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#ac7e06a1c1b5db450336eaf5a1f978346">initWithNibName:bundle:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ac7e06a1c1b5db450336eaf5a1f978346"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e8281feadaa0a9dbbbbd3fe019156dd"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#a4e8281feadaa0a9dbbbbd3fe019156dd">viewDidLoad</a><code> [implementation]</code></td></tr>
+<tr class="separator:a4e8281feadaa0a9dbbbbd3fe019156dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3a10529fd148a005bce0822b9395dd5"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#ab3a10529fd148a005bce0822b9395dd5">didReceiveMemoryWarning</a><code> [implementation]</code></td></tr>
+<tr class="separator:ab3a10529fd148a005bce0822b9395dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8619a0775cb21ed7e553d9a7e388ab7e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#a8619a0775cb21ed7e553d9a7e388ab7e">musicVolume:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a8619a0775cb21ed7e553d9a7e388ab7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a612305cf272cd521465516d4f3df01b5"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#a612305cf272cd521465516d4f3df01b5">musicSwitch:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a612305cf272cd521465516d4f3df01b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cd12a0d26e75e72dc8487333980959f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#a5cd12a0d26e75e72dc8487333980959f">effectsVolume:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a5cd12a0d26e75e72dc8487333980959f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd54dcd409fc68b45181c1b70536fa2f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#abd54dcd409fc68b45181c1b70536fa2f">effectsSwitch:</a><code> [implementation]</code></td></tr>
+<tr class="separator:abd54dcd409fc68b45181c1b70536fa2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5e1c9ffc560dc8f3d7441a470aae539"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#ad5e1c9ffc560dc8f3d7441a470aae539">touchesBegan:withEvent:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ad5e1c9ffc560dc8f3d7441a470aae539"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81453634eeef79af7dac59ef38267d61"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#a81453634eeef79af7dac59ef38267d61">touchesCancelled:withEvent:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a81453634eeef79af7dac59ef38267d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af490672a8524f3fd0c3ecf26dbb37877"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#af490672a8524f3fd0c3ecf26dbb37877">touchesEnded:withEvent:</a><code> [implementation]</code></td></tr>
+<tr class="separator:af490672a8524f3fd0c3ecf26dbb37877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afda7914b323a8ea65ff8ae7acb703e49"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#afda7914b323a8ea65ff8ae7acb703e49">touchesMoved:withEvent:</a><code> [implementation]</code></td></tr>
+<tr class="separator:afda7914b323a8ea65ff8ae7acb703e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d3f8e0e542f484a6824948eeffa8553"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#a2d3f8e0e542f484a6824948eeffa8553">dealloc</a><code> [implementation]</code></td></tr>
+<tr class="separator:a2d3f8e0e542f484a6824948eeffa8553"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2abe6972bff9d874137d59b74fa2abb0"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_system_setting_view_controller.html#a2abe6972bff9d874137d59b74fa2abb0">viewDidUnload</a><code> [implementation]</code></td></tr>
+<tr class="separator:a2abe6972bff9d874137d59b74fa2abb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a46b1c7bd31cdd2341e6df5790f94df0d"><td class="memItemLeft" align="right" valign="top">IBOutlet UISlider *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_system_setting_view_controller.html#a46b1c7bd31cdd2341e6df5790f94df0d">soundEffectSlider</a></td></tr>
+<tr class="separator:a46b1c7bd31cdd2341e6df5790f94df0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e40d44b37a331588e6ff371081eb831"><td class="memItemLeft" align="right" valign="top">IBOutlet UISlider *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_system_setting_view_controller.html#a9e40d44b37a331588e6ff371081eb831">musicSlider</a></td></tr>
+<tr class="separator:a9e40d44b37a331588e6ff371081eb831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407d24dc4d52dd47200cfdc7f60941ba"><td class="memItemLeft" align="right" valign="top">IBOutlet UILabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_system_setting_view_controller.html#a407d24dc4d52dd47200cfdc7f60941ba">settingLabel</a></td></tr>
+<tr class="separator:a407d24dc4d52dd47200cfdc7f60941ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a235475628f12713c11a17350ea58ea01"><td class="memItemLeft" align="right" valign="top">IBOutlet UILabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_system_setting_view_controller.html#a235475628f12713c11a17350ea58ea01">soundEffectLabel</a></td></tr>
+<tr class="separator:a235475628f12713c11a17350ea58ea01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11f427064032ad0e3ee7aabafe5b3eb4"><td class="memItemLeft" align="right" valign="top">IBOutlet UILabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_system_setting_view_controller.html#a11f427064032ad0e3ee7aabafe5b3eb4">musicLabel</a></td></tr>
+<tr class="separator:a11f427064032ad0e3ee7aabafe5b3eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a858ff56951eea79f1921681809ec98b9"><td class="memItemLeft" align="right" valign="top">IBOutlet UILabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_system_setting_view_controller.html#a858ff56951eea79f1921681809ec98b9">magicCubeSkinLabel</a></td></tr>
+<tr class="separator:a858ff56951eea79f1921681809ec98b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9208c6b89855ec2c9d11ba354cb04754"><td class="memItemLeft" align="right" valign="top">IBOutlet UIButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_system_setting_view_controller.html#a9208c6b89855ec2c9d11ba354cb04754">_selectColorItemOne</a></td></tr>
+<tr class="separator:a9208c6b89855ec2c9d11ba354cb04754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af946761dfe3581470fbffa6ed3c567db"><td class="memItemLeft" align="right" valign="top">IBOutlet UIButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_system_setting_view_controller.html#af946761dfe3581470fbffa6ed3c567db">_selectColorItemTwo</a></td></tr>
+<tr class="separator:af946761dfe3581470fbffa6ed3c567db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa51719820b7f0f2ead452f7bf60a93a0"><td class="memItemLeft" align="right" valign="top">IBOutlet UIButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_system_setting_view_controller.html#aa51719820b7f0f2ead452f7bf60a93a0">_selectColorItemThree</a></td></tr>
+<tr class="separator:aa51719820b7f0f2ead452f7bf60a93a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>应用系统设置 </p>
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html">MCSystemSettingViewController.h</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00015">15</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a2d3f8e0e542f484a6824948eeffa8553"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00162">162</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00022">_selectColorItemOne</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00024">_selectColorItemThree</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00023">_selectColorItemTwo</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00021">magicCubeSkinLabel</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00020">musicLabel</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00017">musicSlider</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00018">settingLabel</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00019">soundEffectLabel</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00016">soundEffectSlider</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab3a10529fd148a005bce0822b9395dd5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) didReceiveMemoryWarning </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>处理内存警告。处理方法是转发给父类。 </p>
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00063">63</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="abd54dcd409fc68b45181c1b70536fa2f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) effectsSwitch: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>调节音效开关。该方法没有被用到。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td>音效开关 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00108">108</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_sound_setting_controller_8m_source.html#l00169">SoundSettingController::rotateSoundFlipSwitch</a> , 以及 <a class="el" href="_sound_setting_controller_8m_source.html#l00022">SoundSettingController::sharedsoundSettingController</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5cd12a0d26e75e72dc8487333980959f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) effectsVolume: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>调节音效音量大小</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td>音效滑动条 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00097">97</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_sound_setting_controller_8m_source.html#l00112">SoundSettingController::setRotateEffectVolume:</a> , 以及 <a class="el" href="_sound_setting_controller_8m_source.html#l00022">SoundSettingController::sharedsoundSettingController</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4e0605d0fbbe1721e80517c8c91ef1ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) goBackMainMenu: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>回到主菜单</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td>回退按钮 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00119">119</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_coordinating_controller_8m_source.html#l00062">CoordinatingController::requestViewChangeByObject:</a> , 以及 <a class="el" href="_coordinating_controller_8m_source.html#l00031">CoordinatingController::sharedCoordinatingController</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac7e06a1c1b5db450336eaf5a1f978346"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initWithNibName: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>nibNameOrNil</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">bundle:</td>
+          <td></td>
+          <td class="paramtype">(NSBundle *)&#160;</td>
+          <td class="paramname"><em>nibBundleOrNil</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>从插件管理包中加载nib文件</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nibNameOrNil</td><td>界面文件 </td></tr>
+    <tr><td class="paramname">nibBundleOrNil</td><td>nib所在的包 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00029">29</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a612305cf272cd521465516d4f3df01b5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) musicSwitch: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>调节音乐开关。该方法没有被用到。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td>音乐开关 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00085">85</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_sound_setting_controller_8m_source.html#l00153">SoundSettingController::loopBackGroundAudioFlipSwitch</a> , 以及 <a class="el" href="_sound_setting_controller_8m_source.html#l00022">SoundSettingController::sharedsoundSettingController</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8619a0775cb21ed7e553d9a7e388ab7e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) musicVolume: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>调节音乐音量大小</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td>音乐滑动条 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00074">74</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_sound_setting_controller_8m_source.html#l00101">SoundSettingController::setBackgroundPlayer_Volume:</a> , 以及 <a class="el" href="_sound_setting_controller_8m_source.html#l00022">SoundSettingController::sharedsoundSettingController</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a561c6192bbe2ac221299defdc4870694"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBAction) selectOneColor: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>选择魔方皮肤颜色，三选一。 你能选择魔方皮肤的颜色，但是你不能改变魔方皮肤的颜色。而且更坑爹的是，事实上只有一套配色文件。 也就是说，1.0版本开发者并没有真正实现这个功能。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td>颜色选择标签 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00131">131</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00022">_selectColorItemOne</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00024">_selectColorItemThree</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00023">_selectColorItemTwo</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad5e1c9ffc560dc8f3d7441a470aae539"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) touchesBegan: </td>
+          <td></td>
+          <td class="paramtype">(NSSet *)&#160;</td>
+          <td class="paramname"><em>touches</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withEvent:</td>
+          <td></td>
+          <td class="paramtype">(UIEvent *)&#160;</td>
+          <td class="paramname"><em>event</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00155">155</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a81453634eeef79af7dac59ef38267d61"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) touchesCancelled: </td>
+          <td></td>
+          <td class="paramtype">(NSSet *)&#160;</td>
+          <td class="paramname"><em>touches</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withEvent:</td>
+          <td></td>
+          <td class="paramtype">(UIEvent *)&#160;</td>
+          <td class="paramname"><em>event</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00157">157</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="af490672a8524f3fd0c3ecf26dbb37877"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) touchesEnded: </td>
+          <td></td>
+          <td class="paramtype">(NSSet *)&#160;</td>
+          <td class="paramname"><em>touches</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withEvent:</td>
+          <td></td>
+          <td class="paramtype">(UIEvent *)&#160;</td>
+          <td class="paramname"><em>event</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00158">158</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="afda7914b323a8ea65ff8ae7acb703e49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) touchesMoved: </td>
+          <td></td>
+          <td class="paramtype">(NSSet *)&#160;</td>
+          <td class="paramname"><em>touches</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withEvent:</td>
+          <td></td>
+          <td class="paramtype">(UIEvent *)&#160;</td>
+          <td class="paramname"><em>event</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00159">159</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4e8281feadaa0a9dbbbbd3fe019156dd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) viewDidLoad </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00039">39</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_sound_setting_controller_8h_source.html#l00019">SoundSettingController::_BackGroundMusicValume</a>, <a class="el" href="_sound_setting_controller_8h_source.html#l00018">SoundSettingController::_RotateEffectValume</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00022">_selectColorItemOne</a>, <a class="el" href="_m_c_fonts_8m_source.html#l00019">MCFonts::customFontWithSize:</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00021">magicCubeSkinLabel</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00020">musicLabel</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00017">musicSlider</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00018">settingLabel</a>, <a class="el" href="_sound_setting_controller_8m_source.html#l00022">SoundSettingController::sharedsoundSettingController</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00019">soundEffectLabel</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00016">soundEffectSlider</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2abe6972bff9d874137d59b74fa2abb0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) viewDidUnload </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>如果视图加载失败，调用该方法，注意把各变量release后设置为nil </p>
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00178">178</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00022">_selectColorItemOne</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00024">_selectColorItemThree</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00023">_selectColorItemTwo</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00021">magicCubeSkinLabel</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00020">musicLabel</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00017">musicSlider</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00018">settingLabel</a>, <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00019">soundEffectLabel</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00016">soundEffectSlider</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a9208c6b89855ec2c9d11ba354cb04754"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UIButton*) _selectColorItemOne</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html">MCSystemSettingViewController.h</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00022">22</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00162">dealloc</a>, <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00131">selectOneColor:</a>, <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00039">viewDidLoad</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00178">viewDidUnload</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa51719820b7f0f2ead452f7bf60a93a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UIButton*) _selectColorItemThree</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html">MCSystemSettingViewController.h</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00024">24</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00162">dealloc</a>, <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00131">selectOneColor:</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00178">viewDidUnload</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af946761dfe3581470fbffa6ed3c567db"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UIButton*) _selectColorItemTwo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html">MCSystemSettingViewController.h</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00023">23</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00162">dealloc</a>, <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00131">selectOneColor:</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00178">viewDidUnload</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a858ff56951eea79f1921681809ec98b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UILabel*) magicCubeSkinLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html">MCSystemSettingViewController.h</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00021">21</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00162">dealloc</a>, <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00039">viewDidLoad</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00178">viewDidUnload</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a11f427064032ad0e3ee7aabafe5b3eb4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UILabel*) musicLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html">MCSystemSettingViewController.h</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00020">20</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00162">dealloc</a>, <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00039">viewDidLoad</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00178">viewDidUnload</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9e40d44b37a331588e6ff371081eb831"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UISlider*) musicSlider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html">MCSystemSettingViewController.h</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00017">17</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00162">dealloc</a>, <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00039">viewDidLoad</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00178">viewDidUnload</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a407d24dc4d52dd47200cfdc7f60941ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UILabel*) settingLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html">MCSystemSettingViewController.h</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00018">18</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00162">dealloc</a>, <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00039">viewDidLoad</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00178">viewDidUnload</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a235475628f12713c11a17350ea58ea01"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UILabel*) soundEffectLabel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html">MCSystemSettingViewController.h</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00019">19</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00162">dealloc</a>, <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00039">viewDidLoad</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00178">viewDidUnload</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a46b1c7bd31cdd2341e6df5790f94df0d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (IBOutlet UISlider*) soundEffectSlider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html">MCSystemSettingViewController.h</a> 第 <a class="el" href="_m_c_system_setting_view_controller_8h_source.html#l00016">16</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00162">dealloc</a>, <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00039">viewDidLoad</a> , 以及 <a class="el" href="_m_c_system_setting_view_controller_8m_source.html#l00178">viewDidUnload</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_system_setting_view_controller_8h_source.html">MCSystemSettingViewController.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_system_setting_view_controller_8m_source.html">MCSystemSettingViewController.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_m_c_system_setting_view_controller.html">MCSystemSettingViewController</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:39 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

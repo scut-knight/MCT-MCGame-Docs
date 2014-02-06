@@ -1,0 +1,826 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCTimer类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_m_c_timer.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_m_c_timer-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MCTimer类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_m_c_timer_8h_source.html">MCTimer.h</a>&gt;</code></p>
+<div class="dynheader">
+类 MCTimer 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_m_c_timer.png" usemap="#MCTimer_map" alt=""/>
+  <map id="MCTimer_map" name="MCTimer_map">
+<area href="interface_m_c_scene_object.html" alt="MCSceneObject" shape="rect" coords="0,56,105,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:ab96eebca4b5beed688ac9c227b77fb08"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#ab96eebca4b5beed688ac9c227b77fb08">initWithTextureKeys:</a></td></tr>
+<tr class="separator:ab96eebca4b5beed688ac9c227b77fb08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7b2ea39f07e2ce571e8fadb572b6770"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#aa7b2ea39f07e2ce571e8fadb572b6770">carryLogic</a></td></tr>
+<tr class="separator:aa7b2ea39f07e2ce571e8fadb572b6770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27082a15bb69ca4f6b6d4509f0adbdce"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#a27082a15bb69ca4f6b6d4509f0adbdce">reset</a></td></tr>
+<tr class="separator:a27082a15bb69ca4f6b6d4509f0adbdce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6f1ef29dd019f6438c384fd19653606"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#ae6f1ef29dd019f6438c384fd19653606">startTimer</a></td></tr>
+<tr class="separator:ae6f1ef29dd019f6438c384fd19653606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa46151fb6f3fcccc28df0ab67d66f87e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#aa46151fb6f3fcccc28df0ab67d66f87e">stopTimer</a></td></tr>
+<tr class="separator:aa46151fb6f3fcccc28df0ab67d66f87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09f3ec40a60f91f2756dbf5062057e8d"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#a09f3ec40a60f91f2756dbf5062057e8d">awake</a></td></tr>
+<tr class="separator:a09f3ec40a60f91f2756dbf5062057e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a086343777e5931380f893b824e4da557"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#a086343777e5931380f893b824e4da557">update</a></td></tr>
+<tr class="separator:a086343777e5931380f893b824e4da557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab034433bcab54723189bd77a63ac1c1f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#ab034433bcab54723189bd77a63ac1c1f">render</a></td></tr>
+<tr class="separator:ab034433bcab54723189bd77a63ac1c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a323926605f6f3a8da296506a9e28b0"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#a7a323926605f6f3a8da296506a9e28b0">setScale:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a7a323926605f6f3a8da296506a9e28b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08cd9a8466a060ee01e87d567d18ca17"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#a08cd9a8466a060ee01e87d567d18ca17">setTranslation:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a08cd9a8466a060ee01e87d567d18ca17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee86107053f8415ae718caeff965943a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#aee86107053f8415ae718caeff965943a">addTimerWithMilisec:</a><code> [implementation]</code></td></tr>
+<tr class="separator:aee86107053f8415ae718caeff965943a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd659b87dfe1cdf49739455aec9c291"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#abcd659b87dfe1cdf49739455aec9c291">setActive:</a><code> [implementation]</code></td></tr>
+<tr class="separator:abcd659b87dfe1cdf49739455aec9c291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7364ebd7d6bb199faed05073ab541a3f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#a7364ebd7d6bb199faed05073ab541a3f">dealloc</a><code> [implementation]</code></td></tr>
+<tr class="separator:a7364ebd7d6bb199faed05073ab541a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36b49b480498759096be466a30ae96ae"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_timer.html#a36b49b480498759096be466a30ae96ae">description</a><code> [implementation]</code></td></tr>
+<tr class="separator:a36b49b480498759096be466a30ae96ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interface_m_c_scene_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_m_c_scene_object')"><img src="closed.png" alt="-"/>&#160;Instance Methods 继承自 <a class="el" href="interface_m_c_scene_object.html">MCSceneObject</a></td></tr>
+<tr class="memitem:ad014e9a76b1a359b90fadd5b31fb7f18 inherit pub_methods_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_scene_object.html#ad014e9a76b1a359b90fadd5b31fb7f18">init</a></td></tr>
+<tr class="separator:ad014e9a76b1a359b90fadd5b31fb7f18 inherit pub_methods_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:af356c7584c8fa08d5db76e9cae60f865"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_multi_digit_counter.html">MCMultiDigitCounter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_timer.html#af356c7584c8fa08d5db76e9cae60f865">m_hour</a></td></tr>
+<tr class="separator:af356c7584c8fa08d5db76e9cae60f865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e5b4684a07fa583e9a054efe1ce3e43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_dot_separater.html">MCDotSeparater</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_timer.html#a9e5b4684a07fa583e9a054efe1ce3e43">separater21</a></td></tr>
+<tr class="separator:a9e5b4684a07fa583e9a054efe1ce3e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a882c6d4141c99378a1e9a856297c95b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_multi_digit_counter.html">MCMultiDigitCounter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_timer.html#a882c6d4141c99378a1e9a856297c95b2">m_minute</a></td></tr>
+<tr class="separator:a882c6d4141c99378a1e9a856297c95b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4db61b7161b926b3dd68967099ffbabf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_dot_separater.html">MCDotSeparater</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_timer.html#a4db61b7161b926b3dd68967099ffbabf">separater22</a></td></tr>
+<tr class="separator:a4db61b7161b926b3dd68967099ffbabf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53c2bb8dd0161d8c15634de49025d428"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_multi_digit_counter.html">MCMultiDigitCounter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_timer.html#a53c2bb8dd0161d8c15634de49025d428">m_second</a></td></tr>
+<tr class="separator:a53c2bb8dd0161d8c15634de49025d428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ad84f47fd024b5b77555628a8caebf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_dot_separater.html">MCDotSeparater</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_timer.html#a37ad84f47fd024b5b77555628a8caebf">separater11</a></td></tr>
+<tr class="separator:a37ad84f47fd024b5b77555628a8caebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a90c24b38abb0335019f2d7083894b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_multi_digit_counter.html">MCMultiDigitCounter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_timer.html#a1a90c24b38abb0335019f2d7083894b4">m_millisecond</a></td></tr>
+<tr class="separator:a1a90c24b38abb0335019f2d7083894b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7b6d09dacbaaa1d20ef5d3dbef74d7c"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_timer.html#ab7b6d09dacbaaa1d20ef5d3dbef74d7c">isStop</a></td></tr>
+<tr class="separator:ab7b6d09dacbaaa1d20ef5d3dbef74d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:a43e95db451ea6d5ff342062ea4cc62e2"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_timer.html#a43e95db451ea6d5ff342062ea4cc62e2">totalTime</a></td></tr>
+<tr class="separator:a43e95db451ea6d5ff342062ea4cc62e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_interface_m_c_scene_object"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_m_c_scene_object')"><img src="closed.png" alt="-"/>&#160;属性 继承自 <a class="el" href="interface_m_c_scene_object.html">MCSceneObject</a></td></tr>
+<tr class="memitem:a2155e70cd17c061dcd8d0e1b5f8d08bd inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_mesh.html">MCMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a></td></tr>
+<tr class="separator:a2155e70cd17c061dcd8d0e1b5f8d08bd inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac51fd997445bf143626cff3f2a76814c inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a></td></tr>
+<tr class="separator:ac51fd997445bf143626cff3f2a76814c inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a00ea500c0650e1577781acc3d39b32 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a9a00ea500c0650e1577781acc3d39b32">rotation</a></td></tr>
+<tr class="separator:a9a00ea500c0650e1577781acc3d39b32 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a6874d872cf94e2125f3a2cc26cc2a inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a21a6874d872cf94e2125f3a2cc26cc2a">scale</a></td></tr>
+<tr class="separator:a21a6874d872cf94e2125f3a2cc26cc2a inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac01258da90af2ab20a9e4b7ab0981da inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">CGFloat *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#aac01258da90af2ab20a9e4b7ab0981da">matrix</a></td></tr>
+<tr class="separator:aac01258da90af2ab20a9e4b7ab0981da inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ef7dda62f4ba6c5dfbb2caa5861e71 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a55ef7dda62f4ba6c5dfbb2caa5861e71">pretranslation</a></td></tr>
+<tr class="separator:a55ef7dda62f4ba6c5dfbb2caa5861e71 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71e4629285258a415e222e9f32ccaad3 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a71e4629285258a415e222e9f32ccaad3">prerotation</a></td></tr>
+<tr class="separator:a71e4629285258a415e222e9f32ccaad3 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a3e5b6483d920fdfc048f2e3bf230d0 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_quaternion_8hpp.html#aa9330d8ed843f8959bbaaee47c127b73">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a4a3e5b6483d920fdfc048f2e3bf230d0">quaRotation</a></td></tr>
+<tr class="separator:a4a3e5b6483d920fdfc048f2e3bf230d0 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af048918c64ce127d405d3fa0e2a13737 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_quaternion_8hpp.html#aa9330d8ed843f8959bbaaee47c127b73">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#af048918c64ce127d405d3fa0e2a13737">quaPreviousRotation</a></td></tr>
+<tr class="separator:af048918c64ce127d405d3fa0e2a13737 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60f0c749f93ec502dbf46bdd2a4e8088 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_quaternion_8hpp.html#aa9330d8ed843f8959bbaaee47c127b73">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a60f0c749f93ec502dbf46bdd2a4e8088">start_quaRotation</a></td></tr>
+<tr class="separator:a60f0c749f93ec502dbf46bdd2a4e8088 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94dac412ff59d1e8af7db635de280a18 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_quaternion_8hpp.html#aa9330d8ed843f8959bbaaee47c127b73">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a94dac412ff59d1e8af7db635de280a18">finish_quaRotation</a></td></tr>
+<tr class="separator:a94dac412ff59d1e8af7db635de280a18 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76987e2ce1907832ee44ea37103db7a6 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a76987e2ce1907832ee44ea37103db7a6">active</a></td></tr>
+<tr class="separator:a76987e2ce1907832ee44ea37103db7a6 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb90bb7dadb9e9e44f19768120315cf3 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">CGRect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">meshBounds</a></td></tr>
+<tr class="separator:adb90bb7dadb9e9e44f19768120315cf3 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>计时器</p>
+<p>注意该计时器并不使用获取当前时间的API。它仅仅是从当前的CoordinatingController获取已经消逝的时间差，并刷新计时器画面。 </p>
+
+<p>在文件 <a class="el" href="_m_c_timer_8h_source.html">MCTimer.h</a> 第 <a class="el" href="_m_c_timer_8h_source.html#l00021">21</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="aee86107053f8415ae718caeff965943a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) addTimerWithMilisec: </td>
+          <td></td>
+          <td class="paramtype">(int)&#160;</td>
+          <td class="paramname"><em>milisec</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>用一定的时间来刷新计时器</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">milisec</td><td>以毫秒为单位的时间 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00099">99</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00071">MCMultiDigitCounter::addCounter</a>, <a class="el" href="_m_c_timer_8m_source.html#l00076">carryLogic</a>, <a class="el" href="_m_c_timer_8h_source.html#l00038">m_millisecond</a> , 以及 <a class="el" href="_m_c_timer_8h_source.html#l00022">totalTime</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_timer_8m_source.html#l00130">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a09f3ec40a60f91f2756dbf5062057e8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) awake </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>called once when the object is first created. </p>
+
+<p>重载 <a class="el" href="interface_m_c_scene_object.html#a40eda25f5e31b2a4dfe6214069db9254">MCSceneObject</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00116">116</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_dot_separater_8m_source.html#l00021">MCDotSeparater::awake</a>, <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00151">MCMultiDigitCounter::awake</a>, <a class="el" href="_m_c_scene_object_8mm_source.html#l00053">MCSceneObject::awake</a>, <a class="el" href="_m_c_timer_8h_source.html#l00023">m_hour</a>, <a class="el" href="_m_c_timer_8h_source.html#l00038">m_millisecond</a>, <a class="el" href="_m_c_timer_8h_source.html#l00028">m_minute</a>, <a class="el" href="_m_c_timer_8h_source.html#l00033">m_second</a>, <a class="el" href="_m_c_timer_8h_source.html#l00037">separater11</a>, <a class="el" href="_m_c_timer_8h_source.html#l00027">separater21</a> , 以及 <a class="el" href="_m_c_timer_8h_source.html#l00032">separater22</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">MCCountingPlayInputViewController::loadInterface</a> , 以及 <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00028">MCNormalPlayInputViewController::loadInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7b2ea39f07e2ce571e8fadb572b6770"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) carryLogic </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>时间单位的进位 最多可以是59时59分59.999秒 </p>
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00076">76</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00071">MCMultiDigitCounter::addCounter</a>, <a class="el" href="_m_c_multi_digit_counter_8h_source.html#l00018">MCMultiDigitCounter::m_counterValue</a>, <a class="el" href="_m_c_timer_8h_source.html#l00023">m_hour</a>, <a class="el" href="_m_c_timer_8h_source.html#l00038">m_millisecond</a>, <a class="el" href="_m_c_timer_8h_source.html#l00028">m_minute</a>, <a class="el" href="_m_c_timer_8h_source.html#l00033">m_second</a> , 以及 <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00063">MCMultiDigitCounter::reset</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_timer_8m_source.html#l00099">addTimerWithMilisec:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7364ebd7d6bb199faed05073ab541a3f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重载 <a class="el" href="interface_m_c_scene_object.html#a384adc168b4ba7f096fd956045d6fd40">MCSceneObject</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00168">168</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_scene_object_8mm_source.html#l00117">MCSceneObject::dealloc</a>, <a class="el" href="_m_c_timer_8h_source.html#l00023">m_hour</a>, <a class="el" href="_m_c_timer_8h_source.html#l00038">m_millisecond</a>, <a class="el" href="_m_c_timer_8h_source.html#l00028">m_minute</a>, <a class="el" href="_m_c_timer_8h_source.html#l00033">m_second</a>, <a class="el" href="_m_c_timer_8h_source.html#l00037">separater11</a>, <a class="el" href="_m_c_timer_8h_source.html#l00027">separater21</a> , 以及 <a class="el" href="_m_c_timer_8h_source.html#l00032">separater22</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a36b49b480498759096be466a30ae96ae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) description </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>以00:00:00的形式获得计时器时间的描述</p>
+<dl class="section return"><dt>返回</dt><dd>hh:mm:ss </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00184">184</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00305">MCCountingPlayInputViewController::showFinishView</a> , 以及 <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00444">MCNormalPlayInputViewController::showFinishView</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab96eebca4b5beed688ac9c227b77fb08"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initWithTextureKeys: </td>
+          <td></td>
+          <td class="paramtype">(NSString *[])&#160;</td>
+          <td class="paramname"><em>texturekeys</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>初始化，加载一系列纹理</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">texturekeys</td><td>计时器各部分的纹理</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>计时器实例 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00020">20</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_scene_object_8mm_source.html#l00024">MCSceneObject::init</a>, <a class="el" href="_m_c_timer_8h_source.html#l00039">isStop</a>, <a class="el" href="_m_c_timer_8h_source.html#l00023">m_hour</a>, <a class="el" href="_m_c_timer_8h_source.html#l00038">m_millisecond</a>, <a class="el" href="_m_c_timer_8h_source.html#l00028">m_minute</a>, <a class="el" href="_m_c_timer_8h_source.html#l00033">m_second</a>, <a class="el" href="_m_c_timer_8h_source.html#l00037">separater11</a>, <a class="el" href="_m_c_timer_8h_source.html#l00027">separater21</a>, <a class="el" href="_m_c_timer_8h_source.html#l00032">separater22</a> , 以及 <a class="el" href="_m_c_timer_8h_source.html#l00022">totalTime</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab034433bcab54723189bd77a63ac1c1f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) render </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>called once every frame </p>
+
+<p>重载 <a class="el" href="interface_m_c_scene_object.html#a914c66ec3303ff8830b61d2d6fc84c8f">MCSceneObject</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00145">145</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_timer_8h_source.html#l00023">m_hour</a>, <a class="el" href="_m_c_timer_8h_source.html#l00038">m_millisecond</a>, <a class="el" href="_m_c_timer_8h_source.html#l00028">m_minute</a>, <a class="el" href="_m_c_timer_8h_source.html#l00033">m_second</a>, <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00138">MCMultiDigitCounter::render</a>, <a class="el" href="_m_c_scene_object_8mm_source.html#l00105">MCSceneObject::render</a>, <a class="el" href="_m_c_timer_8h_source.html#l00037">separater11</a>, <a class="el" href="_m_c_timer_8h_source.html#l00027">separater21</a>, <a class="el" href="_m_c_timer_8h_source.html#l00032">separater22</a> , 以及 <a class="el" href="_m_c_scene_object_8mm_source.html#l00061">MCSceneObject::update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a27082a15bb69ca4f6b6d4509f0adbdce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) reset </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>重置计时器 </p>
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00039">39</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_timer_8h_source.html#l00023">m_hour</a>, <a class="el" href="_m_c_timer_8h_source.html#l00038">m_millisecond</a>, <a class="el" href="_m_c_timer_8h_source.html#l00028">m_minute</a>, <a class="el" href="_m_c_timer_8h_source.html#l00033">m_second</a>, <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00063">MCMultiDigitCounter::reset</a> , 以及 <a class="el" href="_m_c_timer_8h_source.html#l00022">totalTime</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00240">MCCountingPlayInputViewController::didCloseModalPanel:</a> , 以及 <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00366">MCNormalPlayInputViewController::didCloseModalPanel:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abcd659b87dfe1cdf49739455aec9c291"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setActive: </td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>actives</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00157">157</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_timer_8h_source.html#l00023">m_hour</a>, <a class="el" href="_m_c_timer_8h_source.html#l00038">m_millisecond</a>, <a class="el" href="_m_c_timer_8h_source.html#l00028">m_minute</a>, <a class="el" href="_m_c_timer_8h_source.html#l00033">m_second</a>, <a class="el" href="_m_c_timer_8h_source.html#l00037">separater11</a>, <a class="el" href="_m_c_timer_8h_source.html#l00027">separater21</a>, <a class="el" href="_m_c_timer_8h_source.html#l00032">separater22</a> , 以及 <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00143">MCMultiDigitCounter::setActive:</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">MCCountingPlayInputViewController::loadInterface</a> , 以及 <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00028">MCNormalPlayInputViewController::loadInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7a323926605f6f3a8da296506a9e28b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setScale: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="struct_m_c_point.html">MCPoint</a>)&#160;</td>
+          <td class="paramname"><em>scales</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00047">47</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_timer_8h_source.html#l00023">m_hour</a>, <a class="el" href="_m_c_timer_8h_source.html#l00038">m_millisecond</a>, <a class="el" href="_m_c_timer_8h_source.html#l00028">m_minute</a>, <a class="el" href="_m_c_timer_8h_source.html#l00033">m_second</a>, <a class="el" href="_m_c_point_8h_source.html#l00046">MCPointMake()</a>, <a class="el" href="_m_c_timer_8h_source.html#l00037">separater11</a>, <a class="el" href="_m_c_timer_8h_source.html#l00027">separater21</a>, <a class="el" href="_m_c_timer_8h_source.html#l00032">separater22</a>, <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00089">MCMultiDigitCounter::setScale:</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a> , 以及 <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">MCCountingPlayInputViewController::loadInterface</a> , 以及 <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00028">MCNormalPlayInputViewController::loadInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a08cd9a8466a060ee01e87d567d18ca17"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setTranslation: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="struct_m_c_point.html">MCPoint</a>)&#160;</td>
+          <td class="paramname"><em>translations</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00059">59</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_timer_8h_source.html#l00023">m_hour</a>, <a class="el" href="_m_c_timer_8h_source.html#l00038">m_millisecond</a>, <a class="el" href="_m_c_timer_8h_source.html#l00028">m_minute</a>, <a class="el" href="_m_c_timer_8h_source.html#l00033">m_second</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00045">MCSceneObject::scale</a>, <a class="el" href="_m_c_timer_8h_source.html#l00037">separater11</a>, <a class="el" href="_m_c_timer_8h_source.html#l00027">separater21</a>, <a class="el" href="_m_c_timer_8h_source.html#l00032">separater22</a> , 以及 <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00104">MCMultiDigitCounter::setTranslation:</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00024">MCCountingPlayInputViewController::loadInterface</a> , 以及 <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00028">MCNormalPlayInputViewController::loadInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae6f1ef29dd019f6438c384fd19653606"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) startTimer </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00107">107</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_timer_8h_source.html#l00039">isStop</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00240">MCCountingPlayInputViewController::didCloseModalPanel:</a>, <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00366">MCNormalPlayInputViewController::didCloseModalPanel:</a> , 以及 <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00218">MCNormalPlayInputViewController::randomRotateHelp2</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa46151fb6f3fcccc28df0ab67d66f87e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) stopTimer </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00111">111</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_timer_8h_source.html#l00039">isStop</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00131">MCCountingPlayInputViewController::pauseSolutionBtnUp</a>, <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00258">MCNormalPlayInputViewController::pauseSolutionBtnUp</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00305">MCCountingPlayInputViewController::showFinishView</a> , 以及 <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00444">MCNormalPlayInputViewController::showFinishView</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a086343777e5931380f893b824e4da557"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) update </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>更新计时器画面，并且用已过去的时间来刷新计时器 </p>
+
+<p>重载 <a class="el" href="interface_m_c_scene_object.html#a525fd1511e6a4d0bd9e1b39420542252">MCSceneObject</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a> 第 <a class="el" href="_m_c_timer_8m_source.html#l00130">130</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_timer_8m_source.html#l00099">addTimerWithMilisec:</a>, <a class="el" href="_coordinating_controller_8h_source.html#l00027">CoordinatingController::currentController</a>, <a class="el" href="scene_controller_8h_source.html#l00046">sceneController::deltaTime</a>, <a class="el" href="_m_c_timer_8h_source.html#l00039">isStop</a>, <a class="el" href="_m_c_timer_8h_source.html#l00023">m_hour</a>, <a class="el" href="_m_c_timer_8h_source.html#l00038">m_millisecond</a>, <a class="el" href="_m_c_timer_8h_source.html#l00028">m_minute</a>, <a class="el" href="_m_c_timer_8h_source.html#l00033">m_second</a>, <a class="el" href="_m_c_timer_8h_source.html#l00037">separater11</a>, <a class="el" href="_m_c_timer_8h_source.html#l00027">separater21</a>, <a class="el" href="_m_c_timer_8h_source.html#l00032">separater22</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00031">CoordinatingController::sharedCoordinatingController</a>, <a class="el" href="_m_c_multi_digit_counter_8m_source.html#l00160">MCMultiDigitCounter::update</a> , 以及 <a class="el" href="_m_c_scene_object_8mm_source.html#l00061">MCSceneObject::update</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="ab7b6d09dacbaaa1d20ef5d3dbef74d7c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isStop</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_timer_8h_source.html">MCTimer.h</a> 第 <a class="el" href="_m_c_timer_8h_source.html#l00039">39</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_timer_8m_source.html#l00020">initWithTextureKeys:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00107">startTimer</a>, <a class="el" href="_m_c_timer_8m_source.html#l00111">stopTimer</a> , 以及 <a class="el" href="_m_c_timer_8m_source.html#l00130">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af356c7584c8fa08d5db76e9cae60f865"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_multi_digit_counter.html">MCMultiDigitCounter</a>*) m_hour</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_timer_8h_source.html">MCTimer.h</a> 第 <a class="el" href="_m_c_timer_8h_source.html#l00023">23</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_timer_8m_source.html#l00116">awake</a>, <a class="el" href="_m_c_timer_8m_source.html#l00076">carryLogic</a>, <a class="el" href="_m_c_timer_8m_source.html#l00168">dealloc</a>, <a class="el" href="_m_c_timer_8m_source.html#l00020">initWithTextureKeys:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00145">render</a>, <a class="el" href="_m_c_timer_8m_source.html#l00039">reset</a>, <a class="el" href="_m_c_timer_8m_source.html#l00157">setActive:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00047">setScale:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00059">setTranslation:</a> , 以及 <a class="el" href="_m_c_timer_8m_source.html#l00130">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1a90c24b38abb0335019f2d7083894b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_multi_digit_counter.html">MCMultiDigitCounter</a>*) m_millisecond</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_timer_8h_source.html">MCTimer.h</a> 第 <a class="el" href="_m_c_timer_8h_source.html#l00038">38</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_timer_8m_source.html#l00099">addTimerWithMilisec:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00116">awake</a>, <a class="el" href="_m_c_timer_8m_source.html#l00076">carryLogic</a>, <a class="el" href="_m_c_timer_8m_source.html#l00168">dealloc</a>, <a class="el" href="_m_c_timer_8m_source.html#l00020">initWithTextureKeys:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00145">render</a>, <a class="el" href="_m_c_timer_8m_source.html#l00039">reset</a>, <a class="el" href="_m_c_timer_8m_source.html#l00157">setActive:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00047">setScale:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00059">setTranslation:</a> , 以及 <a class="el" href="_m_c_timer_8m_source.html#l00130">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a882c6d4141c99378a1e9a856297c95b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_multi_digit_counter.html">MCMultiDigitCounter</a>*) m_minute</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_timer_8h_source.html">MCTimer.h</a> 第 <a class="el" href="_m_c_timer_8h_source.html#l00028">28</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_timer_8m_source.html#l00116">awake</a>, <a class="el" href="_m_c_timer_8m_source.html#l00076">carryLogic</a>, <a class="el" href="_m_c_timer_8m_source.html#l00168">dealloc</a>, <a class="el" href="_m_c_timer_8m_source.html#l00020">initWithTextureKeys:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00145">render</a>, <a class="el" href="_m_c_timer_8m_source.html#l00039">reset</a>, <a class="el" href="_m_c_timer_8m_source.html#l00157">setActive:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00047">setScale:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00059">setTranslation:</a> , 以及 <a class="el" href="_m_c_timer_8m_source.html#l00130">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a53c2bb8dd0161d8c15634de49025d428"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_multi_digit_counter.html">MCMultiDigitCounter</a>*) m_second</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_timer_8h_source.html">MCTimer.h</a> 第 <a class="el" href="_m_c_timer_8h_source.html#l00033">33</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_timer_8m_source.html#l00116">awake</a>, <a class="el" href="_m_c_timer_8m_source.html#l00076">carryLogic</a>, <a class="el" href="_m_c_timer_8m_source.html#l00168">dealloc</a>, <a class="el" href="_m_c_timer_8m_source.html#l00020">initWithTextureKeys:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00145">render</a>, <a class="el" href="_m_c_timer_8m_source.html#l00039">reset</a>, <a class="el" href="_m_c_timer_8m_source.html#l00157">setActive:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00047">setScale:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00059">setTranslation:</a> , 以及 <a class="el" href="_m_c_timer_8m_source.html#l00130">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a37ad84f47fd024b5b77555628a8caebf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_dot_separater.html">MCDotSeparater</a>*) separater11</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>位于秒与毫秒的相隔点 </p>
+
+<p>在文件 <a class="el" href="_m_c_timer_8h_source.html">MCTimer.h</a> 第 <a class="el" href="_m_c_timer_8h_source.html#l00037">37</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_timer_8m_source.html#l00116">awake</a>, <a class="el" href="_m_c_timer_8m_source.html#l00168">dealloc</a>, <a class="el" href="_m_c_timer_8m_source.html#l00020">initWithTextureKeys:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00145">render</a>, <a class="el" href="_m_c_timer_8m_source.html#l00157">setActive:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00047">setScale:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00059">setTranslation:</a> , 以及 <a class="el" href="_m_c_timer_8m_source.html#l00130">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9e5b4684a07fa583e9a054efe1ce3e43"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_dot_separater.html">MCDotSeparater</a>*) separater21</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>位于小时与分钟的相隔点 </p>
+
+<p>在文件 <a class="el" href="_m_c_timer_8h_source.html">MCTimer.h</a> 第 <a class="el" href="_m_c_timer_8h_source.html#l00027">27</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_timer_8m_source.html#l00116">awake</a>, <a class="el" href="_m_c_timer_8m_source.html#l00168">dealloc</a>, <a class="el" href="_m_c_timer_8m_source.html#l00020">initWithTextureKeys:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00145">render</a>, <a class="el" href="_m_c_timer_8m_source.html#l00157">setActive:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00047">setScale:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00059">setTranslation:</a> , 以及 <a class="el" href="_m_c_timer_8m_source.html#l00130">update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4db61b7161b926b3dd68967099ffbabf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_dot_separater.html">MCDotSeparater</a>*) separater22</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>位于分钟与秒的相隔点 </p>
+
+<p>在文件 <a class="el" href="_m_c_timer_8h_source.html">MCTimer.h</a> 第 <a class="el" href="_m_c_timer_8h_source.html#l00032">32</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_timer_8m_source.html#l00116">awake</a>, <a class="el" href="_m_c_timer_8m_source.html#l00168">dealloc</a>, <a class="el" href="_m_c_timer_8m_source.html#l00020">initWithTextureKeys:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00145">render</a>, <a class="el" href="_m_c_timer_8m_source.html#l00157">setActive:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00047">setScale:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00059">setTranslation:</a> , 以及 <a class="el" href="_m_c_timer_8m_source.html#l00130">update</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="a43e95db451ea6d5ff342062ea4cc62e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (long) totalTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_timer_8h_source.html">MCTimer.h</a> 第 <a class="el" href="_m_c_timer_8h_source.html#l00022">22</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_timer_8m_source.html#l00099">addTimerWithMilisec:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00020">initWithTextureKeys:</a>, <a class="el" href="_m_c_timer_8m_source.html#l00039">reset</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00305">MCCountingPlayInputViewController::showFinishView</a> , 以及 <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00444">MCNormalPlayInputViewController::showFinishView</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_timer_8h_source.html">MCTimer.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_timer_8m_source.html">MCTimer.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_m_c_timer.html">MCTimer</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:39 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

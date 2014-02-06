@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/MCRay.mm 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_m_c_ray_8mm_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">MCRay.mm</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_m_c_ray_8mm.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  MCRay.m</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  HelloCone</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by Aha on 12-10-24.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_ray_8h.html">MCRay.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#import &lt;math.h&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">@implementation </span><a class="code" href="interface_m_c_ray.html">MCRay</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="interface_m_c_ray.html#a341efdcff3c5a209fdde3243cbde9d63">   18</a></span>&#160;-(void)updateWithScreenX:(<span class="keywordtype">float</span>) screenX</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                 screenY:(<span class="keywordtype">float</span>) screenY{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="comment">//由于OpenGL坐标系原点为左下角，而窗口坐标系原点为左上角</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="comment">//因此，在OpenGl中的Y应该需要用当前视口高度，减去窗口坐标Y</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">float</span> <span class="keywordtype">object</span>[3];</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="comment">//z = 0 , 得到P0</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    [<a class="code" href="interface_m_c_g_l.html">MCGL</a> <a class="code" href="interface_m_c_g_l.html#aedac822eb99073e9aca31afb6df32912">unProjectfWithScreenX</a>:screenX</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        <a class="code" href="interface_m_c_g_l.html#aedac822eb99073e9aca31afb6df32912">screenY</a>:screenY</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                         <a class="code" href="interface_m_c_g_l.html#aedac822eb99073e9aca31afb6df32912">depthZ</a>:0.0</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                   <a class="code" href="interface_m_c_g_l.html#aedac822eb99073e9aca31afb6df32912">returnObject</a>:object];</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">//填充射线原点P0</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#ace8602e184d1a15fb29ca2a4e249d72d">set</a>(<span class="keywordtype">object</span>[0], <span class="keywordtype">object</span>[1], <span class="keywordtype">object</span>[2]);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">//z = 1 ，得到P1</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    [<a class="code" href="interface_m_c_g_l.html">MCGL</a> <a class="code" href="interface_m_c_g_l.html#aedac822eb99073e9aca31afb6df32912">unProjectfWithScreenX</a>:screenX</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                        <a class="code" href="interface_m_c_g_l.html#aedac822eb99073e9aca31afb6df32912">screenY</a>:screenY</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                         <a class="code" href="interface_m_c_g_l.html#aedac822eb99073e9aca31afb6df32912">depthZ</a>:1.0</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                   <a class="code" href="interface_m_c_g_l.html#aedac822eb99073e9aca31afb6df32912">returnObject</a>:object];</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">//计算射线的方向，P1 - P0</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#ace8602e184d1a15fb29ca2a4e249d72d">set</a>(<span class="keywordtype">object</span>[0], <span class="keywordtype">object</span>[1], <span class="keywordtype">object</span>[2]);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a> -= <a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">//向量归一化</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a7f854394bf054208485424371a940aa5">Normalize</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="interface_m_c_ray.html#ae88d7e461887d228a05dedb071e6399d">   47</a></span>&#160;-(GLfloat)intersectWithTriangleMadeUpOfV0:(<span class="keywordtype">float</span> *)V0</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                    V1:(<span class="keywordtype">float</span> *)V1</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                    V2:(<span class="keywordtype">float</span> *)V2{</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    GLfloat edge1[3];</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    GLfloat edge2[3];</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    edge1[0]=V1[0]-V0[0];</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    edge1[1]=V1[1]-V0[1];</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    edge1[2]=V1[2]-V0[2];</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    edge2[0]=V2[0]-V0[0];</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    edge2[1]=V2[1]-V0[1];</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    edge2[2]=V2[2]-V0[2];</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    GLfloat pvec[3];</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    pvec[0]= <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>*edge2[2] - <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>*edge2[1];</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    pvec[1]= <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>*edge2[0] - <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>*edge2[2];</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    pvec[2]= <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>*edge2[1] - <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>*edge2[0];</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    GLfloat det ;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    det = edge1[0]*pvec[0]+edge1[1]*pvec[1]+edge1[2]*pvec[2];</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    GLfloat tvec[3];</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">if</span>( det &gt; 0 )</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        tvec[0] =<a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>-V0[0];</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        tvec[1] =<a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>-V0[1];</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        tvec[2] =<a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>-V0[2];</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        tvec[0] =V0[0] -<a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        tvec[1] =V0[1] -<a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        tvec[2] =V0[2] -<a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        det = -det ;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span>( det &lt; 0.0001f ) <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    GLfloat u ;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    u = tvec[0]*pvec[0]+ tvec[1]*pvec[1]+ tvec[2]*pvec[2];</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">if</span>( u &lt; 0.0f || u &gt; det ) <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    GLfloat qvec[3];</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    qvec[0]= tvec[1]*edge1[2] - tvec[2]*edge1[1];</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    qvec[1]= tvec[2]*edge1[0] - tvec[0]*edge1[2];</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    qvec[2]= tvec[0]*edge1[1] - tvec[1]*edge1[0];</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    GLfloat v;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    v = <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>*qvec[0]+<a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>*qvec[1]+<a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>*qvec[2];</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">if</span>( v &lt; 0.0f || u + v &gt; det ) <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    GLfloat t = edge2[0]*qvec[0]+edge2[1]*qvec[1]+edge2[2]*qvec[2];</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    GLfloat fInvDet = 1.0f / det;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    t *= fInvDet;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="comment">//u *= fInvDet;</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="comment">//v *= fInvDet;</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="struct_vector3.html">vec3</a> distanceVector = <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>*t;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordflow">return</span> sqrt(distanceVector.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>*distanceVector.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a> +</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                distanceVector.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>*distanceVector.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a> +</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                distanceVector.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>*distanceVector.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;}</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="interface_m_c_ray.html#a6994e36f265d223831229702a03ad26f">  120</a></span>&#160;-(<a class="code" href="struct_vector3.html">vec3</a>)pointIntersectWithTriangleMadeUpOfV0:(<span class="keywordtype">float</span> *)V0</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                                    V1:(<span class="keywordtype">float</span> *)V1</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                                    V2:(<span class="keywordtype">float</span> *)V2{</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    GLfloat edge1[3];</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    GLfloat edge2[3];</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    edge1[0]=V1[0]-V0[0];</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    edge1[1]=V1[1]-V0[1];</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    edge1[2]=V1[2]-V0[2];</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    edge2[0]=V2[0]-V0[0];</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    edge2[1]=V2[1]-V0[1];</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    edge2[2]=V2[2]-V0[2];</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    </div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    GLfloat pvec[3];</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    pvec[0]= <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>*edge2[2] - <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>*edge2[1];</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    pvec[1]= <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>*edge2[0] - <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>*edge2[2];</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    pvec[2]= <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>*edge2[1] - <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>*edge2[0];</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    </div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    GLfloat det ;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    det = edge1[0]*pvec[0]+edge1[1]*pvec[1]+edge1[2]*pvec[2];</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    </div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    GLfloat tvec[3];</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    </div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">if</span>( det &gt; 0 )</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        </div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        tvec[0] =<a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>-V0[0];</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        tvec[1] =<a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>-V0[1];</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        tvec[2] =<a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>-V0[2];</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        </div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        tvec[0] =V0[0] -<a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        tvec[1] =V0[1] -<a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        tvec[2] =V0[2] -<a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        </div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        det = -det ;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        </div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    </div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordflow">if</span>( det &lt; 0.0001f ) <span class="keywordflow">return</span> <a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a> ;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    </div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    GLfloat u ;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    u = tvec[0]*pvec[0]+ tvec[1]*pvec[1]+ tvec[2]*pvec[2];</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">if</span>( u &lt; 0.0f || u &gt; det ) <span class="keywordflow">return</span> <a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    </div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    GLfloat qvec[3];</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    qvec[0]= tvec[1]*edge1[2] - tvec[2]*edge1[1];</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    qvec[1]= tvec[2]*edge1[0] - tvec[0]*edge1[2];</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    qvec[2]= tvec[0]*edge1[1] - tvec[1]*edge1[0];</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    </div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    </div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    GLfloat v;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    v = <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">x</a>*qvec[0]+<a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">y</a>*qvec[1]+<a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>.<a class="code" href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">z</a>*qvec[2];</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">if</span>( v &lt; 0.0f || u + v &gt; det ) <span class="keywordflow">return</span> <a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    </div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    GLfloat t = edge2[0]*qvec[0]+edge2[1]*qvec[1]+edge2[2]*qvec[2];</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    GLfloat fInvDet = 1.0f / det;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    t *= fInvDet;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="comment">//u *= fInvDet;</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="comment">//v *= fInvDet;</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <a class="code" href="struct_vector3.html">vec3</a> distanceVector = <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>*t;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="comment">// 交点坐标为原点坐标加向量化的距离</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a> + distanceVector;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;}</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno"><a class="line" href="interface_m_c_ray.html#ac438c8aa1f5eef0a444bc35fe9e7ea4e">  191</a></span>&#160;-(void)transformWithMatrix:(<a class="code" href="struct_matrix4.html">mat4</a>) matrix{</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <a class="code" href="struct_vector3.html">vec3</a> v0 = <a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <a class="code" href="struct_vector3.html">vec3</a> v1 = <a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    v1 += <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a>;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    </div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="comment">// 使用输入的矩阵来变换向量</span></div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    matrix.<a class="code" href="struct_matrix4.html#a6d5e3a9fa7e74dc8be3ffa14eb7dbfcd">transform</a>(v0, v0);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    matrix.<a class="code" href="struct_matrix4.html#a6d5e3a9fa7e74dc8be3ffa14eb7dbfcd">transform</a>(v1, v1);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    </div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <a class="code" href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">vOrigin</a> = v0;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    v1 -= v0;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    v1.<a class="code" href="struct_vector3.html#a7f854394bf054208485424371a940aa5">Normalize</a>();</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <a class="code" href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">vDirection</a> = v1;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="keyword">@end</span></div>
+<div class="ttc" id="struct_vector3_html_a561df88b28e106e337a25bb86554a569"><div class="ttname"><a href="struct_vector3.html#a561df88b28e106e337a25bb86554a569">Vector3::y</a></div><div class="ttdeci">T y</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00258">Vector.hpp:258</a></div></div>
+<div class="ttc" id="struct_vector3_html_ace8602e184d1a15fb29ca2a4e249d72d"><div class="ttname"><a href="struct_vector3.html#ace8602e184d1a15fb29ca2a4e249d72d">Vector3::set</a></div><div class="ttdeci">void set(T cx, T cy, T cz)</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00134">Vector.hpp:134</a></div></div>
+<div class="ttc" id="struct_vector3_html_ab3e7f5401dd6e951978bfa746809f74f"><div class="ttname"><a href="struct_vector3.html#ab3e7f5401dd6e951978bfa746809f74f">Vector3::z</a></div><div class="ttdeci">T z</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00259">Vector.hpp:259</a></div></div>
+<div class="ttc" id="struct_matrix4_html"><div class="ttname"><a href="struct_matrix4.html">Matrix4</a></div><div class="ttdef"><b>Definition:</b> <a href="_matrix_8hpp_source.html#l00066">Matrix.hpp:66</a></div></div>
+<div class="ttc" id="struct_vector3_html"><div class="ttname"><a href="struct_vector3.html">Vector3&lt; float &gt;</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html"><div class="ttname"><a href="interface_m_c_g_l.html">MCGL</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8h_source.html#l00083">MCGL.h:83</a></div></div>
+<div class="ttc" id="interface_m_c_ray_html"><div class="ttname"><a href="interface_m_c_ray.html">MCRay</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_ray_8h_source.html#l00016">MCRay.h:16</a></div></div>
+<div class="ttc" id="interface_m_c_g_l_html_aedac822eb99073e9aca31afb6df32912"><div class="ttname"><a href="interface_m_c_g_l.html#aedac822eb99073e9aca31afb6df32912">+[MCGL unProjectfWithScreenX:screenY:depthZ:returnObject:]</a></div><div class="ttdeci">BOOL unProjectfWithScreenX:screenY:depthZ:returnObject:(float winx,[screenY] float winy,[depthZ] float winz,[returnObject] float *object)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_g_l_8mm_source.html#l00032">MCGL.mm:32</a></div></div>
+<div class="ttc" id="struct_vector3_html_a7f854394bf054208485424371a940aa5"><div class="ttname"><a href="struct_vector3.html#a7f854394bf054208485424371a940aa5">Vector3::Normalize</a></div><div class="ttdeci">void Normalize()</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00127">Vector.hpp:127</a></div></div>
+<div class="ttc" id="struct_vector3_html_a1a0f7e168c71ca798099f0ba8a444244"><div class="ttname"><a href="struct_vector3.html#a1a0f7e168c71ca798099f0ba8a444244">Vector3::x</a></div><div class="ttdeci">T x</div><div class="ttdef"><b>Definition:</b> <a href="_vector_8hpp_source.html#l00257">Vector.hpp:257</a></div></div>
+<div class="ttc" id="interface_m_c_ray_html_ab4965b60ccbf96a3f53b16bf34ef75d6"><div class="ttname"><a href="interface_m_c_ray.html#ab4965b60ccbf96a3f53b16bf34ef75d6">MCRay::vDirection</a></div><div class="ttdeci">vec3 vDirection</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_ray_8h_source.html#l00024">MCRay.h:24</a></div></div>
+<div class="ttc" id="struct_matrix4_html_a6d5e3a9fa7e74dc8be3ffa14eb7dbfcd"><div class="ttname"><a href="struct_matrix4.html#a6d5e3a9fa7e74dc8be3ffa14eb7dbfcd">Matrix4::transform</a></div><div class="ttdeci">void transform(vec3 in, vec3 &amp;out)</div><div class="ttdef"><b>Definition:</b> <a href="_matrix_8hpp_source.html#l00149">Matrix.hpp:149</a></div></div>
+<div class="ttc" id="_m_c_ray_8h_html"><div class="ttname"><a href="_m_c_ray_8h.html">MCRay.h</a></div></div>
+<div class="ttc" id="interface_m_c_ray_html_aac9366dd5eaec87e514df96f83ba3603"><div class="ttname"><a href="interface_m_c_ray.html#aac9366dd5eaec87e514df96f83ba3603">MCRay::vOrigin</a></div><div class="ttdeci">vec3 vOrigin</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_ray_8h_source.html#l00020">MCRay.h:20</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_m_c_ray_8mm.html">MCRay.mm</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:37 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

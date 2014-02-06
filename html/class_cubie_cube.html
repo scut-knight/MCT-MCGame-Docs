@@ -1,0 +1,1898 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: CubieCube类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_cubie_cube.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="class_cubie_cube-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">CubieCube类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a802939d08b3bf38cd295ebd0aaf412ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a802939d08b3bf38cd295ebd0aaf412ec">CubieCube</a> ()</td></tr>
+<tr class="separator:a802939d08b3bf38cd295ebd0aaf412ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36d19c6217a4ef075badac38173a01b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#ad36d19c6217a4ef075badac38173a01b">CubieCube</a> (<a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a> <a class="el" href="class_cubie_cube.html#a8b88c999e42dcb4bea56220747b5ceab">cp</a>[], unsigned char <a class="el" href="class_cubie_cube.html#a9018acf4e2e9ea076b397b83f1127c25">co</a>[], <a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a> <a class="el" href="class_cubie_cube.html#ae6cf454624f187878ad72acaae7d42b9">ep</a>[], unsigned char <a class="el" href="class_cubie_cube.html#acf428ef151745e98ac4ebb0e1bd9feb2">eo</a>[])</td></tr>
+<tr class="separator:ad36d19c6217a4ef075badac38173a01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c6f3bb42d27e1b49301c43b05648d05"><td class="memItemLeft" align="right" valign="top">std::auto_ptr&lt; <a class="el" href="class_face_cube.html">FaceCube</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a8c6f3bb42d27e1b49301c43b05648d05">toFaceCube</a> ()</td></tr>
+<tr class="separator:a8c6f3bb42d27e1b49301c43b05648d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7746ccb7bc5346e023d6adbd8d5bffc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a7746ccb7bc5346e023d6adbd8d5bffc7">cornerMultiply</a> (<a class="el" href="class_cubie_cube.html">CubieCube</a> &amp;b)</td></tr>
+<tr class="separator:a7746ccb7bc5346e023d6adbd8d5bffc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6d4bd14f855ea6c410c19a1aa991d33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#ad6d4bd14f855ea6c410c19a1aa991d33">edgeMultiply</a> (<a class="el" href="class_cubie_cube.html">CubieCube</a> &amp;b)</td></tr>
+<tr class="separator:ad6d4bd14f855ea6c410c19a1aa991d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5aedaaea9471f0b5a1587bb80a259d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#ab5aedaaea9471f0b5a1587bb80a259d6">multiply</a> (<a class="el" href="class_cubie_cube.html">CubieCube</a> &amp;b)</td></tr>
+<tr class="separator:ab5aedaaea9471f0b5a1587bb80a259d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31e6968629aed9428bc50afb61232611"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a31e6968629aed9428bc50afb61232611">invCubieCube</a> (<a class="el" href="class_cubie_cube.html">CubieCube</a> &amp;c)</td></tr>
+<tr class="separator:a31e6968629aed9428bc50afb61232611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6639485f1a700dbe39efb1f2636b5c2f"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a6639485f1a700dbe39efb1f2636b5c2f">getTwist</a> ()</td></tr>
+<tr class="separator:a6639485f1a700dbe39efb1f2636b5c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a574a58fc142204a03d777d9e1dc6ff16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a574a58fc142204a03d777d9e1dc6ff16">setTwist</a> (short twist)</td></tr>
+<tr class="separator:a574a58fc142204a03d777d9e1dc6ff16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa58c0d06a9e194e3c34f57c03177cad"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#aaa58c0d06a9e194e3c34f57c03177cad">getFlip</a> ()</td></tr>
+<tr class="separator:aaa58c0d06a9e194e3c34f57c03177cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4266183dd4d393cf7b361f7c97397f9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a4266183dd4d393cf7b361f7c97397f9b">setFlip</a> (short flip)</td></tr>
+<tr class="separator:a4266183dd4d393cf7b361f7c97397f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a601372521548a27e9e9963f03144dcf8"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a601372521548a27e9e9963f03144dcf8">cornerParity</a> ()</td></tr>
+<tr class="separator:a601372521548a27e9e9963f03144dcf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7226ea3cf2772e97077fabf4327cfbd"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#ad7226ea3cf2772e97077fabf4327cfbd">edgeParity</a> ()</td></tr>
+<tr class="separator:ad7226ea3cf2772e97077fabf4327cfbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af01a773fcb635420e6aa7ef2887f015b"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#af01a773fcb635420e6aa7ef2887f015b">getFRtoBR</a> ()</td></tr>
+<tr class="separator:af01a773fcb635420e6aa7ef2887f015b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9623112dc6d5c275ee3d1b83d1b2dd2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a9623112dc6d5c275ee3d1b83d1b2dd2f">setFRtoBR</a> (short idx)</td></tr>
+<tr class="separator:a9623112dc6d5c275ee3d1b83d1b2dd2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a985786a07900cdea30395c6d82b78a0b"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a985786a07900cdea30395c6d82b78a0b">getURFtoDLF</a> ()</td></tr>
+<tr class="separator:a985786a07900cdea30395c6d82b78a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba6d966cf222d8176045f0b945d97b1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#aba6d966cf222d8176045f0b945d97b1e">setURFtoDLF</a> (short idx)</td></tr>
+<tr class="separator:aba6d966cf222d8176045f0b945d97b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3b61f8905f7dd4a2314603df5f6b9e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#af3b61f8905f7dd4a2314603df5f6b9e2">getURtoDF</a> ()</td></tr>
+<tr class="separator:af3b61f8905f7dd4a2314603df5f6b9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6868ca94ca82ad0cdda66d57b17289b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#ab6868ca94ca82ad0cdda66d57b17289b">setURtoDF</a> (int idx)</td></tr>
+<tr class="separator:ab6868ca94ca82ad0cdda66d57b17289b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9be98ca50d708ed6a684f55114111335"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a9be98ca50d708ed6a684f55114111335">getURtoUL</a> ()</td></tr>
+<tr class="separator:a9be98ca50d708ed6a684f55114111335"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f1c44fcea34eeec37a18e15a3b5d03f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a0f1c44fcea34eeec37a18e15a3b5d03f">setURtoUL</a> (short idx)</td></tr>
+<tr class="separator:a0f1c44fcea34eeec37a18e15a3b5d03f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06f7355c282d8d8f64a7f4f1c7fbccb6"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a06f7355c282d8d8f64a7f4f1c7fbccb6">getUBtoDF</a> ()</td></tr>
+<tr class="separator:a06f7355c282d8d8f64a7f4f1c7fbccb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97f239775c2d19a945301a4cdd429898"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a97f239775c2d19a945301a4cdd429898">setUBtoDF</a> (short idx)</td></tr>
+<tr class="separator:a97f239775c2d19a945301a4cdd429898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a159aa0f1a26ac31bf6597e9d99fcd283"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a159aa0f1a26ac31bf6597e9d99fcd283">getURFtoDLB</a> ()</td></tr>
+<tr class="separator:a159aa0f1a26ac31bf6597e9d99fcd283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35725e8caba342e331816ed4b49eaf31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a35725e8caba342e331816ed4b49eaf31">setURFtoDLB</a> (int idx)</td></tr>
+<tr class="separator:a35725e8caba342e331816ed4b49eaf31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12697efac4e2356eada318e14fbe568e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a12697efac4e2356eada318e14fbe568e">getURtoBR</a> ()</td></tr>
+<tr class="separator:a12697efac4e2356eada318e14fbe568e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b720e8038db9c2c1cbab6c5dd0fecc0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a3b720e8038db9c2c1cbab6c5dd0fecc0">setURtoBR</a> (int idx)</td></tr>
+<tr class="separator:a3b720e8038db9c2c1cbab6c5dd0fecc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e745fa175310c9ee69189178722f4a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a1e745fa175310c9ee69189178722f4a1">verify</a> ()</td></tr>
+<tr class="separator:a1e745fa175310c9ee69189178722f4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:aaf6101745360262a336c1f15fc857506"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#aaf6101745360262a336c1f15fc857506">initAllStaticVariables</a> ()</td></tr>
+<tr class="separator:aaf6101745360262a336c1f15fc857506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e9affd87de196de5e2a03665496ad5"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#ad4e9affd87de196de5e2a03665496ad5">Cnk</a> (int n, int k)</td></tr>
+<tr class="separator:ad4e9affd87de196de5e2a03665496ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa53ac8b8573a2bfa12bbe78cb273f372"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#aa53ac8b8573a2bfa12bbe78cb273f372">rotateLeft</a> (<a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a> arr[], int l, int r)</td></tr>
+<tr class="separator:aa53ac8b8573a2bfa12bbe78cb273f372"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc152348c0204abcdf6142df82f028a8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#adc152348c0204abcdf6142df82f028a8">rotateRight</a> (<a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a> arr[], int l, int r)</td></tr>
+<tr class="separator:adc152348c0204abcdf6142df82f028a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee1ef3ebd647eb80f83e13469040d30"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a4ee1ef3ebd647eb80f83e13469040d30">rotateLeft</a> (<a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a> arr[], int l, int r)</td></tr>
+<tr class="separator:a4ee1ef3ebd647eb80f83e13469040d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a11b6330a7cab59aa7a30aac4fb53b8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a9a11b6330a7cab59aa7a30aac4fb53b8">rotateRight</a> (<a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a> arr[], int l, int r)</td></tr>
+<tr class="separator:a9a11b6330a7cab59aa7a30aac4fb53b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b1b2ff1ac1bd7909eb923c6d3b08fef"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a1b1b2ff1ac1bd7909eb923c6d3b08fef">getURtoDF</a> (short idx1, short idx2)</td></tr>
+<tr class="separator:a1b1b2ff1ac1bd7909eb923c6d3b08fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a8b88c999e42dcb4bea56220747b5ceab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a8b88c999e42dcb4bea56220747b5ceab">cp</a> [8] = { URF, UFL, ULB, UBR, DFR, DLF, DBL, DRB}</td></tr>
+<tr class="memdesc:a8b88c999e42dcb4bea56220747b5ceab"><td class="mdescLeft">&#160;</td><td class="mdescRight">corner permutation  <a href="#a8b88c999e42dcb4bea56220747b5ceab">更多...</a><br/></td></tr>
+<tr class="separator:a8b88c999e42dcb4bea56220747b5ceab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9018acf4e2e9ea076b397b83f1127c25"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a9018acf4e2e9ea076b397b83f1127c25">co</a> [8] = { 0, 0, 0, 0, 0, 0, 0, 0 }</td></tr>
+<tr class="memdesc:a9018acf4e2e9ea076b397b83f1127c25"><td class="mdescLeft">&#160;</td><td class="mdescRight">corner orientation  <a href="#a9018acf4e2e9ea076b397b83f1127c25">更多...</a><br/></td></tr>
+<tr class="separator:a9018acf4e2e9ea076b397b83f1127c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6cf454624f187878ad72acaae7d42b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#ae6cf454624f187878ad72acaae7d42b9">ep</a> [12] = { UR, UF, UL, UB, DR, DF, DL, DB, FR, FL, BL, BR }</td></tr>
+<tr class="memdesc:ae6cf454624f187878ad72acaae7d42b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge permutation  <a href="#ae6cf454624f187878ad72acaae7d42b9">更多...</a><br/></td></tr>
+<tr class="separator:ae6cf454624f187878ad72acaae7d42b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf428ef151745e98ac4ebb0e1bd9feb2"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#acf428ef151745e98ac4ebb0e1bd9feb2">eo</a> [12] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }</td></tr>
+<tr class="memdesc:acf428ef151745e98ac4ebb0e1bd9feb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge orientation  <a href="#acf428ef151745e98ac4ebb0e1bd9feb2">更多...</a><br/></td></tr>
+<tr class="separator:acf428ef151745e98ac4ebb0e1bd9feb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a8a6b604c3f287dfc4926c872a971092f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a8a6b604c3f287dfc4926c872a971092f">cpU</a> [] = { UBR, URF, UFL, ULB, DFR, DLF, DBL, DRB }</td></tr>
+<tr class="separator:a8a6b604c3f287dfc4926c872a971092f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435d6b4a5c5f94f008bf8bf4324cd82f"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a435d6b4a5c5f94f008bf8bf4324cd82f">coU</a> [] = { 0, 0, 0, 0, 0, 0, 0, 0 }</td></tr>
+<tr class="separator:a435d6b4a5c5f94f008bf8bf4324cd82f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea2a3572b1a15d34ae3eb6f3092b22f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a4ea2a3572b1a15d34ae3eb6f3092b22f">epU</a> [] = { UB, UR, UF, UL, DR, DF, DL, DB, FR, FL, BL, BR }</td></tr>
+<tr class="separator:a4ea2a3572b1a15d34ae3eb6f3092b22f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c0abbdc288c98f67a75ca6495f4b044"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a5c0abbdc288c98f67a75ca6495f4b044">eoU</a> [] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }</td></tr>
+<tr class="separator:a5c0abbdc288c98f67a75ca6495f4b044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a148b58155b766051d0fc26b8cbc8d072"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a148b58155b766051d0fc26b8cbc8d072">cpR</a> [] = { DFR, UFL, ULB, URF, DRB, DLF, DBL, UBR }</td></tr>
+<tr class="separator:a148b58155b766051d0fc26b8cbc8d072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6009bce25fddea1c79253869b4cab27"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#ad6009bce25fddea1c79253869b4cab27">coR</a> [] = { 2, 0, 0, 1, 1, 0, 0, 2 }</td></tr>
+<tr class="separator:ad6009bce25fddea1c79253869b4cab27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5959e5c205318884af14ec5c5ea80c5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#af5959e5c205318884af14ec5c5ea80c5">epR</a> [] = { FR, UF, UL, UB, BR, DF, DL, DB, DR, FL, BL, UR }</td></tr>
+<tr class="separator:af5959e5c205318884af14ec5c5ea80c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b30b12bb2159618512b362b6706a0a"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#aa6b30b12bb2159618512b362b6706a0a">eoR</a> [] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }</td></tr>
+<tr class="separator:aa6b30b12bb2159618512b362b6706a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca7ac9a7ef460f60124ffadc646d6bab"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#aca7ac9a7ef460f60124ffadc646d6bab">cpF</a> [] = { UFL, DLF, ULB, UBR, URF, DFR, DBL, DRB }</td></tr>
+<tr class="separator:aca7ac9a7ef460f60124ffadc646d6bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affa1dfd9e93a6491f3ac5daa21af4a86"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#affa1dfd9e93a6491f3ac5daa21af4a86">coF</a> [] = { 1, 2, 0, 0, 2, 1, 0, 0 }</td></tr>
+<tr class="separator:affa1dfd9e93a6491f3ac5daa21af4a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f22c9f4747088354855ede51006afe7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a2f22c9f4747088354855ede51006afe7">epF</a> [] = { UR, FL, UL, UB, DR, FR, DL, DB, UF, DF, BL, BR }</td></tr>
+<tr class="separator:a2f22c9f4747088354855ede51006afe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66a7c6ed2b8481e6a1a2e28b9dad1245"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a66a7c6ed2b8481e6a1a2e28b9dad1245">eoF</a> [] = { 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0 }</td></tr>
+<tr class="separator:a66a7c6ed2b8481e6a1a2e28b9dad1245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0318e552970102abf7cfb8c1cc5291bf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a0318e552970102abf7cfb8c1cc5291bf">cpD</a> [] = { URF, UFL, ULB, UBR, DLF, DBL, DRB, DFR }</td></tr>
+<tr class="separator:a0318e552970102abf7cfb8c1cc5291bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba513a82305651cddec3b775a65f369"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a9ba513a82305651cddec3b775a65f369">coD</a> [] = { 0, 0, 0, 0, 0, 0, 0, 0 }</td></tr>
+<tr class="separator:a9ba513a82305651cddec3b775a65f369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66de808d4c2e67fec3c7b64680a55b3b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a66de808d4c2e67fec3c7b64680a55b3b">epD</a> [] = { UR, UF, UL, UB, DF, DL, DB, DR, FR, FL, BL, BR }</td></tr>
+<tr class="separator:a66de808d4c2e67fec3c7b64680a55b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da286ce26219de35b52d14d3d5c2a62"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a3da286ce26219de35b52d14d3d5c2a62">eoD</a> [] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }</td></tr>
+<tr class="separator:a3da286ce26219de35b52d14d3d5c2a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ee8625b6bd68334468148d84397a3b0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a0ee8625b6bd68334468148d84397a3b0">cpL</a> [] = { URF, ULB, DBL, UBR, DFR, UFL, DLF, DRB }</td></tr>
+<tr class="separator:a0ee8625b6bd68334468148d84397a3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad25cf7d280df34dd76a6832f209cb773"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#ad25cf7d280df34dd76a6832f209cb773">coL</a> [] = { 0, 1, 2, 0, 0, 2, 1, 0 }</td></tr>
+<tr class="separator:ad25cf7d280df34dd76a6832f209cb773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2484fbf53637e247f393daf0ba73728c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a2484fbf53637e247f393daf0ba73728c">epL</a> [] = { UR, UF, BL, UB, DR, DF, FL, DB, FR, UL, DL, BR }</td></tr>
+<tr class="separator:a2484fbf53637e247f393daf0ba73728c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab368b6ea29f89a1c9b39c597af3eb98e"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#ab368b6ea29f89a1c9b39c597af3eb98e">eoL</a> [] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }</td></tr>
+<tr class="separator:ab368b6ea29f89a1c9b39c597af3eb98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5328d6bb1ac3c144487a15a3a118322e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a5328d6bb1ac3c144487a15a3a118322e">cpB</a> [] = { URF, UFL, UBR, DRB, DFR, DLF, ULB, DBL }</td></tr>
+<tr class="separator:a5328d6bb1ac3c144487a15a3a118322e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fa0f5e77dc8c50fbe4b33da847dec64"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a0fa0f5e77dc8c50fbe4b33da847dec64">coB</a> [] = { 0, 0, 1, 2, 0, 0, 2, 1 }</td></tr>
+<tr class="separator:a0fa0f5e77dc8c50fbe4b33da847dec64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d0dc07cbc7f78feaebfdb2df8fe08b6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a3d0dc07cbc7f78feaebfdb2df8fe08b6">epB</a> [] = { UR, UF, UL, BR, DR, DF, DL, BL, FR, FL, UB, DB }</td></tr>
+<tr class="separator:a3d0dc07cbc7f78feaebfdb2df8fe08b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80b47947e02cc92fa708c1ab99d0a810"><td class="memItemLeft" align="right" valign="top">static unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a80b47947e02cc92fa708c1ab99d0a810">eoB</a> [] = { 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1 }</td></tr>
+<tr class="separator:a80b47947e02cc92fa708c1ab99d0a810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e075233ae82e9711cf1cff23a64761"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_cubie_cube.html">CubieCube</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cubie_cube.html#a50e075233ae82e9711cf1cff23a64761">moveCube</a> [6]</td></tr>
+<tr class="separator:a50e075233ae82e9711cf1cff23a64761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p><a class="el" href="interface_cube.html">Cube</a> on the cubie level(在two-phase算法中魔方的块表示) </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00023">23</a> 行定义.</p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="a802939d08b3bf38cd295ebd0aaf412ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CubieCube::CubieCube </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>默认构造函数什么都不做，因为没有必要 </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00085">85</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00535">getURtoDF()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad36d19c6217a4ef075badac38173a01b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CubieCube::CubieCube </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a>&#160;</td>
+          <td class="paramname"><em>cp</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>co</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a>&#160;</td>
+          <td class="paramname"><em>ep</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>eo</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>这个构造函数使用深复制，改变cp[],co[],ep[],eo[] </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00090">90</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="ad4e9affd87de196de5e2a03665496ad5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CubieCube::Cnk </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>k</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>计算从n个选取k个的组合数 </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00104">104</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00365">getFRtoBR()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00605">getUBtoDF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00423">getURFtoDLF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00479">getURtoDF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00553">getURtoUL()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00390">setFRtoBR()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00630">setUBtoDF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00448">setURFtoDLF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00504">setURtoDF()</a> , 以及 <a class="el" href="_cubie_cube_8cpp_source.html#l00578">setURtoUL()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7746ccb7bc5346e023d6adbd8d5bffc7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::cornerMultiply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_cubie_cube.html">CubieCube</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>顶角与顶角相乘</p>
+<p>Multiply this <a class="el" href="class_cubie_cube.html">CubieCube</a> with another cubiecube b, restricted to the corners.<br/>
+ Because we also describe reflections of the whole cube by permutations, we get a complication with the corners. The orientations of mirrored corners are described by the numbers 3, 4 and 5. The composition of the orientations cannot be computed by addition modulo three in the cyclic group C3 any more. Instead the rules below give an addition in the dihedral group D3 with 6 elements.<br/>
+</p>
+<p>NOTE: Because we do not use symmetry reductions and hence no mirrored cubes in this simple implementation of the Two-Phase-Algorithm, some code is not necessary here. </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00192">192</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8h_source.html#l00032">co</a>, <a class="el" href="_cubie_cube_8h_source.html#l00029">cp</a> , 以及 <a class="el" href="_global_define_8h_source.html#l00055">TP::URF</a>.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00260">multiply()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a601372521548a27e9e9963f03144dcf8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CubieCube::cornerParity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Parity of the corner permutation </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00345">345</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8h_source.html#l00029">cp</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DRB</a> , 以及 <a class="el" href="_global_define_8h_source.html#l00055">TP::URF</a>.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube::CoordCube()</a>, <a class="el" href="_tools_8cpp_source.html#l00055">Tools::randomCube()</a> , 以及 <a class="el" href="_cubie_cube_8cpp_source.html#l00733">verify()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad6d4bd14f855ea6c410c19a1aa991d33"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::edgeMultiply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_cubie_cube.html">CubieCube</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>边与边相乘</p>
+<p>Multiply this <a class="el" href="class_cubie_cube.html">CubieCube</a> with another cubiecube b, restricted to the edges </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00243">243</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8h_source.html#l00038">eo</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a> , 以及 <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad7226ea3cf2772e97077fabf4327cfbd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CubieCube::edgeParity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Parity of the edges permutation. Parity of corners and edges are the same if the cube is solvable. </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00355">355</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a> , 以及 <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a>.</p>
+
+<p>参考自 <a class="el" href="_tools_8cpp_source.html#l00055">Tools::randomCube()</a> , 以及 <a class="el" href="_cubie_cube_8cpp_source.html#l00733">verify()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaa58c0d06a9e194e3c34f57c03177cad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CubieCube::getFlip </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>return the flip of the 12 edges. 0&lt;= flip &lt; 2^11 </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00323">323</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_cubie_cube_8h_source.html#l00038">eo</a> , 以及 <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a>.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube::CoordCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af01a773fcb635420e6aa7ef2887f015b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CubieCube::getFRtoBR </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>permutation of the UD-slice edges FR,FL,BL and BR </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00365">365</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00104">Cnk()</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::FR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00121">rotateLeft()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a> , 以及 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube::CoordCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6639485f1a700dbe39efb1f2636b5c2f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CubieCube::getTwist </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>return the twist of the 8 corners. 0 &lt;= twist &lt; 3^7 </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00298">298</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8h_source.html#l00032">co</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DRB</a> , 以及 <a class="el" href="_global_define_8h_source.html#l00055">TP::URF</a>.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube::CoordCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a06f7355c282d8d8f64a7f4f1c7fbccb6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CubieCube::getUBtoDF </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Permutation of the three edges UB,DR,DF </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00605">605</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00104">Cnk()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DF</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00121">rotateLeft()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UB</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a> , 以及 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube::CoordCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a159aa0f1a26ac31bf6597e9d99fcd283"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CubieCube::getURFtoDLB </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00657">657</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8h_source.html#l00029">cp</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00121">rotateLeft()</a> , 以及 <a class="el" href="_global_define_8h_source.html#l00055">TP::URF</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a985786a07900cdea30395c6d82b78a0b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CubieCube::getURFtoDLF </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Permutation of all corners except DBL and DRB </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00423">423</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8cpp_source.html#l00104">Cnk()</a>, <a class="el" href="_cubie_cube_8h_source.html#l00029">cp</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DLF</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DRB</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00121">rotateLeft()</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::URF</a> , 以及 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube::CoordCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a12697efac4e2356eada318e14fbe568e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CubieCube::getURtoBR </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00690">690</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00121">rotateLeft()</a> , 以及 <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af3b61f8905f7dd4a2314603df5f6b9e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CubieCube::getURtoDF </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Permutation of the six edges UR,UF,UL,UB,DR,DF. </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00479">479</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00104">Cnk()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DF</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00121">rotateLeft()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a> , 以及 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube::CoordCube()</a> , 以及 <a class="el" href="_cubie_cube_8cpp_source.html#l00535">getURtoDF()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1b1b2ff1ac1bd7909eb923c6d3b08fef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CubieCube::getURtoDF </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>idx1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>idx2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Permutation of the six edges UR,UF,UL,UB,DR,DF </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00535">535</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00085">CubieCube()</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00479">getURtoDF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00630">setUBtoDF()</a> , 以及 <a class="el" href="_cubie_cube_8cpp_source.html#l00578">setURtoUL()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9be98ca50d708ed6a684f55114111335"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">short CubieCube::getURtoUL </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Permutation of the three edges UR,UF,UL </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00553">553</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00104">Cnk()</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00121">rotateLeft()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a> , 以及 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>.</p>
+
+<p>参考自 <a class="el" href="_coord_cube_8cpp_source.html#l00135">CoordCube::CoordCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaf6101745360262a336c1f15fc857506"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::initAllStaticVariables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>初始化六个moveCube，将它们各自静态成员变量的值设置成上面静态成员变量的值 </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">48</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8h_source.html#l00032">co</a>, <a class="el" href="_cubie_cube_8h_source.html#l00069">coB</a>, <a class="el" href="_cubie_cube_8h_source.html#l00059">coD</a>, <a class="el" href="_cubie_cube_8h_source.html#l00054">coF</a>, <a class="el" href="_cubie_cube_8h_source.html#l00064">coL</a>, <a class="el" href="_cubie_cube_8h_source.html#l00049">coR</a>, <a class="el" href="_cubie_cube_8h_source.html#l00044">coU</a>, <a class="el" href="_cubie_cube_8h_source.html#l00029">cp</a>, <a class="el" href="_cubie_cube_8h_source.html#l00068">cpB</a>, <a class="el" href="_cubie_cube_8h_source.html#l00058">cpD</a>, <a class="el" href="_cubie_cube_8h_source.html#l00053">cpF</a>, <a class="el" href="_cubie_cube_8h_source.html#l00063">cpL</a>, <a class="el" href="_cubie_cube_8h_source.html#l00048">cpR</a>, <a class="el" href="_cubie_cube_8h_source.html#l00043">cpU</a>, <a class="el" href="_cubie_cube_8h_source.html#l00038">eo</a>, <a class="el" href="_cubie_cube_8h_source.html#l00071">eoB</a>, <a class="el" href="_cubie_cube_8h_source.html#l00061">eoD</a>, <a class="el" href="_cubie_cube_8h_source.html#l00056">eoF</a>, <a class="el" href="_cubie_cube_8h_source.html#l00066">eoL</a>, <a class="el" href="_cubie_cube_8h_source.html#l00051">eoR</a>, <a class="el" href="_cubie_cube_8h_source.html#l00046">eoU</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>, <a class="el" href="_cubie_cube_8h_source.html#l00070">epB</a>, <a class="el" href="_cubie_cube_8h_source.html#l00060">epD</a>, <a class="el" href="_cubie_cube_8h_source.html#l00055">epF</a>, <a class="el" href="_cubie_cube_8h_source.html#l00065">epL</a>, <a class="el" href="_cubie_cube_8h_source.html#l00050">epR</a>, <a class="el" href="_cubie_cube_8h_source.html#l00045">epU</a> , 以及 <a class="el" href="_cubie_cube_8h_source.html#l00076">moveCube</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00048">MCRandomSolveViewInputControllerViewController::loadInterface</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a31e6968629aed9428bc50afb61232611"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::invCubieCube </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_cubie_cube.html">CubieCube</a> &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>计算逆转了的魔方</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>传入的CubieCube，注意改变的是传入的CubieCube </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00269">269</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8h_source.html#l00032">co</a>, <a class="el" href="_cubie_cube_8h_source.html#l00029">cp</a>, <a class="el" href="_cubie_cube_8h_source.html#l00038">eo</a> , 以及 <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab5aedaaea9471f0b5a1587bb80a259d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::multiply </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_cubie_cube.html">CubieCube</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>调用cornerMultiply，实现顶角与顶角相乘 </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00260">260</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8cpp_source.html#l00192">cornerMultiply()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa53ac8b8573a2bfa12bbe78cb273f372"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::rotateLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a>&#160;</td>
+          <td class="paramname"><em>arr</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>left 到 right 之间每个元素进一步，然后交换left和right </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00121">121</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00365">getFRtoBR()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00605">getUBtoDF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00657">getURFtoDLB()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00423">getURFtoDLF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00690">getURtoBR()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00479">getURtoDF()</a> , 以及 <a class="el" href="_cubie_cube_8cpp_source.html#l00553">getURtoUL()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4ee1ef3ebd647eb80f83e13469040d30"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::rotateLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a>&#160;</td>
+          <td class="paramname"><em>arr</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>left 到 right 之间每个元素进一步，然后交换left和right </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00143">143</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="adc152348c0204abcdf6142df82f028a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::rotateRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a>&#160;</td>
+          <td class="paramname"><em>arr</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>left 到 right 之间每个元素退一步，然后交换left和right </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00132">132</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00390">setFRtoBR()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00630">setUBtoDF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00675">setURFtoDLB()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00448">setURFtoDLF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00708">setURtoBR()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00504">setURtoDF()</a> , 以及 <a class="el" href="_cubie_cube_8cpp_source.html#l00578">setURtoUL()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9a11b6330a7cab59aa7a30aac4fb53b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::rotateRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a>&#160;</td>
+          <td class="paramname"><em>arr</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>left 到 right 之间每个元素退一步，然后交换left和right </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00153">153</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4266183dd4d393cf7b361f7c97397f9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::setFlip </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>flip</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>用flip设置eo[BR]的值</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flip</td><td>由12条边计算出来的flip值 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00335">335</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_cubie_cube_8h_source.html#l00038">eo</a> , 以及 <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a>.</p>
+
+<p>参考自 <a class="el" href="_tools_8cpp_source.html#l00055">Tools::randomCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9623112dc6d5c275ee3d1b83d1b2dd2f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::setFRtoBR </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00390">390</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00104">Cnk()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DB</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DF</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DR</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::FL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::FR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00132">rotateRight()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UB</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UF</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a> , 以及 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a574a58fc142204a03d777d9e1dc6ff16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::setTwist </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>twist</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>用twist设置co[DRB]也就是co[7]的值 </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00308">308</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8h_source.html#l00032">co</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DRB</a> , 以及 <a class="el" href="_global_define_8h_source.html#l00055">TP::URF</a>.</p>
+
+<p>参考自 <a class="el" href="_tools_8cpp_source.html#l00055">Tools::randomCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a97f239775c2d19a945301a4cdd429898"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::setUBtoDF </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00630">630</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00104">Cnk()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DF</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DR</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00132">rotateRight()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UB</a> , 以及 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00535">getURtoDF()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a35725e8caba342e331816ed4b49eaf31"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::setURFtoDLB </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00675">675</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8h_source.html#l00029">cp</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DBL</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DFR</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DLF</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DRB</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00132">rotateRight()</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::UBR</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::UFL</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::ULB</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::URF</a> , 以及 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>.</p>
+
+<p>参考自 <a class="el" href="_tools_8cpp_source.html#l00055">Tools::randomCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aba6d966cf222d8176045f0b945d97b1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::setURFtoDLF </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00448">448</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8cpp_source.html#l00104">Cnk()</a>, <a class="el" href="_cubie_cube_8h_source.html#l00029">cp</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DBL</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DFR</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DLF</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::DRB</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00132">rotateRight()</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::UBR</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::UFL</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::ULB</a>, <a class="el" href="_global_define_8h_source.html#l00055">TP::URF</a> , 以及 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3b720e8038db9c2c1cbab6c5dd0fecc0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::setURtoBR </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00708">708</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DB</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DF</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DR</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::FL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::FR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00132">rotateRight()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UB</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UF</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a> , 以及 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>.</p>
+
+<p>参考自 <a class="el" href="_tools_8cpp_source.html#l00055">Tools::randomCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab6868ca94ca82ad0cdda66d57b17289b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::setURtoDF </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00504">504</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00104">Cnk()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DB</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DF</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::DR</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::FL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::FR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00132">rotateRight()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UB</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UF</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a> , 以及 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0f1c44fcea34eeec37a18e15a3b5d03f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CubieCube::setURtoUL </td>
+          <td>(</td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00578">578</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_define_8h_source.html#l00067">TP::BR</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00104">Cnk()</a>, <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00132">rotateRight()</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UF</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UL</a>, <a class="el" href="_global_define_8h_source.html#l00067">TP::UR</a> , 以及 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00535">getURtoDF()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8c6f3bb42d27e1b49301c43b05648d05"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::auto_ptr&lt; <a class="el" href="class_face_cube.html">FaceCube</a> &gt; CubieCube::toFaceCube </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>将CubieCube转化成FaceCube</p>
+<p>Notice：auto_ptr在C++11中已经变得过时，，因为其无法管理数组的内存分配等等。 推荐使用unique_ptr代替。不过为了照顾旧版本Xcode，比如我现在用的4.6版本，还是保持不变。</p>
+<dl class="section return"><dt>返回</dt><dd>一个智能指针，因为返回的FaceCube对象是在函数体内new出来的，所以要用智能指针管理内存的释放 </dd></dl>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00170">170</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8h_source.html#l00032">co</a>, <a class="el" href="_face_cube_8h_source.html#l00053">FaceCube::cornerColor</a>, <a class="el" href="_face_cube_8h_source.html#l00039">FaceCube::cornerFacelet</a>, <a class="el" href="_cubie_cube_8h_source.html#l00029">cp</a>, <a class="el" href="_face_cube_8h_source.html#l00058">FaceCube::edgeColor</a>, <a class="el" href="_face_cube_8h_source.html#l00048">FaceCube::edgeFacelet</a>, <a class="el" href="_cubie_cube_8h_source.html#l00038">eo</a> , 以及 <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>.</p>
+
+<p>参考自 <a class="el" href="_tools_8cpp_source.html#l00055">Tools::randomCube()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1e745fa175310c9ee69189178722f4a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CubieCube::verify </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>验证魔方此时是否可解 (Check a cubiecube for solvability. Return the error code.)</p>
+<p>0: <a class="el" href="interface_cube.html">Cube</a> is solvable</p>
+<p>-2: Not all 12 edges exist exactly once</p>
+<p>-3: Flip error: One edge has to be flipped</p>
+<p>-4: Not all corners exist exactly once</p>
+<p>-5: Twist error: One corner has to be twisted</p>
+<p>-6: Parity error: Two corners ore two edges have to be exchanged</p>
+<p>验证算法结果并返回错误码，错误码为负整数</p>
+<dl class="section return"><dt>返回</dt><dd>错误码列表：</dd></dl>
+<p>Error -2: Not all 12 edges exist exactly once<br/>
+ Error -3: Flip error: One edge has to be flipped<br/>
+ Error -4: Not all corners exist exactly once<br/>
+ Error -5: Twist error: One corner has to be twisted<br/>
+ Error -6: Parity error: Two corners or two edges have to be exchanged </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a> 第 <a class="el" href="_cubie_cube_8cpp_source.html#l00733">733</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_cubie_cube_8h_source.html#l00032">co</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00345">cornerParity()</a>, <a class="el" href="_cubie_cube_8h_source.html#l00029">cp</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00355">edgeParity()</a>, <a class="el" href="_cubie_cube_8h_source.html#l00038">eo</a> , 以及 <a class="el" href="_cubie_cube_8h_source.html#l00035">ep</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a9018acf4e2e9ea076b397b83f1127c25"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::co[8] = { 0, 0, 0, 0, 0, 0, 0, 0 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>corner orientation </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00032">32</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00192">cornerMultiply()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00298">getTwist()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00269">invCubieCube()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00308">setTwist()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00170">toFaceCube()</a> , 以及 <a class="el" href="_cubie_cube_8cpp_source.html#l00733">verify()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0fa0f5e77dc8c50fbe4b33da847dec64"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::coB = { 0, 0, 1, 2, 0, 0, 2, 1 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00069">69</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9ba513a82305651cddec3b775a65f369"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::coD = { 0, 0, 0, 0, 0, 0, 0, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00059">59</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="affa1dfd9e93a6491f3ac5daa21af4a86"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::coF = { 1, 2, 0, 0, 2, 1, 0, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00054">54</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad25cf7d280df34dd76a6832f209cb773"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::coL = { 0, 1, 2, 0, 0, 2, 1, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00064">64</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad6009bce25fddea1c79253869b4cab27"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::coR = { 2, 0, 0, 1, 1, 0, 0, 2 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00049">49</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a435d6b4a5c5f94f008bf8bf4324cd82f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::coU = { 0, 0, 0, 0, 0, 0, 0, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00044">44</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8b88c999e42dcb4bea56220747b5ceab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a> CubieCube::cp[8] = { URF, UFL, ULB, UBR, DFR, DLF, DBL, DRB}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>corner permutation </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00029">29</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00192">cornerMultiply()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00345">cornerParity()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00657">getURFtoDLB()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00423">getURFtoDLF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00269">invCubieCube()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00675">setURFtoDLB()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00448">setURFtoDLF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00170">toFaceCube()</a> , 以及 <a class="el" href="_cubie_cube_8cpp_source.html#l00733">verify()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5328d6bb1ac3c144487a15a3a118322e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a> CubieCube::cpB = { URF, UFL, UBR, DRB, DFR, DLF, ULB, DBL }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00068">68</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0318e552970102abf7cfb8c1cc5291bf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a> CubieCube::cpD = { URF, UFL, ULB, UBR, DLF, DBL, DRB, DFR }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00058">58</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aca7ac9a7ef460f60124ffadc646d6bab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a> CubieCube::cpF = { UFL, DLF, ULB, UBR, URF, DFR, DBL, DRB }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00053">53</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ee8625b6bd68334468148d84397a3b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a> CubieCube::cpL = { URF, ULB, DBL, UBR, DFR, UFL, DLF, DRB }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00063">63</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a148b58155b766051d0fc26b8cbc8d072"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a> CubieCube::cpR = { DFR, UFL, ULB, URF, DRB, DLF, DBL, UBR }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00048">48</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8a6b604c3f287dfc4926c872a971092f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a8e3c1abcaab8ff98805aea539a682919">Corner</a> CubieCube::cpU = { UBR, URF, UFL, ULB, DFR, DLF, DBL, DRB }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00043">43</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf428ef151745e98ac4ebb0e1bd9feb2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::eo[12] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>edge orientation </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00038">38</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00243">edgeMultiply()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00323">getFlip()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00269">invCubieCube()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00335">setFlip()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00170">toFaceCube()</a> , 以及 <a class="el" href="_cubie_cube_8cpp_source.html#l00733">verify()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a80b47947e02cc92fa708c1ab99d0a810"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::eoB = { 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00071">71</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3da286ce26219de35b52d14d3d5c2a62"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::eoD = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00061">61</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a66a7c6ed2b8481e6a1a2e28b9dad1245"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::eoF = { 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00056">56</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab368b6ea29f89a1c9b39c597af3eb98e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::eoL = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00066">66</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6b30b12bb2159618512b362b6706a0a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::eoR = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00051">51</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5c0abbdc288c98f67a75ca6495f4b044"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char CubieCube::eoU = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00046">46</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae6cf454624f187878ad72acaae7d42b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a> CubieCube::ep[12] = { UR, UF, UL, UB, DR, DF, DL, DB, FR, FL, BL, BR }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>edge permutation </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00035">35</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00243">edgeMultiply()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00355">edgeParity()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00365">getFRtoBR()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00605">getUBtoDF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00690">getURtoBR()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00479">getURtoDF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00553">getURtoUL()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00269">invCubieCube()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00390">setFRtoBR()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00630">setUBtoDF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00708">setURtoBR()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00504">setURtoDF()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00578">setURtoUL()</a>, <a class="el" href="_cubie_cube_8cpp_source.html#l00170">toFaceCube()</a> , 以及 <a class="el" href="_cubie_cube_8cpp_source.html#l00733">verify()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3d0dc07cbc7f78feaebfdb2df8fe08b6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a> CubieCube::epB = { UR, UF, UL, BR, DR, DF, DL, BL, FR, FL, UB, DB }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00070">70</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a66de808d4c2e67fec3c7b64680a55b3b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a> CubieCube::epD = { UR, UF, UL, UB, DF, DL, DB, DR, FR, FL, BL, BR }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00060">60</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2f22c9f4747088354855ede51006afe7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a> CubieCube::epF = { UR, FL, UL, UB, DR, FR, DL, DB, UF, DF, BL, BR }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00055">55</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2484fbf53637e247f393daf0ba73728c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a> CubieCube::epL = { UR, UF, BL, UB, DR, DF, FL, DB, FR, UL, DL, BR }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00065">65</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af5959e5c205318884af14ec5c5ea80c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a> CubieCube::epR = { FR, UF, UL, UB, BR, DF, DL, DB, DR, FL, BL, UR }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00050">50</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4ea2a3572b1a15d34ae3eb6f3092b22f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_t_p.html#a9841bbf8a4ccb569748a0fb2816abdcb">Edge</a> CubieCube::epU = { UB, UR, UF, UL, DR, DF, DL, DB, FR, FL, BL, BR }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00045">45</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a50e075233ae82e9711cf1cff23a64761"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_cubie_cube.html">CubieCube</a> CubieCube::moveCube</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>this <a class="el" href="class_cubie_cube.html">CubieCube</a> array represents the 6 basic cube moves </p>
+
+<p>在文件 <a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a> 第 <a class="el" href="_cubie_cube_8h_source.html#l00076">76</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cubie_cube_8cpp_source.html#l00048">initAllStaticVariables()</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_cubie_cube_8h_source.html">CubieCube.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_cubie_cube_8cpp_source.html">CubieCube.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_cubie_cube.html">CubieCube</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:38 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>
