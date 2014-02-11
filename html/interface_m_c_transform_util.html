@@ -1,0 +1,675 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCTransformUtil类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_m_c_transform_util.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Class Methods</a> &#124;
+<a href="class_m_c_transform_util-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MCTransformUtil类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_m_c_transform_util_8h_source.html">MCTransformUtil.h</a>&gt;</code></p>
+<div class="dynheader">
+类 MCTransformUtil 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_m_c_transform_util.png" usemap="#MCTransformUtil_map" alt=""/>
+  <map id="MCTransformUtil_map" name="MCTransformUtil_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Class Methods</h2></td></tr>
+<tr class="memitem:ac4dd650453ceb158f6092796517777c3"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="namespace_m_c.html#a5aaee85da207736fdcbc116de9926127">FaceOrientationType</a>)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#ac4dd650453ceb158f6092796517777c3">getContraryOrientation:</a></td></tr>
+<tr class="separator:ac4dd650453ceb158f6092796517777c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a634733bac3765edb09690228d3d85150"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#a634733bac3765edb09690228d3d85150">getRotationTagFromSingmasterNotation:</a></td></tr>
+<tr class="separator:a634733bac3765edb09690228d3d85150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5b8c6ef36fbbd04a2cd4a114644176a"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#ac5b8c6ef36fbbd04a2cd4a114644176a">getSingmasterNotationFromAxis:layer:direction:</a></td></tr>
+<tr class="separator:ac5b8c6ef36fbbd04a2cd4a114644176a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59252379c9402e78098ea70dc78c0929"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#a59252379c9402e78098ea70dc78c0929">getContrarySingmasterNotation:</a></td></tr>
+<tr class="separator:a59252379c9402e78098ea70dc78c0929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91cccff5f7d6d6ebe96f68823d909cff"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#a91cccff5f7d6d6ebe96f68823d909cff">getPathToMakeCenterCubieAtPosition:inOrientation:</a></td></tr>
+<tr class="separator:a91cccff5f7d6d6ebe96f68823d909cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80e413546135f00d144fd13f6831bca4"><td class="memItemLeft" align="right" valign="top">(struct <a class="el" href="struct_m_c_1_1_rotate_notation_type.html">RotateNotationType</a>)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#a80e413546135f00d144fd13f6831bca4">getRotateNotationTypeWithSingmasterNotation:</a></td></tr>
+<tr class="separator:a80e413546135f00d144fd13f6831bca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4798df1d4990803155f9673cff87d152"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#a4798df1d4990803155f9673cff87d152">getContenFromPatternNode:accordingToWorkingMemory:</a></td></tr>
+<tr class="separator:a4798df1d4990803155f9673cff87d152"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472a117d89a57f7ae9670781225352ee"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#a472a117d89a57f7ae9670781225352ee">getNegativeSentenceOfContentFromPatternNode:accordingToWorkingMemory:</a></td></tr>
+<tr class="separator:a472a117d89a57f7ae9670781225352ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23055beb3ded5a3d058e0d275bd4f923"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#a23055beb3ded5a3d058e0d275bd4f923">convertToTreeByExpandingNotSentence:</a></td></tr>
+<tr class="separator:a23055beb3ded5a3d058e0d275bd4f923"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9d408a2ddbcb8976641c27800f46c58"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#ae9d408a2ddbcb8976641c27800f46c58">getConcreteDescriptionOfCubie:fromMgaicCube:</a></td></tr>
+<tr class="separator:ae9d408a2ddbcb8976641c27800f46c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7ba164f47c7550f7c9b4d189758a45c"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#af7ba164f47c7550f7c9b4d189758a45c">getPositionDescription:</a></td></tr>
+<tr class="separator:af7ba164f47c7550f7c9b4d189758a45c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af23b4ae874b9981245704341f47153c8"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#af23b4ae874b9981245704341f47153c8">getStringTagOfFaceColor:</a></td></tr>
+<tr class="separator:af23b4ae874b9981245704341f47153c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0386d3b899acc90dd73a7b03653f864e"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#a0386d3b899acc90dd73a7b03653f864e">singmasternotationFromStringTag:</a></td></tr>
+<tr class="separator:a0386d3b899acc90dd73a7b03653f864e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d4af969c5e440dc57a3c6a1947044af"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#a8d4af969c5e440dc57a3c6a1947044af">getDescriptionOfFaceColorType:accordingToMagicCube:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a8d4af969c5e440dc57a3c6a1947044af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2562c0e4f41f2ec4fa0d8eaef57e6370"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_transform_util.html#a2562c0e4f41f2ec4fa0d8eaef57e6370">getDescriptionOfFaceOrientationType:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a2562c0e4f41f2ec4fa0d8eaef57e6370"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>协助魔方转向的类，比如生成转换动作，描述目前状态 其中大量提及了SingmasterNotation等在Global.h定义的枚举类 这个类不产生实例，仅仅作为一组相关函数的集合</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="_global_8h.html">Global.h</a> </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8h_source.html">MCTransformUtil.h</a> 第 <a class="el" href="_m_c_transform_util_8h_source.html#l00021">21</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a23055beb3ded5a3d058e0d275bd4f923"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) convertToTreeByExpandingNotSentence: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_tree_node.html">MCTreeNode</a> *)&#160;</td>
+          <td class="paramname"><em>node</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>简化节点(语句)处的否定逻辑 //Expand the tree node at three occasions: //@1 not or // | / \ // and -&gt; not not // / \ | | // child child child child //--------------------------------------&mdash; //@2 not and // | / \ // or -&gt; not not // / \ | | // child child child child //--------------------------------------&mdash; //@3 not-not-child -&gt; child</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node</td><td>待处理节点 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l01103">1103</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00124">MC::And</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00022">MCTreeNode::children</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l01103">convertToTreeByExpandingNotSentence:</a>, <a class="el" href="_global_8h_source.html#l00115">MC::ExpNode</a>, <a class="el" href="_global_8h_source.html#l00127">MC::Not</a>, <a class="el" href="_global_8h_source.html#l00125">MC::Or</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00023">MCTreeNode::type</a> , 以及 <a class="el" href="_m_c_basic_element_8h_source.html#l00024">MCTreeNode::value</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_transform_util_8m_source.html#l01103">convertToTreeByExpandingNotSentence:</a> , 以及 <a class="el" href="_m_c_knowledge_base_8m_source.html#l00216">MCKnowledgeBase::getPatternsWithPreState:inTable:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae9d408a2ddbcb8976641c27800f46c58"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (NSString *) getConcreteDescriptionOfCubie: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#ad81cf448be7efd399cfb1ff509aec9bd">ColorCombinationType</a>)&#160;</td>
+          <td class="paramname"><em>identity</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">fromMgaicCube:</td>
+          <td></td>
+          <td class="paramtype">(NSObject&lt;<a class="el" href="protocol_m_c_magic_cube_data_souce_delegate-p.html">MCMagicCubeDataSouceDelegate</a>&gt; *)&#160;</td>
+          <td class="paramname"><em>mc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>返回对立方体的颜色和位置的描述 E.g BColor transfer to XXX(where)XXX colors cubie</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">identity</td><td>(ColorCombinationType)描述色块位置的枚举类，见Global.h </td></tr>
+    <tr><td class="paramname">mc</td><td>立方体</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>类似@“红黄橙色角块”的描述 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l01194">1194</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00106">MC::ColorCombinationTypeBound</a>, <a class="el" href="protocol_m_c_magic_cube_data_souce_delegate-p.html#a1ba4dc2108a9e8cda0d578c70a83f417">&lt;MCMagicCubeDataSouceDelegate&gt;::cubieWithColorCombination:</a> , 以及 <a class="el" href="_m_c_transform_util_8m_source.html#l01355">getDescriptionOfFaceColorType:accordingToMagicCube:</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_transform_util_8m_source.html#l00874">getContenFromPatternNode:accordingToWorkingMemory:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4798df1d4990803155f9673cff87d152"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (NSString *) getContenFromPatternNode: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_tree_node.html">MCTreeNode</a> *)&#160;</td>
+          <td class="paramname"><em>node</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">accordingToWorkingMemory:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_working_memory.html">MCWorkingMemory</a> *)&#160;</td>
+          <td class="paramname"><em>workingMemory</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>By delivering pattern node to this function, we can get the node content. Notice! The type of this node must be 'PatternNode'.</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node</td><td>用于获取信息的节点 </td></tr>
+    <tr><td class="paramname">workingMemory</td><td>当前记录</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>描述魔方当前转动情况 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l00874">874</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00153">MC::At</a>, <a class="el" href="_global_8h_source.html#l00151">MC::Check</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00022">MCTreeNode::children</a>, <a class="el" href="_global_8h_source.html#l00152">MC::ColorBindOrientation</a>, <a class="el" href="_global_8h_source.html#l00106">MC::ColorCombinationTypeBound</a>, <a class="el" href="_global_8h_source.html#l00155">MC::CubiedBeLocked</a>, <a class="el" href="_m_c_working_memory_8m_source.html#l00095">MCWorkingMemory::cubieLockedInLockerAtIndex:</a>, <a class="el" href="_global_8h_source.html#l00116">MC::ElementNode</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l01194">getConcreteDescriptionOfCubie:fromMgaicCube:</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l01355">getDescriptionOfFaceColorType:accordingToMagicCube:</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l01381">getDescriptionOfFaceOrientationType:</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l01241">getPositionDescription:</a>, <a class="el" href="_global_8h_source.html#l00150">MC::Home</a>, <a class="el" href="_global_8h_source.html#l00119">MC::InformationNode</a>, <a class="el" href="_global_8h_source.html#l00042">MC::NoColor</a>, <a class="el" href="_global_8h_source.html#l00154">MC::NotAt</a>, <a class="el" href="_global_8h_source.html#l00117">MC::PatternNode</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00025">MCTreeNode::result</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00023">MCTreeNode::type</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00024">MCTreeNode::value</a>, <a class="el" href="_global_8h_source.html#l00066">MC::WrongOrientation</a>, <a class="el" href="_global_8h_source.html#l00025">MC::Point3i::x</a>, <a class="el" href="_global_8h_source.html#l00026">MC::Point3i::y</a> , 以及 <a class="el" href="_global_8h_source.html#l00027">MC::Point3i::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_explanation_system_8m_source.html#l00170">MCExplanationSystem::andNodeApply:withDeep:</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l01077">getNegativeSentenceOfContentFromPatternNode:accordingToWorkingMemory:</a>, <a class="el" href="_m_c_explanation_system_8m_source.html#l00240">MCExplanationSystem::orNodeApply:withDeep:</a> , 以及 <a class="el" href="_m_c_explanation_system_8m_source.html#l00096">MCExplanationSystem::treeNodesApply:withDeep:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac4dd650453ceb158f6092796517777c3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (<a class="el" href="namespace_m_c.html#a5aaee85da207736fdcbc116de9926127">FaceOrientationType</a>) getContraryOrientation: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a5aaee85da207736fdcbc116de9926127">FaceOrientationType</a>)&#160;</td>
+          <td class="paramname"><em>orientation</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>返回相反的朝向</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">orientation</td><td>朝向</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>相反的朝向 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l00020">20</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00063">MC::Back</a>, <a class="el" href="_global_8h_source.html#l00061">MC::Down</a>, <a class="el" href="_global_8h_source.html#l00062">MC::Front</a>, <a class="el" href="_global_8h_source.html#l00064">MC::Left</a>, <a class="el" href="_global_8h_source.html#l00065">MC::Right</a>, <a class="el" href="_global_8h_source.html#l00060">MC::Up</a> , 以及 <a class="el" href="_global_8h_source.html#l00066">MC::WrongOrientation</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_cube_8m_source.html#l00720">MCCubie::getCubieOrientationOfAxis</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a59252379c9402e78098ea70dc78c0929"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>) getContrarySingmasterNotation: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>)&#160;</td>
+          <td class="paramname"><em>notation</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>得到特定的Singmaster记号，也就是动作类型 </p>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l00195">195</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00196">MC::NoneNotation</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_apply_queue_8m_source.html#l00104">MCApplyQueue::applyRotation:</a> , 以及 <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00221">MCRandomSolveViewInputControllerViewController::previousSolutionBtnUp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8d4af969c5e440dc57a3c6a1947044af"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (NSString *) getDescriptionOfFaceColorType: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#ae3eb946313cd2905a8d0cca389a411c5">FaceColorType</a>)&#160;</td>
+          <td class="paramname"><em>faceColor</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">accordingToMagicCube:</td>
+          <td></td>
+          <td class="paramtype">(NSObject&lt;<a class="el" href="protocol_m_c_magic_cube_data_souce_delegate-p.html">MCMagicCubeDataSouceDelegate</a>&gt; *)&#160;</td>
+          <td class="paramname"><em>mc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Internal method FaceColorType to real color string(Chinese) 用于将FaceColorType类型转化成字符串描述的内部函数 可选颜色：“黄，白，红，橙，蓝，绿，“” ” </p>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l01355">1355</a> 行定义.</p>
+
+<p>参考 <a class="el" href="protocol_m_c_magic_cube_data_souce_delegate-p.html#a6550ff71ce639f643f48243707f8bd16">&lt;MCMagicCubeDataSouceDelegate&gt;::getRealColor:</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_transform_util_8m_source.html#l01194">getConcreteDescriptionOfCubie:fromMgaicCube:</a> , 以及 <a class="el" href="_m_c_transform_util_8m_source.html#l00874">getContenFromPatternNode:accordingToWorkingMemory:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2562c0e4f41f2ec4fa0d8eaef57e6370"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (NSString *) getDescriptionOfFaceOrientationType: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a5aaee85da207736fdcbc116de9926127">FaceOrientationType</a>)&#160;</td>
+          <td class="paramname"><em>orientation</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l01381">1381</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00063">MC::Back</a>, <a class="el" href="_global_8h_source.html#l00061">MC::Down</a>, <a class="el" href="_global_8h_source.html#l00062">MC::Front</a>, <a class="el" href="_global_8h_source.html#l00064">MC::Left</a>, <a class="el" href="_global_8h_source.html#l00065">MC::Right</a> , 以及 <a class="el" href="_global_8h_source.html#l00060">MC::Up</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_transform_util_8m_source.html#l00874">getContenFromPatternNode:accordingToWorkingMemory:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a472a117d89a57f7ae9670781225352ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (NSString *) getNegativeSentenceOfContentFromPatternNode: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_tree_node.html">MCTreeNode</a> *)&#160;</td>
+          <td class="paramname"><em>node</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">accordingToWorkingMemory:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_working_memory.html">MCWorkingMemory</a> *)&#160;</td>
+          <td class="paramname"><em>workingMemory</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Return the negative sentence of the string returned by 
+</pre><p> "+ (NSString *)getContenFromPatternNode:(MCTreeNode *)node" </p>
+<pre class="fragment">@param  node    用于获取信息的节点
+@param  workingMemory   当前记录
+
+@return 描述魔方当前转动情况的非命题 即 魔方当前转动情况 + “ 不符合”</pre> 
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l01077">1077</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_transform_util_8m_source.html#l00874">getContenFromPatternNode:accordingToWorkingMemory:</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_explanation_system_8m_source.html#l00170">MCExplanationSystem::andNodeApply:withDeep:</a> , 以及 <a class="el" href="_m_c_explanation_system_8m_source.html#l00240">MCExplanationSystem::orNodeApply:withDeep:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a91cccff5f7d6d6ebe96f68823d909cff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>) getPathToMakeCenterCubieAtPosition: </td>
+          <td></td>
+          <td class="paramtype">(struct <a class="el" href="struct_m_c_1_1_point3i.html">Point3i</a>)&#160;</td>
+          <td class="paramname"><em>coordinate</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">inOrientation:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a5aaee85da207736fdcbc116de9926127">FaceOrientationType</a>)&#160;</td>
+          <td class="paramname"><em>orientation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>根据坐标和朝向得到将中央方块的动作？</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">coordinate</td><td>坐标原点 </td></tr>
+    <tr><td class="paramname">orientation</td><td>朝向</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>动作类型 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l00226">226</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00063">MC::Back</a>, <a class="el" href="_global_8h_source.html#l00061">MC::Down</a>, <a class="el" href="_global_8h_source.html#l00062">MC::Front</a>, <a class="el" href="_global_8h_source.html#l00064">MC::Left</a>, <a class="el" href="_global_8h_source.html#l00196">MC::NoneNotation</a>, <a class="el" href="_global_8h_source.html#l00065">MC::Right</a>, <a class="el" href="_global_8h_source.html#l00060">MC::Up</a>, <a class="el" href="_global_8h_source.html#l00025">MC::Point3i::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x2</a>, <a class="el" href="_global_8h_source.html#l00184">MC::xi</a>, <a class="el" href="_global_8h_source.html#l00026">MC::Point3i::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y2</a>, <a class="el" href="_global_8h_source.html#l00185">MC::yi</a>, <a class="el" href="_global_8h_source.html#l00027">MC::Point3i::z</a>, <a class="el" href="_global_8h_source.html#l00186">MC::z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::zi</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_apply_queue_8m_source.html#l00042">MCApplyQueue::initWithRotationAction:withMagicCube:</a>, <a class="el" href="_m_c_magic_cube_8m_source.html#l00935">MCMagicCube::resetCenterFaceOrientation</a> , 以及 <a class="el" href="_m_c_action_performer_8m_source.html#l00118">MCActionPerformer::treeNodesApply:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af7ba164f47c7550f7c9b4d189758a45c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (NSString *) getPositionDescription: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="struct_m_c_1_1_point3i.html">Point3i</a>)&#160;</td>
+          <td class="paramname"><em>position</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>返回对位置点的描述 E.g (0, 0, 1) transfers to front center</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>(Point3i)位置点</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>类似“背面右上角”的描述 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l01241">1241</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00025">MC::Point3i::x</a>, <a class="el" href="_global_8h_source.html#l00026">MC::Point3i::y</a> , 以及 <a class="el" href="_global_8h_source.html#l00027">MC::Point3i::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_transform_util_8m_source.html#l00874">getContenFromPatternNode:accordingToWorkingMemory:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a80e413546135f00d144fd13f6831bca4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (struct <a class="el" href="struct_m_c_1_1_rotate_notation_type.html">RotateNotationType</a>) getRotateNotationTypeWithSingmasterNotation: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>)&#160;</td>
+          <td class="paramname"><em>notation</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>根据动作类型逆向得到旋转方式</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">notation</td><td>动作类型</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>旋转方式结构体 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l00423">423</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00294">MC::RotateNotationType::axis</a>, <a class="el" href="_global_8h_source.html#l00179">MC::B</a>, <a class="el" href="_global_8h_source.html#l00179">MC::B2</a>, <a class="el" href="_global_8h_source.html#l00179">MC::Bi</a>, <a class="el" href="_global_8h_source.html#l00188">MC::Bw</a>, <a class="el" href="_global_8h_source.html#l00188">MC::Bw2</a>, <a class="el" href="_global_8h_source.html#l00188">MC::Bwi</a>, <a class="el" href="_global_8h_source.html#l00080">MC::CCW</a>, <a class="el" href="_global_8h_source.html#l00079">MC::CW</a>, <a class="el" href="_global_8h_source.html#l00183">MC::D</a>, <a class="el" href="_global_8h_source.html#l00183">MC::D2</a>, <a class="el" href="_global_8h_source.html#l00183">MC::Di</a>, <a class="el" href="_global_8h_source.html#l00296">MC::RotateNotationType::direction</a>, <a class="el" href="_global_8h_source.html#l00284">MC::Double</a>, <a class="el" href="_global_8h_source.html#l00287">MC::DoubleTwoTimes</a>, <a class="el" href="_global_8h_source.html#l00192">MC::Dw</a>, <a class="el" href="_global_8h_source.html#l00192">MC::Dw2</a>, <a class="el" href="_global_8h_source.html#l00192">MC::Dwi</a>, <a class="el" href="_global_8h_source.html#l00194">MC::E</a>, <a class="el" href="_global_8h_source.html#l00194">MC::E2</a>, <a class="el" href="_global_8h_source.html#l00194">MC::Ei</a>, <a class="el" href="_global_8h_source.html#l00178">MC::F</a>, <a class="el" href="_global_8h_source.html#l00178">MC::F2</a>, <a class="el" href="_global_8h_source.html#l00178">MC::Fi</a>, <a class="el" href="_global_8h_source.html#l00187">MC::Fw</a>, <a class="el" href="_global_8h_source.html#l00187">MC::Fw2</a>, <a class="el" href="_global_8h_source.html#l00187">MC::Fwi</a>, <a class="el" href="_global_8h_source.html#l00181">MC::L</a>, <a class="el" href="_global_8h_source.html#l00181">MC::L2</a>, <a class="el" href="_global_8h_source.html#l00295">MC::RotateNotationType::layer</a>, <a class="el" href="_global_8h_source.html#l00181">MC::Li</a>, <a class="el" href="_global_8h_source.html#l00190">MC::Lw</a>, <a class="el" href="_global_8h_source.html#l00190">MC::Lw2</a>, <a class="el" href="_global_8h_source.html#l00190">MC::Lwi</a>, <a class="el" href="_global_8h_source.html#l00193">MC::M</a>, <a class="el" href="_global_8h_source.html#l00193">MC::M2</a>, <a class="el" href="_global_8h_source.html#l00193">MC::Mi</a>, <a class="el" href="_global_8h_source.html#l00180">MC::R</a>, <a class="el" href="_global_8h_source.html#l00180">MC::R2</a>, <a class="el" href="_global_8h_source.html#l00180">MC::Ri</a>, <a class="el" href="_global_8h_source.html#l00189">MC::Rw</a>, <a class="el" href="_global_8h_source.html#l00189">MC::Rw2</a>, <a class="el" href="_global_8h_source.html#l00189">MC::Rwi</a>, <a class="el" href="_global_8h_source.html#l00195">MC::S</a>, <a class="el" href="_global_8h_source.html#l00195">MC::S2</a>, <a class="el" href="_global_8h_source.html#l00195">MC::Si</a>, <a class="el" href="_global_8h_source.html#l00283">MC::Single</a>, <a class="el" href="_global_8h_source.html#l00286">MC::SingleTwoTimes</a>, <a class="el" href="_global_8h_source.html#l00285">MC::Trible</a>, <a class="el" href="_global_8h_source.html#l00288">MC::TribleTwoTimes</a>, <a class="el" href="_global_8h_source.html#l00297">MC::RotateNotationType::type</a>, <a class="el" href="_global_8h_source.html#l00182">MC::U</a>, <a class="el" href="_global_8h_source.html#l00182">MC::U2</a>, <a class="el" href="_global_8h_source.html#l00182">MC::Ui</a>, <a class="el" href="_global_8h_source.html#l00191">MC::Uw</a>, <a class="el" href="_global_8h_source.html#l00191">MC::Uw2</a>, <a class="el" href="_global_8h_source.html#l00191">MC::Uwi</a>, <a class="el" href="_global_8h_source.html#l00085">MC::X</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x2</a>, <a class="el" href="_global_8h_source.html#l00184">MC::xi</a>, <a class="el" href="_global_8h_source.html#l00086">MC::Y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y2</a>, <a class="el" href="_global_8h_source.html#l00185">MC::yi</a>, <a class="el" href="_global_8h_source.html#l00087">MC::Z</a>, <a class="el" href="_global_8h_source.html#l00186">MC::z</a>, <a class="el" href="_global_8h_source.html#l00186">MC::z2</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::zi</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00173">MCRandomSolveSceneController::nextSingmasterNotation:</a>, <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00250">MCRandomSolveViewInputControllerViewController::nextSolutionBtnUp</a>, <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00221">MCRandomSolveViewInputControllerViewController::previousSolutionBtnUp</a>, <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00129">MCRandomSolveSceneController::rotateWithSingmasterNotation:isNeedStay:isTwoTimes:</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00177">MCNormalPlaySceneController::showQueue</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">MCMagicCubeUIModelController::updateState</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a634733bac3765edb09690228d3d85150"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (NSString *) getRotationTagFromSingmasterNotation: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>)&#160;</td>
+          <td class="paramname"><em>notation</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l00047">47</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_apply_queue_8m_source.html#l00190">MCApplyQueue::getExtraQueueWithStringFormat</a>, <a class="el" href="_m_c_apply_queue_8m_source.html#l00177">MCApplyQueue::getQueueWithStringFormat</a> , 以及 <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00477">MCRandomSolveViewInputControllerViewController::solveMagicCube</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac5b8c6ef36fbbd04a2cd4a114644176a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>) getSingmasterNotationFromAxis: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a502f9c93aadad029c5ce87ec73fd9416">AxisType</a>)&#160;</td>
+          <td class="paramname"><em>axis</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">layer:</td>
+          <td></td>
+          <td class="paramtype">(int)&#160;</td>
+          <td class="paramname"><em>layer</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">direction:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a3a1a456f5dbd90d6073271dc9bb4ec44">LayerRotationDirectionType</a>)&#160;</td>
+          <td class="paramname"><em>direction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>将旋转操作转化成动作类型</p>
+<p>Transfer RotateNotationType containing axis, layer, direction and RotationType(Single, Double or Trible) to SingmasterNotation </p>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l00076">76</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00179">MC::B</a>, <a class="el" href="_global_8h_source.html#l00179">MC::Bi</a>, <a class="el" href="_global_8h_source.html#l00079">MC::CW</a>, <a class="el" href="_global_8h_source.html#l00183">MC::D</a>, <a class="el" href="_global_8h_source.html#l00183">MC::Di</a>, <a class="el" href="_global_8h_source.html#l00194">MC::E</a>, <a class="el" href="_global_8h_source.html#l00194">MC::Ei</a>, <a class="el" href="_global_8h_source.html#l00178">MC::F</a>, <a class="el" href="_global_8h_source.html#l00178">MC::Fi</a>, <a class="el" href="_global_8h_source.html#l00181">MC::L</a>, <a class="el" href="_global_8h_source.html#l00181">MC::Li</a>, <a class="el" href="_global_8h_source.html#l00193">MC::M</a>, <a class="el" href="_global_8h_source.html#l00193">MC::Mi</a>, <a class="el" href="_global_8h_source.html#l00215">NO_SELECTED_LAYER</a>, <a class="el" href="_global_8h_source.html#l00196">MC::NoneNotation</a>, <a class="el" href="_global_8h_source.html#l00180">MC::R</a>, <a class="el" href="_global_8h_source.html#l00180">MC::Ri</a>, <a class="el" href="_global_8h_source.html#l00195">MC::S</a>, <a class="el" href="_global_8h_source.html#l00195">MC::Si</a>, <a class="el" href="_global_8h_source.html#l00182">MC::U</a>, <a class="el" href="_global_8h_source.html#l00182">MC::Ui</a>, <a class="el" href="_global_8h_source.html#l00085">MC::X</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::xi</a>, <a class="el" href="_global_8h_source.html#l00086">MC::Y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::yi</a>, <a class="el" href="_global_8h_source.html#l00087">MC::Z</a>, <a class="el" href="_global_8h_source.html#l00186">MC::z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::zi</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_play_helper_8m_source.html#l00054">MCPlayHelper::rotateOnAxis:onLayer:inDirection:</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01548">MCMagicCubeUIModelController::updateState</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af23b4ae874b9981245704341f47153c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (NSString *) getStringTagOfFaceColor: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#ae3eb946313cd2905a8d0cca389a411c5">FaceColorType</a>)&#160;</td>
+          <td class="paramname"><em>faceColor</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>返回色块朝向的标签，就是描述朝向的第一个字 E.g UpColor - "U"</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">faceColor</td><td>色块朝向类型，见Global.h </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l01406">1406</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00039">MC::BackColor</a>, <a class="el" href="_global_8h_source.html#l00037">MC::DownColor</a>, <a class="el" href="_global_8h_source.html#l00038">MC::FrontColor</a>, <a class="el" href="_global_8h_source.html#l00040">MC::LeftColor</a>, <a class="el" href="_global_8h_source.html#l00041">MC::RightColor</a> , 以及 <a class="el" href="_global_8h_source.html#l00036">MC::UpColor</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_8m_source.html#l00950">MCMagicCube::stateString</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0386d3b899acc90dd73a7b03653f864e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>) singmasternotationFromStringTag: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>tag</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>从动作标签中转化出动作标记类型 Only transfer U, D, F, B, L and R(can be appended ' or 2)</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td>动作标签</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>动作标记类型，见Global.h </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a> 第 <a class="el" href="_m_c_transform_util_8m_source.html#l01434">1434</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00179">MC::B</a>, <a class="el" href="_global_8h_source.html#l00179">MC::B2</a>, <a class="el" href="_global_8h_source.html#l00179">MC::Bi</a>, <a class="el" href="_global_8h_source.html#l00183">MC::D</a>, <a class="el" href="_global_8h_source.html#l00183">MC::D2</a>, <a class="el" href="_global_8h_source.html#l00183">MC::Di</a>, <a class="el" href="_global_8h_source.html#l00178">MC::F</a>, <a class="el" href="_global_8h_source.html#l00178">MC::F2</a>, <a class="el" href="_global_8h_source.html#l00178">MC::Fi</a>, <a class="el" href="_global_8h_source.html#l00181">MC::L</a>, <a class="el" href="_global_8h_source.html#l00181">MC::L2</a>, <a class="el" href="_global_8h_source.html#l00181">MC::Li</a>, <a class="el" href="_global_8h_source.html#l00196">MC::NoneNotation</a>, <a class="el" href="_global_8h_source.html#l00180">MC::R</a>, <a class="el" href="_global_8h_source.html#l00180">MC::R2</a>, <a class="el" href="_global_8h_source.html#l00180">MC::Ri</a>, <a class="el" href="_global_8h_source.html#l00182">MC::U</a>, <a class="el" href="_global_8h_source.html#l00182">MC::U2</a> , 以及 <a class="el" href="_global_8h_source.html#l00182">MC::Ui</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00477">MCRandomSolveViewInputControllerViewController::solveMagicCube</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_transform_util_8h_source.html">MCTransformUtil.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_transform_util_8m_source.html">MCTransformUtil.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_m_c_transform_util.html">MCTransformUtil</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:39 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

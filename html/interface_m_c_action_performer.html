@@ -1,0 +1,549 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCActionPerformer类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_m_c_action_performer.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pub-static-methods">Class Methods</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_m_c_action_performer-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MCActionPerformer类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_m_c_action_performer_8h_source.html">MCActionPerformer.h</a>&gt;</code></p>
+<div class="dynheader">
+类 MCActionPerformer 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_m_c_action_performer.png" usemap="#MCActionPerformer_map" alt=""/>
+  <map id="MCActionPerformer_map" name="MCActionPerformer_map">
+<area href="protocol_queue_complete_delegate-p.html" alt="&lt;QueueCompleteDelegate&gt;" shape="rect" coords="176,56,342,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:ae8a175870d1fdd6cf122c64124041404"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_action_performer.html#ae8a175870d1fdd6cf122c64124041404">initActionPerformerWithWorkingMemory:</a></td></tr>
+<tr class="separator:ae8a175870d1fdd6cf122c64124041404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7698dccec6971cb0c26e1ea614db3767"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_action_performer.html#a7698dccec6971cb0c26e1ea614db3767">rotateOnAxis:onLayer:inDirection:</a></td></tr>
+<tr class="separator:a7698dccec6971cb0c26e1ea614db3767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae95876480fb6b0441cb58213f51ce953"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_action_performer.html#ae95876480fb6b0441cb58213f51ce953">rotateWithSingmasterNotation:</a></td></tr>
+<tr class="separator:ae95876480fb6b0441cb58213f51ce953"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14b5b12fc8dbe749cdebac059dbefa43"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_action_performer.html#a14b5b12fc8dbe749cdebac059dbefa43">isQueueEmpty</a></td></tr>
+<tr class="separator:a14b5b12fc8dbe749cdebac059dbefa43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a321af667ea61f49f9782aef8b014728b"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_action_performer.html#a321af667ea61f49f9782aef8b014728b">applyRotationInQueue:</a></td></tr>
+<tr class="separator:a321af667ea61f49f9782aef8b014728b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16429b70bdd4c43cb6c06052e6aebca8"><td class="memItemLeft" align="right" valign="top">(NSArray *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_action_performer.html#a16429b70bdd4c43cb6c06052e6aebca8">queueStrings</a></td></tr>
+<tr class="separator:a16429b70bdd4c43cb6c06052e6aebca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fca9b9692519c5e0a4806805f2f3fec"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="namespace_m_c.html#a02966feb4be8145e75402af76fd4a364">RotationResult</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_action_performer.html#a8fca9b9692519c5e0a4806805f2f3fec">queueRotationResult</a></td></tr>
+<tr class="separator:a8fca9b9692519c5e0a4806805f2f3fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec0c8c6667a99fd0d09b00e878931530"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_action_performer.html#aec0c8c6667a99fd0d09b00e878931530">decomposeRule:</a></td></tr>
+<tr class="separator:aec0c8c6667a99fd0d09b00e878931530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae90280676672b6bb416e8d2c4a16a65"><td class="memItemLeft" align="right" valign="top">(NSInteger)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_action_performer.html#aae90280676672b6bb416e8d2c4a16a65">treeNodesApply:</a></td></tr>
+<tr class="separator:aae90280676672b6bb416e8d2c4a16a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a370e901d8bd3a4f90a31536a2456eb5c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_action_performer.html#a370e901d8bd3a4f90a31536a2456eb5c">dealloc</a><code> [implementation]</code></td></tr>
+<tr class="separator:a370e901d8bd3a4f90a31536a2456eb5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adae372fa341b20a187cb66682756623e"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_action_performer.html#adae372fa341b20a187cb66682756623e">sequenceNodeApply:</a><code> [implementation]</code></td></tr>
+<tr class="separator:adae372fa341b20a187cb66682756623e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474be07fe247c77b1887393b65ffa95f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_action_performer.html#a474be07fe247c77b1887393b65ffa95f">onQueueComplete</a><code> [implementation]</code></td></tr>
+<tr class="separator:a474be07fe247c77b1887393b65ffa95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Class Methods</h2></td></tr>
+<tr class="memitem:a983c9ef8747cefeb9033ec14b5072b93"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_m_c_action_performer.html">MCActionPerformer</a> *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_action_performer.html#a983c9ef8747cefeb9033ec14b5072b93">actionPerformerWithWorkingMemory:</a></td></tr>
+<tr class="separator:a983c9ef8747cefeb9033ec14b5072b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:ad715bf5be6fe95bc7cfaeae3baf53577"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_working_memory.html">MCWorkingMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_action_performer.html#ad715bf5be6fe95bc7cfaeae3baf53577">workingMemory</a></td></tr>
+<tr class="separator:ad715bf5be6fe95bc7cfaeae3baf53577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>处理队列，包括该队列完成事件。 该类遵从&lt;QueueCompleteDelegate&gt;,将一个MCWorkingMemory赋予该类的成员workingMemory。 借此把该类实现的onQueueComplete应用到那个MCWorkingMemory上 这应该算是装饰器的做法，非常巧妙 </p>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8h_source.html">MCActionPerformer.h</a> 第 <a class="el" href="_m_c_action_performer_8h_source.html#l00021">21</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a983c9ef8747cefeb9033ec14b5072b93"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (<a class="el" href="interface_m_c_action_performer.html">MCActionPerformer</a> *) actionPerformerWithWorkingMemory: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_working_memory.html">MCWorkingMemory</a> *)&#160;</td>
+          <td class="paramname"><em>wm</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>返回一个MCActionPerformer实例</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">wm</td><td>将要装饰的MCWorkingMemory </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00020">20</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_inference_engine_8m_source.html#l00030">MCInferenceEngine::iniInferenceEngineWithWorkingMemory:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a321af667ea61f49f9782aef8b014728b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) applyRotationInQueue: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>)&#160;</td>
+          <td class="paramname"><em>currentRotation</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>调用applyQueue里的applyNotation来处理</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">currentRotation</td><td>当前所需的旋转动作 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00092">92</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a370e901d8bd3a4f90a31536a2456eb5c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00039">39</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_action_performer_8h_source.html#l00023">workingMemory</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aec0c8c6667a99fd0d09b00e878931530"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) decomposeRule: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_rule.html">MCRule</a> *)&#160;</td>
+          <td class="paramname"><em>rule</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>对MCRule的每一个适宜的节点应用treeNodesApply</p>
+<dl class="section return"><dt>返回</dt><dd>返回BOOL值来报告是否成功完成 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00331">331</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00118">MC::ActionNode</a>, <a class="el" href="_m_c_apply_queue_8m_source.html#l00030">MCApplyQueue::applyQueueWithRotationAction:withMagicCube:</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00022">MCTreeNode::children</a>, <a class="el" href="_global_8h_source.html#l00115">MC::ExpNode</a>, <a class="el" href="_global_8h_source.html#l00135">MC::FaceToOrientation</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00082">MCRule::root</a>, <a class="el" href="_global_8h_source.html#l00134">MC::Rotate</a>, <a class="el" href="_m_c_action_performer_8m_source.html#l00118">treeNodesApply:</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00023">MCTreeNode::type</a> , 以及 <a class="el" href="_m_c_basic_element_8h_source.html#l00024">MCTreeNode::value</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae8a175870d1fdd6cf122c64124041404"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initActionPerformerWithWorkingMemory: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_working_memory.html">MCWorkingMemory</a> *)&#160;</td>
+          <td class="paramname"><em>wm</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>MCActionPerformer构造函数，将定义好的onQueueComplete应用到MCWorkingMemory参数上</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">wm</td><td>将要装饰的MCWorkingMemory </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00030">30</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_working_memory_8h_source.html#l00039">MCWorkingMemory::applyQueue</a> , 以及 <a class="el" href="_m_c_apply_queue_8h_source.html#l00042">MCApplyQueue::queueCompleteDelegate</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a14b5b12fc8dbe749cdebac059dbefa43"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isQueueEmpty </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>判断workingMemory.applyQueue是否为空 </p>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00076">76</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a474be07fe247c77b1887393b65ffa95f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) onQueueComplete </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>实现&lt;QueueCompleteDelegate&gt;中声明的onQueueComplete </p>
+
+<p>重载 <a class="el" href="protocol_queue_complete_delegate-p.html#a063517b03523a85169bd59e7c70900b7">&lt;QueueCompleteDelegate&gt;</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00383">383</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_action_performer_8m_source.html#l00118">treeNodesApply:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8fca9b9692519c5e0a4806805f2f3fec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="namespace_m_c.html#a02966feb4be8145e75402af76fd4a364">RotationResult</a>) queueRotationResult </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>返回之前队列中的旋转结果 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00099">99</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a16429b70bdd4c43cb6c06052e6aebca8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSArray *) queueStrings </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>描述workingMemory.applyQueue的字符串数组 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00083">83</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7698dccec6971cb0c26e1ea614db3767"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) rotateOnAxis: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a502f9c93aadad029c5ce87ec73fd9416">AxisType</a>)&#160;</td>
+          <td class="paramname"><em>axis</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">onLayer:</td>
+          <td></td>
+          <td class="paramtype">(int)&#160;</td>
+          <td class="paramname"><em>layer</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">inDirection:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#a3a1a456f5dbd90d6073271dc9bb4ec44">LayerRotationDirectionType</a>)&#160;</td>
+          <td class="paramname"><em>direction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Rotate operation with axis, layer, direction</p>
+<p>旋转，调用MCMagicCubeOperationDelegate中定义的- (BOOL)rotateOnAxis:(AxisType)axis onLayer:(int)layer inDirection:(LayerRotationDirectionType)direction来进行旋转 </p>
+<dl class="section return"><dt>返回</dt><dd>BOOL 如果旋转失败，返回NO </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00050">50</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae95876480fb6b0441cb58213f51ce953"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) rotateWithSingmasterNotation: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>)&#160;</td>
+          <td class="paramname"><em>notation</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>旋转。 调用MCMagicCubeOperationDelegate中定义的- (BOOL)<a class="el" href="interface_m_c_action_performer.html#ae95876480fb6b0441cb58213f51ce953">rotateWithSingmasterNotation:</a>notation来进行旋转</p>
+<dl class="section return"><dt>返回</dt><dd>BOOL 如果旋转失败，返回NO </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00065">65</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="adae372fa341b20a187cb66682756623e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) sequenceNodeApply: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_tree_node.html">MCTreeNode</a> *)&#160;</td>
+          <td class="paramname"><em>root</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>处理根节点的子节点序列 </p>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00319">319</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_basic_element_8h_source.html#l00022">MCTreeNode::children</a> , 以及 <a class="el" href="_m_c_action_performer_8m_source.html#l00118">treeNodesApply:</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_action_performer_8m_source.html#l00118">treeNodesApply:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aae90280676672b6bb416e8d2c4a16a65"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSInteger) treeNodesApply: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_tree_node.html">MCTreeNode</a> *)&#160;</td>
+          <td class="paramname"><em>root</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>根据抽象语法树的每个节点的类型应用旋转</p>
+<dl class="section see"><dt>参见</dt><dd><a class="el" href="interface_m_c_apply_queue.html">MCApplyQueue</a>#- (id)initWithRotationAction:</dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">root</td><td>抽象语法树的根节点</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>(NSInteger)root.result or YES or NO 返回值不重要，会被忽略</dd></dl>
+<dl class="section see"><dt>参见</dt><dd>MCExplanationSystem::treeNodesApply: </dd>
+<dd>
+MCInferenceEngine::treeNodesApply:</dd></dl>
+<p>这几个方法享有同样的命名，都是作用在语法树上的，只是层次不同，当然这个是作用在最底层的。 </p>
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a> 第 <a class="el" href="_m_c_action_performer_8m_source.html#l00118">118</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00118">MC::ActionNode</a>, <a class="el" href="_global_8h_source.html#l00063">MC::Back</a>, <a class="el" href="_global_8h_source.html#l00039">MC::BackColor</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00022">MCTreeNode::children</a>, <a class="el" href="_global_8h_source.html#l00061">MC::Down</a>, <a class="el" href="_global_8h_source.html#l00037">MC::DownColor</a>, <a class="el" href="_global_8h_source.html#l00116">MC::ElementNode</a>, <a class="el" href="_global_8h_source.html#l00115">MC::ExpNode</a>, <a class="el" href="_global_8h_source.html#l00135">MC::FaceToOrientation</a>, <a class="el" href="_global_8h_source.html#l00062">MC::Front</a>, <a class="el" href="_global_8h_source.html#l00038">MC::FrontColor</a>, <a class="el" href="_global_8h_source.html#l00145">MC::getCombinationFromColor</a>, <a class="el" href="_global_8h_source.html#l00142">MC::getCombinationFromOrientation</a>, <a class="el" href="_global_8h_source.html#l00143">MC::getFaceColorFromOrientation</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l00226">MCTransformUtil::getPathToMakeCenterCubieAtPosition:inOrientation:</a>, <a class="el" href="_global_8h_source.html#l00119">MC::InformationNode</a>, <a class="el" href="_global_8h_source.html#l00064">MC::Left</a>, <a class="el" href="_global_8h_source.html#l00040">MC::LeftColor</a>, <a class="el" href="_global_8h_source.html#l00136">MC::LockCubie</a>, <a class="el" href="_global_8h_source.html#l00144">MC::lockedCubie</a>, <a class="el" href="_global_8h_source.html#l00042">MC::NoColor</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00025">MCTreeNode::result</a>, <a class="el" href="_global_8h_source.html#l00065">MC::Right</a>, <a class="el" href="_global_8h_source.html#l00041">MC::RightColor</a>, <a class="el" href="_global_8h_source.html#l00134">MC::Rotate</a>, <a class="el" href="_global_8h_source.html#l00126">MC::Sequence</a>, <a class="el" href="_m_c_action_performer_8m_source.html#l00319">sequenceNodeApply:</a>, <a class="el" href="_m_c_action_performer_8m_source.html#l00118">treeNodesApply:</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00023">MCTreeNode::type</a>, <a class="el" href="_global_8h_source.html#l00137">MC::UnlockCubie</a>, <a class="el" href="_global_8h_source.html#l00060">MC::Up</a>, <a class="el" href="_global_8h_source.html#l00036">MC::UpColor</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00024">MCTreeNode::value</a>, <a class="el" href="_m_c_action_performer_8h_source.html#l00023">workingMemory</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_action_performer_8m_source.html#l00331">decomposeRule:</a>, <a class="el" href="_m_c_action_performer_8m_source.html#l00383">onQueueComplete</a>, <a class="el" href="_m_c_action_performer_8m_source.html#l00319">sequenceNodeApply:</a> , 以及 <a class="el" href="_m_c_action_performer_8m_source.html#l00118">treeNodesApply:</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="ad715bf5be6fe95bc7cfaeae3baf53577"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_working_memory.html">MCWorkingMemory</a>*) workingMemory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_action_performer_8h_source.html">MCActionPerformer.h</a> 第 <a class="el" href="_m_c_action_performer_8h_source.html#l00023">23</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_play_helper_8m_source.html#l00087">MCPlayHelper::applyRules</a>, <a class="el" href="_m_c_action_performer_8m_source.html#l00039">dealloc</a> , 以及 <a class="el" href="_m_c_action_performer_8m_source.html#l00118">treeNodesApply:</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_action_performer_8h_source.html">MCActionPerformer.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_action_performer_8m_source.html">MCActionPerformer.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_m_c_action_performer.html">MCActionPerformer</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:38 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

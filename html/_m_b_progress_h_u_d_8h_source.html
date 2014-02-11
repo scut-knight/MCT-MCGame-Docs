@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/MBProgressHUD.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_m_b_progress_h_u_d_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">MBProgressHUD.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_m_b_progress_h_u_d_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  MBProgressHUD.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  Version 0.4</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//  Created by Matej Bukovinski on 2.4.09.</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// This code is distributed under the terms and conditions of the MIT license. </span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// Copyright (c) 2011 Matej Bukovinski</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// Permission is hereby granted, free of charge, to any person obtaining a copy</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">// of this software and associated documentation files (the &quot;Software&quot;), to deal</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">// in the Software without restriction, including without limitation the rights</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">// copies of the Software, and to permit persons to whom the Software is</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">// furnished to do so, subject to the following conditions:</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">// The above copyright notice and this permission notice shall be included in</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">// all copies or substantial portions of the Software.</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">// THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">// THE SOFTWARE.</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#import &lt;UIKit/UIKit.h&gt;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">@protocol </span><a class="code" href="protocol_m_b_progress_h_u_d_delegate-p.html">MBProgressHUDDelegate</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621">   40</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621a7d546c063ab8c0a2a5b590f8c2ca9ae1">   42</a></span>&#160;    <a class="code" href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621a7d546c063ab8c0a2a5b590f8c2ca9ae1">MBProgressHUDModeIndeterminate</a>,</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621a87273ab59b043c87bdbf23eb7c6c0a29">   44</a></span>&#160;    <a class="code" href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621a87273ab59b043c87bdbf23eb7c6c0a29">MBProgressHUDModeDeterminate</a>,</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621a1068fa433ab70ff3bfdc9b24063943d8">   46</a></span>&#160;    <a class="code" href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621a1068fa433ab70ff3bfdc9b24063943d8">MBProgressHUDModeCustomView</a></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;} <a class="code" href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621">MBProgressHUDMode</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="_m_b_progress_h_u_d_8h.html#a892ebf586d23b21a74bc54138ca25990">   49</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="_m_b_progress_h_u_d_8h.html#a892ebf586d23b21a74bc54138ca25990aabab0a23495b4a58b97dd9a29ce533d5">   51</a></span>&#160;    <a class="code" href="_m_b_progress_h_u_d_8h.html#a892ebf586d23b21a74bc54138ca25990aabab0a23495b4a58b97dd9a29ce533d5">MBProgressHUDAnimationFade</a>,</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="_m_b_progress_h_u_d_8h.html#a892ebf586d23b21a74bc54138ca25990a57845b41854be930ae8213265dddb00f">   53</a></span>&#160;    <a class="code" href="_m_b_progress_h_u_d_8h.html#a892ebf586d23b21a74bc54138ca25990a57845b41854be930ae8213265dddb00f">MBProgressHUDAnimationZoom</a></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;} <a class="code" href="_m_b_progress_h_u_d_8h.html#a892ebf586d23b21a74bc54138ca25990">MBProgressHUDAnimation</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html">   76</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_m_b_progress_h_u_d.html">MBProgressHUD</a> : UIView {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    </div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#ace77eaaf507e86fe56436f7ee7b6fdc9">   78</a></span>&#160;    <a class="code" href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621">MBProgressHUDMode</a> <a class="code" href="interface_m_b_progress_h_u_d.html#ace77eaaf507e86fe56436f7ee7b6fdc9">mode</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a71d04bb9e2839df9377ad10d03b2e468">   79</a></span>&#160;    <a class="code" href="_m_b_progress_h_u_d_8h.html#a892ebf586d23b21a74bc54138ca25990">MBProgressHUDAnimation</a> <a class="code" href="interface_m_b_progress_h_u_d.html#a71d04bb9e2839df9377ad10d03b2e468">animationType</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    </div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a319e2f57095b4f2039f3fffedafe44e3">   81</a></span>&#160;    <span class="keywordtype">SEL</span> <a class="code" href="interface_m_b_progress_h_u_d.html#a319e2f57095b4f2039f3fffedafe44e3">methodForExecution</a>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a05931e7cecbfc3ddee89ef1301b48039">   82</a></span>&#160;    <span class="keywordtype">id</span> <a class="code" href="interface_m_b_progress_h_u_d.html#a05931e7cecbfc3ddee89ef1301b48039">targetForExecution</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#acbf1cf583c74ade19efc5b5f318e450a">   83</a></span>&#160;    <span class="keywordtype">id</span> <a class="code" href="interface_m_b_progress_h_u_d.html#acbf1cf583c74ade19efc5b5f318e450a">objectForExecution</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a42442dd33d91c60321ca5a3a5983ebba">   84</a></span>&#160;    BOOL <a class="code" href="interface_m_b_progress_h_u_d.html#a42442dd33d91c60321ca5a3a5983ebba">useAnimation</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    </div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#ad526ffcabab5131697eb0850c50ab1f4">   86</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_b_progress_h_u_d.html#ad526ffcabab5131697eb0850c50ab1f4">yOffset</a>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a4e6ee114c04b90ced1a253a6d33ba785">   87</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_b_progress_h_u_d.html#a4e6ee114c04b90ced1a253a6d33ba785">xOffset</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    </div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#ae436114b5bcacb949bb0b3cfe3ec55cb">   89</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_b_progress_h_u_d.html#ae436114b5bcacb949bb0b3cfe3ec55cb">width</a>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a29cae5aee93445645347e518622080fe">   90</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_b_progress_h_u_d.html#a29cae5aee93445645347e518622080fe">height</a>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    </div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a69c6b2cad533d6fe7d90df02bf7f8b0c">   92</a></span>&#160;    CGSize <a class="code" href="interface_m_b_progress_h_u_d.html#a69c6b2cad533d6fe7d90df02bf7f8b0c">minSize</a>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a4bf7271b213e304259aa7d97f7cb1849">   93</a></span>&#160;    BOOL <a class="code" href="interface_m_b_progress_h_u_d.html#a4bf7271b213e304259aa7d97f7cb1849">square</a>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    </div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a4126e72234f8afcb87905a9ed65c022c">   95</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_b_progress_h_u_d.html#a4126e72234f8afcb87905a9ed65c022c">margin</a>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    </div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#ab781ccd4428c8eff6907d2cdc90fc3ee">   97</a></span>&#160;    BOOL <a class="code" href="interface_m_b_progress_h_u_d.html#ab781ccd4428c8eff6907d2cdc90fc3ee">dimBackground</a>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    </div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a6077ea42c37c18b3058ed63ac10ede8f">   99</a></span>&#160;    BOOL <a class="code" href="interface_m_b_progress_h_u_d.html#a6077ea42c37c18b3058ed63ac10ede8f">taskInProgress</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a6f837c351a405d0bb6ec05856d7776dd">  100</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_b_progress_h_u_d.html#a6f837c351a405d0bb6ec05856d7776dd">graceTime</a>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a9946e4b0b16d75f070ff0cbcc50226ef">  101</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_b_progress_h_u_d.html#a9946e4b0b16d75f070ff0cbcc50226ef">minShowTime</a>;</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a41d95881856373fda84bfbfb88fde78e">  102</a></span>&#160;    NSTimer *<a class="code" href="interface_m_b_progress_h_u_d.html#a41d95881856373fda84bfbfb88fde78e">graceTimer</a>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a964a78ea5acfe2ccb4c60e617a5627f7">  103</a></span>&#160;    NSTimer *<a class="code" href="interface_m_b_progress_h_u_d.html#a964a78ea5acfe2ccb4c60e617a5627f7">minShowTimer</a>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#ae98a09728c9ebf2031950316dcae62ab">  104</a></span>&#160;    NSDate *<a class="code" href="interface_m_b_progress_h_u_d.html#ae98a09728c9ebf2031950316dcae62ab">showStarted</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    </div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a424686eff429164f075a7b04ecd047f2">  106</a></span>&#160;    UIView *<a class="code" href="interface_m_b_progress_h_u_d.html#a424686eff429164f075a7b04ecd047f2">indicator</a>;</div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a5fd324453f4b8620f24d618d31a91b31">  107</a></span>&#160;    UILabel *<a class="code" href="interface_m_b_progress_h_u_d.html#a5fd324453f4b8620f24d618d31a91b31">label</a>;</div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a460dd4be85a0a27245df574b0d19b027">  108</a></span>&#160;    UILabel *<a class="code" href="interface_m_b_progress_h_u_d.html#a460dd4be85a0a27245df574b0d19b027">detailsLabel</a>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    </div>
+<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a4c8328617d11efd1f5452032246ca97f">  110</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_b_progress_h_u_d.html#a4c8328617d11efd1f5452032246ca97f">progress</a>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    </div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">#if __has_feature(objc_arc_weak)</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor"></span>    id&lt;MBProgressHUDDelegate&gt; __weak <a class="code" href="interface_m_b_progress_h_u_d.html#a81a508c2375e4e97d5450bc3898ff7d9">delegate</a>;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">#elif __has_feature(objc_arc)</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor"></span>    id&lt;MBProgressHUDDelegate&gt; __unsafe_unretained <a class="code" href="interface_m_b_progress_h_u_d.html#a81a508c2375e4e97d5450bc3898ff7d9">delegate</a>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a81a508c2375e4e97d5450bc3898ff7d9">  117</a></span>&#160;<span class="preprocessor"></span>    id&lt;MBProgressHUDDelegate&gt; <a class="code" href="interface_m_b_progress_h_u_d.html#a81a508c2375e4e97d5450bc3898ff7d9">delegate</a>;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#ae43d72850b8dd657db1b383be0566093">  119</a></span>&#160;<span class="preprocessor"></span>    NSString *<a class="code" href="interface_m_b_progress_h_u_d.html#ae43d72850b8dd657db1b383be0566093">labelText</a>;</div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#ab5ad528a731e513b39e3183129af1f37">  120</a></span>&#160;    NSString *<a class="code" href="interface_m_b_progress_h_u_d.html#ab5ad528a731e513b39e3183129af1f37">detailsLabelText</a>;</div>
+<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a24ab5e37917e3489d6add081324a49ff">  121</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_b_progress_h_u_d.html#a24ab5e37917e3489d6add081324a49ff">opacity</a>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a85b03f18b8313f4c3efc2002ad79ff27">  122</a></span>&#160;    UIFont *<a class="code" href="interface_m_b_progress_h_u_d.html#a85b03f18b8313f4c3efc2002ad79ff27">labelFont</a>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#af3a772e02286bf867c2b4c2213be0180">  123</a></span>&#160;    UIFont *<a class="code" href="interface_m_b_progress_h_u_d.html#af3a772e02286bf867c2b4c2213be0180">detailsLabelFont</a>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    </div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a6d10d655265808afa2f352c4ff9a9dbb">  125</a></span>&#160;    BOOL <a class="code" href="interface_m_b_progress_h_u_d.html#a6d10d655265808afa2f352c4ff9a9dbb">isFinished</a>;</div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a36639aa18a70f2734942695c32ec5e91">  126</a></span>&#160;    BOOL <a class="code" href="interface_m_b_progress_h_u_d.html#a36639aa18a70f2734942695c32ec5e91">removeFromSuperViewOnHide</a>;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    </div>
+<div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a9e150217d3d824f16ae10bafbcc6232e">  128</a></span>&#160;    UIView *<a class="code" href="interface_m_b_progress_h_u_d.html#a9e150217d3d824f16ae10bafbcc6232e">customView</a>;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    </div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="interface_m_b_progress_h_u_d.html#a971eb4d88c1a2f1e33c40d8eaf7fed9d">  130</a></span>&#160;    CGAffineTransform <a class="code" href="interface_m_b_progress_h_u_d.html#a971eb4d88c1a2f1e33c40d8eaf7fed9d">rotationTransform</a>;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;}</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;+ (<a class="code" href="interface_m_b_progress_h_u_d.html">MBProgressHUD</a> *)showHUDAddedTo:(UIView *)view animated:(BOOL)animated;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;+ (BOOL)hideHUDForView:(UIView *)view animated:(BOOL)animated;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;- (id)initWithWindow:(UIWindow *)window;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;- (id)initWithView:(UIView *)view;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="preprocessor">#if __has_feature(objc_arc)</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="preprocessor"></span><span class="keyword">@property</span> (strong) UIView *customView;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="preprocessor"></span><span class="keyword">@property</span> (retain) UIView *customView;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;<span class="keyword">@property</span> (assign) <a class="code" href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621">MBProgressHUDMode</a> mode;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="keyword">@property</span> (assign) <a class="code" href="_m_b_progress_h_u_d_8h.html#a892ebf586d23b21a74bc54138ca25990">MBProgressHUDAnimation</a> animationType;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="preprocessor">#if __has_feature(objc_arc_weak)</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;<span class="preprocessor"></span><span class="keyword">@property</span> (weak) id&lt;MBProgressHUDDelegate&gt; delegate;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="preprocessor">#elif __has_feature(objc_arc)</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="preprocessor"></span><span class="keyword">@property</span> (unsafe_unretained) id&lt;MBProgressHUDDelegate&gt; delegate;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="preprocessor"></span><span class="keyword">@property</span> (assign) id&lt;MBProgressHUDDelegate&gt; delegate;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="keyword">@property</span> (copy) NSString *labelText;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="keyword">@property</span> (copy) NSString *detailsLabelText;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="keyword">@property</span> (assign) <span class="keywordtype">float</span> opacity;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="keyword">@property</span> (assign) <span class="keywordtype">float</span> xOffset;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="keyword">@property</span> (assign) <span class="keywordtype">float</span> yOffset;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="keyword">@property</span> (assign) <span class="keywordtype">float</span> margin;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="keyword">@property</span> (assign) BOOL dimBackground;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="comment"> * Grace period is the time (in seconds) that the invoked method may be run without </span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="comment"> * showing the HUD. If the task finishes befor the grace time runs out, the HUD will</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="comment"> * not be shown at all. </span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="comment"> * This may be used to prevent HUD display for very short tasks.</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="comment"> * Defaults to 0 (no grace time).</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="comment"> * Grace time functionality is only supported when the task status is known!</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="comment"> * @see taskInProgress</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="keyword">@property</span> (assign) <span class="keywordtype">float</span> graceTime;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="keyword">@property</span> (assign) <span class="keywordtype">float</span> minShowTime;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="keyword">@property</span> (assign) BOOL taskInProgress;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="keyword">@property</span> (assign) BOOL removeFromSuperViewOnHide;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="preprocessor">#if __has_feature(objc_arc)</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="preprocessor"></span><span class="keyword">@property</span> (strong) UIFont* labelFont;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="preprocessor"></span><span class="keyword">@property</span> (retain) UIFont* labelFont;</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="preprocessor">#if __has_feature(objc_arc)</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor"></span><span class="keyword">@property</span> (strong) UIFont* detailsLabelFont;</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="preprocessor"></span><span class="keyword">@property</span> (retain) UIFont* detailsLabelFont;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="keyword">@property</span> (assign) <span class="keywordtype">float</span> progress;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="keyword">@property</span> (assign) CGSize minSize;</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="keyword">@property</span> (assign, getter = isSquare) BOOL square;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;- (void)show:(BOOL)animated;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;- (void)hide:(BOOL)animated;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;- (void)hide:(BOOL)animated afterDelay:(NSTimeInterval)delay;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;- (void)showWhileExecuting:(<span class="keywordtype">SEL</span>)method onTarget:(<span class="keywordtype">id</span>)target withObject:(<span class="keywordtype">id</span>)object animated:(BOOL)animated;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;</div>
+<div class="line"><a name="l00373"></a><span class="lineno"><a class="line" href="protocol_m_b_progress_h_u_d_delegate-p.html">  373</a></span>&#160;<span class="keyword">@protocol </span><a class="code" href="protocol_m_b_progress_h_u_d_delegate-p.html">MBProgressHUDDelegate</a> &lt;NSObject&gt;</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;<span class="keyword">@optional</span></div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;- (void)hudWasHidden:(<a class="code" href="interface_m_b_progress_h_u_d.html">MBProgressHUD</a> *)hud;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;- (void)hudWasHidden <a class="code" href="protocol_m_b_progress_h_u_d_delegate-p.html#ad77f6041a201f8cc093e99caf3dfbcfc">__attribute__</a> ((deprecated)); </div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;</div>
+<div class="line"><a name="l00395"></a><span class="lineno"><a class="line" href="interface_m_b_round_progress_view.html">  395</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_m_b_round_progress_view.html">MBRoundProgressView</a> : UIView {</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;<span class="keyword">@private</span></div>
+<div class="line"><a name="l00397"></a><span class="lineno"><a class="line" href="interface_m_b_round_progress_view.html#a4c740f640de78ad6df1495e15dd2448b">  397</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_b_round_progress_view.html#a4c740f640de78ad6df1495e15dd2448b">_progress</a>;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;}</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
+<div class="line"><a name="l00403"></a><span class="lineno"><a class="line" href="interface_m_b_round_progress_view.html#af92eeb35944c81f406571bc353dc5d5a">  403</a></span>&#160;<span class="keyword">@property</span> (nonatomic, assign) <span class="keywordtype">float</span> progress;</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;</div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a6f837c351a405d0bb6ec05856d7776dd"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a6f837c351a405d0bb6ec05856d7776dd">MBProgressHUD::graceTime</a></div><div class="ttdeci">float graceTime</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00100">MBProgressHUD.h:100</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_ace77eaaf507e86fe56436f7ee7b6fdc9"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#ace77eaaf507e86fe56436f7ee7b6fdc9">MBProgressHUD::mode</a></div><div class="ttdeci">MBProgressHUDMode mode</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00078">MBProgressHUD.h:78</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a29cae5aee93445645347e518622080fe"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a29cae5aee93445645347e518622080fe">MBProgressHUD::height</a></div><div class="ttdeci">float height</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00090">MBProgressHUD.h:90</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a6d10d655265808afa2f352c4ff9a9dbb"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a6d10d655265808afa2f352c4ff9a9dbb">MBProgressHUD::isFinished</a></div><div class="ttdeci">BOOL isFinished</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00125">MBProgressHUD.h:125</a></div></div>
+<div class="ttc" id="_m_b_progress_h_u_d_8h_html_a892ebf586d23b21a74bc54138ca25990"><div class="ttname"><a href="_m_b_progress_h_u_d_8h.html#a892ebf586d23b21a74bc54138ca25990">MBProgressHUDAnimation</a></div><div class="ttdeci">MBProgressHUDAnimation</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00049">MBProgressHUD.h:49</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_ae98a09728c9ebf2031950316dcae62ab"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#ae98a09728c9ebf2031950316dcae62ab">MBProgressHUD::showStarted</a></div><div class="ttdeci">NSDate * showStarted</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00104">MBProgressHUD.h:104</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a36639aa18a70f2734942695c32ec5e91"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a36639aa18a70f2734942695c32ec5e91">MBProgressHUD::removeFromSuperViewOnHide</a></div><div class="ttdeci">BOOL removeFromSuperViewOnHide</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00126">MBProgressHUD.h:126</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a05931e7cecbfc3ddee89ef1301b48039"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a05931e7cecbfc3ddee89ef1301b48039">MBProgressHUD::targetForExecution</a></div><div class="ttdeci">id targetForExecution</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00082">MBProgressHUD.h:82</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a81a508c2375e4e97d5450bc3898ff7d9"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a81a508c2375e4e97d5450bc3898ff7d9">MBProgressHUD::delegate</a></div><div class="ttdeci">id&lt; MBProgressHUDDelegate &gt; delegate</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00117">MBProgressHUD.h:117</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a4126e72234f8afcb87905a9ed65c022c"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a4126e72234f8afcb87905a9ed65c022c">MBProgressHUD::margin</a></div><div class="ttdeci">float margin</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00095">MBProgressHUD.h:95</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a9e150217d3d824f16ae10bafbcc6232e"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a9e150217d3d824f16ae10bafbcc6232e">MBProgressHUD::customView</a></div><div class="ttdeci">UIView * customView</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00128">MBProgressHUD.h:128</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a42442dd33d91c60321ca5a3a5983ebba"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a42442dd33d91c60321ca5a3a5983ebba">MBProgressHUD::useAnimation</a></div><div class="ttdeci">BOOL useAnimation</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00084">MBProgressHUD.h:84</a></div></div>
+<div class="ttc" id="_m_b_progress_h_u_d_8h_html_a892ebf586d23b21a74bc54138ca25990aabab0a23495b4a58b97dd9a29ce533d5"><div class="ttname"><a href="_m_b_progress_h_u_d_8h.html#a892ebf586d23b21a74bc54138ca25990aabab0a23495b4a58b97dd9a29ce533d5">MBProgressHUDAnimationFade</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00051">MBProgressHUD.h:51</a></div></div>
+<div class="ttc" id="protocol_m_b_progress_h_u_d_delegate-p_html_ad77f6041a201f8cc093e99caf3dfbcfc"><div class="ttname"><a href="protocol_m_b_progress_h_u_d_delegate-p.html#ad77f6041a201f8cc093e99caf3dfbcfc">-[MBProgressHUDDelegate-p __attribute__]</a></div><div class="ttdeci">(deprecated __attribute__()</div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a24ab5e37917e3489d6add081324a49ff"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a24ab5e37917e3489d6add081324a49ff">MBProgressHUD::opacity</a></div><div class="ttdeci">float opacity</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00121">MBProgressHUD.h:121</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a85b03f18b8313f4c3efc2002ad79ff27"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a85b03f18b8313f4c3efc2002ad79ff27">MBProgressHUD::labelFont</a></div><div class="ttdeci">UIFont * labelFont</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00122">MBProgressHUD.h:122</a></div></div>
+<div class="ttc" id="protocol_m_b_progress_h_u_d_delegate-p_html"><div class="ttname"><a href="protocol_m_b_progress_h_u_d_delegate-p.html">MBProgressHUDDelegate-p</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00373">MBProgressHUD.h:373</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_ab5ad528a731e513b39e3183129af1f37"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#ab5ad528a731e513b39e3183129af1f37">MBProgressHUD::detailsLabelText</a></div><div class="ttdeci">NSString * detailsLabelText</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00120">MBProgressHUD.h:120</a></div></div>
+<div class="ttc" id="_m_b_progress_h_u_d_8h_html_a553b6bab1602fa03257edde8491bb621"><div class="ttname"><a href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621">MBProgressHUDMode</a></div><div class="ttdeci">MBProgressHUDMode</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00040">MBProgressHUD.h:40</a></div></div>
+<div class="ttc" id="interface_m_b_round_progress_view_html"><div class="ttname"><a href="interface_m_b_round_progress_view.html">MBRoundProgressView</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00395">MBProgressHUD.h:395</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a424686eff429164f075a7b04ecd047f2"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a424686eff429164f075a7b04ecd047f2">MBProgressHUD::indicator</a></div><div class="ttdeci">UIView * indicator</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00106">MBProgressHUD.h:106</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_acbf1cf583c74ade19efc5b5f318e450a"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#acbf1cf583c74ade19efc5b5f318e450a">MBProgressHUD::objectForExecution</a></div><div class="ttdeci">id objectForExecution</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00083">MBProgressHUD.h:83</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a4e6ee114c04b90ced1a253a6d33ba785"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a4e6ee114c04b90ced1a253a6d33ba785">MBProgressHUD::xOffset</a></div><div class="ttdeci">float xOffset</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00087">MBProgressHUD.h:87</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a971eb4d88c1a2f1e33c40d8eaf7fed9d"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a971eb4d88c1a2f1e33c40d8eaf7fed9d">MBProgressHUD::rotationTransform</a></div><div class="ttdeci">CGAffineTransform rotationTransform</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00130">MBProgressHUD.h:130</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a460dd4be85a0a27245df574b0d19b027"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a460dd4be85a0a27245df574b0d19b027">MBProgressHUD::detailsLabel</a></div><div class="ttdeci">UILabel * detailsLabel</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00108">MBProgressHUD.h:108</a></div></div>
+<div class="ttc" id="_m_b_progress_h_u_d_8h_html_a892ebf586d23b21a74bc54138ca25990a57845b41854be930ae8213265dddb00f"><div class="ttname"><a href="_m_b_progress_h_u_d_8h.html#a892ebf586d23b21a74bc54138ca25990a57845b41854be930ae8213265dddb00f">MBProgressHUDAnimationZoom</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00053">MBProgressHUD.h:53</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a4bf7271b213e304259aa7d97f7cb1849"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a4bf7271b213e304259aa7d97f7cb1849">MBProgressHUD::square</a></div><div class="ttdeci">BOOL square</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00093">MBProgressHUD.h:93</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_ae43d72850b8dd657db1b383be0566093"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#ae43d72850b8dd657db1b383be0566093">MBProgressHUD::labelText</a></div><div class="ttdeci">NSString * labelText</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00119">MBProgressHUD.h:119</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a5fd324453f4b8620f24d618d31a91b31"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a5fd324453f4b8620f24d618d31a91b31">MBProgressHUD::label</a></div><div class="ttdeci">UILabel * label</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00107">MBProgressHUD.h:107</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a71d04bb9e2839df9377ad10d03b2e468"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a71d04bb9e2839df9377ad10d03b2e468">MBProgressHUD::animationType</a></div><div class="ttdeci">MBProgressHUDAnimation animationType</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00079">MBProgressHUD.h:79</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a6077ea42c37c18b3058ed63ac10ede8f"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a6077ea42c37c18b3058ed63ac10ede8f">MBProgressHUD::taskInProgress</a></div><div class="ttdeci">BOOL taskInProgress</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00099">MBProgressHUD.h:99</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a964a78ea5acfe2ccb4c60e617a5627f7"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a964a78ea5acfe2ccb4c60e617a5627f7">MBProgressHUD::minShowTimer</a></div><div class="ttdeci">NSTimer * minShowTimer</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00103">MBProgressHUD.h:103</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_ae436114b5bcacb949bb0b3cfe3ec55cb"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#ae436114b5bcacb949bb0b3cfe3ec55cb">MBProgressHUD::width</a></div><div class="ttdeci">float width</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00089">MBProgressHUD.h:89</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a69c6b2cad533d6fe7d90df02bf7f8b0c"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a69c6b2cad533d6fe7d90df02bf7f8b0c">MBProgressHUD::minSize</a></div><div class="ttdeci">CGSize minSize</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00092">MBProgressHUD.h:92</a></div></div>
+<div class="ttc" id="_m_b_progress_h_u_d_8h_html_a553b6bab1602fa03257edde8491bb621a7d546c063ab8c0a2a5b590f8c2ca9ae1"><div class="ttname"><a href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621a7d546c063ab8c0a2a5b590f8c2ca9ae1">MBProgressHUDModeIndeterminate</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00042">MBProgressHUD.h:42</a></div></div>
+<div class="ttc" id="_m_b_progress_h_u_d_8h_html_a553b6bab1602fa03257edde8491bb621a87273ab59b043c87bdbf23eb7c6c0a29"><div class="ttname"><a href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621a87273ab59b043c87bdbf23eb7c6c0a29">MBProgressHUDModeDeterminate</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00044">MBProgressHUD.h:44</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_ad526ffcabab5131697eb0850c50ab1f4"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#ad526ffcabab5131697eb0850c50ab1f4">MBProgressHUD::yOffset</a></div><div class="ttdeci">float yOffset</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00086">MBProgressHUD.h:86</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a9946e4b0b16d75f070ff0cbcc50226ef"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a9946e4b0b16d75f070ff0cbcc50226ef">MBProgressHUD::minShowTime</a></div><div class="ttdeci">float minShowTime</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00101">MBProgressHUD.h:101</a></div></div>
+<div class="ttc" id="_m_b_progress_h_u_d_8h_html_a553b6bab1602fa03257edde8491bb621a1068fa433ab70ff3bfdc9b24063943d8"><div class="ttname"><a href="_m_b_progress_h_u_d_8h.html#a553b6bab1602fa03257edde8491bb621a1068fa433ab70ff3bfdc9b24063943d8">MBProgressHUDModeCustomView</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00046">MBProgressHUD.h:46</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_ab781ccd4428c8eff6907d2cdc90fc3ee"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#ab781ccd4428c8eff6907d2cdc90fc3ee">MBProgressHUD::dimBackground</a></div><div class="ttdeci">BOOL dimBackground</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00097">MBProgressHUD.h:97</a></div></div>
+<div class="ttc" id="interface_m_b_round_progress_view_html_a4c740f640de78ad6df1495e15dd2448b"><div class="ttname"><a href="interface_m_b_round_progress_view.html#a4c740f640de78ad6df1495e15dd2448b">MBRoundProgressView::_progress</a></div><div class="ttdeci">float _progress</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00397">MBProgressHUD.h:397</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a41d95881856373fda84bfbfb88fde78e"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a41d95881856373fda84bfbfb88fde78e">MBProgressHUD::graceTimer</a></div><div class="ttdeci">NSTimer * graceTimer</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00102">MBProgressHUD.h:102</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html">MBProgressHUD</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00076">MBProgressHUD.h:76</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_af3a772e02286bf867c2b4c2213be0180"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#af3a772e02286bf867c2b4c2213be0180">MBProgressHUD::detailsLabelFont</a></div><div class="ttdeci">UIFont * detailsLabelFont</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00123">MBProgressHUD.h:123</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a4c8328617d11efd1f5452032246ca97f"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a4c8328617d11efd1f5452032246ca97f">MBProgressHUD::progress</a></div><div class="ttdeci">float progress</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00110">MBProgressHUD.h:110</a></div></div>
+<div class="ttc" id="interface_m_b_progress_h_u_d_html_a319e2f57095b4f2039f3fffedafe44e3"><div class="ttname"><a href="interface_m_b_progress_h_u_d.html#a319e2f57095b4f2039f3fffedafe44e3">MBProgressHUD::methodForExecution</a></div><div class="ttdeci">SEL methodForExecution</div><div class="ttdef"><b>Definition:</b> <a href="_m_b_progress_h_u_d_8h_source.html#l00081">MBProgressHUD.h:81</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_m_b_progress_h_u_d_8h.html">MBProgressHUD.h</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:37 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

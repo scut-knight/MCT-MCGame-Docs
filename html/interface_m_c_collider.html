@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCCollider类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_m_c_collider.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pub-static-methods">Class Methods</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_m_c_collider-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MCCollider类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_m_c_collider_8h_source.html">MCCollider.h</a>&gt;</code></p>
+<div class="dynheader">
+类 MCCollider 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_m_c_collider.png" usemap="#MCCollider_map" alt=""/>
+  <map id="MCCollider_map" name="MCCollider_map">
+<area href="interface_m_c_scene_object.html" alt="MCSceneObject" shape="rect" coords="0,56,105,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:ab82ce2c060d665c6f92d323132f0d21c"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_collider.html#ab82ce2c060d665c6f92d323132f0d21c">doesCollideWithCollider:</a></td></tr>
+<tr class="separator:ab82ce2c060d665c6f92d323132f0d21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5bd3e2de2e1a48f1b5d6bf357b36131"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_collider.html#ad5bd3e2de2e1a48f1b5d6bf357b36131">doesCollideWithMesh:</a></td></tr>
+<tr class="separator:ad5bd3e2de2e1a48f1b5d6bf357b36131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3b9def6981726539399f7af8b8cdcb5"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_collider.html#ac3b9def6981726539399f7af8b8cdcb5">dealloc</a></td></tr>
+<tr class="separator:ac3b9def6981726539399f7af8b8cdcb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72ff13cced6fb8726ef1261175f10e74"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_collider.html#a72ff13cced6fb8726ef1261175f10e74">awake</a></td></tr>
+<tr class="separator:a72ff13cced6fb8726ef1261175f10e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a322ca223a5625d86c047fa9a1392ea48"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_collider.html#a322ca223a5625d86c047fa9a1392ea48">render</a></td></tr>
+<tr class="separator:a322ca223a5625d86c047fa9a1392ea48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f7159d3fe097226adf9c60bbb455d11"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_collider.html#a3f7159d3fe097226adf9c60bbb455d11">updateCollider:</a></td></tr>
+<tr class="separator:a3f7159d3fe097226adf9c60bbb455d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interface_m_c_scene_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_m_c_scene_object')"><img src="closed.png" alt="-"/>&#160;Instance Methods 继承自 <a class="el" href="interface_m_c_scene_object.html">MCSceneObject</a></td></tr>
+<tr class="memitem:ad014e9a76b1a359b90fadd5b31fb7f18 inherit pub_methods_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_scene_object.html#ad014e9a76b1a359b90fadd5b31fb7f18">init</a></td></tr>
+<tr class="separator:ad014e9a76b1a359b90fadd5b31fb7f18 inherit pub_methods_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a525fd1511e6a4d0bd9e1b39420542252 inherit pub_methods_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_scene_object.html#a525fd1511e6a4d0bd9e1b39420542252">update</a></td></tr>
+<tr class="separator:a525fd1511e6a4d0bd9e1b39420542252 inherit pub_methods_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Class Methods</h2></td></tr>
+<tr class="memitem:a68a8aadd9b6fd72b958ac4583b2acd67"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_m_c_collider.html">MCCollider</a> *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_collider.html#a68a8aadd9b6fd72b958ac4583b2acd67">collider</a></td></tr>
+<tr class="separator:a68a8aadd9b6fd72b958ac4583b2acd67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a7d7c13c87fc08f3b7b59dfb94bb3e0a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_collider.html#a7d7c13c87fc08f3b7b59dfb94bb3e0a6">transformedCentroid</a></td></tr>
+<tr class="separator:a7d7c13c87fc08f3b7b59dfb94bb3e0a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:abd00a5669c8770fe70e9ce1195035c35"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_collider.html#abd00a5669c8770fe70e9ce1195035c35">checkForCollision</a></td></tr>
+<tr class="separator:abd00a5669c8770fe70e9ce1195035c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_interface_m_c_scene_object"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_m_c_scene_object')"><img src="closed.png" alt="-"/>&#160;属性 继承自 <a class="el" href="interface_m_c_scene_object.html">MCSceneObject</a></td></tr>
+<tr class="memitem:a2155e70cd17c061dcd8d0e1b5f8d08bd inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_mesh.html">MCMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a></td></tr>
+<tr class="separator:a2155e70cd17c061dcd8d0e1b5f8d08bd inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac51fd997445bf143626cff3f2a76814c inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a></td></tr>
+<tr class="separator:ac51fd997445bf143626cff3f2a76814c inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a00ea500c0650e1577781acc3d39b32 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a9a00ea500c0650e1577781acc3d39b32">rotation</a></td></tr>
+<tr class="separator:a9a00ea500c0650e1577781acc3d39b32 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a6874d872cf94e2125f3a2cc26cc2a inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a21a6874d872cf94e2125f3a2cc26cc2a">scale</a></td></tr>
+<tr class="separator:a21a6874d872cf94e2125f3a2cc26cc2a inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac01258da90af2ab20a9e4b7ab0981da inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">CGFloat *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#aac01258da90af2ab20a9e4b7ab0981da">matrix</a></td></tr>
+<tr class="separator:aac01258da90af2ab20a9e4b7ab0981da inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ef7dda62f4ba6c5dfbb2caa5861e71 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a55ef7dda62f4ba6c5dfbb2caa5861e71">pretranslation</a></td></tr>
+<tr class="separator:a55ef7dda62f4ba6c5dfbb2caa5861e71 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71e4629285258a415e222e9f32ccaad3 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_c_point.html">MCPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a71e4629285258a415e222e9f32ccaad3">prerotation</a></td></tr>
+<tr class="separator:a71e4629285258a415e222e9f32ccaad3 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a3e5b6483d920fdfc048f2e3bf230d0 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_quaternion_8hpp.html#aa9330d8ed843f8959bbaaee47c127b73">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a4a3e5b6483d920fdfc048f2e3bf230d0">quaRotation</a></td></tr>
+<tr class="separator:a4a3e5b6483d920fdfc048f2e3bf230d0 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af048918c64ce127d405d3fa0e2a13737 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_quaternion_8hpp.html#aa9330d8ed843f8959bbaaee47c127b73">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#af048918c64ce127d405d3fa0e2a13737">quaPreviousRotation</a></td></tr>
+<tr class="separator:af048918c64ce127d405d3fa0e2a13737 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60f0c749f93ec502dbf46bdd2a4e8088 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_quaternion_8hpp.html#aa9330d8ed843f8959bbaaee47c127b73">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a60f0c749f93ec502dbf46bdd2a4e8088">start_quaRotation</a></td></tr>
+<tr class="separator:a60f0c749f93ec502dbf46bdd2a4e8088 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94dac412ff59d1e8af7db635de280a18 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_quaternion_8hpp.html#aa9330d8ed843f8959bbaaee47c127b73">Quaternion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a94dac412ff59d1e8af7db635de280a18">finish_quaRotation</a></td></tr>
+<tr class="separator:a94dac412ff59d1e8af7db635de280a18 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76987e2ce1907832ee44ea37103db7a6 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#a76987e2ce1907832ee44ea37103db7a6">active</a></td></tr>
+<tr class="separator:a76987e2ce1907832ee44ea37103db7a6 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb90bb7dadb9e9e44f19768120315cf3 inherit properties_interface_m_c_scene_object"><td class="memItemLeft" align="right" valign="top">CGRect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">meshBounds</a></td></tr>
+<tr class="separator:adb90bb7dadb9e9e44f19768120315cf3 inherit properties_interface_m_c_scene_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>碰撞检查器。用于检查场景对象之间的空间位置是否发生冲突。 不过只在debug模式下有用。现在已经被废弃了。 但只是没有用途罢了，有些代码依赖这个类，所以请勿删除。 </p>
+
+<p>在文件 <a class="el" href="_m_c_collider_8h_source.html">MCCollider.h</a> 第 <a class="el" href="_m_c_collider_8h_source.html#l00024">24</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a72ff13cced6fb8726ef1261175f10e74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) awake </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>called once when the object is first created. </p>
+
+<p>重载 <a class="el" href="interface_m_c_scene_object.html#a40eda25f5e31b2a4dfe6214069db9254">MCSceneObject</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_collider_8mm_source.html">MCCollider.mm</a> 第 <a class="el" href="_m_c_collider_8mm_source.html#l00078">78</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_mesh_8h_source.html#l00025">MCMesh::colors</a>, <a class="el" href="_m_c_mesh_8h_source.html#l00034">MCMesh::colorSize</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00170">MCCubreColorStride</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00231">MCCubreColorStride_line</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00218">MCCubreColorValues</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00311">MCCubreColorValues_line</a> , 以及 <a class="el" href="_m_c_scene_object_8h_source.html#l00056">MCSceneObject::mesh</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_collider_8mm_source.html#l00021">collider</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a68a8aadd9b6fd72b958ac4583b2acd67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (<a class="el" href="interface_m_c_collider.html">MCCollider</a> *) collider </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>创建一个MCCollider，并且根据是否处于debug状态来决定是否开启其检查功能。</p>
+<dl class="section return"><dt>返回</dt><dd>autorelease的碰撞检查器。 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_collider_8mm_source.html">MCCollider.mm</a> 第 <a class="el" href="_m_c_collider_8mm_source.html#l00021">21</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_scene_object_8h_source.html#l00058">MCSceneObject::active</a>, <a class="el" href="_m_c_collider_8mm_source.html#l00078">awake</a>, <a class="el" href="_m_c_collider_8h_source.html#l00026">checkForCollision</a> , 以及 <a class="el" href="_m_c_configuration_8h_source.html#l00039">DEBUG_DRAW_COLLIDERS</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac3b9def6981726539399f7af8b8cdcb5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>重载 <a class="el" href="interface_m_c_scene_object.html#a384adc168b4ba7f096fd956045d6fd40">MCSceneObject</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_collider_8mm_source.html">MCCollider.mm</a> 第 <a class="el" href="_m_c_collider_8mm_source.html#l00112">112</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_scene_object_8mm_source.html#l00117">MCSceneObject::dealloc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab82ce2c060d665c6f92d323132f0d21c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) doesCollideWithCollider: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_collider.html">MCCollider</a>*)&#160;</td>
+          <td class="paramname"><em>aCollider</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>检查是否跟别的碰撞器发生冲突。注意这个函数已经被废弃了，只会返回NO。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aCollider</td><td>输入的碰撞器</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>NO </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_collider_8mm_source.html">MCCollider.mm</a> 第 <a class="el" href="_m_c_collider_8mm_source.html#l00055">55</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad5bd3e2de2e1a48f1b5d6bf357b36131"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) doesCollideWithMesh: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_scene_object.html">MCSceneObject</a>*)&#160;</td>
+          <td class="paramname"><em>sceneObject</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>检查是否跟别的场景对象发生冲突。注意这个函数已经被废弃了，只会返回NO。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sceneObject</td><td>输入的场景对象</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>NO </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_collider_8mm_source.html">MCCollider.mm</a> 第 <a class="el" href="_m_c_collider_8mm_source.html#l00068">68</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a322ca223a5625d86c047fa9a1392ea48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) render </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>called once every frame </p>
+
+<p>重载 <a class="el" href="interface_m_c_scene_object.html#a914c66ec3303ff8830b61d2d6fc84c8f">MCSceneObject</a> .</p>
+
+<p>在文件 <a class="el" href="_m_c_collider_8mm_source.html">MCCollider.mm</a> 第 <a class="el" href="_m_c_collider_8mm_source.html#l00098">98</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_scene_object_8h_source.html#l00058">MCSceneObject::active</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00061">MCSceneObject::matrix</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00056">MCSceneObject::mesh</a> , 以及 <a class="el" href="_m_c_mesh_8mm_source.html#l00087">MCMesh::render</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3f7159d3fe097226adf9c60bbb455d11"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updateCollider: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_scene_object.html">MCSceneObject</a>*)&#160;</td>
+          <td class="paramname"><em>sceneObject</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>根据一个输入的MCSceneObject来修改MCCollider的值，也即通过对应的Collider来检查是否发生碰撞。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sceneObject</td><td>用于更新的MCSceneObject类 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_collider_8mm_source.html">MCCollider.mm</a> 第 <a class="el" href="_m_c_collider_8mm_source.html#l00038">38</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_scene_object_8h_source.html#l00061">MCSceneObject::matrix</a>, <a class="el" href="_m_c_point_8h_source.html#l00046">MCPointMake()</a>, <a class="el" href="_m_c_point_8h_source.html#l00117">MCPointMatrixMultiply()</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00056">MCSceneObject::mesh</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00045">MCSceneObject::scale</a>, <a class="el" href="_m_c_collider_8h_source.html#l00025">transformedCentroid</a>, <a class="el" href="_m_c_scene_object_8h_source.html#l00044">MCSceneObject::translation</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::x</a>, <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::y</a> , 以及 <a class="el" href="_m_c_point_8h_source.html#l00035">MCPoint::z</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a7d7c13c87fc08f3b7b59dfb94bb3e0a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="struct_m_c_point.html">MCPoint</a>) transformedCentroid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_collider_8h_source.html">MCCollider.h</a> 第 <a class="el" href="_m_c_collider_8h_source.html#l00025">25</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_collider_8mm_source.html#l00038">updateCollider:</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="abd00a5669c8770fe70e9ce1195035c35"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) checkForCollision</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_collider_8h_source.html">MCCollider.h</a> 第 <a class="el" href="_m_c_collider_8h_source.html#l00026">26</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_collider_8mm_source.html#l00021">collider</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_collider_8h_source.html">MCCollider.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_collider_8mm_source.html">MCCollider.mm</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_m_c_collider.html">MCCollider</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:38 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

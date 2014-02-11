@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/MCGameAppDelegate.mm 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_m_c_game_app_delegate_8mm_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">MCGameAppDelegate.mm</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_m_c_game_app_delegate_8mm.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  MCGameAppDelegate.m</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  MCGame</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  </span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Created by ruitaoCC@gmail.com on 1/09/12.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//  Copyright __MyCompanyName__ 2012. All rights reserved.</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_game_app_delegate_8h.html">MCGameAppDelegate.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_input_view_controller_8h.html">MCInputViewController.h</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_e_a_g_l_view_8h.html">EAGLView.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_scene_controller_8h.html">MCSceneController.h</a>&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_counting_play_input_view_controller____1_8h.html">MCCountingPlayInputViewController__1.h</a>&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_counting_play_scene_controller____1_8h.html">MCCountingPlaySceneController__1.h</a>&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_coordinating_controller_8h.html">CoordinatingController.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_o_b_j_loader_8h.html">MCOBJLoader.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_sound_setting_controller_8h.html">SoundSettingController.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_sound_setting_controller_8h.html">SoundSettingController.h</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_platform_detect_8h.html">PlatformDetect.h</a>&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">@implementation </span><a class="code" href="interface_m_c_game_app_delegate.html">MCGameAppDelegate</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_m_c_game_app_delegate.html#ab5812d8f72ad265b6cc7f878d52260dc">window</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="interface_m_c_game_app_delegate.html#a1b7de7a0482e061d4b401f03da5b9265">   30</a></span>&#160;+ (<a class="code" href="interface_m_c_game_app_delegate.html">MCGameAppDelegate</a>*)<a class="code" href="interface_m_c_game_app_delegate.html#a1b7de7a0482e061d4b401f03da5b9265">sharedMCGameAppDelegate</a>{</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">static</span> <a class="code" href="interface_m_c_game_app_delegate.html">MCGameAppDelegate</a> *<a class="code" href="interface_m_c_game_app_delegate.html#a1b7de7a0482e061d4b401f03da5b9265">sharedMCGameAppDelegate</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    @<span class="keyword">synchronized</span>(<span class="keyword">self</span>)</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">if</span> (!sharedMCGameAppDelegate)</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            sharedMCGameAppDelegate = [[<a class="code" href="interface_m_c_game_app_delegate.html">MCGameAppDelegate</a> alloc] init];</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="interface_m_c_game_app_delegate.html#a1b7de7a0482e061d4b401f03da5b9265">sharedMCGameAppDelegate</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="interface_m_c_game_app_delegate.html#a357c60773159fa8ef3ab64bca408f9e6">   43</a></span>&#160;- (void)applicationDidFinishLaunching:(UIApplication *)application </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{   </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">//load external OBJ 3D model into appliaction</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    NSString *filename = [[NSBundle mainBundle] pathForResource:@&quot;RadiusOneCubeWithPic&quot; ofType:@&quot;obj&quot;];</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="interface_m_c_o_b_j_loader.html">MCOBJLoader</a> *tmp = [<a class="code" href="interface_m_c_o_b_j_loader.html">MCOBJLoader</a> <a class="code" href="interface_m_c_o_b_j_loader.html#a43373f392777b760d128812d206d7d51">sharedMCOBJLoader</a>];</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    [tmp <a class="code" href="interface_m_c_o_b_j_loader.html#a9d0180ad76d9618f9f242084aa5b8b0d">loadObjFromFile</a>:filename <a class="code" href="interface_m_c_o_b_j_loader.html#a9d0180ad76d9618f9f242084aa5b8b0d">objkey</a>:nil];</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">// load soundsetting</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="interface_sound_setting_controller.html">SoundSettingController</a> * soundcontroller = [<a class="code" href="interface_sound_setting_controller.html">SoundSettingController</a> <a class="code" href="interface_sound_setting_controller.html#aeae7e97dc2739ab99f3c4b615eeffb60">sharedsoundSettingController</a>];</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    [soundcontroller <a class="code" href="interface_sound_setting_controller.html#a1ea738e50cf1f5bb4074d9e94cfeb92e">loadSounds</a>];</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    [soundcontroller <a class="code" href="interface_sound_setting_controller.html#a457a01c3187830929ecd27a0ffc9438e">loadSoundConfiguration</a>];</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">//场景对象控制器</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="interface_m_c_scene_controller.html">MCSceneController</a> * <a class="code" href="interfacescene_controller.html">sceneController</a> = [<a class="code" href="interface_m_c_scene_controller.html">MCSceneController</a> <a class="code" href="interface_m_c_scene_controller.html#a44fd4d28d32c55eac3f7d50570fdaae9">sharedSceneController</a>];</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    [[<a class="code" href="interface_coordinating_controller.html">CoordinatingController</a> <a class="code" href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">sharedCoordinatingController</a>] setCurrentController: sceneController];</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    [[<a class="code" href="interface_coordinating_controller.html">CoordinatingController</a> <a class="code" href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">sharedCoordinatingController</a>] setWindow:window];</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">//创建输入控制器，并绑定到场景控制器</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// make a new input view controller, and save it as an instance variable</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="interface_m_c_input_view_controller.html">MCInputViewController</a> * anInputController = [[<a class="code" href="interface_m_c_input_view_controller.html">MCInputViewController</a> alloc] initWithNibName:nil bundle:nil];</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    sceneController.<a class="code" href="interfacescene_controller.html#a5655feb90a8322981b5cc6777ca6dd43">inputController</a> = anInputController;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    [anInputController release];</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">//创建glview</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">// init our main EAGLView with the same bounds as the window</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="class_e_a_g_l_view.html">EAGLView</a> * glView = [[<a class="code" href="class_e_a_g_l_view.html">EAGLView</a> alloc] initWithFrame:window.bounds];</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    sceneController.<a class="code" href="interfacescene_controller.html#a5655feb90a8322981b5cc6777ca6dd43">inputController</a>.view = glView;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    sceneController.<a class="code" href="interfacescene_controller.html#ada14feb6b8402f4b704e7f290b751754">openGLView</a> = glView;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// set our view as the first window view</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    [<a class="code" href="interface_m_c_game_app_delegate.html#ab5812d8f72ad265b6cc7f878d52260dc">window</a> setRootViewController:sceneController.inputController];</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    [<a class="code" href="interface_m_c_game_app_delegate.html#ab5812d8f72ad265b6cc7f878d52260dc">window</a> makeKeyAndVisible];</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="comment">//开始游戏循环</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="comment">// begin the game.</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    [<a class="code" href="interfacescene_controller.html">sceneController</a> <a class="code" href="interface_m_c_scene_controller.html#a1cef63d3c1614f19a07f15469fbc9e03">loadScene</a>];</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    [<a class="code" href="interfacescene_controller.html">sceneController</a> <a class="code" href="interfacescene_controller.html#a88ec46048e2aff05b4678403e84ec7b9">startScene</a>];</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    [glView release];</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="comment">//[countingPlaySceneController loadScene];</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="interface_m_c_game_app_delegate.html#a1ab4fed7526ef13a4d0b49f57407b429">   98</a></span>&#160;- (void)<a class="code" href="interface_m_c_game_app_delegate.html#a1ab4fed7526ef13a4d0b49f57407b429">dealloc</a> {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    [<a class="code" href="interface_m_c_game_app_delegate.html#ab5812d8f72ad265b6cc7f878d52260dc">window</a> release];</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    [<span class="keyword">super</span> dealloc];</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keyword">@end</span></div>
+<div class="ttc" id="_m_c_input_view_controller_8h_html"><div class="ttname"><a href="_m_c_input_view_controller_8h.html">MCInputViewController.h</a></div></div>
+<div class="ttc" id="interface_sound_setting_controller_html_a457a01c3187830929ecd27a0ffc9438e"><div class="ttname"><a href="interface_sound_setting_controller.html#a457a01c3187830929ecd27a0ffc9438e">-[SoundSettingController loadSoundConfiguration]</a></div><div class="ttdeci">void loadSoundConfiguration()</div><div class="ttdef"><b>Definition:</b> <a href="_sound_setting_controller_8m_source.html#l00035">SoundSettingController.m:35</a></div></div>
+<div class="ttc" id="interfacescene_controller_html"><div class="ttname"><a href="interfacescene_controller.html">sceneController</a></div><div class="ttdef"><b>Definition:</b> <a href="scene_controller_8h_source.html#l00019">sceneController.h:19</a></div></div>
+<div class="ttc" id="interfacescene_controller_html_a88ec46048e2aff05b4678403e84ec7b9"><div class="ttname"><a href="interfacescene_controller.html#a88ec46048e2aff05b4678403e84ec7b9">-[sceneController startScene]</a></div><div class="ttdeci">void startScene()</div><div class="ttdef"><b>Definition:</b> <a href="scene_controller_8m_source.html#l00128">sceneController.m:128</a></div></div>
+<div class="ttc" id="class_e_a_g_l_view_html"><div class="ttname"><a href="class_e_a_g_l_view.html">EAGLView</a></div><div class="ttdef"><b>Definition:</b> <a href="_e_a_g_l_view_8mm_source.html#l00030">EAGLView.mm:30</a></div></div>
+<div class="ttc" id="_platform_detect_8h_html"><div class="ttname"><a href="_platform_detect_8h.html">PlatformDetect.h</a></div></div>
+<div class="ttc" id="interface_m_c_scene_controller_html"><div class="ttname"><a href="interface_m_c_scene_controller.html">MCSceneController</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_controller_8h_source.html#l00015">MCSceneController.h:15</a></div></div>
+<div class="ttc" id="_m_c_o_b_j_loader_8h_html"><div class="ttname"><a href="_m_c_o_b_j_loader_8h.html">MCOBJLoader.h</a></div></div>
+<div class="ttc" id="interface_m_c_game_app_delegate_html_a1ab4fed7526ef13a4d0b49f57407b429"><div class="ttname"><a href="interface_m_c_game_app_delegate.html#a1ab4fed7526ef13a4d0b49f57407b429">-[MCGameAppDelegate dealloc]</a></div><div class="ttdeci">void dealloc()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_game_app_delegate_8mm_source.html#l00098">MCGameAppDelegate.mm:98</a></div></div>
+<div class="ttc" id="interfacescene_controller_html_a5655feb90a8322981b5cc6777ca6dd43"><div class="ttname"><a href="interfacescene_controller.html#a5655feb90a8322981b5cc6777ca6dd43">sceneController::inputController</a></div><div class="ttdeci">InputController * inputController</div><div class="ttdef"><b>Definition:</b> <a href="scene_controller_8h_source.html#l00034">sceneController.h:34</a></div></div>
+<div class="ttc" id="_m_c_scene_controller_8h_html"><div class="ttname"><a href="_m_c_scene_controller_8h.html">MCSceneController.h</a></div></div>
+<div class="ttc" id="_e_a_g_l_view_8h_html"><div class="ttname"><a href="_e_a_g_l_view_8h.html">EAGLView.h</a></div></div>
+<div class="ttc" id="interface_coordinating_controller_html"><div class="ttname"><a href="interface_coordinating_controller.html">CoordinatingController</a></div><div class="ttdef"><b>Definition:</b> <a href="_coordinating_controller_8h_source.html#l00023">CoordinatingController.h:23</a></div></div>
+<div class="ttc" id="_coordinating_controller_8h_html"><div class="ttname"><a href="_coordinating_controller_8h.html">CoordinatingController.h</a></div></div>
+<div class="ttc" id="interface_m_c_o_b_j_loader_html_a9d0180ad76d9618f9f242084aa5b8b0d"><div class="ttname"><a href="interface_m_c_o_b_j_loader.html#a9d0180ad76d9618f9f242084aa5b8b0d">-[MCOBJLoader loadObjFromFile:objkey:]</a></div><div class="ttdeci">void loadObjFromFile:objkey:(NSString *filename,[objkey] NSString *objkey)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_o_b_j_loader_8mm_source.html#l00033">MCOBJLoader.mm:33</a></div></div>
+<div class="ttc" id="interface_m_c_o_b_j_loader_html_a43373f392777b760d128812d206d7d51"><div class="ttname"><a href="interface_m_c_o_b_j_loader.html#a43373f392777b760d128812d206d7d51">+[MCOBJLoader sharedMCOBJLoader]</a></div><div class="ttdeci">MCOBJLoader * sharedMCOBJLoader()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_o_b_j_loader_8mm_source.html#l00022">MCOBJLoader.mm:22</a></div></div>
+<div class="ttc" id="_m_c_game_app_delegate_8h_html"><div class="ttname"><a href="_m_c_game_app_delegate_8h.html">MCGameAppDelegate.h</a></div></div>
+<div class="ttc" id="interface_sound_setting_controller_html_aeae7e97dc2739ab99f3c4b615eeffb60"><div class="ttname"><a href="interface_sound_setting_controller.html#aeae7e97dc2739ab99f3c4b615eeffb60">+[SoundSettingController sharedsoundSettingController]</a></div><div class="ttdeci">SoundSettingController * sharedsoundSettingController()</div><div class="ttdef"><b>Definition:</b> <a href="_sound_setting_controller_8m_source.html#l00022">SoundSettingController.m:22</a></div></div>
+<div class="ttc" id="interface_coordinating_controller_html_a0d275e488bdda11656b6b675b5a2245d"><div class="ttname"><a href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">+[CoordinatingController sharedCoordinatingController]</a></div><div class="ttdeci">CoordinatingController * sharedCoordinatingController()</div><div class="ttdef"><b>Definition:</b> <a href="_coordinating_controller_8m_source.html#l00031">CoordinatingController.m:31</a></div></div>
+<div class="ttc" id="interface_m_c_o_b_j_loader_html"><div class="ttname"><a href="interface_m_c_o_b_j_loader.html">MCOBJLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_o_b_j_loader_8h_source.html#l00019">MCOBJLoader.h:19</a></div></div>
+<div class="ttc" id="interface_m_c_input_view_controller_html"><div class="ttname"><a href="interface_m_c_input_view_controller.html">MCInputViewController</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_input_view_controller_8h_source.html#l00018">MCInputViewController.h:18</a></div></div>
+<div class="ttc" id="interface_m_c_scene_controller_html_a1cef63d3c1614f19a07f15469fbc9e03"><div class="ttname"><a href="interface_m_c_scene_controller.html#a1cef63d3c1614f19a07f15469fbc9e03">-[MCSceneController loadScene]</a></div><div class="ttdeci">void loadScene()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_controller_8mm_source.html#l00042">MCSceneController.mm:42</a></div></div>
+<div class="ttc" id="interfacescene_controller_html_ada14feb6b8402f4b704e7f290b751754"><div class="ttname"><a href="interfacescene_controller.html#ada14feb6b8402f4b704e7f290b751754">sceneController::openGLView</a></div><div class="ttdeci">EAGLView * openGLView</div><div class="ttdef"><b>Definition:</b> <a href="scene_controller_8h_source.html#l00035">sceneController.h:35</a></div></div>
+<div class="ttc" id="interface_m_c_game_app_delegate_html"><div class="ttname"><a href="interface_m_c_game_app_delegate.html">MCGameAppDelegate</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_game_app_delegate_8h_source.html#l00014">MCGameAppDelegate.h:14</a></div></div>
+<div class="ttc" id="interface_sound_setting_controller_html"><div class="ttname"><a href="interface_sound_setting_controller.html">SoundSettingController</a></div><div class="ttdef"><b>Definition:</b> <a href="_sound_setting_controller_8h_source.html#l00014">SoundSettingController.h:14</a></div></div>
+<div class="ttc" id="interface_sound_setting_controller_html_a1ea738e50cf1f5bb4074d9e94cfeb92e"><div class="ttname"><a href="interface_sound_setting_controller.html#a1ea738e50cf1f5bb4074d9e94cfeb92e">-[SoundSettingController loadSounds]</a></div><div class="ttdeci">void loadSounds()</div><div class="ttdef"><b>Definition:</b> <a href="_sound_setting_controller_8m_source.html#l00086">SoundSettingController.m:86</a></div></div>
+<div class="ttc" id="interface_m_c_game_app_delegate_html_ab5812d8f72ad265b6cc7f878d52260dc"><div class="ttname"><a href="interface_m_c_game_app_delegate.html#ab5812d8f72ad265b6cc7f878d52260dc">MCGameAppDelegate::window</a></div><div class="ttdeci">UIWindow * window</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_game_app_delegate_8h_source.html#l00015">MCGameAppDelegate.h:15</a></div></div>
+<div class="ttc" id="interface_m_c_game_app_delegate_html_a1b7de7a0482e061d4b401f03da5b9265"><div class="ttname"><a href="interface_m_c_game_app_delegate.html#a1b7de7a0482e061d4b401f03da5b9265">+[MCGameAppDelegate sharedMCGameAppDelegate]</a></div><div class="ttdeci">MCGameAppDelegate * sharedMCGameAppDelegate()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_game_app_delegate_8mm_source.html#l00030">MCGameAppDelegate.mm:30</a></div></div>
+<div class="ttc" id="_m_c_counting_play_input_view_controller____1_8h_html"><div class="ttname"><a href="_m_c_counting_play_input_view_controller____1_8h.html">MCCountingPlayInputViewController__1.h</a></div></div>
+<div class="ttc" id="interface_m_c_scene_controller_html_a44fd4d28d32c55eac3f7d50570fdaae9"><div class="ttname"><a href="interface_m_c_scene_controller.html#a44fd4d28d32c55eac3f7d50570fdaae9">+[MCSceneController sharedSceneController]</a></div><div class="ttdeci">MCSceneController * sharedSceneController()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_controller_8mm_source.html#l00024">MCSceneController.mm:24</a></div></div>
+<div class="ttc" id="_sound_setting_controller_8h_html"><div class="ttname"><a href="_sound_setting_controller_8h.html">SoundSettingController.h</a></div></div>
+<div class="ttc" id="_m_c_counting_play_scene_controller____1_8h_html"><div class="ttname"><a href="_m_c_counting_play_scene_controller____1_8h.html">MCCountingPlaySceneController__1.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_m_c_game_app_delegate_8mm.html">MCGameAppDelegate.mm</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:37 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

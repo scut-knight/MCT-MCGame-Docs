@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/MCMagicCubeUIModelController.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_m_c_magic_cube_u_i_model_controller_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">MCMagicCubeUIModelController.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_m_c_magic_cube_u_i_model_controller_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  MCMagicCubeUIModelController.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  MCGame</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by kwan terry on 12-11-22.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#import &lt;Foundation/Foundation.h&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_point_8h.html">MCPoint.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_global_8h.html">Global.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_cube_8h.html">Cube.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">@class</span> <a class="code" href="interface_m_c_mobile_object.html">MCMobileObject</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="_m_c_magic_cube_u_i_model_controller_8h.html#a7cd8126e38e88e64d8e6fb726801474e">   17</a></span>&#160;<span class="preprocessor">#define TIME_PER_ROTATION 0.25</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="_m_c_magic_cube_u_i_model_controller_8h.html#a265e60a40d4e4e68cecaa31f4ce73b89">   21</a></span>&#160;<span class="preprocessor">#define ROTATION_ANGLE 90</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="_m_c_magic_cube_u_i_model_controller_8h.html#a8e18a12929298aa53844910b6a6526f8">   25</a></span>&#160;<span class="preprocessor">#define CUBE_CUBE_GAP 0</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_ray_8h.html">MCRay.h</a>&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_m_c_collider_8h.html">MCCollider.h</a>&quot;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_magic_cube_8h.html">MCMagicCube.h</a>&quot;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bf">   34</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bf">_MagicCubeUIUsingMode</a> {</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bfa70ba7775cb5da15b02209a07fe05e578">   38</a></span>&#160;    <a class="code" href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bfa70ba7775cb5da15b02209a07fe05e578">PLAY_MODE</a> = 0,</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bfa1ff4a68590657d8e725e62a7d1d6c437">   42</a></span>&#160;    <a class="code" href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bfa1ff4a68590657d8e725e62a7d1d6c437">TECH_MODE</a> = 1,</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bfa1b4adc4c635e663fcd1ba50c38ff814e">   46</a></span>&#160;    <a class="code" href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bfa1b4adc4c635e663fcd1ba50c38ff814e">SOlVE_Input_MODE</a>=2,</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bfa7fd8ec1855408c0a14e73791ff736b9e">   50</a></span>&#160;    <a class="code" href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bfa7fd8ec1855408c0a14e73791ff736b9e">SOlVE_Play_MODE</a>=3</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;} <a class="code" href="_m_c_magic_cube_u_i_model_controller_8h.html#a8c97a48615b8eda614cd9baf2dac32f8">MagicCubeUIUsingMode</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html">   56</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html">MCMagicCubeUIModelController</a> : <a class="code" href="interface_m_c_mobile_object.html">MCMobileObject</a>{</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a8576f92f58b4509be1eca3fabd11b286">   60</a></span>&#160;    NSMutableArray* <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a8576f92f58b4509be1eca3fabd11b286">array27Cube</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a674c7c24a6ea23e45f7089d1c200298c">   64</a></span>&#160;    <a class="code" href="interface_cube.html">Cube</a> * <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a674c7c24a6ea23e45f7089d1c200298c">layerPtr</a>[9];</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a9c0623833fee1f60384e5626bc1d43bd">   69</a></span>&#160;    BOOL <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a9c0623833fee1f60384e5626bc1d43bd">isAutoRotate</a>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#ab08fdb6c6e189c0bdb0054cea83b7ee7">   73</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#ab08fdb6c6e189c0bdb0054cea83b7ee7">rest_rotate_time</a>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#ade5e1f0c8fbfa97c897ace1f2be3f318">   77</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#ade5e1f0c8fbfa97c897ace1f2be3f318">rest_rotate_angle</a>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    </div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a0d97265e4b64f5962a5385b32e352cde">   82</a></span>&#160;    BOOL <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a0d97265e4b64f5962a5385b32e352cde">isTribleAutoRotateIn_TECH_MODE</a>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#abb8db914117553e4fe50edac6477bef0">   86</a></span>&#160;    BOOL <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#abb8db914117553e4fe50edac6477bef0">is_TECH_MODE_Rotate</a>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    </div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a71c7c29586d4557a42a07d0a3e80c6a5">   92</a></span>&#160;    <a class="code" href="namespace_m_c.html#a502f9c93aadad029c5ce87ec73fd9416">AxisType</a> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a71c7c29586d4557a42a07d0a3e80c6a5">current_rotate_axis</a>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a48f49820e279108c21d14f79748bdef2">   96</a></span>&#160;    <a class="code" href="namespace_m_c.html#a3a1a456f5dbd90d6073271dc9bb4ec44">LayerRotationDirectionType</a> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a48f49820e279108c21d14f79748bdef2">current_rotate_direction</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a297065864a5cd2146c885e995c4d15c7">  100</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a297065864a5cd2146c885e995c4d15c7">current_rotate_layer</a>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="comment">//以下三个参数用于 视角变换</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a5ff24d40ecaf71271fee203c5da6ab1a">  103</a></span>&#160;    BOOL <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a5ff24d40ecaf71271fee203c5da6ab1a">m_spinning</a>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#ae0c38d2a7ccb792c1836e9070aa119be">  104</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#ae0c38d2a7ccb792c1836e9070aa119be">m_trackballRadius</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a991532e5158339732147859f545b6314">  105</a></span>&#160;    <a class="code" href="struct_vector2.html">ivec2</a> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a991532e5158339732147859f545b6314">m_fingerStart</a>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;   </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    </div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a275e562317cf739adbda5054c8adbc64">  108</a></span>&#160;    <a class="code" href="interface_m_c_ray.html">MCRay</a> *<a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a275e562317cf739adbda5054c8adbc64">ray</a>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    </div>
+<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a93e45530c517eaba7a97b50a0f9427dc">  110</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a93e45530c517eaba7a97b50a0f9427dc">cuculated_angle</a>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    </div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a3ece45d5ba0daa1705715e2284ec8ecc">  112</a></span>&#160;    <a class="code" href="struct_vector3.html">vec3</a> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a3ece45d5ba0daa1705715e2284ec8ecc">directionVector</a>[2];</div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a2c687c6d093b34b73f655cf40823764f">  113</a></span>&#160;    <a class="code" href="struct_vector2.html">vec2</a> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a2c687c6d093b34b73f655cf40823764f">firstThreePoint</a>[3];</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a04677a1a844dbc6083db6369160b5e23">  114</a></span>&#160;    <a class="code" href="interface_cube.html">Cube</a> *<a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a04677a1a844dbc6083db6369160b5e23">selected</a>;</div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#ac6024418a19ba570ea889c53ed3cdb61">  115</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#ac6024418a19ba570ea889c53ed3cdb61">selected_triangle</a>[9];</div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a82d87552017c4e2848a70975067b480c">  116</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a82d87552017c4e2848a70975067b480c">select_trackballRadius</a>;</div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#ab782aa7212449360d97adde07923c014">  117</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#ab782aa7212449360d97adde07923c014">firstThreePointCount</a>;</div>
+<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a98f8c684f80b6fe2ed2952112fec45a3">  121</a></span>&#160;    BOOL <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a98f8c684f80b6fe2ed2952112fec45a3">isLayerRotating</a>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    </div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="comment">//自动调整机制</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a0fae93aa6b31ec1d0feeb95046a92301">  127</a></span>&#160;<span class="comment"></span>    <span class="keywordtype">double</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a0fae93aa6b31ec1d0feeb95046a92301">fingerRotate_angle</a>;</div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a90271a8d551281b24e94915ad22a0554">  131</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a90271a8d551281b24e94915ad22a0554">fingerRotate_angle_mod90</a>;</div>
+<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a81edf6c7fb2bbdee899a09084646a74d">  132</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a81edf6c7fb2bbdee899a09084646a74d">rest_fingerRotate_angle</a>;</div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a425ef25900ac815a55deb03ba0482362">  133</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a425ef25900ac815a55deb03ba0482362">rest_fingerRotate_time</a>;</div>
+<div class="line"><a name="l00134"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a012f300bb8f4bf5a7e0b64615826021c">  134</a></span>&#160;    BOOL <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a012f300bb8f4bf5a7e0b64615826021c">isNeededToAdjustment</a>;</div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#ad9443916aec1dc3dddda209bfc9635d1">  135</a></span>&#160;    BOOL <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#ad9443916aec1dc3dddda209bfc9635d1">isNeededToUpdateMagicCubeState</a>;</div>
+<div class="line"><a name="l00139"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#af9bb59381daa9a8d0019663543972680">  139</a></span>&#160;    BOOL <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#af9bb59381daa9a8d0019663543972680">isNeededToUpadteTwice</a>;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;       </div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="comment">//计步器</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#ac5c526e18888a6815e5c44364d424e32">  142</a></span>&#160;    <span class="keywordtype">id</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#ac5c526e18888a6815e5c44364d424e32">target</a>;</div>
+<div class="line"><a name="l00143"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#ae2a0dbe14dfbd22b7b0090f9ac903918">  143</a></span>&#160;    BOOL <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#ae2a0dbe14dfbd22b7b0090f9ac903918">isAddStepWhenUpdateState</a>;</div>
+<div class="line"><a name="l00144"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#ab1015c5529f715200dcabf4c168929cc">  144</a></span>&#160;    <span class="keywordtype">SEL</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#ab1015c5529f715200dcabf4c168929cc">stepcounterAddAction</a>;</div>
+<div class="line"><a name="l00145"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#acae1a996a684a1cff4564c3a6a1e5244">  145</a></span>&#160;    <span class="keywordtype">SEL</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#acae1a996a684a1cff4564c3a6a1e5244">stepcounterMinusAction</a>;</div>
+<div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a17b411f37a66ae10534dfe349bb0a185">  149</a></span>&#160;    NSUndoManager *<a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a17b411f37a66ae10534dfe349bb0a185">undoManger</a>;</div>
+<div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a4e3d05bb49fb961cedf1d1fdd0075576">  150</a></span>&#160;    UITouch *<a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a4e3d05bb49fb961cedf1d1fdd0075576">touch</a>;</div>
+<div class="line"><a name="l00151"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a0b42b4601a3e042192a7318d0690f82b">  151</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a0b42b4601a3e042192a7318d0690f82b">rrrr</a>;</div>
+<div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#ad82d34d330537c0a7a42b23118d14a68">  155</a></span>&#160;    <a class="code" href="_m_c_magic_cube_u_i_model_controller_8h.html#a8c97a48615b8eda614cd9baf2dac32f8">MagicCubeUIUsingMode</a> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#ad82d34d330537c0a7a42b23118d14a68">_usingMode</a>;</div>
+<div class="line"><a name="l00159"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#acfaff79b8601fddd09376fb4d20b9798">  159</a></span>&#160;    <a class="code" href="interface_cube.html">Cube</a> * <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#acfaff79b8601fddd09376fb4d20b9798">MagicCubeIndexState</a>[27];</div>
+<div class="line"><a name="l00160"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#ad99dcc92cc6e327b725d3bb0af5e4581">  160</a></span>&#160;    NSMutableArray * <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#ad99dcc92cc6e327b725d3bb0af5e4581">lockedarray</a>;</div>
+<div class="line"><a name="l00164"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a12a283b5390102cbdb7ede4947b469ed">  164</a></span>&#160;    <a class="code" href="interface_cube.html">Cube</a> * <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a12a283b5390102cbdb7ede4947b469ed">spaceIndicatorlayerPtr</a>[9];</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#a31189fd77dd6e7f7d28dc552027fc73b">  166</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#a31189fd77dd6e7f7d28dc552027fc73b">selected_cube_index</a>;</div>
+<div class="line"><a name="l00167"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#ab89eaa397c864419cd7a8487d580aa59">  167</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#ab89eaa397c864419cd7a8487d580aa59">selected_cube_face_index</a>;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    </div>
+<div class="line"><a name="l00172"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#aa9ed52406207c2c0f80d1844558348ff">  172</a></span>&#160;    BOOL <a class="code" href="interface_m_c_magic_cube_u_i_model_controller.html#aa9ed52406207c2c0f80d1844558348ff">twoLayerFlag</a>[3];</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;}</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="keyword">@property</span> (nonatomic,retain) NSMutableArray * lockedarray;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="keyword">@property</span> (assign) <span class="keywordtype">id</span> target;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="keyword">@property</span> (assign) <span class="keywordtype">SEL</span> stepcounterAddAction;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="keyword">@property</span> (assign) <span class="keywordtype">SEL</span> stepcounterMinusAction;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="keyword">@property</span> (retain) NSMutableArray* array27Cube;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="keyword">@property</span> (retain) NSUndoManager* undoManger;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="comment">//是否使用教学模式下的操作模式</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="interface_m_c_magic_cube_u_i_model_controller.html#aeaf06451a4ab352101b3defb8812099b">  181</a></span>&#160;<span class="keyword">@property</span> (assign) <a class="code" href="_m_c_magic_cube_u_i_model_controller_8h.html#a8c97a48615b8eda614cd9baf2dac32f8">MagicCubeUIUsingMode</a> usingMode;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="keyword">@property</span> (assign)<span class="keywordtype">int</span> selected_cube_index;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="keyword">@property</span> (assign)<span class="keywordtype">int</span> selected_cube_face_index;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;-(id)initiate;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;-(id)initiateWithState:(NSArray *)stateList;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;-(void)flashWithState:(NSArray *)stateList;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;- (void) rotateOnAxis : (<a class="code" href="namespace_m_c.html#a502f9c93aadad029c5ce87ec73fd9416">AxisType</a>)axis onLayer: (<span class="keywordtype">int</span>)layer inDirection: (<a class="code" href="namespace_m_c.html#a3a1a456f5dbd90d6073271dc9bb4ec44">LayerRotationDirectionType</a>)direction isTribleRotate:(BOOL)is_trible_roate isTwoTimes:(BOOL)is_twotimes;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;- (void) nextSpaceIndicatorWithRotateNotationType:(struct <a class="code" href="struct_m_c_1_1_rotate_notation_type.html">RotateNotationType</a>)rotationNotationType;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;-(void)awake;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;-(void)render;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;-(void)update;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;-(void)adjustWithCenter;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;-(void)adjustWithCenter_2;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;-(void)closeSpaceIndicator;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="comment">//撤销栈管理</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;-(void)executeInvocation:(NSInvocation *)invocation</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      withUndoInvocation:(NSInvocation *)undoInvocation;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;<span class="comment">//恢复栈管理</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;-(void)unexecuteInvocation:(NSInvocation *)invocation</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        withRedoInvocation:(NSInvocation *)redoInvocation;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;-(void)previousSolution;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;-(void)nextSolution;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;-(BOOL)isSelectOneFace:(<a class="code" href="struct_vector2.html">vec2</a>)touchpoint;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;-(<a class="code" href="struct_vector3.html">vec3</a>)MapToSphere:(<a class="code" href="struct_vector2.html">vec2</a> )touchpoint;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;-(void)switchToOrignalPlace;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;<span class="keyword">@end</span></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a3ece45d5ba0daa1705715e2284ec8ecc"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a3ece45d5ba0daa1705715e2284ec8ecc">MCMagicCubeUIModelController::directionVector</a></div><div class="ttdeci">vec3 directionVector[2]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00112">MCMagicCubeUIModelController.h:112</a></div></div>
+<div class="ttc" id="struct_m_c_1_1_rotate_notation_type_html"><div class="ttname"><a href="struct_m_c_1_1_rotate_notation_type.html">MC::RotateNotationType</a></div><div class="ttdoc">an encapsulation </div><div class="ttdef"><b>Definition:</b> <a href="_global_8h_source.html#l00293">Global.h:293</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a0b42b4601a3e042192a7318d0690f82b"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a0b42b4601a3e042192a7318d0690f82b">MCMagicCubeUIModelController::rrrr</a></div><div class="ttdeci">int rrrr</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00151">MCMagicCubeUIModelController.h:151</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_ad9443916aec1dc3dddda209bfc9635d1"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#ad9443916aec1dc3dddda209bfc9635d1">MCMagicCubeUIModelController::isNeededToUpdateMagicCubeState</a></div><div class="ttdeci">BOOL isNeededToUpdateMagicCubeState</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00135">MCMagicCubeUIModelController.h:135</a></div></div>
+<div class="ttc" id="_global_8h_html"><div class="ttname"><a href="_global_8h.html">Global.h</a></div></div>
+<div class="ttc" id="_m_c_magic_cube_u_i_model_controller_8h_html_a6eefc9fec6598f583c9b835947d2e2bfa7fd8ec1855408c0a14e73791ff736b9e"><div class="ttname"><a href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bfa7fd8ec1855408c0a14e73791ff736b9e">SOlVE_Play_MODE</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00050">MCMagicCubeUIModelController.h:50</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a12a283b5390102cbdb7ede4947b469ed"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a12a283b5390102cbdb7ede4947b469ed">MCMagicCubeUIModelController::spaceIndicatorlayerPtr</a></div><div class="ttdeci">Cube * spaceIndicatorlayerPtr[9]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00164">MCMagicCubeUIModelController.h:164</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a5ff24d40ecaf71271fee203c5da6ab1a"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a5ff24d40ecaf71271fee203c5da6ab1a">MCMagicCubeUIModelController::m_spinning</a></div><div class="ttdeci">BOOL m_spinning</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00103">MCMagicCubeUIModelController.h:103</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a4e3d05bb49fb961cedf1d1fdd0075576"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a4e3d05bb49fb961cedf1d1fdd0075576">MCMagicCubeUIModelController::touch</a></div><div class="ttdeci">UITouch * touch</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00150">MCMagicCubeUIModelController.h:150</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html">MCMagicCubeUIModelController</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00056">MCMagicCubeUIModelController.h:56</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a0fae93aa6b31ec1d0feeb95046a92301"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a0fae93aa6b31ec1d0feeb95046a92301">MCMagicCubeUIModelController::fingerRotate_angle</a></div><div class="ttdeci">double fingerRotate_angle</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00127">MCMagicCubeUIModelController.h:127</a></div></div>
+<div class="ttc" id="_m_c_magic_cube_u_i_model_controller_8h_html_a6eefc9fec6598f583c9b835947d2e2bfa1ff4a68590657d8e725e62a7d1d6c437"><div class="ttname"><a href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bfa1ff4a68590657d8e725e62a7d1d6c437">TECH_MODE</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00042">MCMagicCubeUIModelController.h:42</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_aa9ed52406207c2c0f80d1844558348ff"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#aa9ed52406207c2c0f80d1844558348ff">MCMagicCubeUIModelController::twoLayerFlag</a></div><div class="ttdeci">BOOL twoLayerFlag[3]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00172">MCMagicCubeUIModelController.h:172</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a8576f92f58b4509be1eca3fabd11b286"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a8576f92f58b4509be1eca3fabd11b286">MCMagicCubeUIModelController::array27Cube</a></div><div class="ttdeci">NSMutableArray * array27Cube</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00060">MCMagicCubeUIModelController.h:60</a></div></div>
+<div class="ttc" id="struct_vector3_html"><div class="ttname"><a href="struct_vector3.html">Vector3&lt; float &gt;</a></div></div>
+<div class="ttc" id="namespace_m_c_html_a502f9c93aadad029c5ce87ec73fd9416"><div class="ttname"><a href="namespace_m_c.html#a502f9c93aadad029c5ce87ec73fd9416">MC::AxisType</a></div><div class="ttdeci">enum MC::_AxisType AxisType</div><div class="ttdoc">3D coordinate axis </div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_acfaff79b8601fddd09376fb4d20b9798"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#acfaff79b8601fddd09376fb4d20b9798">MCMagicCubeUIModelController::MagicCubeIndexState</a></div><div class="ttdeci">Cube * MagicCubeIndexState[27]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00159">MCMagicCubeUIModelController.h:159</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a81edf6c7fb2bbdee899a09084646a74d"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a81edf6c7fb2bbdee899a09084646a74d">MCMagicCubeUIModelController::rest_fingerRotate_angle</a></div><div class="ttdeci">double rest_fingerRotate_angle</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00132">MCMagicCubeUIModelController.h:132</a></div></div>
+<div class="ttc" id="_m_c_magic_cube_u_i_model_controller_8h_html_a6eefc9fec6598f583c9b835947d2e2bfa70ba7775cb5da15b02209a07fe05e578"><div class="ttname"><a href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bfa70ba7775cb5da15b02209a07fe05e578">PLAY_MODE</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00038">MCMagicCubeUIModelController.h:38</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_af9bb59381daa9a8d0019663543972680"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#af9bb59381daa9a8d0019663543972680">MCMagicCubeUIModelController::isNeededToUpadteTwice</a></div><div class="ttdeci">BOOL isNeededToUpadteTwice</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00139">MCMagicCubeUIModelController.h:139</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a2c687c6d093b34b73f655cf40823764f"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a2c687c6d093b34b73f655cf40823764f">MCMagicCubeUIModelController::firstThreePoint</a></div><div class="ttdeci">vec2 firstThreePoint[3]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00113">MCMagicCubeUIModelController.h:113</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a48f49820e279108c21d14f79748bdef2"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a48f49820e279108c21d14f79748bdef2">MCMagicCubeUIModelController::current_rotate_direction</a></div><div class="ttdeci">LayerRotationDirectionType current_rotate_direction</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00096">MCMagicCubeUIModelController.h:96</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_abb8db914117553e4fe50edac6477bef0"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#abb8db914117553e4fe50edac6477bef0">MCMagicCubeUIModelController::is_TECH_MODE_Rotate</a></div><div class="ttdeci">BOOL is_TECH_MODE_Rotate</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00086">MCMagicCubeUIModelController.h:86</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a9c0623833fee1f60384e5626bc1d43bd"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a9c0623833fee1f60384e5626bc1d43bd">MCMagicCubeUIModelController::isAutoRotate</a></div><div class="ttdeci">BOOL isAutoRotate</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00069">MCMagicCubeUIModelController.h:69</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_ac5c526e18888a6815e5c44364d424e32"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#ac5c526e18888a6815e5c44364d424e32">MCMagicCubeUIModelController::target</a></div><div class="ttdeci">id target</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00142">MCMagicCubeUIModelController.h:142</a></div></div>
+<div class="ttc" id="interface_m_c_ray_html"><div class="ttname"><a href="interface_m_c_ray.html">MCRay</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_ray_8h_source.html#l00016">MCRay.h:16</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_ab1015c5529f715200dcabf4c168929cc"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#ab1015c5529f715200dcabf4c168929cc">MCMagicCubeUIModelController::stepcounterAddAction</a></div><div class="ttdeci">SEL stepcounterAddAction</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00144">MCMagicCubeUIModelController.h:144</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a275e562317cf739adbda5054c8adbc64"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a275e562317cf739adbda5054c8adbc64">MCMagicCubeUIModelController::ray</a></div><div class="ttdeci">MCRay * ray</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00108">MCMagicCubeUIModelController.h:108</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_ab89eaa397c864419cd7a8487d580aa59"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#ab89eaa397c864419cd7a8487d580aa59">MCMagicCubeUIModelController::selected_cube_face_index</a></div><div class="ttdeci">int selected_cube_face_index</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00167">MCMagicCubeUIModelController.h:167</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a93e45530c517eaba7a97b50a0f9427dc"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a93e45530c517eaba7a97b50a0f9427dc">MCMagicCubeUIModelController::cuculated_angle</a></div><div class="ttdeci">double cuculated_angle</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00110">MCMagicCubeUIModelController.h:110</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_ae2a0dbe14dfbd22b7b0090f9ac903918"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#ae2a0dbe14dfbd22b7b0090f9ac903918">MCMagicCubeUIModelController::isAddStepWhenUpdateState</a></div><div class="ttdeci">BOOL isAddStepWhenUpdateState</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00143">MCMagicCubeUIModelController.h:143</a></div></div>
+<div class="ttc" id="interface_m_c_mobile_object_html"><div class="ttname"><a href="interface_m_c_mobile_object.html">MCMobileObject</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mobile_object_8h_source.html#l00013">MCMobileObject.h:13</a></div></div>
+<div class="ttc" id="interface_cube_html"><div class="ttname"><a href="interface_cube.html">Cube</a></div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00020">Cube.h:20</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_ab08fdb6c6e189c0bdb0054cea83b7ee7"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#ab08fdb6c6e189c0bdb0054cea83b7ee7">MCMagicCubeUIModelController::rest_rotate_time</a></div><div class="ttdeci">double rest_rotate_time</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00073">MCMagicCubeUIModelController.h:73</a></div></div>
+<div class="ttc" id="struct_vector2_html"><div class="ttname"><a href="struct_vector2.html">Vector2&lt; int &gt;</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a90271a8d551281b24e94915ad22a0554"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a90271a8d551281b24e94915ad22a0554">MCMagicCubeUIModelController::fingerRotate_angle_mod90</a></div><div class="ttdeci">double fingerRotate_angle_mod90</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00131">MCMagicCubeUIModelController.h:131</a></div></div>
+<div class="ttc" id="_m_c_magic_cube_u_i_model_controller_8h_html_a8c97a48615b8eda614cd9baf2dac32f8"><div class="ttname"><a href="_m_c_magic_cube_u_i_model_controller_8h.html#a8c97a48615b8eda614cd9baf2dac32f8">MagicCubeUIUsingMode</a></div><div class="ttdeci">enum _MagicCubeUIUsingMode MagicCubeUIUsingMode</div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_ad99dcc92cc6e327b725d3bb0af5e4581"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#ad99dcc92cc6e327b725d3bb0af5e4581">MCMagicCubeUIModelController::lockedarray</a></div><div class="ttdeci">NSMutableArray * lockedarray</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00160">MCMagicCubeUIModelController.h:160</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_acae1a996a684a1cff4564c3a6a1e5244"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#acae1a996a684a1cff4564c3a6a1e5244">MCMagicCubeUIModelController::stepcounterMinusAction</a></div><div class="ttdeci">SEL stepcounterMinusAction</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00145">MCMagicCubeUIModelController.h:145</a></div></div>
+<div class="ttc" id="_m_c_magic_cube_u_i_model_controller_8h_html_a6eefc9fec6598f583c9b835947d2e2bf"><div class="ttname"><a href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bf">_MagicCubeUIUsingMode</a></div><div class="ttdeci">_MagicCubeUIUsingMode</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00034">MCMagicCubeUIModelController.h:34</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_ad82d34d330537c0a7a42b23118d14a68"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#ad82d34d330537c0a7a42b23118d14a68">MCMagicCubeUIModelController::_usingMode</a></div><div class="ttdeci">MagicCubeUIUsingMode _usingMode</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00155">MCMagicCubeUIModelController.h:155</a></div></div>
+<div class="ttc" id="_m_c_magic_cube_u_i_model_controller_8h_html_a6eefc9fec6598f583c9b835947d2e2bfa1b4adc4c635e663fcd1ba50c38ff814e"><div class="ttname"><a href="_m_c_magic_cube_u_i_model_controller_8h.html#a6eefc9fec6598f583c9b835947d2e2bfa1b4adc4c635e663fcd1ba50c38ff814e">SOlVE_Input_MODE</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00046">MCMagicCubeUIModelController.h:46</a></div></div>
+<div class="ttc" id="_m_c_magic_cube_8h_html"><div class="ttname"><a href="_m_c_magic_cube_8h.html">MCMagicCube.h</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a04677a1a844dbc6083db6369160b5e23"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a04677a1a844dbc6083db6369160b5e23">MCMagicCubeUIModelController::selected</a></div><div class="ttdeci">Cube * selected</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00114">MCMagicCubeUIModelController.h:114</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a82d87552017c4e2848a70975067b480c"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a82d87552017c4e2848a70975067b480c">MCMagicCubeUIModelController::select_trackballRadius</a></div><div class="ttdeci">float select_trackballRadius</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00116">MCMagicCubeUIModelController.h:116</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a31189fd77dd6e7f7d28dc552027fc73b"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a31189fd77dd6e7f7d28dc552027fc73b">MCMagicCubeUIModelController::selected_cube_index</a></div><div class="ttdeci">int selected_cube_index</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00166">MCMagicCubeUIModelController.h:166</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a17b411f37a66ae10534dfe349bb0a185"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a17b411f37a66ae10534dfe349bb0a185">MCMagicCubeUIModelController::undoManger</a></div><div class="ttdeci">NSUndoManager * undoManger</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00149">MCMagicCubeUIModelController.h:149</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a297065864a5cd2146c885e995c4d15c7"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a297065864a5cd2146c885e995c4d15c7">MCMagicCubeUIModelController::current_rotate_layer</a></div><div class="ttdeci">int current_rotate_layer</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00100">MCMagicCubeUIModelController.h:100</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a674c7c24a6ea23e45f7089d1c200298c"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a674c7c24a6ea23e45f7089d1c200298c">MCMagicCubeUIModelController::layerPtr</a></div><div class="ttdeci">Cube * layerPtr[9]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00064">MCMagicCubeUIModelController.h:64</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_ab782aa7212449360d97adde07923c014"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#ab782aa7212449360d97adde07923c014">MCMagicCubeUIModelController::firstThreePointCount</a></div><div class="ttdeci">int firstThreePointCount</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00117">MCMagicCubeUIModelController.h:117</a></div></div>
+<div class="ttc" id="_m_c_ray_8h_html"><div class="ttname"><a href="_m_c_ray_8h.html">MCRay.h</a></div></div>
+<div class="ttc" id="_m_c_point_8h_html"><div class="ttname"><a href="_m_c_point_8h.html">MCPoint.h</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a425ef25900ac815a55deb03ba0482362"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a425ef25900ac815a55deb03ba0482362">MCMagicCubeUIModelController::rest_fingerRotate_time</a></div><div class="ttdeci">double rest_fingerRotate_time</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00133">MCMagicCubeUIModelController.h:133</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a71c7c29586d4557a42a07d0a3e80c6a5"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a71c7c29586d4557a42a07d0a3e80c6a5">MCMagicCubeUIModelController::current_rotate_axis</a></div><div class="ttdeci">AxisType current_rotate_axis</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00092">MCMagicCubeUIModelController.h:92</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_ade5e1f0c8fbfa97c897ace1f2be3f318"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#ade5e1f0c8fbfa97c897ace1f2be3f318">MCMagicCubeUIModelController::rest_rotate_angle</a></div><div class="ttdeci">double rest_rotate_angle</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00077">MCMagicCubeUIModelController.h:77</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a98f8c684f80b6fe2ed2952112fec45a3"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a98f8c684f80b6fe2ed2952112fec45a3">MCMagicCubeUIModelController::isLayerRotating</a></div><div class="ttdeci">BOOL isLayerRotating</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00121">MCMagicCubeUIModelController.h:121</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_ac6024418a19ba570ea889c53ed3cdb61"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#ac6024418a19ba570ea889c53ed3cdb61">MCMagicCubeUIModelController::selected_triangle</a></div><div class="ttdeci">float selected_triangle[9]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00115">MCMagicCubeUIModelController.h:115</a></div></div>
+<div class="ttc" id="_m_c_collider_8h_html"><div class="ttname"><a href="_m_c_collider_8h.html">MCCollider.h</a></div></div>
+<div class="ttc" id="_cube_8h_html"><div class="ttname"><a href="_cube_8h.html">Cube.h</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a991532e5158339732147859f545b6314"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a991532e5158339732147859f545b6314">MCMagicCubeUIModelController::m_fingerStart</a></div><div class="ttdeci">ivec2 m_fingerStart</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00105">MCMagicCubeUIModelController.h:105</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_ae0c38d2a7ccb792c1836e9070aa119be"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#ae0c38d2a7ccb792c1836e9070aa119be">MCMagicCubeUIModelController::m_trackballRadius</a></div><div class="ttdeci">float m_trackballRadius</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00104">MCMagicCubeUIModelController.h:104</a></div></div>
+<div class="ttc" id="namespace_m_c_html_a3a1a456f5dbd90d6073271dc9bb4ec44"><div class="ttname"><a href="namespace_m_c.html#a3a1a456f5dbd90d6073271dc9bb4ec44">MC::LayerRotationDirectionType</a></div><div class="ttdeci">enum MC::_LayerRotationDirectionType LayerRotationDirectionType</div><div class="ttdoc">define the rotation direction, clockwise and anticlockwise </div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a0d97265e4b64f5962a5385b32e352cde"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a0d97265e4b64f5962a5385b32e352cde">MCMagicCubeUIModelController::isTribleAutoRotateIn_TECH_MODE</a></div><div class="ttdeci">BOOL isTribleAutoRotateIn_TECH_MODE</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00082">MCMagicCubeUIModelController.h:82</a></div></div>
+<div class="ttc" id="interface_m_c_magic_cube_u_i_model_controller_html_a012f300bb8f4bf5a7e0b64615826021c"><div class="ttname"><a href="interface_m_c_magic_cube_u_i_model_controller.html#a012f300bb8f4bf5a7e0b64615826021c">MCMagicCubeUIModelController::isNeededToAdjustment</a></div><div class="ttdeci">BOOL isNeededToAdjustment</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_magic_cube_u_i_model_controller_8h_source.html#l00134">MCMagicCubeUIModelController.h:134</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_m_c_magic_cube_u_i_model_controller_8h.html">MCMagicCubeUIModelController.h</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:37 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

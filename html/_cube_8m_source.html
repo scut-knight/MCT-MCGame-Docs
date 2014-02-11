@@ -1,0 +1,480 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/Cube.m 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_cube_8m_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Cube.m</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_cube_8m.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  TestCube.m</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  MCGame</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by kwan terry on 12-10-3.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_cube_8h.html">Cube.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_o_b_j_loader_8h.html">MCOBJLoader.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//#import &quot;data.hpp&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">//#import &quot;TestCubeData.h&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_particle_system_8h.html">MCParticleSystem.h</a>&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_coordinating_controller_8h.html">CoordinatingController.h</a>&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_collider_8h.html">MCCollider.h</a>&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_global_8h.html">Global.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="data_8hpp.html">data.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_string_define_8h.html">MCStringDefine.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_string_define_8h.html">MCStringDefine.h</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">@implementation </span><a class="code" href="interface_cube.html">Cube</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_cube.html#add9c27c43047b14123f757abf0249b5a">isNeededToShowSpaceDirection</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_cube.html#a061799b2e87b789143cae232c0427e8a">indicator_axis</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_cube.html#a3a5af19d17ef0d0854e94ab3f321903c">indicator_direction</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_cube.html#a8d7f8c489a80c011d4d8b460bf18b2d4">index</a>,<a class="code" href="interface_cube.html#a8752e92761693bbf64c25ce61890dea9">cube6faces</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_cube.html#ae9114fd995c890e3dd0bfccdba24deb6">cube6faces_locksign</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_cube.html#a139fa91e1adf0f7051ffeb82d4b2b27a">isLocked</a>=<a class="code" href="interface_cube.html#a39c14393ba3121f4b2b783b799fcbdb4">_isLocked</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_cube.html#a357de521629c506488708b0a5dfc8ff4">index_selectedFace</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="interface_cube.html#ac58d2b160caacfefe40cae1c1ca63ec8">   40</a></span>&#160;- (id) initWithState:(NSDictionary *)states</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">self</span> = [<span class="keyword">super</span> <a class="code" href="interface_m_c_scene_object.html#ad014e9a76b1a359b90fadd5b31fb7f18">init</a>];</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span> != nil) {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="interface_m_c_o_b_j_loader.html">MCOBJLoader</a> *OBJ = [<a class="code" href="interface_m_c_o_b_j_loader.html">MCOBJLoader</a> <a class="code" href="interface_m_c_o_b_j_loader.html#a43373f392777b760d128812d206d7d51">sharedMCOBJLoader</a>];</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        GLfloat * <a class="code" href="_test_cube_data_8h.html#a201708a38f06c713fd0edbaedd3a666a">Cube_vertex_coordinates</a> = [OBJ <a class="code" href="interface_m_c_o_b_j_loader.html#ab6cdfb09096d7842ee10c61620523aae">Cube_vertex_coordinates</a>];</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        GLfloat * <a class="code" href="_test_cube_data_8h.html#ad3d3fa75133b9df3c3456a4ccc6f641a">Cube_texture_coordinates</a> = [OBJ <a class="code" href="interface_m_c_o_b_j_loader.html#a5b24bc16a1f78d8a7259867e5b68f31f">Cube_texture_coordinates</a>];</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        GLfloat * <a class="code" href="_test_cube_data_8h.html#a8a8e273047e72a2ccfc7bc3fd754b3ba">Cube_normal_vectors</a> = [OBJ <a class="code" href="interface_m_c_o_b_j_loader.html#a6dfd8db1fc285b2a3e6f84d9119c9d17">Cube_normal_vectors</a>];</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="_test_cube_data_8h.html#a6208c77a0470b0f950a8ae979e005a1f">Cube_vertex_array_size</a> = [OBJ <a class="code" href="interface_m_c_o_b_j_loader.html#a73813e44db2f7b727f6e7f9dc12f0d2f">Cube_vertex_array_size</a>];</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> = [[<a class="code" href="class_m_c_textured_mesh.html">MCTexturedMesh</a> alloc] initWithVertexes:Cube_vertex_coordinates</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                            vertexCount:Cube_vertex_array_size</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                             vertexSize:3</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                                            renderStyle:GL_TRIANGLES];</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        [(<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">MCTexturedMesh</a>*)<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> setMaterialKey:@&quot;cubeTexture3&quot;];</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        [(<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">MCTexturedMesh</a>*)<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> setUvCoordinates:Cube_texture_coordinates];</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        [(<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">MCTexturedMesh</a>*)<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> setNormals:Cube_normal_vectors];</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        [<span class="keyword">self</span> setIsLocked:NO];</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#a8752e92761693bbf64c25ce61890dea9">cube6faces</a>==nil) {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <a class="code" href="interface_cube.html#a8752e92761693bbf64c25ce61890dea9">cube6faces</a> = [[NSMutableArray alloc]init];</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="comment">// for each face</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;6; i++) {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            NSNumber *state = [states objectForKey:[NSNumber numberWithInteger:i ]];</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <a class="code" href="interface_cube_face.html">CubeFace</a>* faces = [[<a class="code" href="interface_cube_face.html">CubeFace</a> alloc]initWithVertexes:&amp;Cube_vertex_coordinates_f[i*6*3] vertexCount:6 vertexSize:3 renderStyle:GL_TRIANGLES];</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            [faces setIsNeedRender:YES];</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces</a> setMaterialKey:@&quot;sixcolor&quot;];</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces</a> setUvCoordinates:&amp;Cube_texture_coordinates_f[[state integerValue]*6*2]]; <span class="comment">// 这里使用了state而不是用i</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces</a> setNormals:&amp;Cube_normal_vectors_f[i*6*3]];</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            [<a class="code" href="interface_cube.html#a8752e92761693bbf64c25ce61890dea9">cube6faces</a> addObject:faces];</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            [faces release];</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="comment">// for each locksign</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="interface_cube.html#a357de521629c506488708b0a5dfc8ff4">index_selectedFace</a> = -1;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#ae9114fd995c890e3dd0bfccdba24deb6">cube6faces_locksign</a>==nil) {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <a class="code" href="interface_cube.html#ae9114fd995c890e3dd0bfccdba24deb6">cube6faces_locksign</a> = [[NSMutableArray alloc]init];</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;6; i++) {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <a class="code" href="interface_cube_face.html">CubeFace</a>* faces_locksign = [[<a class="code" href="interface_cube_face.html">CubeFace</a> alloc]initWithVertexes:&amp;Cube_LockSign_vertex_coordinates[i*6*3] vertexCount:6 vertexSize:3 renderStyle:GL_TRIANGLES];</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            [faces_locksign setIsNeedRender:YES];</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces_locksign</a> setMaterialKey:@&quot;LockTexture&quot;];</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces_locksign</a> setUvCoordinates:&amp;Cube_LockSign_vertex_texture_coordinates[0]];</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces_locksign</a> setNormals:&amp;Cube_normal_vectors_f[i*6*3]];</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            [<a class="code" href="interface_cube.html#ae9114fd995c890e3dd0bfccdba24deb6">cube6faces_locksign</a> addObject:faces_locksign];</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            [faces_locksign release];</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="comment">// for each direction indicator</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a>==nil) {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a> = [[NSMutableArray alloc]init];</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;6; i++) {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <a class="code" href="interface_cube_face.html">CubeFace</a>* faces_direction_indicator = [[<a class="code" href="interface_cube_face.html">CubeFace</a> alloc]initWithVertexes:&amp;Cube_direction_indicator_vertex_coordinates[i*6*3] vertexCount:6 vertexSize:3 renderStyle:GL_TRIANGLES];</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            [faces_direction_indicator setIsNeedRender:NO];</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces_direction_indicator</a> setMaterialKey:kSpaceDirectionIndicatorRight];</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces_direction_indicator</a> setUvCoordinates:&amp;Cube_LockSign_vertex_texture_coordinates[0]];</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces_direction_indicator</a> setNormals:&amp;Cube_normal_vectors_f[i*6*3]];</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            [<a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a> addObject:faces_direction_indicator];</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            [faces_direction_indicator release];</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">self</span>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;}</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="interface_cube.html#a02b07621fcb0b98243caee679d74ff66">  112</a></span>&#160;- (void) flashWithState:(NSDictionary*)states{</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;6; i++) {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        NSNumber *state = [states objectForKey:[NSNumber numberWithInteger:i ]];</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="interface_cube_face.html">CubeFace</a>* faces = [<a class="code" href="interface_cube.html#a8752e92761693bbf64c25ce61890dea9">cube6faces</a> objectAtIndex:i];</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces</a> setUvCoordinates:&amp;Cube_texture_coordinates_f[[state integerValue]*6*2]];</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;};</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="interface_cube.html#a99af2c573ae2e5953c8ce34732cd72de">  125</a></span>&#160;-(id)<a class="code" href="interface_cube.html#a99af2c573ae2e5953c8ce34732cd72de">init</a>{</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keyword">self</span> = [<span class="keyword">super</span> <a class="code" href="interface_m_c_scene_object.html#ad014e9a76b1a359b90fadd5b31fb7f18">init</a>];</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span> != nil) {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <a class="code" href="interface_m_c_o_b_j_loader.html">MCOBJLoader</a> *OBJ = [<a class="code" href="interface_m_c_o_b_j_loader.html">MCOBJLoader</a> <a class="code" href="interface_m_c_o_b_j_loader.html#a43373f392777b760d128812d206d7d51">sharedMCOBJLoader</a>];</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        GLfloat * <a class="code" href="_test_cube_data_8h.html#a201708a38f06c713fd0edbaedd3a666a">Cube_vertex_coordinates</a> = [OBJ <a class="code" href="interface_m_c_o_b_j_loader.html#ab6cdfb09096d7842ee10c61620523aae">Cube_vertex_coordinates</a>];</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        GLfloat * <a class="code" href="_test_cube_data_8h.html#ad3d3fa75133b9df3c3456a4ccc6f641a">Cube_texture_coordinates</a> = [OBJ <a class="code" href="interface_m_c_o_b_j_loader.html#a5b24bc16a1f78d8a7259867e5b68f31f">Cube_texture_coordinates</a>];</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        GLfloat * <a class="code" href="_test_cube_data_8h.html#a8a8e273047e72a2ccfc7bc3fd754b3ba">Cube_normal_vectors</a> = [OBJ <a class="code" href="interface_m_c_o_b_j_loader.html#a6dfd8db1fc285b2a3e6f84d9119c9d17">Cube_normal_vectors</a>];</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="_test_cube_data_8h.html#a6208c77a0470b0f950a8ae979e005a1f">Cube_vertex_array_size</a> = [OBJ <a class="code" href="interface_m_c_o_b_j_loader.html#a73813e44db2f7b727f6e7f9dc12f0d2f">Cube_vertex_array_size</a>];</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> = [[<a class="code" href="class_m_c_textured_mesh.html">MCTexturedMesh</a> alloc] initWithVertexes:Cube_vertex_coordinates</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                                            vertexCount:Cube_vertex_array_size</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                             vertexSize:3</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                                            renderStyle:GL_TRIANGLES];</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        [(<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">MCTexturedMesh</a>*)<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> setMaterialKey:@&quot;cubeTexture3&quot;];</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        [(<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">MCTexturedMesh</a>*)<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> setUvCoordinates:Cube_texture_coordinates];</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        [(<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">MCTexturedMesh</a>*)<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> setNormals:Cube_normal_vectors];</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        </div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        [<span class="keyword">self</span> setIsLocked:NO];</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#a8752e92761693bbf64c25ce61890dea9">cube6faces</a>==nil) {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <a class="code" href="interface_cube.html#a8752e92761693bbf64c25ce61890dea9">cube6faces</a> = [[NSMutableArray alloc]init];</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        }</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <a class="code" href="interface_cube.html#a357de521629c506488708b0a5dfc8ff4">index_selectedFace</a> = -1; <span class="comment">// 没有输入状态时多出默认设置</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="comment">// for each face</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;6; i++) {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <span class="comment">//NSNumber *state = [states objectForKey:[NSNumber numberWithInteger:i ]];</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <a class="code" href="interface_cube_face.html">CubeFace</a>* faces = [[<a class="code" href="interface_cube_face.html">CubeFace</a> alloc]initWithVertexes:&amp;Cube_vertex_coordinates_f[i*6*3] vertexCount:6 vertexSize:3 renderStyle:GL_TRIANGLES];</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            [faces setIsNeedRender:YES];</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces</a> setMaterialKey:@&quot;sixcolor&quot;];</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces</a> setUvCoordinates:&amp;Cube_texture_coordinates_f[i*6*2]];</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces</a> setNormals:&amp;Cube_normal_vectors_f[i*6*3]];</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            [<a class="code" href="interface_cube.html#a8752e92761693bbf64c25ce61890dea9">cube6faces</a> addObject:faces];</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            [faces release];</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        }</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="comment">// for each locksign</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#ae9114fd995c890e3dd0bfccdba24deb6">cube6faces_locksign</a>==nil) {</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            <a class="code" href="interface_cube.html#ae9114fd995c890e3dd0bfccdba24deb6">cube6faces_locksign</a> = [[NSMutableArray alloc]init];</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        }</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;6; i++) {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            <a class="code" href="interface_cube_face.html">CubeFace</a>* faces_locksign = [[<a class="code" href="interface_cube_face.html">CubeFace</a> alloc]initWithVertexes:&amp;Cube_LockSign_vertex_coordinates[i*6*3] vertexCount:6 vertexSize:3 renderStyle:GL_TRIANGLES];</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            [faces_locksign setIsNeedRender:YES];</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces_locksign</a> setMaterialKey:@&quot;LockTexture&quot;];</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces_locksign</a> setUvCoordinates:&amp;Cube_LockSign_vertex_texture_coordinates[0]];</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces_locksign</a> setNormals:&amp;Cube_normal_vectors_f[i*6*3]];</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            [<a class="code" href="interface_cube.html#ae9114fd995c890e3dd0bfccdba24deb6">cube6faces_locksign</a> addObject:faces_locksign];</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            [faces_locksign release];</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        }</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="comment">// for each direction indicator</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a>==nil) {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            <a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a> = [[NSMutableArray alloc]init];</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        }</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;6; i++) {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            <a class="code" href="interface_cube_face.html">CubeFace</a>* faces_direction_indicator = [[<a class="code" href="interface_cube_face.html">CubeFace</a> alloc]initWithVertexes:&amp;Cube_direction_indicator_vertex_coordinates[i*6*3] vertexCount:6 vertexSize:3 renderStyle:GL_TRIANGLES];</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            [faces_direction_indicator setIsNeedRender:NO];</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces_direction_indicator</a> setMaterialKey:kSpaceDirectionIndicatorRight];</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces_direction_indicator</a> setUvCoordinates:&amp;Cube_LockSign_vertex_texture_coordinates[0]];</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            [(<a class="code" href="interface_cube_face.html">CubeFace</a>*)<a class="code" href="interface_cube_face.html">faces_direction_indicator</a> setNormals:&amp;Cube_normal_vectors_f[i*6*3]];</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            [<a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a> addObject:faces_direction_indicator];</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            [faces_direction_indicator release];</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        }</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    }</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    </div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">self</span>;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;}</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
+<div class="line"><a name="l00195"></a><span class="lineno"><a class="line" href="interface_cube.html#a84fb5bf7488ffd11e8ed23949a3117dd">  195</a></span>&#160;-(void)<a class="code" href="interface_cube.html#a84fb5bf7488ffd11e8ed23949a3117dd">render</a></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;{</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> || !<a class="code" href="interface_m_c_scene_object.html#a76987e2ce1907832ee44ea37103db7a6">active</a>) <span class="keywordflow">return</span>; <span class="comment">// if we do not have a mesh, no need to render</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="comment">// clear the matrix</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    glPushMatrix();</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    glLoadIdentity();</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    glMultMatrixf(<a class="code" href="interface_m_c_scene_object.html#aac01258da90af2ab20a9e4b7ab0981da">matrix</a>);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    [<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> <a class="code" href="interface_m_c_mesh.html#aedb53496328c13440e5749fcec17d156">render</a>];</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="comment">// render each subobjects</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    [<a class="code" href="interface_cube.html#a8752e92761693bbf64c25ce61890dea9">cube6faces</a> makeObjectsPerformSelector:@selector(render)];</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordflow">if</span> ([<span class="keyword">self</span> <a class="code" href="interface_cube.html#a139fa91e1adf0f7051ffeb82d4b2b27a">isLocked</a>]) {</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        [<a class="code" href="interface_cube.html#ae9114fd995c890e3dd0bfccdba24deb6">cube6faces_locksign</a> makeObjectsPerformSelector:@selector(render)];</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    }</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    [<a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a> makeObjectsPerformSelector:@selector(render)];</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    glPopMatrix();</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;}</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
+<div class="line"><a name="l00212"></a><span class="lineno"><a class="line" href="interface_cube.html#aed68e4d9db704233b8bcf6dad14ffc27">  212</a></span>&#160;-(void)<a class="code" href="interface_cube.html#aed68e4d9db704233b8bcf6dad14ffc27">awake</a></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;{</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a76987e2ce1907832ee44ea37103db7a6">active</a> = YES;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;}</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
+<div class="line"><a name="l00222"></a><span class="lineno"><a class="line" href="interface_cube.html#a2eb5e485e2ced5470b51a783b2ecddb1">  222</a></span>&#160;-(void)<a class="code" href="interface_cube.html#a2eb5e485e2ced5470b51a783b2ecddb1">update</a></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;{</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="comment">//self work</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="interface_cube_face.html">CubeFace</a> *tmp in <a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a>) {</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">if</span> ([tmp isNeedRender]==YES) {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            [tmp setIsNeedRender:NO];</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        }</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="comment">// 如果需要显示指示箭头</span></div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordflow">if</span> ([<span class="keyword">self</span> <a class="code" href="interface_cube.html#add9c27c43047b14123f757abf0249b5a">isNeededToShowSpaceDirection</a>]) {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordflow">switch</span> (<a class="code" href="interface_cube.html#a061799b2e87b789143cae232c0427e8a">indicator_axis</a>) {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="namespace_m_c.html#a7de0ec0d69e6ae233b2d934b0bf31260aa0ae53a698e1820d8751bfe081bb21b4">X</a>:</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0;i&lt;6;i++) {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                    <span class="keywordflow">if</span> (((<span class="keyword">self</span>.<a class="code" href="interface_cube.html#a8d7f8c489a80c011d4d8b460bf18b2d4">index</a>%9)/3==2&amp;&amp;i==0)||((<span class="keyword">self</span>.<a class="code" href="interface_cube.html#a8d7f8c489a80c011d4d8b460bf18b2d4">index</a>/9)==2&amp;&amp;i==2)) {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                        <a class="code" href="interface_cube_face.html">CubeFace</a> *tmp  =[<a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a> objectAtIndex:i];</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                        <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#a3a5af19d17ef0d0854e94ab3f321903c">indicator_direction</a> == <a class="code" href="namespace_m_c.html#a04d4fbfad96e1ad70eac205e1032bf45a1c8bea6429f3342865eba48c4bf4b5b0">CW</a>) {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                            [tmp setMaterialKey:kSpaceDirectionIndicatorUP];</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                        }<span class="keywordflow">else</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                            [tmp setMaterialKey:kSpaceDirectionIndicatorDown];</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                        [tmp setIsNeedRender:YES];</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                    }</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                    </div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                }</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="namespace_m_c.html#a7de0ec0d69e6ae233b2d934b0bf31260ae5019f22cd4d21eaea2fa46f9ee8f28c">Y</a>:</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0;i&lt;6;i++) {</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                    <span class="keywordflow">if</span> (((<span class="keyword">self</span>.<a class="code" href="interface_cube.html#a8d7f8c489a80c011d4d8b460bf18b2d4">index</a>/9)==2&amp;&amp;i==2)||((<span class="keyword">self</span>.<a class="code" href="interface_cube.html#a8d7f8c489a80c011d4d8b460bf18b2d4">index</a>%3)==2&amp;&amp;i==5)) {</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                        <a class="code" href="interface_cube_face.html">CubeFace</a> *tmp  =[<a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a> objectAtIndex:i];</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                        <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#a3a5af19d17ef0d0854e94ab3f321903c">indicator_direction</a> == <a class="code" href="namespace_m_c.html#a04d4fbfad96e1ad70eac205e1032bf45a1c8bea6429f3342865eba48c4bf4b5b0">CW</a>) {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                            [tmp setMaterialKey:kSpaceDirectionIndicatorLeft];</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                        }<span class="keywordflow">else</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                            [tmp setMaterialKey:kSpaceDirectionIndicatorRight];</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                        [tmp setIsNeedRender:YES];</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                    }</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                    </div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                }</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="namespace_m_c.html#a7de0ec0d69e6ae233b2d934b0bf31260acf5d2e4cc90e21ca192be320422b8f22">Z</a>:</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0;i&lt;6;i++) {</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                    <span class="keywordflow">if</span> ((((<span class="keyword">self</span>.<a class="code" href="interface_cube.html#a8d7f8c489a80c011d4d8b460bf18b2d4">index</a>%9)/3)==2&amp;&amp;i==0)||((<span class="keyword">self</span>.<a class="code" href="interface_cube.html#a8d7f8c489a80c011d4d8b460bf18b2d4">index</a>%3)==2&amp;&amp;i==5)) {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                        <a class="code" href="interface_cube_face.html">CubeFace</a> *tmp  =[<a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a> objectAtIndex:i];</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                         <span class="keywordflow">if</span> (i== 0) {</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                             <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#a3a5af19d17ef0d0854e94ab3f321903c">indicator_direction</a> == <a class="code" href="namespace_m_c.html#a04d4fbfad96e1ad70eac205e1032bf45a1c8bea6429f3342865eba48c4bf4b5b0">CW</a>) {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                                 [tmp setMaterialKey:kSpaceDirectionIndicatorRight];</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                             }<span class="keywordflow">else</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                                 [tmp setMaterialKey:kSpaceDirectionIndicatorLeft];</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                         }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                             <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#a3a5af19d17ef0d0854e94ab3f321903c">indicator_direction</a> == <a class="code" href="namespace_m_c.html#a04d4fbfad96e1ad70eac205e1032bf45a1c8bea6429f3342865eba48c4bf4b5b0">CW</a>) {</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                                 [tmp setMaterialKey:kSpaceDirectionIndicatorDown];</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                             }<span class="keywordflow">else</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                                 [tmp setMaterialKey:kSpaceDirectionIndicatorUP];</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                         }</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                        [tmp setIsNeedRender:YES];</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                    }</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                    </div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                }</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                </div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        }</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="comment">//</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    }</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="comment">//super work</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    [<span class="keyword">super</span> <a class="code" href="interface_m_c_mobile_object.html#a7744ea6703d27fbc9adbf3d7fc374875">update</a>];</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;       </div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;}</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
+<div class="line"><a name="l00293"></a><span class="lineno"><a class="line" href="interface_cube.html#a96f5358f4c34d3047f608c7c2ddb7938">  293</a></span>&#160;-(void)<a class="code" href="interface_cube.html#a96f5358f4c34d3047f608c7c2ddb7938">deadUpdate</a></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;{</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keywordflow">if</span> ((<a class="code" href="interface_cube.html#a3dafbbd0cf4b0104be9100afe500e882">particleEmitter</a>.emitCounter &lt;= 0) &amp;&amp; (![<a class="code" href="interface_cube.html#a3dafbbd0cf4b0104be9100afe500e882">particleEmitter</a> activeParticles])) {</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        [[[<a class="code" href="interface_coordinating_controller.html">CoordinatingController</a> <a class="code" href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">sharedCoordinatingController</a>] <a class="code" href="interface_coordinating_controller.html#ace8b4c7677a3c17b5012a9ef835aee31">currentController</a>] <a class="code" href="interfacescene_controller.html#a8f384bd6b6d5d6c59493c44740b0045a">removeObjectFromScene</a>:self]; </div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        [[[<a class="code" href="interface_coordinating_controller.html">CoordinatingController</a> <a class="code" href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">sharedCoordinatingController</a>] <a class="code" href="interface_coordinating_controller.html#ace8b4c7677a3c17b5012a9ef835aee31">currentController</a>] <a class="code" href="interfacescene_controller.html#aca81ea9accf198eee160fbfb466ee6bc">gameOver</a>];</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    }</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;}</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;</div>
+<div class="line"><a name="l00305"></a><span class="lineno"><a class="line" href="interface_cube.html#a740fde48079e13766fb9f4c16013eeca">  305</a></span>&#160;- (void) <a class="code" href="interface_cube.html#a740fde48079e13766fb9f4c16013eeca">dealloc</a></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;{</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#a3dafbbd0cf4b0104be9100afe500e882">particleEmitter</a> != nil)</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        [[[<a class="code" href="interface_coordinating_controller.html">CoordinatingController</a> <a class="code" href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">sharedCoordinatingController</a>] <a class="code" href="interface_coordinating_controller.html#ace8b4c7677a3c17b5012a9ef835aee31">currentController</a>] <a class="code" href="interfacescene_controller.html#a8f384bd6b6d5d6c59493c44740b0045a">removeObjectFromScene</a>:particleEmitter];</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    </div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    [<a class="code" href="interface_cube.html#a3dafbbd0cf4b0104be9100afe500e882">particleEmitter</a> release];</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    </div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> != nil) {</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        [<a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> release];</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    }</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#a8752e92761693bbf64c25ce61890dea9">cube6faces</a> != nil) {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        [<a class="code" href="interface_cube.html#a8752e92761693bbf64c25ce61890dea9">cube6faces</a> release];</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    }</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#ae9114fd995c890e3dd0bfccdba24deb6">cube6faces_locksign</a> != nil) {</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        [<a class="code" href="interface_cube.html#ae9114fd995c890e3dd0bfccdba24deb6">cube6faces_locksign</a> release];</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    }</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a> != nil) {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        [<a class="code" href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">cube6faces_direction_indicator</a> release];</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    }</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    </div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    [<span class="keyword">super</span> <a class="code" href="interface_m_c_scene_object.html#a384adc168b4ba7f096fd956045d6fd40">dealloc</a>];</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;}</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="keyword">@end</span></div>
+<div class="ttc" id="interface_cube_html_aed68e4d9db704233b8bcf6dad14ffc27"><div class="ttname"><a href="interface_cube.html#aed68e4d9db704233b8bcf6dad14ffc27">-[Cube awake]</a></div><div class="ttdeci">void awake()</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8m_source.html#l00212">Cube.m:212</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a76987e2ce1907832ee44ea37103db7a6"><div class="ttname"><a href="interface_m_c_scene_object.html#a76987e2ce1907832ee44ea37103db7a6">MCSceneObject::active</a></div><div class="ttdeci">BOOL active</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00058">MCSceneObject.h:58</a></div></div>
+<div class="ttc" id="interface_m_c_mobile_object_html_a7744ea6703d27fbc9adbf3d7fc374875"><div class="ttname"><a href="interface_m_c_mobile_object.html#a7744ea6703d27fbc9adbf3d7fc374875">-[MCMobileObject update]</a></div><div class="ttdeci">void update()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mobile_object_8m_source.html#l00022">MCMobileObject.m:22</a></div></div>
+<div class="ttc" id="interface_m_c_o_b_j_loader_html_ab6cdfb09096d7842ee10c61620523aae"><div class="ttname"><a href="interface_m_c_o_b_j_loader.html#ab6cdfb09096d7842ee10c61620523aae">MCOBJLoader::Cube_vertex_coordinates</a></div><div class="ttdeci">GLfloat * Cube_vertex_coordinates</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_o_b_j_loader_8h_source.html#l00023">MCOBJLoader.h:23</a></div></div>
+<div class="ttc" id="_test_cube_data_8h_html_a201708a38f06c713fd0edbaedd3a666a"><div class="ttname"><a href="_test_cube_data_8h.html#a201708a38f06c713fd0edbaedd3a666a">Cube_vertex_coordinates</a></div><div class="ttdeci">float Cube_vertex_coordinates[]</div><div class="ttdef"><b>Definition:</b> <a href="_test_cube_data_8h_source.html#l00017">TestCubeData.h:17</a></div></div>
+<div class="ttc" id="_global_8h_html"><div class="ttname"><a href="_global_8h.html">Global.h</a></div></div>
+<div class="ttc" id="namespace_m_c_html_a7de0ec0d69e6ae233b2d934b0bf31260ae5019f22cd4d21eaea2fa46f9ee8f28c"><div class="ttname"><a href="namespace_m_c.html#a7de0ec0d69e6ae233b2d934b0bf31260ae5019f22cd4d21eaea2fa46f9ee8f28c">MC::Y</a></div><div class="ttdef"><b>Definition:</b> <a href="_global_8h_source.html#l00086">Global.h:86</a></div></div>
+<div class="ttc" id="interface_cube_html_a3dafbbd0cf4b0104be9100afe500e882"><div class="ttname"><a href="interface_cube.html#a3dafbbd0cf4b0104be9100afe500e882">Cube::particleEmitter</a></div><div class="ttdeci">MCParticleSystem * particleEmitter</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00021">Cube.h:21</a></div></div>
+<div class="ttc" id="interface_cube_html_a2eb5e485e2ced5470b51a783b2ecddb1"><div class="ttname"><a href="interface_cube.html#a2eb5e485e2ced5470b51a783b2ecddb1">-[Cube update]</a></div><div class="ttdeci">void update()</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8m_source.html#l00222">Cube.m:222</a></div></div>
+<div class="ttc" id="interface_cube_html_a740fde48079e13766fb9f4c16013eeca"><div class="ttname"><a href="interface_cube.html#a740fde48079e13766fb9f4c16013eeca">-[Cube dealloc]</a></div><div class="ttdeci">void dealloc()</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8m_source.html#l00305">Cube.m:305</a></div></div>
+<div class="ttc" id="interface_cube_html_a061799b2e87b789143cae232c0427e8a"><div class="ttname"><a href="interface_cube.html#a061799b2e87b789143cae232c0427e8a">Cube::indicator_axis</a></div><div class="ttdeci">AxisType indicator_axis</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00039">Cube.h:39</a></div></div>
+<div class="ttc" id="interface_m_c_o_b_j_loader_html_a6dfd8db1fc285b2a3e6f84d9119c9d17"><div class="ttname"><a href="interface_m_c_o_b_j_loader.html#a6dfd8db1fc285b2a3e6f84d9119c9d17">MCOBJLoader::Cube_normal_vectors</a></div><div class="ttdeci">GLfloat * Cube_normal_vectors</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_o_b_j_loader_8h_source.html#l00024">MCOBJLoader.h:24</a></div></div>
+<div class="ttc" id="_m_c_o_b_j_loader_8h_html"><div class="ttname"><a href="_m_c_o_b_j_loader_8h.html">MCOBJLoader.h</a></div></div>
+<div class="ttc" id="interface_cube_html_a3a5af19d17ef0d0854e94ab3f321903c"><div class="ttname"><a href="interface_cube.html#a3a5af19d17ef0d0854e94ab3f321903c">Cube::indicator_direction</a></div><div class="ttdeci">LayerRotationDirectionType indicator_direction</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00043">Cube.h:43</a></div></div>
+<div class="ttc" id="interface_cube_html_ae9114fd995c890e3dd0bfccdba24deb6"><div class="ttname"><a href="interface_cube.html#ae9114fd995c890e3dd0bfccdba24deb6">Cube::cube6faces_locksign</a></div><div class="ttdeci">NSMutableArray * cube6faces_locksign</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00023">Cube.h:23</a></div></div>
+<div class="ttc" id="interface_cube_html_a8752e92761693bbf64c25ce61890dea9"><div class="ttname"><a href="interface_cube.html#a8752e92761693bbf64c25ce61890dea9">Cube::cube6faces</a></div><div class="ttdeci">NSMutableArray * cube6faces</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00022">Cube.h:22</a></div></div>
+<div class="ttc" id="interface_coordinating_controller_html"><div class="ttname"><a href="interface_coordinating_controller.html">CoordinatingController</a></div><div class="ttdef"><b>Definition:</b> <a href="_coordinating_controller_8h_source.html#l00023">CoordinatingController.h:23</a></div></div>
+<div class="ttc" id="_coordinating_controller_8h_html"><div class="ttname"><a href="_coordinating_controller_8h.html">CoordinatingController.h</a></div></div>
+<div class="ttc" id="interface_m_c_o_b_j_loader_html_a43373f392777b760d128812d206d7d51"><div class="ttname"><a href="interface_m_c_o_b_j_loader.html#a43373f392777b760d128812d206d7d51">+[MCOBJLoader sharedMCOBJLoader]</a></div><div class="ttdeci">MCOBJLoader * sharedMCOBJLoader()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_o_b_j_loader_8mm_source.html#l00022">MCOBJLoader.mm:22</a></div></div>
+<div class="ttc" id="class_m_c_textured_mesh_html"><div class="ttname"><a href="class_m_c_textured_mesh.html">MCTexturedMesh</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_textured_mesh_8m_source.html#l00013">MCTexturedMesh.m:13</a></div></div>
+<div class="ttc" id="interface_cube_html_a99af2c573ae2e5953c8ce34732cd72de"><div class="ttname"><a href="interface_cube.html#a99af2c573ae2e5953c8ce34732cd72de">-[Cube init]</a></div><div class="ttdeci">id init()</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8m_source.html#l00125">Cube.m:125</a></div></div>
+<div class="ttc" id="namespace_m_c_html_a04d4fbfad96e1ad70eac205e1032bf45a1c8bea6429f3342865eba48c4bf4b5b0"><div class="ttname"><a href="namespace_m_c.html#a04d4fbfad96e1ad70eac205e1032bf45a1c8bea6429f3342865eba48c4bf4b5b0">MC::CW</a></div><div class="ttdef"><b>Definition:</b> <a href="_global_8h_source.html#l00079">Global.h:79</a></div></div>
+<div class="ttc" id="interface_cube_html_add9c27c43047b14123f757abf0249b5a"><div class="ttname"><a href="interface_cube.html#add9c27c43047b14123f757abf0249b5a">Cube::isNeededToShowSpaceDirection</a></div><div class="ttdeci">BOOL isNeededToShowSpaceDirection</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00049">Cube.h:49</a></div></div>
+<div class="ttc" id="interfacescene_controller_html_a8f384bd6b6d5d6c59493c44740b0045a"><div class="ttname"><a href="interfacescene_controller.html#a8f384bd6b6d5d6c59493c44740b0045a">-[sceneController removeObjectFromScene:]</a></div><div class="ttdeci">void removeObjectFromScene:(MCSceneObject *sceneObject)</div><div class="ttdef"><b>Definition:</b> <a href="scene_controller_8m_source.html#l00110">sceneController.m:110</a></div></div>
+<div class="ttc" id="interface_coordinating_controller_html_a0d275e488bdda11656b6b675b5a2245d"><div class="ttname"><a href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">+[CoordinatingController sharedCoordinatingController]</a></div><div class="ttdeci">CoordinatingController * sharedCoordinatingController()</div><div class="ttdef"><b>Definition:</b> <a href="_coordinating_controller_8m_source.html#l00031">CoordinatingController.m:31</a></div></div>
+<div class="ttc" id="interface_cube_html_a84fb5bf7488ffd11e8ed23949a3117dd"><div class="ttname"><a href="interface_cube.html#a84fb5bf7488ffd11e8ed23949a3117dd">-[Cube render]</a></div><div class="ttdeci">void render()</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8m_source.html#l00195">Cube.m:195</a></div></div>
+<div class="ttc" id="interface_m_c_o_b_j_loader_html"><div class="ttname"><a href="interface_m_c_o_b_j_loader.html">MCOBJLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_o_b_j_loader_8h_source.html#l00019">MCOBJLoader.h:19</a></div></div>
+<div class="ttc" id="interface_cube_html_a8d7f8c489a80c011d4d8b460bf18b2d4"><div class="ttname"><a href="interface_cube.html#a8d7f8c489a80c011d4d8b460bf18b2d4">Cube::index</a></div><div class="ttdeci">int index</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00026">Cube.h:26</a></div></div>
+<div class="ttc" id="data_8hpp_html"><div class="ttname"><a href="data_8hpp.html">data.hpp</a></div></div>
+<div class="ttc" id="_m_c_particle_system_8h_html"><div class="ttname"><a href="_m_c_particle_system_8h.html">MCParticleSystem.h</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_ad014e9a76b1a359b90fadd5b31fb7f18"><div class="ttname"><a href="interface_m_c_scene_object.html#ad014e9a76b1a359b90fadd5b31fb7f18">-[MCSceneObject init]</a></div><div class="ttdeci">id init()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8mm_source.html#l00024">MCSceneObject.mm:24</a></div></div>
+<div class="ttc" id="namespace_m_c_html_a7de0ec0d69e6ae233b2d934b0bf31260aa0ae53a698e1820d8751bfe081bb21b4"><div class="ttname"><a href="namespace_m_c.html#a7de0ec0d69e6ae233b2d934b0bf31260aa0ae53a698e1820d8751bfe081bb21b4">MC::X</a></div><div class="ttdef"><b>Definition:</b> <a href="_global_8h_source.html#l00085">Global.h:85</a></div></div>
+<div class="ttc" id="interface_cube_html_a7996853626ee9d3de37403a03970fbeb"><div class="ttname"><a href="interface_cube.html#a7996853626ee9d3de37403a03970fbeb">Cube::cube6faces_direction_indicator</a></div><div class="ttdeci">NSMutableArray * cube6faces_direction_indicator</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00024">Cube.h:24</a></div></div>
+<div class="ttc" id="interface_cube_html"><div class="ttname"><a href="interface_cube.html">Cube</a></div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00020">Cube.h:20</a></div></div>
+<div class="ttc" id="interface_cube_html_a139fa91e1adf0f7051ffeb82d4b2b27a"><div class="ttname"><a href="interface_cube.html#a139fa91e1adf0f7051ffeb82d4b2b27a">Cube::isLocked</a></div><div class="ttdeci">BOOL isLocked</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00048">Cube.h:48</a></div></div>
+<div class="ttc" id="interface_m_c_o_b_j_loader_html_a73813e44db2f7b727f6e7f9dc12f0d2f"><div class="ttname"><a href="interface_m_c_o_b_j_loader.html#a73813e44db2f7b727f6e7f9dc12f0d2f">MCOBJLoader::Cube_vertex_array_size</a></div><div class="ttdeci">int Cube_vertex_array_size</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_o_b_j_loader_8h_source.html#l00029">MCOBJLoader.h:29</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a384adc168b4ba7f096fd956045d6fd40"><div class="ttname"><a href="interface_m_c_scene_object.html#a384adc168b4ba7f096fd956045d6fd40">-[MCSceneObject dealloc]</a></div><div class="ttdeci">void dealloc()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8mm_source.html#l00117">MCSceneObject.mm:117</a></div></div>
+<div class="ttc" id="interface_cube_face_html"><div class="ttname"><a href="interface_cube_face.html">CubeFace</a></div><div class="ttdef"><b>Definition:</b> <a href="_cube_face_8h_source.html#l00013">CubeFace.h:13</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_aac01258da90af2ab20a9e4b7ab0981da"><div class="ttname"><a href="interface_m_c_scene_object.html#aac01258da90af2ab20a9e4b7ab0981da">MCSceneObject::matrix</a></div><div class="ttdeci">CGFloat * matrix</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00061">MCSceneObject.h:61</a></div></div>
+<div class="ttc" id="interface_cube_html_a96f5358f4c34d3047f608c7c2ddb7938"><div class="ttname"><a href="interface_cube.html#a96f5358f4c34d3047f608c7c2ddb7938">-[Cube deadUpdate]</a></div><div class="ttdeci">void deadUpdate()</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8m_source.html#l00293">Cube.m:293</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a2155e70cd17c061dcd8d0e1b5f8d08bd"><div class="ttname"><a href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">MCSceneObject::mesh</a></div><div class="ttdeci">MCMesh * mesh</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00056">MCSceneObject.h:56</a></div></div>
+<div class="ttc" id="_test_cube_data_8h_html_ad3d3fa75133b9df3c3456a4ccc6f641a"><div class="ttname"><a href="_test_cube_data_8h.html#ad3d3fa75133b9df3c3456a4ccc6f641a">Cube_texture_coordinates</a></div><div class="ttdeci">float Cube_texture_coordinates[]</div><div class="ttdef"><b>Definition:</b> <a href="_test_cube_data_8h_source.html#l00519">TestCubeData.h:519</a></div></div>
+<div class="ttc" id="namespace_m_c_html_a7de0ec0d69e6ae233b2d934b0bf31260acf5d2e4cc90e21ca192be320422b8f22"><div class="ttname"><a href="namespace_m_c.html#a7de0ec0d69e6ae233b2d934b0bf31260acf5d2e4cc90e21ca192be320422b8f22">MC::Z</a></div><div class="ttdef"><b>Definition:</b> <a href="_global_8h_source.html#l00087">Global.h:87</a></div></div>
+<div class="ttc" id="interface_cube_html_a39c14393ba3121f4b2b783b799fcbdb4"><div class="ttname"><a href="interface_cube.html#a39c14393ba3121f4b2b783b799fcbdb4">Cube::_isLocked</a></div><div class="ttdeci">BOOL _isLocked</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00030">Cube.h:30</a></div></div>
+<div class="ttc" id="interface_m_c_mesh_html_aedb53496328c13440e5749fcec17d156"><div class="ttname"><a href="interface_m_c_mesh.html#aedb53496328c13440e5749fcec17d156">-[MCMesh render]</a></div><div class="ttdeci">void render()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mesh_8mm_source.html#l00087">MCMesh.mm:87</a></div></div>
+<div class="ttc" id="interface_m_c_o_b_j_loader_html_a5b24bc16a1f78d8a7259867e5b68f31f"><div class="ttname"><a href="interface_m_c_o_b_j_loader.html#a5b24bc16a1f78d8a7259867e5b68f31f">MCOBJLoader::Cube_texture_coordinates</a></div><div class="ttdeci">GLfloat * Cube_texture_coordinates</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_o_b_j_loader_8h_source.html#l00025">MCOBJLoader.h:25</a></div></div>
+<div class="ttc" id="_test_cube_data_8h_html_a8a8e273047e72a2ccfc7bc3fd754b3ba"><div class="ttname"><a href="_test_cube_data_8h.html#a8a8e273047e72a2ccfc7bc3fd754b3ba">Cube_normal_vectors</a></div><div class="ttdeci">float Cube_normal_vectors[]</div><div class="ttdef"><b>Definition:</b> <a href="_test_cube_data_8h_source.html#l00267">TestCubeData.h:267</a></div></div>
+<div class="ttc" id="interface_cube_html_a357de521629c506488708b0a5dfc8ff4"><div class="ttname"><a href="interface_cube.html#a357de521629c506488708b0a5dfc8ff4">Cube::index_selectedFace</a></div><div class="ttdeci">int index_selectedFace</div><div class="ttdef"><b>Definition:</b> <a href="_cube_8h_source.html#l00031">Cube.h:31</a></div></div>
+<div class="ttc" id="interface_coordinating_controller_html_ace8b4c7677a3c17b5012a9ef835aee31"><div class="ttname"><a href="interface_coordinating_controller.html#ace8b4c7677a3c17b5012a9ef835aee31">CoordinatingController::currentController</a></div><div class="ttdeci">sceneController * currentController</div><div class="ttdef"><b>Definition:</b> <a href="_coordinating_controller_8h_source.html#l00027">CoordinatingController.h:27</a></div></div>
+<div class="ttc" id="_m_c_collider_8h_html"><div class="ttname"><a href="_m_c_collider_8h.html">MCCollider.h</a></div></div>
+<div class="ttc" id="_cube_8h_html"><div class="ttname"><a href="_cube_8h.html">Cube.h</a></div></div>
+<div class="ttc" id="_test_cube_data_8h_html_a6208c77a0470b0f950a8ae979e005a1f"><div class="ttname"><a href="_test_cube_data_8h.html#a6208c77a0470b0f950a8ae979e005a1f">Cube_vertex_array_size</a></div><div class="ttdeci">#define Cube_vertex_array_size</div><div class="ttdef"><b>Definition:</b> <a href="_test_cube_data_8h_source.html#l00014">TestCubeData.h:14</a></div></div>
+<div class="ttc" id="interfacescene_controller_html_aca81ea9accf198eee160fbfb466ee6bc"><div class="ttname"><a href="interfacescene_controller.html#aca81ea9accf198eee160fbfb466ee6bc">-[sceneController gameOver]</a></div><div class="ttdeci">void gameOver()</div><div class="ttdef"><b>Definition:</b> <a href="scene_controller_8m_source.html#l00180">sceneController.m:180</a></div></div>
+<div class="ttc" id="_m_c_string_define_8h_html"><div class="ttname"><a href="_m_c_string_define_8h.html">MCStringDefine.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_cube_8m.html">Cube.m</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:36 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

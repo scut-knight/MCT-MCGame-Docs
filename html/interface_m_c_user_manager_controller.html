@@ -1,0 +1,846 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCUserManagerController类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_m_c_user_manager_controller.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pub-static-methods">Class Methods</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_m_c_user_manager_controller-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MCUserManagerController类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_m_c_user_manager_controller_8h_source.html">MCUserManagerController.h</a>&gt;</code></p>
+<div class="dynheader">
+类 MCUserManagerController 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_m_c_user_manager_controller.png" usemap="#MCUserManagerController_map" alt=""/>
+  <map id="MCUserManagerController_map" name="MCUserManagerController_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:a808a92be7e226bdaeb0cfbcea8827148"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a808a92be7e226bdaeb0cfbcea8827148">createNewUser:</a></td></tr>
+<tr class="separator:a808a92be7e226bdaeb0cfbcea8827148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85a84f569693d7d1a9757dad7d80da10"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a85a84f569693d7d1a9757dad7d80da10">changeCurrentUser:</a></td></tr>
+<tr class="separator:a85a84f569693d7d1a9757dad7d80da10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c4a05452dc40a0b21b2282229aff172"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a4c4a05452dc40a0b21b2282229aff172">updateAllUser</a></td></tr>
+<tr class="separator:a4c4a05452dc40a0b21b2282229aff172"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d4612577767417b849bdc77f5187c90"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a2d4612577767417b849bdc77f5187c90">updateCurrentUser</a></td></tr>
+<tr class="separator:a2d4612577767417b849bdc77f5187c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a234041d6c4fd8cb8acee3b585de08664"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a234041d6c4fd8cb8acee3b585de08664">createNewScoreWithMove:Time:</a></td></tr>
+<tr class="separator:a234041d6c4fd8cb8acee3b585de08664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84715ddf63887752e08cbb08b8e9d3e9"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a84715ddf63887752e08cbb08b8e9d3e9">updateTopScore</a></td></tr>
+<tr class="separator:a84715ddf63887752e08cbb08b8e9d3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6acfbca8c9112938f038d5b6cfe40090"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a6acfbca8c9112938f038d5b6cfe40090">updateMyScore</a></td></tr>
+<tr class="separator:a6acfbca8c9112938f038d5b6cfe40090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95eaac869e0d5093a260d5cc3e6d8d4d"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a95eaac869e0d5093a260d5cc3e6d8d4d">createNewLearnWithMove:Time:</a></td></tr>
+<tr class="separator:a95eaac869e0d5093a260d5cc3e6d8d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa271e1dbcc9654a28774c2989c584f58"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#aa271e1dbcc9654a28774c2989c584f58">saveCurrentUser</a></td></tr>
+<tr class="separator:aa271e1dbcc9654a28774c2989c584f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa569bc75019947847ae7f52046ad4cbc"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#aa569bc75019947847ae7f52046ad4cbc">copy</a><code> [implementation]</code></td></tr>
+<tr class="separator:aa569bc75019947847ae7f52046ad4cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82c545a6f58890434a127c1409cfc1f3"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a82c545a6f58890434a127c1409cfc1f3">retain</a><code> [implementation]</code></td></tr>
+<tr class="separator:a82c545a6f58890434a127c1409cfc1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac5c4b655db118f31d970156d6947f0"><td class="memItemLeft" align="right" valign="top">(NSUInteger)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#aaac5c4b655db118f31d970156d6947f0">retainCount</a><code> [implementation]</code></td></tr>
+<tr class="separator:aaac5c4b655db118f31d970156d6947f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa408d7c630efddd06ac6df3725168def"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#aa408d7c630efddd06ac6df3725168def">dataFilePath</a><code> [implementation]</code></td></tr>
+<tr class="separator:aa408d7c630efddd06ac6df3725168def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dfc6198657ddcb86f1bb91ab04b40ac"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a2dfc6198657ddcb86f1bb91ab04b40ac">init</a><code> [implementation]</code></td></tr>
+<tr class="separator:a2dfc6198657ddcb86f1bb91ab04b40ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92d7976aff11798c6eb8a1403f0dcc72"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a92d7976aff11798c6eb8a1403f0dcc72">dealloc</a><code> [implementation]</code></td></tr>
+<tr class="separator:a92d7976aff11798c6eb8a1403f0dcc72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70e0cb6f33833c0d28307cd680e6a173"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a70e0cb6f33833c0d28307cd680e6a173">insertUserSuccess:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a70e0cb6f33833c0d28307cd680e6a173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31615bd4b5d7c3ee792ca4140e9b02a2"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#a31615bd4b5d7c3ee792ca4140e9b02a2">insertScoreSuccess</a><code> [implementation]</code></td></tr>
+<tr class="separator:a31615bd4b5d7c3ee792ca4140e9b02a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef63708dc0bb91fb26def0eb20e28c7e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_user_manager_controller.html#aef63708dc0bb91fb26def0eb20e28c7e">insertLearnSuccess</a><code> [implementation]</code></td></tr>
+<tr class="separator:aef63708dc0bb91fb26def0eb20e28c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Class Methods</h2></td></tr>
+<tr class="memitem:a1a1429024170b2354ffd1d2c8ba32f13"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_m_c_user_manager_controller.html">MCUserManagerController</a> *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_user_manager_controller.html#a1a1429024170b2354ffd1d2c8ba32f13">sharedInstance</a></td></tr>
+<tr class="separator:a1a1429024170b2354ffd1d2c8ba32f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e2e5c5560c01b35dd29a4b8f871fcff"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_user_manager_controller.html#a0e2e5c5560c01b35dd29a4b8f871fcff">allocWithZone:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a0e2e5c5560c01b35dd29a4b8f871fcff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:a9c6969d9db7c7d982e16a3ecc4e8a5a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_d_b_controller.html">MCDBController</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_user_manager_controller.html#a9c6969d9db7c7d982e16a3ecc4e8a5a6">database</a></td></tr>
+<tr class="separator:a9c6969d9db7c7d982e16a3ecc4e8a5a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9438c9ac87adbf92550ec4b614fe28f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_user_manager_model.html">MCUserManagerModel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_user_manager_controller.html#a9438c9ac87adbf92550ec4b614fe28f3">userModel</a></td></tr>
+<tr class="separator:a9438c9ac87adbf92550ec4b614fe28f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ae6fb4909739191635d05b1778f3e7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_user_calculator.html">MCUserCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_user_manager_controller.html#a6ae6fb4909739191635d05b1778f3e7f">calculator</a></td></tr>
+<tr class="separator:a6ae6fb4909739191635d05b1778f3e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>用户系统管理控制类 </p>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8h_source.html">MCUserManagerController.h</a> 第 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00018">18</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a0e2e5c5560c01b35dd29a4b8f871fcff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (id) allocWithZone: </td>
+          <td></td>
+          <td class="paramtype">(NSZone *)&#160;</td>
+          <td class="paramname"><em>zone</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>重载allocWithZone函数，防止生成副本 </p>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00042">42</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00030">sharedInstance</a>.</p>
+
+<p>参考自 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00021">PopChangeUserViewController::initWithNibName:bundle:</a> , 以及 <a class="el" href="_user_manager_system_view_controller_8m_source.html#l00031">UserManagerSystemViewController::viewDidLoad</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a85a84f569693d7d1a9757dad7d80da10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) changeCurrentUser: </td>
+          <td></td>
+          <td class="paramtype">(NSString*)&#160;</td>
+          <td class="paramname"><em>_name</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>改变当前用户为_name用户</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_name</td><td>将要成为当前用户的用户的用户名 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00155">155</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_model_8h_source.html#l00017">MCUserManagerModel::allUser</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00298">saveCurrentUser</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00288">updateMyScore</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00023">userModel</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00085">init</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00173">insertUserSuccess:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa569bc75019947847ae7f52046ad4cbc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) copy </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>重载copy函数，防止生成副本 </p>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00050">50</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a95eaac869e0d5093a260d5cc3e6d8d4d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) createNewLearnWithMove: </td>
+          <td></td>
+          <td class="paramtype">(NSInteger)&#160;</td>
+          <td class="paramname"><em>_move</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">Time:</td>
+          <td></td>
+          <td class="paramtype">(double)&#160;</td>
+          <td class="paramname"><em>_time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>通过步数和时间来更新学习记录，并且更新数据库</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_move</td><td>使用步数 </td></tr>
+    <tr><td class="paramname">_time</td><td>消耗时间 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00248">248</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00022">database</a> , 以及 <a class="el" href="_m_c_d_b_controller_8m_source.html#l00486">MCDBController::insertLearn:</a>.</p>
+
+<p>参考自 <a class="el" href="_finish_view_8m_source.html#l00238">FinishView::insertRecord</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a234041d6c4fd8cb8acee3b585de08664"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) createNewScoreWithMove: </td>
+          <td></td>
+          <td class="paramtype">(NSInteger)&#160;</td>
+          <td class="paramname"><em>_move</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">Time:</td>
+          <td></td>
+          <td class="paramtype">(double)&#160;</td>
+          <td class="paramname"><em>_time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>通过步数和时间来更新得分，并且更新数据库</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_move</td><td>使用步数 </td></tr>
+    <tr><td class="paramname">_time</td><td>消耗时间 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00208">208</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_calculator_8m_source.html#l00027">MCUserCalculator::calculateScoreForMove:Time:</a>, <a class="el" href="_m_c_user_calculator_8m_source.html#l00036">MCUserCalculator::calculateSpeedForMove:Time:</a>, <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00024">calculator</a>, <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00022">database</a> , 以及 <a class="el" href="_m_c_d_b_controller_8m_source.html#l00293">MCDBController::insertScore:</a>.</p>
+
+<p>参考自 <a class="el" href="_counting_finish_view_8m_source.html#l00243">CountingFinishView::insertRecord</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a808a92be7e226bdaeb0cfbcea8827148"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) createNewUser: </td>
+          <td></td>
+          <td class="paramtype">(NSString*)&#160;</td>
+          <td class="paramname"><em>_name</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>以_name新建一个新的用户，用户的各项信息均为空值</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_name</td><td>新用户的用户名</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>如果用户已存在，返回NO；否则插入新用户并且返回YES </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00132">132</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_model_8h_source.html#l00017">MCUserManagerModel::allUser</a>, <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00022">database</a>, <a class="el" href="_m_c_d_b_controller_8m_source.html#l00154">MCDBController::insertUser:</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00023">userModel</a>.</p>
+
+<p>参考自 <a class="el" href="_pop_create_user_view_controller_8m_source.html#l00068">PopCreateUserViewController::createBtnPress:</a>, <a class="el" href="_finish_view_8m_source.html#l00238">FinishView::insertRecord</a> , 以及 <a class="el" href="_counting_finish_view_8m_source.html#l00243">CountingFinishView::insertRecord</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa408d7c630efddd06ac6df3725168def"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) dataFilePath </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>返回</dt><dd>用户数据文件的路径 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00074">74</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00085">init</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00298">saveCurrentUser</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a92d7976aff11798c6eb8a1403f0dcc72"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00115">115</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00024">calculator</a>, <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00022">database</a>, <a class="el" href="_m_c_d_b_controller_8m_source.html#l00068">MCDBController::release</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00023">userModel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2dfc6198657ddcb86f1bb91ab04b40ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) init </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>调用时从数据库中获取所有用户，并切换到最后用户(当前用户) </p>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00085">85</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_d_b_controller_8m_source.html#l00036">MCDBController::allocWithZone:</a>, <a class="el" href="_m_c_user_manager_model_8m_source.html#l00041">MCUserManagerModel::allocWithZone:</a>, <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00024">calculator</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00155">changeCurrentUser:</a>, <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00022">database</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00074">dataFilePath</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00186">updateAllUser</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00288">updateMyScore</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00279">updateTopScore</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00023">userModel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aef63708dc0bb91fb26def0eb20e28c7e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) insertLearnSuccess </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>一旦更新成功，改变当前用户数据</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_notification</td><td>观察者发送过来的信息包 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00265">265</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00186">updateAllUser</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00195">updateCurrentUser</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a31615bd4b5d7c3ee792ca4140e9b02a2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) insertScoreSuccess </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>一旦更新成功，改变当前用户数据</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_notification</td><td>观察者发送过来的信息包 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00228">228</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00186">updateAllUser</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00195">updateCurrentUser</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00288">updateMyScore</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00279">updateTopScore</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a70e0cb6f33833c0d28307cd680e6a173"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) insertUserSuccess: </td>
+          <td></td>
+          <td class="paramtype">(NSNotification*)&#160;</td>
+          <td class="paramname"><em>_notification</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>一旦更新成功，改变当前用户为已更新的用户</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_notification</td><td>观察者发送过来的信息包 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00173">173</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00155">changeCurrentUser:</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00186">updateAllUser</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a82c545a6f58890434a127c1409cfc1f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) retain </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>重载retain函数，防止生成副本 </p>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00058">58</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaac5c4b655db118f31d970156d6947f0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSUInteger) retainCount </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>重载retainCount函数，防止生成副本 </p>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00066">66</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa271e1dbcc9654a28774c2989c584f58"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) saveCurrentUser </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>将当前用户数据写入userfile。 </p>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00298">298</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_model_8h_source.html#l00016">MCUserManagerModel::currentUser</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00074">dataFilePath</a>, <a class="el" href="_m_c_user_8h_source.html#l00016">MCUser::name</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00023">userModel</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00155">changeCurrentUser:</a>, <a class="el" href="_finish_view_8m_source.html#l00238">FinishView::insertRecord</a> , 以及 <a class="el" href="_counting_finish_view_8m_source.html#l00243">CountingFinishView::insertRecord</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1a1429024170b2354ffd1d2c8ba32f13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (<a class="el" href="interface_m_c_user_manager_controller.html">MCUserManagerController</a> *) sharedInstance </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>唯一的公有构造方式，防止产生多个实例</p>
+<dl class="section return"><dt>返回</dt><dd>该单件的唯一实例 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00030">30</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00017">sharedSingleton_</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00042">allocWithZone:</a>, <a class="el" href="_pop_create_user_view_controller_8m_source.html#l00020">PopCreateUserViewController::initWithNibName:bundle:</a>, <a class="el" href="_finish_view_8m_source.html#l00238">FinishView::insertRecord</a>, <a class="el" href="_counting_finish_view_8m_source.html#l00243">CountingFinishView::insertRecord</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00305">MCCountingPlayInputViewController::showFinishView</a>, <a class="el" href="_finish_view_8m_source.html#l00217">FinishView::updateUserName</a> , 以及 <a class="el" href="_counting_finish_view_8m_source.html#l00222">CountingFinishView::updateUserName</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4c4a05452dc40a0b21b2282229aff172"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updateAllUser </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>根据数据库的查询结果，更新所有的用户。 </p>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00186">186</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00022">database</a> , 以及 <a class="el" href="_m_c_d_b_controller_8m_source.html#l00242">MCDBController::queryAllUser</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00085">init</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00265">insertLearnSuccess</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00228">insertScoreSuccess</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00173">insertUserSuccess:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2d4612577767417b849bdc77f5187c90"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updateCurrentUser </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>根据数据库的查询结果，更新当前的用户。 </p>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00195">195</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00022">database</a> , 以及 <a class="el" href="_m_c_d_b_controller_8m_source.html#l00190">MCDBController::queryUser:</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00265">insertLearnSuccess</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00228">insertScoreSuccess</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6acfbca8c9112938f038d5b6cfe40090"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updateMyScore </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>更新当前用户的最高的五个得分 </p>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00288">288</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00022">database</a> , 以及 <a class="el" href="_m_c_d_b_controller_8m_source.html#l00381">MCDBController::queryMyScore:</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00155">changeCurrentUser:</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00085">init</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00228">insertScoreSuccess</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a84715ddf63887752e08cbb08b8e9d3e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updateTopScore </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>更新当前最高分 </p>
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a> 第 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00279">279</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00022">database</a> , 以及 <a class="el" href="_m_c_d_b_controller_8m_source.html#l00329">MCDBController::queryTopScore</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00085">init</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00228">insertScoreSuccess</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="a6ae6fb4909739191635d05b1778f3e7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_user_calculator.html">MCUserCalculator</a>*) calculator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8h_source.html">MCUserManagerController.h</a> 第 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00024">24</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00208">createNewScoreWithMove:Time:</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00115">dealloc</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00085">init</a> , 以及 <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00305">MCCountingPlayInputViewController::showFinishView</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9c6969d9db7c7d982e16a3ecc4e8a5a6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_d_b_controller.html">MCDBController</a>*) database</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8h_source.html">MCUserManagerController.h</a> 第 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00022">22</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00248">createNewLearnWithMove:Time:</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00208">createNewScoreWithMove:Time:</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00132">createNewUser:</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00115">dealloc</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00085">init</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00186">updateAllUser</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00195">updateCurrentUser</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00288">updateMyScore</a> , 以及 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00279">updateTopScore</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9438c9ac87adbf92550ec4b614fe28f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_user_manager_model.html">MCUserManagerModel</a>*) userModel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_user_manager_controller_8h_source.html">MCUserManagerController.h</a> 第 <a class="el" href="_m_c_user_manager_controller_8h_source.html#l00023">23</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00155">changeCurrentUser:</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00132">createNewUser:</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00115">dealloc</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00085">init</a>, <a class="el" href="_finish_view_8m_source.html#l00238">FinishView::insertRecord</a>, <a class="el" href="_counting_finish_view_8m_source.html#l00243">CountingFinishView::insertRecord</a>, <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00298">saveCurrentUser</a>, <a class="el" href="_finish_view_8m_source.html#l00217">FinishView::updateUserName</a> , 以及 <a class="el" href="_counting_finish_view_8m_source.html#l00222">CountingFinishView::updateUserName</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_user_manager_controller_8h_source.html">MCUserManagerController.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_user_manager_controller_8m_source.html">MCUserManagerController.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_m_c_user_manager_controller.html">MCUserManagerController</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:39 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/MCButton.m 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_m_c_button_8m_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">MCButton.m</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_m_c_button_8m.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  MCButton.m</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  MCGame</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by kwan terry on 12-10-3.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_button_8h.html">MCButton.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_coordinating_controller_8h.html">CoordinatingController.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#pragma mark square</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="_m_c_button_8m.html#ab273a60e44f2c6790f9ea9c5d6cb3e2e">   14</a></span>&#160;<span class="preprocessor"></span><span class="keyword">static</span> NSInteger <a class="code" href="_m_c_button_8m.html#ab273a60e44f2c6790f9ea9c5d6cb3e2e">MCSquareVertexSize</a> = 2;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="_m_c_button_8m.html#ac32bac7e530d736e27e742a8ad2b0673">   15</a></span>&#160;<span class="keyword">static</span> NSInteger <a class="code" href="_m_c_button_8m.html#ac32bac7e530d736e27e742a8ad2b0673">MCSquareColorSize</a> = 4;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">// 未按下的外观</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="_m_c_button_8m.html#a9db5d58190ae70a185e8eeefb970ee7f">   17</a></span>&#160;<span class="keyword">static</span> GLenum <a class="code" href="_m_c_button_8m.html#a9db5d58190ae70a185e8eeefb970ee7f">MCSquareOutlineRenderStyle</a> = GL_LINE_LOOP;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="_m_c_button_8m.html#af894abd7d2e9ba26f3dff374db520fe8">   18</a></span>&#160;<span class="keyword">static</span> NSInteger <a class="code" href="_m_c_button_8m.html#af894abd7d2e9ba26f3dff374db520fe8">MCSquareOutlineVertexesCount</a> = 4;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="_m_c_button_8m.html#a5c8a3523ea65be8e7556c6eec0693793">   19</a></span>&#160;<span class="keyword">static</span> CGFloat <a class="code" href="_m_c_button_8m.html#a5c8a3523ea65be8e7556c6eec0693793">MCSquareOutlineVertexes</a>[8] = {-0.5f, -0.5f, 0.5f,  -0.5f, 0.5f,   0.5f, -0.5f,  0.5f};</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="_m_c_button_8m.html#a3b95d9daef415148f4b89963394d5d54">   20</a></span>&#160;<span class="keyword">static</span> CGFloat <a class="code" href="_m_c_button_8m.html#a3b95d9daef415148f4b89963394d5d54">MCSquareOutlineColorValues</a>[16] = {1.0,1.0,1.0,1.0, 1.0,1.0,1.0,1.0, 1.0,1.0,1.0,1.0, 1.0,1.0,1.0,1.0};</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">// 按下后的外观</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="_m_c_button_8m.html#ac2d533297c005f756e8d0de02c4701fc">   22</a></span>&#160;<span class="keyword">static</span> GLenum <a class="code" href="_m_c_button_8m.html#ac2d533297c005f756e8d0de02c4701fc">MCSquareFillRenderStyle</a> = GL_TRIANGLE_STRIP;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="_m_c_button_8m.html#af822a3a13bb4cf255e18aa0d04881559">   23</a></span>&#160;<span class="keyword">static</span> NSInteger <a class="code" href="_m_c_button_8m.html#af822a3a13bb4cf255e18aa0d04881559">MCSquareFillVertexesCount</a> = 4;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="_m_c_button_8m.html#a112cbd5a91d4526ea122d3fb13ffdb53">   24</a></span>&#160;<span class="keyword">static</span> CGFloat <a class="code" href="_m_c_button_8m.html#a112cbd5a91d4526ea122d3fb13ffdb53">MCSquareFillVertexes</a>[8] = {-0.5,-0.5, 0.5,-0.5, -0.5,0.5, 0.5,0.5};</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">@implementation </span><a class="code" href="interface_m_c_button.html">MCButton</a></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_m_c_button.html#a71dcc2c15eadbca88de1574e0037e04a">buttonDownAction</a>,<a class="code" href="interface_m_c_button.html#a31e60efb92bc94a9c96243dbb5f4a8bc">buttonUpAction</a>,<a class="code" href="interface_m_c_button.html#abdc830d5745ac22162ef9985da9d9bd8">target</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="interface_m_c_button.html#a4b36df2262ad8d29ec753e95100340a5">   34</a></span>&#160;-(void)<a class="code" href="interface_m_c_button.html#a4b36df2262ad8d29ec753e95100340a5">awake</a></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="interface_m_c_button.html#a58555785684d2a7063144b95d65cfce6">pressed</a> = NO;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a> = [[<a class="code" href="interface_m_c_mesh.html">MCMesh</a> alloc] initWithVertexes:MCSquareOutlineVertexes vertexCount:MCSquareOutlineVertexesCount vertexSize:MCSquareVertexSize renderStyle:MCSquareOutlineRenderStyle];</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a>.<a class="code" href="interface_m_c_mesh.html#a1523b3b2ece9117e1002cc2dd86dfa64">colors</a> = <a class="code" href="_m_c_button_8m.html#a3b95d9daef415148f4b89963394d5d54">MCSquareOutlineColorValues</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a>.<a class="code" href="interface_m_c_mesh.html#afd6c7fe127b0c348ec68952854cbec29">colorSize</a> = <a class="code" href="_m_c_button_8m.html#ac32bac7e530d736e27e742a8ad2b0673">MCSquareColorSize</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="interface_m_c_button.html#aef198cabd30d41914cba6dde0bea0ed1">screenRect</a> = [[[<a class="code" href="interface_coordinating_controller.html">CoordinatingController</a> <a class="code" href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">sharedCoordinatingController</a>] <a class="code" href="interface_coordinating_controller.html#ace8b4c7677a3c17b5012a9ef835aee31">currentController</a>].inputController </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                  screenRectFromMeshRect:self.meshBounds </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                  atPoint:CGPointMake(translation.x, translation.y)];</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// this is a bit rendundant, but allows for much simpler subclassing</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_button.html#a48db53bb37c5531884b68eac3163850a">setNotPressedVertexes</a>];</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="interface_m_c_button.html#a5cdaa49ac4281249abf03f2baf275ed6">   52</a></span>&#160;-(void)<a class="code" href="interface_m_c_button.html#a5cdaa49ac4281249abf03f2baf275ed6">update</a></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// check for touches</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_button.html#ac0cf409eb62ab47648ffb849e341a1a8">handleTouches</a>];</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    [<span class="keyword">super</span> <a class="code" href="interface_m_c_scene_object.html#a525fd1511e6a4d0bd9e1b39420542252">update</a>];</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="interface_m_c_button.html#afc52270a8a5b1c596eb97efd37f9de5c">   62</a></span>&#160;-(void)<a class="code" href="interface_m_c_button.html#afc52270a8a5b1c596eb97efd37f9de5c">setPressedVertexes</a></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a>.<a class="code" href="interface_m_c_mesh.html#aa7efc04bee066fa7527a1263de48ca25">vertexes</a> = <a class="code" href="_m_c_button_8m.html#a112cbd5a91d4526ea122d3fb13ffdb53">MCSquareFillVertexes</a>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a>.<a class="code" href="interface_m_c_mesh.html#a2b3401808ceadcc5ca8b806d2f87c510">renderStyle</a> = <a class="code" href="_m_c_button_8m.html#ac2d533297c005f756e8d0de02c4701fc">MCSquareFillRenderStyle</a>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a>.<a class="code" href="interface_m_c_mesh.html#a443f1f90b7dccc0de24b8035101da7d3">vertexCount</a> = <a class="code" href="_m_c_button_8m.html#af822a3a13bb4cf255e18aa0d04881559">MCSquareFillVertexesCount</a>;   </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a>.<a class="code" href="interface_m_c_mesh.html#a1523b3b2ece9117e1002cc2dd86dfa64">colors</a> = <a class="code" href="_m_c_button_8m.html#a3b95d9daef415148f4b89963394d5d54">MCSquareOutlineColorValues</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="interface_m_c_button.html#a48db53bb37c5531884b68eac3163850a">   73</a></span>&#160;-(void)<a class="code" href="interface_m_c_button.html#a48db53bb37c5531884b68eac3163850a">setNotPressedVertexes</a></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a>.<a class="code" href="interface_m_c_mesh.html#aa7efc04bee066fa7527a1263de48ca25">vertexes</a> = <a class="code" href="_m_c_button_8m.html#a5c8a3523ea65be8e7556c6eec0693793">MCSquareOutlineVertexes</a>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a>.<a class="code" href="interface_m_c_mesh.html#a2b3401808ceadcc5ca8b806d2f87c510">renderStyle</a> = <a class="code" href="_m_c_button_8m.html#a9db5d58190ae70a185e8eeefb970ee7f">MCSquareOutlineRenderStyle</a>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a>.<a class="code" href="interface_m_c_mesh.html#a443f1f90b7dccc0de24b8035101da7d3">vertexCount</a> = <a class="code" href="_m_c_button_8m.html#af894abd7d2e9ba26f3dff374db520fe8">MCSquareOutlineVertexesCount</a>;    </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a>.<a class="code" href="interface_m_c_mesh.html#a1523b3b2ece9117e1002cc2dd86dfa64">colors</a> = <a class="code" href="_m_c_button_8m.html#a3b95d9daef415148f4b89963394d5d54">MCSquareOutlineColorValues</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="interface_m_c_button.html#ac0cf409eb62ab47648ffb849e341a1a8">   84</a></span>&#160;-(void)<a class="code" href="interface_m_c_button.html#ac0cf409eb62ab47648ffb849e341a1a8">handleTouches</a></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;{</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    NSSet * touches = [[[<a class="code" href="interface_coordinating_controller.html">CoordinatingController</a> <a class="code" href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">sharedCoordinatingController</a>] <a class="code" href="interface_coordinating_controller.html#ace8b4c7677a3c17b5012a9ef835aee31">currentController</a>].inputController touchEvents];</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">if</span> ([touches count] == 0) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    BOOL pointInBounds = NO;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9f">FSM_Interaction_State</a> fsm_Current_State = [[[<a class="code" href="interface_coordinating_controller.html">CoordinatingController</a> <a class="code" href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">sharedCoordinatingController</a>] <a class="code" href="interface_coordinating_controller.html#ace8b4c7677a3c17b5012a9ef835aee31">currentController</a>].inputController fsm_Current_State];</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    CGPoint lastpoint = [[[<a class="code" href="interface_coordinating_controller.html">CoordinatingController</a> <a class="code" href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">sharedCoordinatingController</a>] <a class="code" href="interface_coordinating_controller.html#ace8b4c7677a3c17b5012a9ef835aee31">currentController</a>].inputController lastpoint];</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="comment">// 处理每一点触控</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">for</span> (UITouch * touch in [touches allObjects]) {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        CGPoint touchPoint = [touch previousLocationInView:[touch view]];</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">if</span> (touch.phase == UITouchPhaseEnded &amp;&amp; fsm_Current_State==<a class="code" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fabb8451c5ce31fccdea2b5647681ea1e4">kState_F1</a>){</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">if</span> (CGRectContainsPoint(<a class="code" href="interface_m_c_button.html#aef198cabd30d41914cba6dde0bea0ed1">screenRect</a>, lastpoint)) {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                [<span class="keyword">self</span> <a class="code" href="interface_m_c_button.html#adc62377732cef9738a90bbd07bd780e7">touchUp</a>];</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">if</span> (CGRectContainsPoint(<a class="code" href="interface_m_c_button.html#aef198cabd30d41914cba6dde0bea0ed1">screenRect</a>, touchPoint)) {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            pointInBounds = YES;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keywordflow">if</span> ((touch.phase == UITouchPhaseBegan)||((touch.phase == UITouchPhaseStationary))) {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                [<span class="keyword">self</span> <a class="code" href="interface_m_c_button.html#a96717039976417150c39d7b1d3f1c3ca">touchDown</a>];</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">if</span> (!pointInBounds) {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        [<span class="keyword">self</span> <a class="code" href="interface_m_c_button.html#aaf088eca28d7fcdfdc427d7a09c60c32">showUp</a>];</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="interface_m_c_button.html#adc62377732cef9738a90bbd07bd780e7">  116</a></span>&#160;-(void)<a class="code" href="interface_m_c_button.html#adc62377732cef9738a90bbd07bd780e7">touchUp</a></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;{</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="interface_m_c_button.html#a58555785684d2a7063144b95d65cfce6">pressed</a>) <span class="keywordflow">return</span>; <span class="comment">// we were already up</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="interface_m_c_button.html#a58555785684d2a7063144b95d65cfce6">pressed</a> = NO;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_button.html#a48db53bb37c5531884b68eac3163850a">setNotPressedVertexes</a>];</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    [<a class="code" href="interface_m_c_button.html#abdc830d5745ac22162ef9985da9d9bd8">target</a> performSelector:buttonUpAction];</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;}</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="interface_m_c_button.html#aaf088eca28d7fcdfdc427d7a09c60c32">  128</a></span>&#160;-(void)<a class="code" href="interface_m_c_button.html#aaf088eca28d7fcdfdc427d7a09c60c32">showUp</a></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;{</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="interface_m_c_button.html#a58555785684d2a7063144b95d65cfce6">pressed</a>) <span class="keywordflow">return</span>; <span class="comment">// we were already up</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="code" href="interface_m_c_button.html#a58555785684d2a7063144b95d65cfce6">pressed</a> = NO;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_button.html#a48db53bb37c5531884b68eac3163850a">setNotPressedVertexes</a>];</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;}</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
+<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="interface_m_c_button.html#a96717039976417150c39d7b1d3f1c3ca">  138</a></span>&#160;-(void)<a class="code" href="interface_m_c_button.html#a96717039976417150c39d7b1d3f1c3ca">touchDown</a></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;{</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_m_c_button.html#a58555785684d2a7063144b95d65cfce6">pressed</a>) <span class="keywordflow">return</span>; <span class="comment">// we were already down</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <a class="code" href="interface_m_c_button.html#a58555785684d2a7063144b95d65cfce6">pressed</a> = YES;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_button.html#afc52270a8a5b1c596eb97efd37f9de5c">setPressedVertexes</a>];</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    [<a class="code" href="interface_m_c_button.html#abdc830d5745ac22162ef9985da9d9bd8">target</a> performSelector:buttonDownAction];</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;}</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="keyword">@end</span></div>
+<div class="ttc" id="interface_m_c_button_html"><div class="ttname"><a href="interface_m_c_button.html">MCButton</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8h_source.html#l00014">MCButton.h:14</a></div></div>
+<div class="ttc" id="_m_c_button_8h_html"><div class="ttname"><a href="_m_c_button_8h.html">MCButton.h</a></div></div>
+<div class="ttc" id="_m_c_button_8m_html_af822a3a13bb4cf255e18aa0d04881559"><div class="ttname"><a href="_m_c_button_8m.html#af822a3a13bb4cf255e18aa0d04881559">MCSquareFillVertexesCount</a></div><div class="ttdeci">static NSInteger MCSquareFillVertexesCount</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00023">MCButton.m:23</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a5ff8ec50a71a5debcd309dd69e29ac9f"><div class="ttname"><a href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9f">FSM_Interaction_State</a></div><div class="ttdeci">FSM_Interaction_State</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00125">MCConfiguration.h:125</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_adc62377732cef9738a90bbd07bd780e7"><div class="ttname"><a href="interface_m_c_button.html#adc62377732cef9738a90bbd07bd780e7">-[MCButton touchUp]</a></div><div class="ttdeci">void touchUp()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00116">MCButton.m:116</a></div></div>
+<div class="ttc" id="_m_c_button_8m_html_a3b95d9daef415148f4b89963394d5d54"><div class="ttname"><a href="_m_c_button_8m.html#a3b95d9daef415148f4b89963394d5d54">MCSquareOutlineColorValues</a></div><div class="ttdeci">static CGFloat MCSquareOutlineColorValues[16]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00020">MCButton.m:20</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_a71dcc2c15eadbca88de1574e0037e04a"><div class="ttname"><a href="interface_m_c_button.html#a71dcc2c15eadbca88de1574e0037e04a">MCButton::buttonDownAction</a></div><div class="ttdeci">SEL buttonDownAction</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8h_source.html#l00026">MCButton.h:26</a></div></div>
+<div class="ttc" id="_m_c_button_8m_html_a9db5d58190ae70a185e8eeefb970ee7f"><div class="ttname"><a href="_m_c_button_8m.html#a9db5d58190ae70a185e8eeefb970ee7f">MCSquareOutlineRenderStyle</a></div><div class="ttdeci">static GLenum MCSquareOutlineRenderStyle</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00017">MCButton.m:17</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_a4b36df2262ad8d29ec753e95100340a5"><div class="ttname"><a href="interface_m_c_button.html#a4b36df2262ad8d29ec753e95100340a5">-[MCButton awake]</a></div><div class="ttdeci">void awake()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00034">MCButton.m:34</a></div></div>
+<div class="ttc" id="interface_coordinating_controller_html"><div class="ttname"><a href="interface_coordinating_controller.html">CoordinatingController</a></div><div class="ttdef"><b>Definition:</b> <a href="_coordinating_controller_8h_source.html#l00023">CoordinatingController.h:23</a></div></div>
+<div class="ttc" id="_coordinating_controller_8h_html"><div class="ttname"><a href="_coordinating_controller_8h.html">CoordinatingController.h</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_a5cdaa49ac4281249abf03f2baf275ed6"><div class="ttname"><a href="interface_m_c_button.html#a5cdaa49ac4281249abf03f2baf275ed6">-[MCButton update]</a></div><div class="ttdeci">void update()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00052">MCButton.m:52</a></div></div>
+<div class="ttc" id="interface_coordinating_controller_html_a0d275e488bdda11656b6b675b5a2245d"><div class="ttname"><a href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">+[CoordinatingController sharedCoordinatingController]</a></div><div class="ttdeci">CoordinatingController * sharedCoordinatingController()</div><div class="ttdef"><b>Definition:</b> <a href="_coordinating_controller_8m_source.html#l00031">CoordinatingController.m:31</a></div></div>
+<div class="ttc" id="interface_m_c_mesh_html_aa7efc04bee066fa7527a1263de48ca25"><div class="ttname"><a href="interface_m_c_mesh.html#aa7efc04bee066fa7527a1263de48ca25">MCMesh::vertexes</a></div><div class="ttdeci">GLfloat * vertexes</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mesh_8h_source.html#l00024">MCMesh.h:24</a></div></div>
+<div class="ttc" id="_m_c_button_8m_html_a112cbd5a91d4526ea122d3fb13ffdb53"><div class="ttname"><a href="_m_c_button_8m.html#a112cbd5a91d4526ea122d3fb13ffdb53">MCSquareFillVertexes</a></div><div class="ttdeci">static CGFloat MCSquareFillVertexes[8]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00024">MCButton.m:24</a></div></div>
+<div class="ttc" id="interface_m_c_mesh_html_a1523b3b2ece9117e1002cc2dd86dfa64"><div class="ttname"><a href="interface_m_c_mesh.html#a1523b3b2ece9117e1002cc2dd86dfa64">MCMesh::colors</a></div><div class="ttdeci">GLfloat * colors</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mesh_8h_source.html#l00025">MCMesh.h:25</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_aaf088eca28d7fcdfdc427d7a09c60c32"><div class="ttname"><a href="interface_m_c_button.html#aaf088eca28d7fcdfdc427d7a09c60c32">-[MCButton showUp]</a></div><div class="ttdeci">void showUp()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00128">MCButton.m:128</a></div></div>
+<div class="ttc" id="interface_m_c_mesh_html_afd6c7fe127b0c348ec68952854cbec29"><div class="ttname"><a href="interface_m_c_mesh.html#afd6c7fe127b0c348ec68952854cbec29">MCMesh::colorSize</a></div><div class="ttdeci">NSInteger colorSize</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mesh_8h_source.html#l00034">MCMesh.h:34</a></div></div>
+<div class="ttc" id="_m_c_button_8m_html_ac32bac7e530d736e27e742a8ad2b0673"><div class="ttname"><a href="_m_c_button_8m.html#ac32bac7e530d736e27e742a8ad2b0673">MCSquareColorSize</a></div><div class="ttdeci">static NSInteger MCSquareColorSize</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00015">MCButton.m:15</a></div></div>
+<div class="ttc" id="interface_m_c_mesh_html"><div class="ttname"><a href="interface_m_c_mesh.html">MCMesh</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mesh_8h_source.html#l00022">MCMesh.h:22</a></div></div>
+<div class="ttc" id="interface_m_c_mesh_html_a443f1f90b7dccc0de24b8035101da7d3"><div class="ttname"><a href="interface_m_c_mesh.html#a443f1f90b7dccc0de24b8035101da7d3">MCMesh::vertexCount</a></div><div class="ttdeci">NSInteger vertexCount</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mesh_8h_source.html#l00032">MCMesh.h:32</a></div></div>
+<div class="ttc" id="_m_c_button_8m_html_ac2d533297c005f756e8d0de02c4701fc"><div class="ttname"><a href="_m_c_button_8m.html#ac2d533297c005f756e8d0de02c4701fc">MCSquareFillRenderStyle</a></div><div class="ttdeci">static GLenum MCSquareFillRenderStyle</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00022">MCButton.m:22</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a5ff8ec50a71a5debcd309dd69e29ac9fabb8451c5ce31fccdea2b5647681ea1e4"><div class="ttname"><a href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fabb8451c5ce31fccdea2b5647681ea1e4">kState_F1</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00142">MCConfiguration.h:142</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_a96717039976417150c39d7b1d3f1c3ca"><div class="ttname"><a href="interface_m_c_button.html#a96717039976417150c39d7b1d3f1c3ca">-[MCButton touchDown]</a></div><div class="ttdeci">void touchDown()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00138">MCButton.m:138</a></div></div>
+<div class="ttc" id="interface_m_c_mesh_html_a2b3401808ceadcc5ca8b806d2f87c510"><div class="ttname"><a href="interface_m_c_mesh.html#a2b3401808ceadcc5ca8b806d2f87c510">MCMesh::renderStyle</a></div><div class="ttdeci">GLenum renderStyle</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mesh_8h_source.html#l00030">MCMesh.h:30</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_a48db53bb37c5531884b68eac3163850a"><div class="ttname"><a href="interface_m_c_button.html#a48db53bb37c5531884b68eac3163850a">-[MCButton setNotPressedVertexes]</a></div><div class="ttdeci">void setNotPressedVertexes()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00073">MCButton.m:73</a></div></div>
+<div class="ttc" id="_m_c_button_8m_html_ab273a60e44f2c6790f9ea9c5d6cb3e2e"><div class="ttname"><a href="_m_c_button_8m.html#ab273a60e44f2c6790f9ea9c5d6cb3e2e">MCSquareVertexSize</a></div><div class="ttdeci">static NSInteger MCSquareVertexSize</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00014">MCButton.m:14</a></div></div>
+<div class="ttc" id="_m_c_button_8m_html_af894abd7d2e9ba26f3dff374db520fe8"><div class="ttname"><a href="_m_c_button_8m.html#af894abd7d2e9ba26f3dff374db520fe8">MCSquareOutlineVertexesCount</a></div><div class="ttdeci">static NSInteger MCSquareOutlineVertexesCount</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00018">MCButton.m:18</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a2155e70cd17c061dcd8d0e1b5f8d08bd"><div class="ttname"><a href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">MCSceneObject::mesh</a></div><div class="ttdeci">MCMesh * mesh</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00056">MCSceneObject.h:56</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_abdc830d5745ac22162ef9985da9d9bd8"><div class="ttname"><a href="interface_m_c_button.html#abdc830d5745ac22162ef9985da9d9bd8">MCButton::target</a></div><div class="ttdeci">id target</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8h_source.html#l00022">MCButton.h:22</a></div></div>
+<div class="ttc" id="_m_c_button_8m_html_a5c8a3523ea65be8e7556c6eec0693793"><div class="ttname"><a href="_m_c_button_8m.html#a5c8a3523ea65be8e7556c6eec0693793">MCSquareOutlineVertexes</a></div><div class="ttdeci">static CGFloat MCSquareOutlineVertexes[8]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00019">MCButton.m:19</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_a58555785684d2a7063144b95d65cfce6"><div class="ttname"><a href="interface_m_c_button.html#a58555785684d2a7063144b95d65cfce6">MCButton::pressed</a></div><div class="ttdeci">BOOL pressed</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8h_source.html#l00018">MCButton.h:18</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_afc52270a8a5b1c596eb97efd37f9de5c"><div class="ttname"><a href="interface_m_c_button.html#afc52270a8a5b1c596eb97efd37f9de5c">-[MCButton setPressedVertexes]</a></div><div class="ttdeci">void setPressedVertexes()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00062">MCButton.m:62</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_a31e60efb92bc94a9c96243dbb5f4a8bc"><div class="ttname"><a href="interface_m_c_button.html#a31e60efb92bc94a9c96243dbb5f4a8bc">MCButton::buttonUpAction</a></div><div class="ttdeci">SEL buttonUpAction</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8h_source.html#l00030">MCButton.h:30</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_aef198cabd30d41914cba6dde0bea0ed1"><div class="ttname"><a href="interface_m_c_button.html#aef198cabd30d41914cba6dde0bea0ed1">MCButton::screenRect</a></div><div class="ttdeci">CGRect screenRect</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8h_source.html#l00031">MCButton.h:31</a></div></div>
+<div class="ttc" id="interface_coordinating_controller_html_ace8b4c7677a3c17b5012a9ef835aee31"><div class="ttname"><a href="interface_coordinating_controller.html#ace8b4c7677a3c17b5012a9ef835aee31">CoordinatingController::currentController</a></div><div class="ttdeci">sceneController * currentController</div><div class="ttdef"><b>Definition:</b> <a href="_coordinating_controller_8h_source.html#l00027">CoordinatingController.h:27</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a525fd1511e6a4d0bd9e1b39420542252"><div class="ttname"><a href="interface_m_c_scene_object.html#a525fd1511e6a4d0bd9e1b39420542252">-[MCSceneObject update]</a></div><div class="ttdeci">void update()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8mm_source.html#l00061">MCSceneObject.mm:61</a></div></div>
+<div class="ttc" id="interface_m_c_button_html_ac0cf409eb62ab47648ffb849e341a1a8"><div class="ttname"><a href="interface_m_c_button.html#ac0cf409eb62ab47648ffb849e341a1a8">-[MCButton handleTouches]</a></div><div class="ttdeci">void handleTouches()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_button_8m_source.html#l00084">MCButton.m:84</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_m_c_button_8m.html">MCButton.m</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:37 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/MCMaterialController.m 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_m_c_material_controller_8m_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">MCMaterialController.m</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_m_c_material_controller_8m.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  MCMaterialController.m</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  MCGame</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by kwan terry on 12-9-29.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_material_controller_8h.html">MCMaterialController.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_textured_quad_8h.html">MCTexturedQuad.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_animated_quad_8h.html">MCAnimatedQuad.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_configuration_8h.html">MCConfiguration.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_string_define_8h.html">MCStringDefine.h</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_platform_detect_8h.html">PlatformDetect.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">@implementation </span><a class="code" href="interface_m_c_material_controller.html">MCMaterialController</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#a2229ae30dcdb3e391c16202e112477b4">   23</a></span>&#160;+(<a class="code" href="interface_m_c_material_controller.html">MCMaterialController</a>*)<a class="code" href="interface_m_c_material_controller.html#a2229ae30dcdb3e391c16202e112477b4">sharedMaterialController</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">static</span> <a class="code" href="interface_m_c_material_controller.html">MCMaterialController</a> *<a class="code" href="interface_m_c_material_controller.html#a2229ae30dcdb3e391c16202e112477b4">sharedMaterialController</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    @<span class="keyword">synchronized</span>(<span class="keyword">self</span>)</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">if</span> (!sharedMaterialController)</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            sharedMaterialController = [[<a class="code" href="interface_m_c_material_controller.html">MCMaterialController</a> alloc] init];</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="interface_m_c_material_controller.html#a2229ae30dcdb3e391c16202e112477b4">sharedMaterialController</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="interface_m_c_material_controller.html#a2229ae30dcdb3e391c16202e112477b4">sharedMaterialController</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#a372ed91f5c710577e225e2450558d91a">   36</a></span>&#160;- (id) <a class="code" href="interface_m_c_material_controller.html#a372ed91f5c710577e225e2450558d91a">init</a></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">self</span> = [<span class="keyword">super</span> init];</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span> != nil) {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;         <span class="comment">//判断什么分辨率</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        NSString *platform = [<a class="code" href="interface_platform_detect.html">PlatformDetect</a> <a class="code" href="interface_platform_detect.html#a8cdd8340a043cb6365c27d2e95d005e2">platformString</a>];</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        NSLog(<span class="stringliteral">@&quot;This is a %@ device!&quot;</span>,platform);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">if</span> ([platform isEqualToString:<span class="stringliteral">@&quot;iPad 3 (GSM+CDMA)&quot;</span>]||</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            [platform isEqualToString:<span class="stringliteral">@&quot;iPad 3&quot;</span>]||</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            [platform isEqualToString:<span class="stringliteral">@&quot;iPad 4 (WiFi)&quot;</span>]||</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            [platform isEqualToString:<span class="stringliteral">@&quot;iPad 4&quot;</span>]||</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            [platform isEqualToString:<span class="stringliteral">@&quot;iPad 4 (GSM+CDMA)&quot;</span>]) {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="comment">//加载高分辨率</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a5dea55875e21daf0bd993c26d4c78527">loadHighResolution</a>];</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;             <span class="comment">//加载高分辨率</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#adfd77b6c8b3d24dc0f2681988bfe80a6">loadLowResolution</a>];</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">self</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#adfd77b6c8b3d24dc0f2681988bfe80a6">   61</a></span>&#160;-(void)<a class="code" href="interface_m_c_material_controller.html#adfd77b6c8b3d24dc0f2681988bfe80a6">loadLowResolution</a>{</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// preload all our textures and atlases</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;sixcolor.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:@&quot;sixcolor&quot;];</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;cubeBlack3.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:@&quot;cubeTexture3&quot;];</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;cubeBlack3.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:@&quot;LockTexture&quot;];</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">//低分辨背景</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;background2.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:@&quot;background&quot;];</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">//space indicator</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;arrow_left.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:kSpaceDirectionIndicatorLeft];</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;arrow_right.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:kSpaceDirectionIndicatorRight];</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;arrow_up.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:kSpaceDirectionIndicatorUP];</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;arrow_down.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:kSpaceDirectionIndicatorDown];</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">//cubeface</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;yellowface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_YellowKEY];</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;whiteface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_WhiteKEY];</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;blueface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_BlueKEY];</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;orangeface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_OrangeKEY];</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;redface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_RedKEY];</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;greenface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_GreenKEY];</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;blackface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_BlackKEY];</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="comment">//[self loadAtlasData:@&quot;countNumber&quot;];</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#aac28e9a141ce2a93b777b9c5538ee70d">loadAtlasData</a>:@&quot;cubeAction&quot;];</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#aac28e9a141ce2a93b777b9c5538ee70d">loadAtlasData</a>:@&quot;particleAtlas&quot;];</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a7aee90b1d02d7d33dfc8de7944dfb961">loadAtlas_TexturePacker_Data</a>:@&quot;home_element&quot;];</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a7aee90b1d02d7d33dfc8de7944dfb961">loadAtlas_TexturePacker_Data</a>:@&quot;learn_element&quot;];</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a7aee90b1d02d7d33dfc8de7944dfb961">loadAtlas_TexturePacker_Data</a>:@&quot;number&quot;];</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#a5dea55875e21daf0bd993c26d4c78527">   95</a></span>&#160;-(void)<a class="code" href="interface_m_c_material_controller.html#a5dea55875e21daf0bd993c26d4c78527">loadHighResolution</a>{</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="comment">// preload all our textures and atlases</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;sixcolor.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:@&quot;sixcolor&quot;];</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;cubeBlack3.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:@&quot;cubeTexture3&quot;];</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;cubeBlack3.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:@&quot;LockTexture&quot;];</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="comment">//低分辨背景</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;background2.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:@&quot;background&quot;];</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="comment">//space indicator</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;arrow_left.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:kSpaceDirectionIndicatorLeft];</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;arrow_right.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:kSpaceDirectionIndicatorRight];</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;arrow_up.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:kSpaceDirectionIndicatorUP];</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;arrow_down.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:kSpaceDirectionIndicatorDown];</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="comment">//cubeface</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;yellowface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_YellowKEY];</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;whiteface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_WhiteKEY];</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;blueface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_BlueKEY];</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;orangeface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_OrangeKEY];</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;redface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_RedKEY];</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;greenface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_GreenKEY];</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:@&quot;blackface.png&quot; <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:Face_BlackKEY];</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    </div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="comment">//[self loadAtlasData:@&quot;countNumber&quot;];</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#aac28e9a141ce2a93b777b9c5538ee70d">loadAtlasData</a>:@&quot;cubeAction&quot;];</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#aac28e9a141ce2a93b777b9c5538ee70d">loadAtlasData</a>:@&quot;particleAtlas&quot;];</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="comment">// 加载高分辨率资源与加载低分辨率资源的区别在于这里加载的纹理数据都有个后缀2</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a7aee90b1d02d7d33dfc8de7944dfb961">loadAtlas_TexturePacker_Data</a>:@&quot;home_element2&quot;];</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a7aee90b1d02d7d33dfc8de7944dfb961">loadAtlas_TexturePacker_Data</a>:@&quot;learn_element2&quot;];</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a7aee90b1d02d7d33dfc8de7944dfb961">loadAtlas_TexturePacker_Data</a>:@&quot;number2&quot;];</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#aac28e9a141ce2a93b777b9c5538ee70d">  127</a></span>&#160;-(void)loadAtlasData:(NSString*)atlasName</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;{</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    NSAutoreleasePool * apool = [[NSAutoreleasePool alloc] init];   </div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_m_c_material_controller.html#a95ce63d92f3a3ff9d7d21dcee70ebf3e">quadLibrary</a> == nil) <a class="code" href="interface_m_c_material_controller.html#a95ce63d92f3a3ff9d7d21dcee70ebf3e">quadLibrary</a> = [[NSMutableDictionary alloc] init];</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="comment">// load the texture and remember how big it is so we can properly calculate</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="comment">// the UV positions</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    CGSize atlasSize = [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:[atlasName stringByAppendingPathExtension:@&quot;png&quot;] <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:atlasName];</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    </div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="comment">// load all the items from the atlas plist file</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    NSArray * itemData = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:atlasName ofType:@&quot;plist&quot;]];</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    </div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="comment">// go through each record and build a textured quad for each record</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="keywordflow">for</span> (NSDictionary * record in itemData) {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <a class="code" href="interface_m_c_textured_quad.html">MCTexturedQuad</a> * quad = [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a41cbaff893fc8b985e2dd76e6aadc812">texturedQuadFromAtlasRecord</a>:record <a class="code" href="interface_m_c_material_controller.html#a41cbaff893fc8b985e2dd76e6aadc812">atlasSize</a>:atlasSize <a class="code" href="interface_m_c_material_controller.html#a41cbaff893fc8b985e2dd76e6aadc812">materialKey</a>:atlasName];</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        [<a class="code" href="interface_m_c_material_controller.html#a95ce63d92f3a3ff9d7d21dcee70ebf3e">quadLibrary</a> setObject:quad forKey:[record objectForKey:@&quot;name&quot;]];</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    </div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    [apool release];</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;}</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
+<div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#a7aee90b1d02d7d33dfc8de7944dfb961">  149</a></span>&#160;-(void)loadAtlas_TexturePacker_Data:(NSString *)atlasName{</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    NSAutoreleasePool * apool = [[NSAutoreleasePool alloc] init];</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    </div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_m_c_material_controller.html#a95ce63d92f3a3ff9d7d21dcee70ebf3e">quadLibrary</a> == nil) <a class="code" href="interface_m_c_material_controller.html#a95ce63d92f3a3ff9d7d21dcee70ebf3e">quadLibrary</a> = [[NSMutableDictionary alloc] init];</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    </div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="comment">// load the texture and remember how big it is so we can properly calculate</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="comment">// the UV positions</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    CGSize atlasSize = [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">loadTextureImage</a>:[atlasName stringByAppendingPathExtension:@&quot;png&quot;] <a class="code" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">materialKey</a>:atlasName];</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    </div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="comment">// load all the items from the atlas plist file</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    NSDictionary * root = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:atlasName ofType:@&quot;plist&quot;]];</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    </div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="comment">// go through each record and build a textured quad for each record</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    NSDictionary *frames = [root objectForKey:@&quot;frames&quot;];</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    NSArray *keys = [frames allKeys];</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordtype">int</span> count = [keys count];</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    NSString *name = nil;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i&lt;count; i++) {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        name = [keys objectAtIndex:i];</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        NSDictionary *record = [frames objectForKey:name];</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <a class="code" href="interface_m_c_textured_quad.html">MCTexturedQuad</a> * quad = [<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#a5df0916f23d5afad3569bcea7654547d">texturedQuadFrom_TexturePacker_AtlasRecord</a>:record <a class="code" href="interface_m_c_material_controller.html#a5df0916f23d5afad3569bcea7654547d">atlasSize</a>:atlasSize <a class="code" href="interface_m_c_material_controller.html#a5df0916f23d5afad3569bcea7654547d">materialKey</a>:atlasName];</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        [<a class="code" href="interface_m_c_material_controller.html#a95ce63d92f3a3ff9d7d21dcee70ebf3e">quadLibrary</a> setObject:quad forKey:name];</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    </div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    [apool release];</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;}</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
+<div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#af546a69525dd87c13a1c7b5fbab80643">  181</a></span>&#160;-(<a class="code" href="interface_m_c_textured_quad.html">MCTexturedQuad</a>*)quadFromAtlasKey:(NSString*)atlasKey</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;{</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">return</span> [<a class="code" href="interface_m_c_material_controller.html#a95ce63d92f3a3ff9d7d21dcee70ebf3e">quadLibrary</a> objectForKey:atlasKey];</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;}</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#a3ebb93f2591f29dd77a23c9ef72b14e9">  191</a></span>&#160;-(<a class="code" href="interface_m_c_animated_quad.html">MCAnimatedQuad</a>*)animationFromAtlasKeys:(NSArray*)atlasKeys</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;{</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <a class="code" href="interface_m_c_animated_quad.html">MCAnimatedQuad</a> * animation = [[<a class="code" href="interface_m_c_animated_quad.html">MCAnimatedQuad</a> alloc] init];</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordflow">for</span> (NSString * key in atlasKeys) {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        [animation <a class="code" href="interface_m_c_animated_quad.html#a4d1cf07b4e2ce8f63ddfa9cb2a8340b1">addFrame</a>:[<span class="keyword">self</span> <a class="code" href="interface_m_c_material_controller.html#af546a69525dd87c13a1c7b5fbab80643">quadFromAtlasKey</a>:key]];</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">return</span> [animation autorelease];</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;}</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
+<div class="line"><a name="l00200"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#a41cbaff893fc8b985e2dd76e6aadc812">  200</a></span>&#160;-(<a class="code" href="interface_m_c_textured_quad.html">MCTexturedQuad</a>*)texturedQuadFromAtlasRecord:(NSDictionary*)record </div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                                    atlasSize:(CGSize)atlasSize</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                                  materialKey:(NSString*)key;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;{</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <a class="code" href="interface_m_c_textured_quad.html">MCTexturedQuad</a> * quad = [[<a class="code" href="interface_m_c_textured_quad.html">MCTexturedQuad</a> alloc] init];</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    </div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    GLfloat xLocation = [[record objectForKey:@&quot;xLocation&quot;] floatValue];</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    GLfloat yLocation = [[record objectForKey:@&quot;yLocation&quot;] floatValue];</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    GLfloat width = [[record objectForKey:@&quot;width&quot;] floatValue];</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    GLfloat height = [[record objectForKey:@&quot;height&quot;] floatValue];</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    </div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="comment">// find the normalized texture coordinates</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    GLfloat xMin = xLocation/atlasSize.width;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    GLfloat yMin = yLocation/atlasSize.height;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    GLfloat xMax = (xLocation + width)/atlasSize.width;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    GLfloat yMax = (yLocation + height)/atlasSize.height;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="comment">//NSLog(@&quot;xMin: %f&quot;,xMin);</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <span class="comment">//NSLog(@&quot;yMin: %f&quot;,yMin);</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="comment">//NSLog(@&quot;xMax: %f&quot;,xMax);</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="comment">//NSLog(@&quot;yMax: %f&quot;,yMax);</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="comment">// build my quad UVs</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[0] = xMin;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[1] = yMax;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    </div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[2] = xMax;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[3] = yMax;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    </div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[4] = xMin;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[5] = yMin;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    </div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[6] = xMax;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[7] = yMin;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    </div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#a34b3a355d89853cd1f7c1c7285e98d71">materialKey</a> = key;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    </div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordflow">return</span> [quad autorelease];</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;}</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
+<div class="line"><a name="l00238"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#a5df0916f23d5afad3569bcea7654547d">  238</a></span>&#160;-(<a class="code" href="interface_m_c_textured_quad.html">MCTexturedQuad</a> *)texturedQuadFrom_TexturePacker_AtlasRecord:(NSDictionary *)record atlasSize:(CGSize)atlasSize materialKey:(NSString *)key{</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <a class="code" href="interface_m_c_textured_quad.html">MCTexturedQuad</a> * quad = [[<a class="code" href="interface_m_c_textured_quad.html">MCTexturedQuad</a> alloc] init];</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    </div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    GLfloat xLocation = [[record objectForKey:@&quot;x&quot;] floatValue];</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    GLfloat yLocation = [[record objectForKey:@&quot;y&quot;] floatValue];</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    GLfloat width = [[record objectForKey:@&quot;w&quot;] floatValue];</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    GLfloat height = [[record objectForKey:@&quot;h&quot;] floatValue];</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    </div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="comment">// find the normalized texture coordinates</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    GLfloat xMin = xLocation/atlasSize.width;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    GLfloat yMin = yLocation/atlasSize.height;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    GLfloat xMax = (xLocation + width)/atlasSize.width;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    GLfloat yMax = (yLocation + height)/atlasSize.height;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="comment">//NSLog(@&quot;xMin: %f&quot;,xMin);</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="comment">//NSLog(@&quot;yMin: %f&quot;,yMin);</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="comment">//NSLog(@&quot;xMax: %f&quot;,xMax);</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="comment">//NSLog(@&quot;yMax: %f&quot;,yMax);</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="comment">// build my quad UVs</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[0] = xMin;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[1] = yMax;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    </div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[2] = xMax;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[3] = yMax;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    </div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[4] = xMin;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[5] = yMin;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    </div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[6] = xMax;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>[7] = yMin;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    </div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    quad.<a class="code" href="interface_m_c_textured_quad.html#a34b3a355d89853cd1f7c1c7285e98d71">materialKey</a> = key;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    </div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">return</span> [quad autorelease];</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;}</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
+<div class="line"><a name="l00279"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#a8728e3d49005ec9bd2d6e99e1758b24c">  279</a></span>&#160;-(void)bindMaterial:(NSString*)materialKey</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;{</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    NSNumber * numberObj = [<a class="code" href="interface_m_c_material_controller.html#a280b9be58877b996806748baf9277f93">materialLibrary</a> objectForKey:materialKey];</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <span class="keywordflow">if</span> (numberObj == nil) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    GLuint textureID = [numberObj unsignedIntValue];</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    glEnable(GL_TEXTURE_2D);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="comment">// 将textureID对应的纹理绑定到GL_TEXTURE_2D上。也即将对应的纹理变成二维的纹理</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    glBindTexture(GL_TEXTURE_2D, textureID);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;}</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;</div>
+<div class="line"><a name="l00297"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">  297</a></span>&#160;-(CGSize)loadTextureImage:(NSString*)imageName materialKey:(NSString*)materialKey</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;{</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    CGContextRef spriteContext;</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    GLubyte *spriteData;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    <span class="keywordtype">size_t</span>  width, height;</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    </div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    </div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    GLuint textureID;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <span class="comment">// grab the image off the file system, jam it into a CGImageRef</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    </div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    UIImage*    uiImage = [[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:imageName ofType:nil]];</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    CGImageRef spriteImage = [uiImage CGImage];</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="comment">// Get the width and height of the image</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    width = CGImageGetWidth(spriteImage);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    height = CGImageGetHeight(spriteImage);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    </div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    CGSize imageSize = CGSizeMake(width, height);</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="comment">// Texture dimensions must be a power of 2. If you write an application that allows users to supply an image,</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <span class="comment">// you&#39;ll want to add code that checks the dimensions and takes appropriate action if they are not a power of 2.</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    </div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keywordflow">if</span>(spriteImage) {</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        <span class="comment">// Allocated memory needed for the bitmap context</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        spriteData = (GLubyte *) malloc(width * height * 4);</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        memset(spriteData, 0, (width * height * 4)); </div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        <span class="comment">// Uses the bitmatp creation function provided by the Core Graphics framework. </span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        spriteContext = CGBitmapContextCreate(spriteData, width, height, 8, width * 4, CGImageGetColorSpace(spriteImage), kCGImageAlphaPremultipliedLast);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <span class="comment">// After you create the context, you can draw the sprite image to the context.</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        CGContextDrawImage(spriteContext, CGRectMake(0.0, 0.0, (CGFloat)width, (CGFloat)height), spriteImage);</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <span class="comment">// You don&#39;t need the context at this point, so you need to release it to avoid memory leaks.</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        CGContextRelease(spriteContext);</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        </div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        <span class="comment">// Use OpenGL ES to generate a name for the texture.</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        glGenTextures(1, &amp;textureID);</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        <span class="comment">// Bind the texture name. </span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        glBindTexture(GL_TEXTURE_2D, textureID);</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="comment">// Specidfy a 2D texture image, provideing the a pointer to the image data in memory</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        </div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <span class="comment">//Convert &quot;RRRRRRRRRGGGGGGGGBBBBBBBBAAAAAAAA&quot; to &quot;RRRRRGGGGBBBBAAAA&quot;</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="_m_c_configuration_8h.html#a7640d4be2432573f8f8716fb7190234d">MC_CONVERT_TO_4444</a>) {</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;            <span class="keywordtype">void</span>*                   tempData;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;            <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>*           inPixel32;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;            <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>*         outPixel16;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;            </div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;            tempData = malloc(height * width * 2);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            </div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;            inPixel32 = (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>*)spriteData;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;            outPixel16 = (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>*)tempData;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            NSUInteger i;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;            <span class="keywordflow">for</span>(i = 0; i &lt; width * height; ++i, ++inPixel32)</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                *outPixel16++ =</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                ((((*inPixel32 &gt;&gt; 0) &amp; 0xFF) &gt;&gt; 4) &lt;&lt; 12) |</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                ((((*inPixel32 &gt;&gt; 8) &amp; 0xFF) &gt;&gt; 4) &lt;&lt; 8) |</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                ((((*inPixel32 &gt;&gt; 16) &amp; 0xFF) &gt;&gt; 4) &lt;&lt; 4) |</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                ((((*inPixel32 &gt;&gt; 24) &amp; 0xFF) &gt;&gt; 4) &lt;&lt; 0);</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;            </div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;            glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_SHORT_4_4_4_4, tempData);</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;            free(tempData);</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;            </div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;            glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, spriteData);           </div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        }</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        </div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        free(spriteData);</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        <span class="comment">// Release the image data</span></div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        <span class="comment">// Set the texture parameters to use a minifying filter and a linear filer (weighted average)</span></div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        </div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        <span class="comment">// Enable use of the texture</span></div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        glEnable(GL_TEXTURE_2D);</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        <span class="comment">// Set a blending function to use</span></div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        <span class="comment">// Enable blending</span></div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        glEnable(GL_BLEND);</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        [uiImage release];</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <span class="keywordflow">return</span> CGSizeZero;</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    }</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    [uiImage release];</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    </div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_m_c_material_controller.html#a280b9be58877b996806748baf9277f93">materialLibrary</a> == nil) <a class="code" href="interface_m_c_material_controller.html#a280b9be58877b996806748baf9277f93">materialLibrary</a> = [[NSMutableDictionary alloc] init];</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    </div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    <span class="comment">// now put the texture ID into the library</span></div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    [<a class="code" href="interface_m_c_material_controller.html#a280b9be58877b996806748baf9277f93">materialLibrary</a> setObject:[NSNumber numberWithUnsignedInt:textureID] forKey:materialKey];</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    <span class="keywordflow">return</span> imageSize;</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;}</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;</div>
+<div class="line"><a name="l00384"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#a5e90c4970cdefc6ad81e9860bcabb362">  384</a></span>&#160;+(<a class="code" href="struct_m_c_point.html">MCPoint</a>)getWidthAndHeightFromTextureFile:(NSString *)filename forKey:(NSString*)key{</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    <span class="comment">//MCPoint point;</span></div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    NSDictionary * root = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:filename ofType:@&quot;plist&quot;]];</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    </div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    <span class="comment">// go through each record and build a textured quad for each record</span></div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    NSDictionary *frames = [root objectForKey:@&quot;frames&quot;];</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    </div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    NSDictionary *dic = [frames objectForKey:key];</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    </div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    CGFloat w = [[dic objectForKey:@&quot;w&quot;] floatValue];</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    CGFloat h = [[dic objectForKey:@&quot;h&quot;] floatValue];;</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    CGFloat <a class="code" href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a8160835cd3da227120ddf62bc2bda5d2">z</a> = 1;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    </div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="_m_c_point_8h.html#ac0e03321ee4d440dceac6bdf2fbe7b18">MCPointMake</a>(w, h, <a class="code" href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a8160835cd3da227120ddf62bc2bda5d2">z</a>);</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;};</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;</div>
+<div class="line"><a name="l00402"></a><span class="lineno"><a class="line" href="interface_m_c_material_controller.html#a068c82c947e353201a952d1b87d545c0">  402</a></span>&#160;- (void) <a class="code" href="interface_m_c_material_controller.html#a068c82c947e353201a952d1b87d545c0">dealloc</a></div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;{</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    </div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    [<a class="code" href="interface_m_c_material_controller.html#a280b9be58877b996806748baf9277f93">materialLibrary</a> release];</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    [<span class="keyword">super</span> dealloc];</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;}</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;</div>
+<div class="ttc" id="interface_m_c_material_controller_html_a5df0916f23d5afad3569bcea7654547d"><div class="ttname"><a href="interface_m_c_material_controller.html#a5df0916f23d5afad3569bcea7654547d">-[MCMaterialController texturedQuadFrom_TexturePacker_AtlasRecord:atlasSize:materialKey:]</a></div><div class="ttdeci">MCTexturedQuad * texturedQuadFrom_TexturePacker_AtlasRecord:atlasSize:materialKey:(NSDictionary *record,[atlasSize] CGSize atlasSize,[materialKey] NSString *key)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00238">MCMaterialController.m:238</a></div></div>
+<div class="ttc" id="interface_platform_detect_html"><div class="ttname"><a href="interface_platform_detect.html">PlatformDetect</a></div><div class="ttdef"><b>Definition:</b> <a href="_platform_detect_8h_source.html#l00013">PlatformDetect.h:13</a></div></div>
+<div class="ttc" id="interface_m_c_animated_quad_html_a4d1cf07b4e2ce8f63ddfa9cb2a8340b1"><div class="ttname"><a href="interface_m_c_animated_quad.html#a4d1cf07b4e2ce8f63ddfa9cb2a8340b1">-[MCAnimatedQuad addFrame:]</a></div><div class="ttdeci">void addFrame:(MCTexturedQuad *aQuad)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_animated_quad_8m_source.html#l00033">MCAnimatedQuad.m:33</a></div></div>
+<div class="ttc" id="interface_m_c_textured_quad_html"><div class="ttname"><a href="interface_m_c_textured_quad.html">MCTexturedQuad</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_textured_quad_8h_source.html#l00030">MCTexturedQuad.h:30</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_af546a69525dd87c13a1c7b5fbab80643"><div class="ttname"><a href="interface_m_c_material_controller.html#af546a69525dd87c13a1c7b5fbab80643">-[MCMaterialController quadFromAtlasKey:]</a></div><div class="ttdeci">MCTexturedQuad * quadFromAtlasKey:(NSString *atlasKey)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00181">MCMaterialController.m:181</a></div></div>
+<div class="ttc" id="_platform_detect_8h_html"><div class="ttname"><a href="_platform_detect_8h.html">PlatformDetect.h</a></div></div>
+<div class="ttc" id="_m_c_point_8h_html_ac0e03321ee4d440dceac6bdf2fbe7b18"><div class="ttname"><a href="_m_c_point_8h.html#ac0e03321ee4d440dceac6bdf2fbe7b18">MCPointMake</a></div><div class="ttdeci">static MCPoint MCPointMake(CGFloat x, CGFloat y, CGFloat z)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_point_8h_source.html#l00046">MCPoint.h:46</a></div></div>
+<div class="ttc" id="_m_c_textured_quad_8h_html"><div class="ttname"><a href="_m_c_textured_quad_8h.html">MCTexturedQuad.h</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_aac28e9a141ce2a93b777b9c5538ee70d"><div class="ttname"><a href="interface_m_c_material_controller.html#aac28e9a141ce2a93b777b9c5538ee70d">-[MCMaterialController loadAtlasData:]</a></div><div class="ttdeci">void loadAtlasData:(NSString *atlasName)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00127">MCMaterialController.m:127</a></div></div>
+<div class="ttc" id="_m_c_animated_quad_8h_html"><div class="ttname"><a href="_m_c_animated_quad_8h.html">MCAnimatedQuad.h</a></div></div>
+<div class="ttc" id="interface_m_c_animated_quad_html"><div class="ttname"><a href="interface_m_c_animated_quad.html">MCAnimatedQuad</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_animated_quad_8h_source.html#l00014">MCAnimatedQuad.h:14</a></div></div>
+<div class="ttc" id="_m_c_material_controller_8h_html"><div class="ttname"><a href="_m_c_material_controller_8h.html">MCMaterialController.h</a></div></div>
+<div class="ttc" id="interface_m_c_textured_quad_html_a34b3a355d89853cd1f7c1c7285e98d71"><div class="ttname"><a href="interface_m_c_textured_quad.html#a34b3a355d89853cd1f7c1c7285e98d71">MCTexturedQuad::materialKey</a></div><div class="ttdeci">NSString * materialKey</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_textured_quad_8h_source.html#l00032">MCTexturedQuad.h:32</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a7640d4be2432573f8f8716fb7190234d"><div class="ttname"><a href="_m_c_configuration_8h.html#a7640d4be2432573f8f8716fb7190234d">MC_CONVERT_TO_4444</a></div><div class="ttdeci">#define MC_CONVERT_TO_4444</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00058">MCConfiguration.h:58</a></div></div>
+<div class="ttc" id="interface_platform_detect_html_a8cdd8340a043cb6365c27d2e95d005e2"><div class="ttname"><a href="interface_platform_detect.html#a8cdd8340a043cb6365c27d2e95d005e2">+[PlatformDetect platformString]</a></div><div class="ttdeci">NSString * platformString()</div><div class="ttdef"><b>Definition:</b> <a href="_platform_detect_8m_source.html#l00018">PlatformDetect.m:18</a></div></div>
+<div class="ttc" id="interface_m_c_textured_quad_html_adb0ac3d11aee7f065f7b0fcd3524bd9d"><div class="ttname"><a href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">MCTexturedQuad::uvCoordinates</a></div><div class="ttdeci">GLfloat * uvCoordinates</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_textured_quad_8h_source.html#l00031">MCTexturedQuad.h:31</a></div></div>
+<div class="ttc" id="namespace_m_c_html_a533f8ce8fb01810e66c16263c376fbd7a8160835cd3da227120ddf62bc2bda5d2"><div class="ttname"><a href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a8160835cd3da227120ddf62bc2bda5d2">MC::z</a></div><div class="ttdef"><b>Definition:</b> <a href="_global_8h_source.html#l00186">Global.h:186</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_a41cbaff893fc8b985e2dd76e6aadc812"><div class="ttname"><a href="interface_m_c_material_controller.html#a41cbaff893fc8b985e2dd76e6aadc812">-[MCMaterialController texturedQuadFromAtlasRecord:atlasSize:materialKey:]</a></div><div class="ttdeci">MCTexturedQuad * texturedQuadFromAtlasRecord:atlasSize:materialKey:(NSDictionary *record,[atlasSize] CGSize atlasSize,[materialKey] NSString *key)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00200">MCMaterialController.m:200</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_a95ce63d92f3a3ff9d7d21dcee70ebf3e"><div class="ttname"><a href="interface_m_c_material_controller.html#a95ce63d92f3a3ff9d7d21dcee70ebf3e">MCMaterialController::quadLibrary</a></div><div class="ttdeci">NSMutableDictionary * quadLibrary</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8h_source.html#l00027">MCMaterialController.h:27</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_adfd77b6c8b3d24dc0f2681988bfe80a6"><div class="ttname"><a href="interface_m_c_material_controller.html#adfd77b6c8b3d24dc0f2681988bfe80a6">-[MCMaterialController loadLowResolution]</a></div><div class="ttdeci">void loadLowResolution()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00061">MCMaterialController.m:61</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_a859254e75c12787d83fef098fd78d450"><div class="ttname"><a href="interface_m_c_material_controller.html#a859254e75c12787d83fef098fd78d450">-[MCMaterialController loadTextureImage:materialKey:]</a></div><div class="ttdeci">CGSize loadTextureImage:materialKey:(NSString *imageName,[materialKey] NSString *materialKey)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00297">MCMaterialController.m:297</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_a280b9be58877b996806748baf9277f93"><div class="ttname"><a href="interface_m_c_material_controller.html#a280b9be58877b996806748baf9277f93">MCMaterialController::materialLibrary</a></div><div class="ttdeci">NSMutableDictionary * materialLibrary</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8h_source.html#l00023">MCMaterialController.h:23</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_a2229ae30dcdb3e391c16202e112477b4"><div class="ttname"><a href="interface_m_c_material_controller.html#a2229ae30dcdb3e391c16202e112477b4">+[MCMaterialController sharedMaterialController]</a></div><div class="ttdeci">MCMaterialController * sharedMaterialController()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00023">MCMaterialController.m:23</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_a068c82c947e353201a952d1b87d545c0"><div class="ttname"><a href="interface_m_c_material_controller.html#a068c82c947e353201a952d1b87d545c0">-[MCMaterialController dealloc]</a></div><div class="ttdeci">void dealloc()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00402">MCMaterialController.m:402</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_a5dea55875e21daf0bd993c26d4c78527"><div class="ttname"><a href="interface_m_c_material_controller.html#a5dea55875e21daf0bd993c26d4c78527">-[MCMaterialController loadHighResolution]</a></div><div class="ttdeci">void loadHighResolution()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00095">MCMaterialController.m:95</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html"><div class="ttname"><a href="_m_c_configuration_8h.html">MCConfiguration.h</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_a372ed91f5c710577e225e2450558d91a"><div class="ttname"><a href="interface_m_c_material_controller.html#a372ed91f5c710577e225e2450558d91a">-[MCMaterialController init]</a></div><div class="ttdeci">id init()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00036">MCMaterialController.m:36</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_a7aee90b1d02d7d33dfc8de7944dfb961"><div class="ttname"><a href="interface_m_c_material_controller.html#a7aee90b1d02d7d33dfc8de7944dfb961">-[MCMaterialController loadAtlas_TexturePacker_Data:]</a></div><div class="ttdeci">void loadAtlas_TexturePacker_Data:(NSString *atlasName)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00149">MCMaterialController.m:149</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html"><div class="ttname"><a href="interface_m_c_material_controller.html">MCMaterialController</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8h_source.html#l00019">MCMaterialController.h:19</a></div></div>
+<div class="ttc" id="_m_c_string_define_8h_html"><div class="ttname"><a href="_m_c_string_define_8h.html">MCStringDefine.h</a></div></div>
+<div class="ttc" id="struct_m_c_point_html"><div class="ttname"><a href="struct_m_c_point.html">MCPoint</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_point_8h_source.html#l00034">MCPoint.h:34</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_m_c_material_controller_8m.html">MCMaterialController.m</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:37 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

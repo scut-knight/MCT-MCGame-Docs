@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/MCSceneObject.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_m_c_scene_object_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">MCSceneObject.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_m_c_scene_object_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  MCSceneObject.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  MCGame</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// </span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by ruitaoCC@gmail.com on 1/09/12.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright __MyCompanyName__ 2012. All rights reserved.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#import &lt;Foundation/Foundation.h&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#import &lt;OpenGLES/EAGL.h&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#import &lt;OpenGLES/ES1/gl.h&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#import &lt;OpenGLES/ES1/glext.h&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#import &lt;QuartzCore/QuartzCore.h&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_quaternion_8hpp.html">Quaternion.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_point_8h.html">MCPoint.h</a>&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_material_controller_8h.html">MCMaterialController.h</a>&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_textured_quad_8h.html">MCTexturedQuad.h</a>&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_scene_controller_8h.html">MCSceneController.h</a>&quot;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_textured_mesh_8h.html">MCTexturedMesh.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_point_8h.html">MCPoint.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_configuration_8h.html">MCConfiguration.h</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_ray_8h.html">MCRay.h</a>&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">//#include &quot;MeshRenderEngine.hpp&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">@class</span> <a class="code" href="interface_m_c_mesh.html">MCMesh</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">@class</span> <a class="code" href="interface_m_c_collider.html">MCCollider</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html">   30</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_m_c_scene_object.html">MCSceneObject</a> : NSObject {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">// transform values</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#a55ef7dda62f4ba6c5dfbb2caa5861e71">   35</a></span>&#160;<span class="comment"></span>    <a class="code" href="struct_m_c_point.html">MCPoint</a> <a class="code" href="interface_m_c_scene_object.html#a55ef7dda62f4ba6c5dfbb2caa5861e71">pretranslation</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#a71e4629285258a415e222e9f32ccaad3">   39</a></span>&#160;    <a class="code" href="struct_m_c_point.html">MCPoint</a> <a class="code" href="interface_m_c_scene_object.html#a71e4629285258a415e222e9f32ccaad3">prerotation</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    </div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">   44</a></span>&#160;    <a class="code" href="struct_m_c_point.html">MCPoint</a> <a class="code" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#a21a6874d872cf94e2125f3a2cc26cc2a">   45</a></span>&#160;    <a class="code" href="struct_m_c_point.html">MCPoint</a> <a class="code" href="interface_m_c_scene_object.html#a21a6874d872cf94e2125f3a2cc26cc2a">scale</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#a9a00ea500c0650e1577781acc3d39b32">   49</a></span>&#160;    <a class="code" href="struct_m_c_point.html">MCPoint</a> <a class="code" href="interface_m_c_scene_object.html#a9a00ea500c0650e1577781acc3d39b32">rotation</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">// 旋转用的四元数</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#a4a3e5b6483d920fdfc048f2e3bf230d0">   51</a></span>&#160;    <a class="code" href="struct_quaternion_t.html">Quaternion</a> <a class="code" href="interface_m_c_scene_object.html#a4a3e5b6483d920fdfc048f2e3bf230d0">quaRotation</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#af048918c64ce127d405d3fa0e2a13737">   52</a></span>&#160;    <a class="code" href="struct_quaternion_t.html">Quaternion</a> <a class="code" href="interface_m_c_scene_object.html#af048918c64ce127d405d3fa0e2a13737">quaPreviousRotation</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">//用来进行校验的四元数</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#a60f0c749f93ec502dbf46bdd2a4e8088">   54</a></span>&#160;    <a class="code" href="struct_quaternion_t.html">Quaternion</a> <a class="code" href="interface_m_c_scene_object.html#a60f0c749f93ec502dbf46bdd2a4e8088">start_quaRotation</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#a94dac412ff59d1e8af7db635de280a18">   55</a></span>&#160;    <a class="code" href="struct_quaternion_t.html">Quaternion</a> <a class="code" href="interface_m_c_scene_object.html#a94dac412ff59d1e8af7db635de280a18">finish_quaRotation</a>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">   56</a></span>&#160;    <a class="code" href="interface_m_c_mesh.html">MCMesh</a> * <a class="code" href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">mesh</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    </div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#a76987e2ce1907832ee44ea37103db7a6">   58</a></span>&#160;    BOOL <a class="code" href="interface_m_c_scene_object.html#a76987e2ce1907832ee44ea37103db7a6">active</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    </div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#aac01258da90af2ab20a9e4b7ab0981da">   61</a></span>&#160;    CGFloat * <a class="code" href="interface_m_c_scene_object.html#aac01258da90af2ab20a9e4b7ab0981da">matrix</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    </div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">   63</a></span>&#160;    CGRect <a class="code" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">meshBounds</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">@property</span> (retain) <a class="code" href="interface_m_c_mesh.html">MCMesh</a> * mesh;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">@property</span> (assign) <a class="code" href="struct_m_c_point.html">MCPoint</a> translation;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">@property</span> (assign) <a class="code" href="struct_m_c_point.html">MCPoint</a> rotation;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">@property</span> (assign) <a class="code" href="struct_m_c_point.html">MCPoint</a> scale;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">@property</span> (assign) CGFloat * matrix;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">@property</span> (assign) <a class="code" href="struct_m_c_point.html">MCPoint</a> pretranslation;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keyword">@property</span> (assign) <a class="code" href="struct_m_c_point.html">MCPoint</a> prerotation;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keyword">@property</span> (assign) <a class="code" href="struct_quaternion_t.html">Quaternion</a> quaRotation;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">@property</span> (assign) <a class="code" href="struct_quaternion_t.html">Quaternion</a> quaPreviousRotation;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="keyword">@property</span> (assign) <a class="code" href="struct_quaternion_t.html">Quaternion</a> start_quaRotation;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keyword">@property</span> (assign) <a class="code" href="struct_quaternion_t.html">Quaternion</a> finish_quaRotation;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">@property</span> (assign) BOOL active;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword">@property</span> (readonly) CGRect meshBounds;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;- (id) init;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;- (void) dealloc;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;- (void)awake;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;- (void)render;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;- (void)update;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">@end</span></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a76987e2ce1907832ee44ea37103db7a6"><div class="ttname"><a href="interface_m_c_scene_object.html#a76987e2ce1907832ee44ea37103db7a6">MCSceneObject::active</a></div><div class="ttdeci">BOOL active</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00058">MCSceneObject.h:58</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html"><div class="ttname"><a href="interface_m_c_scene_object.html">MCSceneObject</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00030">MCSceneObject.h:30</a></div></div>
+<div class="ttc" id="_m_c_scene_controller_8h_html"><div class="ttname"><a href="_m_c_scene_controller_8h.html">MCSceneController.h</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_af048918c64ce127d405d3fa0e2a13737"><div class="ttname"><a href="interface_m_c_scene_object.html#af048918c64ce127d405d3fa0e2a13737">MCSceneObject::quaPreviousRotation</a></div><div class="ttdeci">Quaternion quaPreviousRotation</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00052">MCSceneObject.h:52</a></div></div>
+<div class="ttc" id="_m_c_textured_quad_8h_html"><div class="ttname"><a href="_m_c_textured_quad_8h.html">MCTexturedQuad.h</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_adb90bb7dadb9e9e44f19768120315cf3"><div class="ttname"><a href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">MCSceneObject::meshBounds</a></div><div class="ttdeci">CGRect meshBounds</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00063">MCSceneObject.h:63</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a21a6874d872cf94e2125f3a2cc26cc2a"><div class="ttname"><a href="interface_m_c_scene_object.html#a21a6874d872cf94e2125f3a2cc26cc2a">MCSceneObject::scale</a></div><div class="ttdeci">MCPoint scale</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00045">MCSceneObject.h:45</a></div></div>
+<div class="ttc" id="_m_c_material_controller_8h_html"><div class="ttname"><a href="_m_c_material_controller_8h.html">MCMaterialController.h</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a4a3e5b6483d920fdfc048f2e3bf230d0"><div class="ttname"><a href="interface_m_c_scene_object.html#a4a3e5b6483d920fdfc048f2e3bf230d0">MCSceneObject::quaRotation</a></div><div class="ttdeci">Quaternion quaRotation</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00051">MCSceneObject.h:51</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a60f0c749f93ec502dbf46bdd2a4e8088"><div class="ttname"><a href="interface_m_c_scene_object.html#a60f0c749f93ec502dbf46bdd2a4e8088">MCSceneObject::start_quaRotation</a></div><div class="ttdeci">Quaternion start_quaRotation</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00054">MCSceneObject.h:54</a></div></div>
+<div class="ttc" id="interface_m_c_mesh_html"><div class="ttname"><a href="interface_m_c_mesh.html">MCMesh</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mesh_8h_source.html#l00022">MCMesh.h:22</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a55ef7dda62f4ba6c5dfbb2caa5861e71"><div class="ttname"><a href="interface_m_c_scene_object.html#a55ef7dda62f4ba6c5dfbb2caa5861e71">MCSceneObject::pretranslation</a></div><div class="ttdeci">MCPoint pretranslation</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00035">MCSceneObject.h:35</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_aac01258da90af2ab20a9e4b7ab0981da"><div class="ttname"><a href="interface_m_c_scene_object.html#aac01258da90af2ab20a9e4b7ab0981da">MCSceneObject::matrix</a></div><div class="ttdeci">CGFloat * matrix</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00061">MCSceneObject.h:61</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a2155e70cd17c061dcd8d0e1b5f8d08bd"><div class="ttname"><a href="interface_m_c_scene_object.html#a2155e70cd17c061dcd8d0e1b5f8d08bd">MCSceneObject::mesh</a></div><div class="ttdeci">MCMesh * mesh</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00056">MCSceneObject.h:56</a></div></div>
+<div class="ttc" id="interface_m_c_collider_html"><div class="ttname"><a href="interface_m_c_collider.html">MCCollider</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_collider_8h_source.html#l00024">MCCollider.h:24</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a9a00ea500c0650e1577781acc3d39b32"><div class="ttname"><a href="interface_m_c_scene_object.html#a9a00ea500c0650e1577781acc3d39b32">MCSceneObject::rotation</a></div><div class="ttdeci">MCPoint rotation</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00049">MCSceneObject.h:49</a></div></div>
+<div class="ttc" id="struct_quaternion_t_html"><div class="ttname"><a href="struct_quaternion_t.html">QuaternionT&lt; float &gt;</a></div></div>
+<div class="ttc" id="_m_c_ray_8h_html"><div class="ttname"><a href="_m_c_ray_8h.html">MCRay.h</a></div></div>
+<div class="ttc" id="_m_c_point_8h_html"><div class="ttname"><a href="_m_c_point_8h.html">MCPoint.h</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html"><div class="ttname"><a href="_m_c_configuration_8h.html">MCConfiguration.h</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_ac51fd997445bf143626cff3f2a76814c"><div class="ttname"><a href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">MCSceneObject::translation</a></div><div class="ttdeci">MCPoint translation</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00044">MCSceneObject.h:44</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a94dac412ff59d1e8af7db635de280a18"><div class="ttname"><a href="interface_m_c_scene_object.html#a94dac412ff59d1e8af7db635de280a18">MCSceneObject::finish_quaRotation</a></div><div class="ttdeci">Quaternion finish_quaRotation</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00055">MCSceneObject.h:55</a></div></div>
+<div class="ttc" id="_m_c_textured_mesh_8h_html"><div class="ttname"><a href="_m_c_textured_mesh_8h.html">MCTexturedMesh.h</a></div></div>
+<div class="ttc" id="_quaternion_8hpp_html"><div class="ttname"><a href="_quaternion_8hpp.html">Quaternion.hpp</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a71e4629285258a415e222e9f32ccaad3"><div class="ttname"><a href="interface_m_c_scene_object.html#a71e4629285258a415e222e9f32ccaad3">MCSceneObject::prerotation</a></div><div class="ttdeci">MCPoint prerotation</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00039">MCSceneObject.h:39</a></div></div>
+<div class="ttc" id="struct_m_c_point_html"><div class="ttname"><a href="struct_m_c_point.html">MCPoint</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_point_8h_source.html#l00034">MCPoint.h:34</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_m_c_scene_object_8h.html">MCSceneObject.h</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:37 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

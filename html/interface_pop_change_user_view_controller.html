@@ -1,0 +1,570 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: PopChangeUserViewController类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_pop_change_user_view_controller.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_pop_change_user_view_controller-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">PopChangeUserViewController类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_pop_change_user_view_controller_8h_source.html">PopChangeUserViewController.h</a>&gt;</code></p>
+<div class="dynheader">
+类 PopChangeUserViewController 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_pop_change_user_view_controller.png" usemap="#PopChangeUserViewController_map" alt=""/>
+  <map id="PopChangeUserViewController_map" name="PopChangeUserViewController_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:ae8b2aa3b3ea10e298038aa298b6ea097"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_pop_change_user_view_controller.html#ae8b2aa3b3ea10e298038aa298b6ea097">initWithNibName:bundle:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ae8b2aa3b3ea10e298038aa298b6ea097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991a86d17aafe8e9921826d4770f1c61"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_pop_change_user_view_controller.html#a991a86d17aafe8e9921826d4770f1c61">viewDidLoad</a><code> [implementation]</code></td></tr>
+<tr class="separator:a991a86d17aafe8e9921826d4770f1c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac72d816360bbc108d3a93e8825dc7858"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_pop_change_user_view_controller.html#ac72d816360bbc108d3a93e8825dc7858">viewDidUnload</a><code> [implementation]</code></td></tr>
+<tr class="separator:ac72d816360bbc108d3a93e8825dc7858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28d815e7106441f43ceb1eef814dcc7"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_pop_change_user_view_controller.html#ac28d815e7106441f43ceb1eef814dcc7">shouldAutorotateToInterfaceOrientation:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ac28d815e7106441f43ceb1eef814dcc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7281b4ddf01f9180593729c42bfabe2"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_pop_change_user_view_controller.html#ac7281b4ddf01f9180593729c42bfabe2">viewWillAppear:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ac7281b4ddf01f9180593729c42bfabe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30a8a83076e61157a65246f2a57d8125"><td class="memItemLeft" align="right" valign="top">(NSInteger)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_pop_change_user_view_controller.html#a30a8a83076e61157a65246f2a57d8125">numberOfComponentsInPickerView:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a30a8a83076e61157a65246f2a57d8125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a311e8d4497707d95b97ee8a1bca92f10"><td class="memItemLeft" align="right" valign="top">(NSInteger)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_pop_change_user_view_controller.html#a311e8d4497707d95b97ee8a1bca92f10">pickerView:numberOfRowsInComponent:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a311e8d4497707d95b97ee8a1bca92f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9780fc0c1ead6b6eff0555bd441c4460"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_pop_change_user_view_controller.html#a9780fc0c1ead6b6eff0555bd441c4460">pickerView:titleForRow:forComponent:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a9780fc0c1ead6b6eff0555bd441c4460"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfaa694678831f4316b71b992b580ca7"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_pop_change_user_view_controller.html#abfaa694678831f4316b71b992b580ca7">pickerView:didSelectRow:inComponent:</a><code> [implementation]</code></td></tr>
+<tr class="separator:abfaa694678831f4316b71b992b580ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f85353360eac1cd174f4a8bbee85d9f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_pop_change_user_view_controller.html#a9f85353360eac1cd174f4a8bbee85d9f">dealloc</a><code> [implementation]</code></td></tr>
+<tr class="separator:a9f85353360eac1cd174f4a8bbee85d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:a23d3d31693761cf6250e762c731f3117"><td class="memItemLeft" align="right" valign="top">&lt; UIPickerViewDelegate, <br class="typebreak"/>
+UIPickerViewDataSource &gt;<br class="typebreak"/>
+ IBOutlet UIPickerView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_pop_change_user_view_controller.html#a23d3d31693761cf6250e762c731f3117">picker</a></td></tr>
+<tr class="separator:a23d3d31693761cf6250e762c731f3117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>用户数据更改弹出对话框 </p>
+
+<p>在文件 <a class="el" href="_pop_change_user_view_controller_8h_source.html">PopChangeUserViewController.h</a> 第 <a class="el" href="_pop_change_user_view_controller_8h_source.html#l00015">15</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a9f85353360eac1cd174f4a8bbee85d9f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_pop_change_user_view_controller_8m_source.html">PopChangeUserViewController.m</a> 第 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00127">127</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_pop_change_user_view_controller_8h_source.html#l00017">picker</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae8b2aa3b3ea10e298038aa298b6ea097"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initWithNibName: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>nibNameOrNil</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">bundle:</td>
+          <td></td>
+          <td class="paramtype">(NSBundle *)&#160;</td>
+          <td class="paramname"><em>nibBundleOrNil</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>初始化了用户管理控制类 </p>
+
+<p>在文件 <a class="el" href="_pop_change_user_view_controller_8m_source.html">PopChangeUserViewController.m</a> 第 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00021">21</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_manager_controller_8m_source.html#l00042">MCUserManagerController::allocWithZone:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a30a8a83076e61157a65246f2a57d8125"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSInteger) numberOfComponentsInPickerView: </td>
+          <td></td>
+          <td class="paramtype">(UIPickerView *)&#160;</td>
+          <td class="paramname"><em>pickerView</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>picker的组件个数</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pickerView</td><td>picker视图</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>1，只有一个组件 </dd></dl>
+
+<p>在文件 <a class="el" href="_pop_change_user_view_controller_8m_source.html">PopChangeUserViewController.m</a> 第 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00073">73</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="abfaa694678831f4316b71b992b580ca7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) pickerView: </td>
+          <td></td>
+          <td class="paramtype">(UIPickerView *)&#160;</td>
+          <td class="paramname"><em>pickerView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">didSelectRow:</td>
+          <td></td>
+          <td class="paramtype">(NSInteger)&#160;</td>
+          <td class="paramname"><em>row</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">inComponent:</td>
+          <td></td>
+          <td class="paramtype">(NSInteger)&#160;</td>
+          <td class="paramname"><em>component</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>选中某行后的处理方式。在这里就是改变当前用户为选中用户。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pickerView</td><td>picker视图 </td></tr>
+    <tr><td class="paramname">row</td><td>行序号，从0开始 </td></tr>
+    <tr><td class="paramname">component</td><td>组件序号，从0开始 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_pop_change_user_view_controller_8m_source.html">PopChangeUserViewController.m</a> 第 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00116">116</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a311e8d4497707d95b97ee8a1bca92f10"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSInteger) pickerView: </td>
+          <td></td>
+          <td class="paramtype">(UIPickerView *)&#160;</td>
+          <td class="paramname"><em>pickerView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">numberOfRowsInComponent:</td>
+          <td></td>
+          <td class="paramtype">(NSInteger)&#160;</td>
+          <td class="paramname"><em>component</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>某个组件有多少行内容</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pickerView</td><td>picker视图 </td></tr>
+    <tr><td class="paramname">component</td><td>组件编号，从0开始</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>所有的用户数 </dd></dl>
+
+<p>在文件 <a class="el" href="_pop_change_user_view_controller_8m_source.html">PopChangeUserViewController.m</a> 第 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00086">86</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9780fc0c1ead6b6eff0555bd441c4460"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) pickerView: </td>
+          <td></td>
+          <td class="paramtype">(UIPickerView *)&#160;</td>
+          <td class="paramname"><em>pickerView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">titleForRow:</td>
+          <td></td>
+          <td class="paramtype">(NSInteger)&#160;</td>
+          <td class="paramname"><em>row</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">forComponent:</td>
+          <td></td>
+          <td class="paramtype">(NSInteger)&#160;</td>
+          <td class="paramname"><em>component</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>加载picker中每一行的内容</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pickerView</td><td>picker视图 </td></tr>
+    <tr><td class="paramname">row</td><td>行数，从0开始 </td></tr>
+    <tr><td class="paramname">component</td><td>组件序号，从0开始</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>一个字符串作为行的内容 </dd></dl>
+
+<p>在文件 <a class="el" href="_pop_change_user_view_controller_8m_source.html">PopChangeUserViewController.m</a> 第 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00103">103</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_user_8h_source.html#l00016">MCUser::name</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac28d815e7106441f43ceb1eef814dcc7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) shouldAutorotateToInterfaceOrientation: </td>
+          <td></td>
+          <td class="paramtype">(UIInterfaceOrientation)&#160;</td>
+          <td class="paramname"><em>interfaceOrientation</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>响应正常的朝向 </p>
+
+<p>在文件 <a class="el" href="_pop_change_user_view_controller_8m_source.html">PopChangeUserViewController.m</a> 第 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00048">48</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a991a86d17aafe8e9921826d4770f1c61"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) viewDidLoad </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_pop_change_user_view_controller_8m_source.html">PopChangeUserViewController.m</a> 第 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00031">31</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac72d816360bbc108d3a93e8825dc7858"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) viewDidUnload </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_pop_change_user_view_controller_8m_source.html">PopChangeUserViewController.m</a> 第 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00037">37</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac7281b4ddf01f9180593729c42bfabe2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) viewWillAppear: </td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>animated</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>画面加载完成后，选择器(picker)重新加载所有组件</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">animated</td><td>是否需要动画，不需要动画 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_pop_change_user_view_controller_8m_source.html">PopChangeUserViewController.m</a> 第 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00058">58</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_pop_change_user_view_controller_8h_source.html#l00017">picker</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="a23d3d31693761cf6250e762c731f3117"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (&lt;UIPickerViewDelegate,UIPickerViewDataSource&gt; IBOutlet UIPickerView*) picker</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初始值:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    </div>
+<div class="line">    <a class="code" href="interface_m_c_user_manager_controller.html">MCUserManagerController</a> *userManagerController</div>
+</div><!-- fragment -->
+<p>在文件 <a class="el" href="_pop_change_user_view_controller_8h_source.html">PopChangeUserViewController.h</a> 第 <a class="el" href="_pop_change_user_view_controller_8h_source.html#l00017">17</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00127">dealloc</a> , 以及 <a class="el" href="_pop_change_user_view_controller_8m_source.html#l00058">viewWillAppear:</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_pop_change_user_view_controller_8h_source.html">PopChangeUserViewController.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_pop_change_user_view_controller_8m_source.html">PopChangeUserViewController.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_pop_change_user_view_controller.html">PopChangeUserViewController</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:39 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

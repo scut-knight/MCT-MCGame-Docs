@@ -1,0 +1,964 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: sceneController类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfacescene_controller.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pub-static-methods">Class Methods</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="classscene_controller-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">sceneController类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="scene_controller_8h_source.html">sceneController.h</a>&gt;</code></p>
+<div class="dynheader">
+类 sceneController 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interfacescene_controller.png" usemap="#sceneController_map" alt=""/>
+  <map id="sceneController_map" name="sceneController_map">
+<area href="interface_m_c_counting_play_scene_controller.html" alt="MCCountingPlaySceneController" shape="rect" coords="0,112,201,136"/>
+<area href="interface_m_c_normal_play_scene_controller.html" alt="MCNormalPlaySceneController" shape="rect" coords="211,112,412,136"/>
+<area href="interface_m_c_random_solve_scene_controller.html" alt="MCRandomSolveSceneController" shape="rect" coords="422,112,623,136"/>
+<area href="interface_m_c_scene_controller.html" alt="MCSceneController" shape="rect" coords="633,112,834,136"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:a4332d877527644e651190b8ac6298202"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a4332d877527644e651190b8ac6298202">dealloc</a></td></tr>
+<tr class="separator:a4332d877527644e651190b8ac6298202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa31de38d02c97b3998bdbaa0db0ffe72"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#aa31de38d02c97b3998bdbaa0db0ffe72">loadScene</a></td></tr>
+<tr class="separator:aa31de38d02c97b3998bdbaa0db0ffe72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88ec46048e2aff05b4678403e84ec7b9"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a88ec46048e2aff05b4678403e84ec7b9">startScene</a></td></tr>
+<tr class="separator:a88ec46048e2aff05b4678403e84ec7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3062ed2ad2ffcacd06a434af3f9688e8"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a3062ed2ad2ffcacd06a434af3f9688e8">addObjectToScene:</a></td></tr>
+<tr class="separator:a3062ed2ad2ffcacd06a434af3f9688e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2405d1ff0b9c655f688f8870cfd4f832"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a2405d1ff0b9c655f688f8870cfd4f832">gameLoop</a></td></tr>
+<tr class="separator:a2405d1ff0b9c655f688f8870cfd4f832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca81ea9accf198eee160fbfb466ee6bc"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#aca81ea9accf198eee160fbfb466ee6bc">gameOver</a></td></tr>
+<tr class="separator:aca81ea9accf198eee160fbfb466ee6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f384bd6b6d5d6c59493c44740b0045a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a8f384bd6b6d5d6c59493c44740b0045a">removeObjectFromScene:</a></td></tr>
+<tr class="separator:a8f384bd6b6d5d6c59493c44740b0045a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b0279598275be6e601228034509aad6"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a2b0279598275be6e601228034509aad6">removeAllObjectFromScene</a></td></tr>
+<tr class="separator:a2b0279598275be6e601228034509aad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7462c942bfea39f7be16bfda520deccc"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a7462c942bfea39f7be16bfda520deccc">renderScene</a></td></tr>
+<tr class="separator:a7462c942bfea39f7be16bfda520deccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a870af134b5aa2c159105106d2928e76e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a870af134b5aa2c159105106d2928e76e">restartScene</a></td></tr>
+<tr class="separator:a870af134b5aa2c159105106d2928e76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c045fe255f1ef67aa018b715c18583c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a5c045fe255f1ef67aa018b715c18583c">setAnimationInterval:</a></td></tr>
+<tr class="separator:a5c045fe255f1ef67aa018b715c18583c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c547bf20614ed4d37a9d3d5fb54de8a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a3c547bf20614ed4d37a9d3d5fb54de8a">setAnimationTimer:</a></td></tr>
+<tr class="separator:a3c547bf20614ed4d37a9d3d5fb54de8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec2978664633d01274755367803dd53a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#aec2978664633d01274755367803dd53a">startAnimation</a></td></tr>
+<tr class="separator:aec2978664633d01274755367803dd53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36918a384df60d62887b611d6a023a4a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a36918a384df60d62887b611d6a023a4a">stopAnimation</a></td></tr>
+<tr class="separator:a36918a384df60d62887b611d6a023a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77da8453bc2352cf7f1fe1e0fb166570"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a77da8453bc2352cf7f1fe1e0fb166570">updateModel</a></td></tr>
+<tr class="separator:a77da8453bc2352cf7f1fe1e0fb166570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a775a6fab11c602176647b5f024580b9f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a775a6fab11c602176647b5f024580b9f">setupLighting</a></td></tr>
+<tr class="separator:a775a6fab11c602176647b5f024580b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d772c30da053343baa7c07b9ae42a6a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a7d772c30da053343baa7c07b9ae42a6a">setupLookAt</a></td></tr>
+<tr class="separator:a7d772c30da053343baa7c07b9ae42a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3c283904962f342fcfad3789a3d1f5"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfacescene_controller.html#a7b3c283904962f342fcfad3789a3d1f5">releaseSrc</a></td></tr>
+<tr class="separator:a7b3c283904962f342fcfad3789a3d1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Class Methods</h2></td></tr>
+<tr class="memitem:ac30a8f64f2f48b8b9165da1700db33ad"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interfacescene_controller.html">sceneController</a> *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interfacescene_controller.html#ac30a8f64f2f48b8b9165da1700db33ad">sharedsceneController</a></td></tr>
+<tr class="separator:ac30a8f64f2f48b8b9165da1700db33ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a3b56d0f6aedc47d0db4a225ea5595ad7"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#a3b56d0f6aedc47d0db4a225ea5595ad7">objectsToRemove</a></td></tr>
+<tr class="separator:a3b56d0f6aedc47d0db4a225ea5595ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d0297ecdb024b99a1f1b0bee0d192b"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#af2d0297ecdb024b99a1f1b0bee0d192b">objectsToAdd</a></td></tr>
+<tr class="separator:af2d0297ecdb024b99a1f1b0bee0d192b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa219f75bf67336d4b271006c8b65b8cb"><td class="memItemLeft" align="right" valign="top">NSTimeInterval&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#aa219f75bf67336d4b271006c8b65b8cb">lastFrameStartTime</a></td></tr>
+<tr class="separator:aa219f75bf67336d4b271006c8b65b8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a932983cc866edd2ddcee069b7a1e380e"><td class="memItemLeft" align="right" valign="top">NSTimeInterval&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#a932983cc866edd2ddcee069b7a1e380e">thisFrameStartTime</a></td></tr>
+<tr class="separator:a932983cc866edd2ddcee069b7a1e380e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e74921d4289d7b5421211c605e5e88"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#a79e74921d4289d7b5421211c605e5e88">needToLoadScene</a></td></tr>
+<tr class="separator:a79e74921d4289d7b5421211c605e5e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c8831016366a4026a90e6ca1ac11f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_collision_controller.html">MCCollisionController</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#a65c8831016366a4026a90e6ca1ac11f1">collisionController</a></td></tr>
+<tr class="separator:a65c8831016366a4026a90e6ca1ac11f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:a85d25703a7e887303624cf046c620a6f"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#a85d25703a7e887303624cf046c620a6f">sceneObjects</a></td></tr>
+<tr class="separator:a85d25703a7e887303624cf046c620a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5655feb90a8322981b5cc6777ca6dd43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_input_controller.html">InputController</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#a5655feb90a8322981b5cc6777ca6dd43">inputController</a></td></tr>
+<tr class="separator:a5655feb90a8322981b5cc6777ca6dd43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada14feb6b8402f4b704e7f290b751754"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_e_a_g_l_view.html">EAGLView</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#ada14feb6b8402f4b704e7f290b751754">openGLView</a></td></tr>
+<tr class="separator:ada14feb6b8402f4b704e7f290b751754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d572c1d0dbb3350c04dc81ed4ba6f71"><td class="memItemLeft" align="right" valign="top">NSDate *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#a6d572c1d0dbb3350c04dc81ed4ba6f71">levelStartDate</a></td></tr>
+<tr class="separator:a6d572c1d0dbb3350c04dc81ed4ba6f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a657e079fa58f50a45815ab3182090b19"><td class="memItemLeft" align="right" valign="top">NSTimeInterval&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#a657e079fa58f50a45815ab3182090b19">deltaTime</a></td></tr>
+<tr class="separator:a657e079fa58f50a45815ab3182090b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94476d66e5b6aeaa0018e5d1cc1b4159"><td class="memItemLeft" align="right" valign="top">NSTimeInterval&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#a94476d66e5b6aeaa0018e5d1cc1b4159">animationInterval</a></td></tr>
+<tr class="separator:a94476d66e5b6aeaa0018e5d1cc1b4159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf87d400d070af742838a59128277216"><td class="memItemLeft" align="right" valign="top">NSTimer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacescene_controller.html#acf87d400d070af742838a59128277216">animationTimer</a></td></tr>
+<tr class="separator:acf87d400d070af742838a59128277216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>该类搭建了一个舞台，负责各种场景对象的产生、渲染和终结。 </p>
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00019">19</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a3062ed2ad2ffcacd06a434af3f9688e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) addObjectToScene: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_scene_object.html">MCSceneObject</a>*)&#160;</td>
+          <td class="paramname"><em>sceneObject</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>将需要加载的场景对象加载到“预备加载”队列中。并且唤醒场景对象。</p>
+<p>we don't actualy add the object directly to the scene. this can get called anytime during the game loop, so we want to queue up any objects that need adding and add them at the start of the next game loop</p>
+<p>实际的加入场景对象将会推迟到新的游戏循环的开始阶段。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sceneObject</td><td>MC应用的GUI组件的基类，所谓的场景对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00090">90</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_scene_object_8h_source.html#l00058">MCSceneObject::active</a>, <a class="el" href="_m_c_scene_object_8mm_source.html#l00053">MCSceneObject::awake</a> , 以及 <a class="el" href="scene_controller_8h_source.html#l00031">objectsToAdd</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_textured_button_8m_source.html#l00043">MCTexturedButton::awake</a>, <a class="el" href="_input_controller_8mm_source.html#l00314">InputController::loadInterface</a>, <a class="el" href="_m_c_scene_controller_8mm_source.html#l00042">MCSceneController::loadScene</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00057">MCCountingPlaySceneController::loadScene</a>, <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00039">MCRandomSolveSceneController::loadScene</a> , 以及 <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00045">MCNormalPlaySceneController::loadScene</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4332d877527644e651190b8ac6298202"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="interface_m_c_random_solve_scene_controller.html#abb54b5e06cbf7b56eefd0973fbe9295e">MCRandomSolveSceneController</a> , 以及 <a class="el" href="interface_m_c_scene_controller.html#ac877397419e4ec565ce02c8ba43b96cb">MCSceneController</a> 重载.</p>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00287">287</a> 行定义.</p>
+
+<p>参考 <a class="el" href="scene_controller_8h_source.html#l00034">inputController</a>, <a class="el" href="scene_controller_8h_source.html#l00031">objectsToAdd</a>, <a class="el" href="scene_controller_8h_source.html#l00027">objectsToRemove</a>, <a class="el" href="scene_controller_8h_source.html#l00035">openGLView</a>, <a class="el" href="scene_controller_8h_source.html#l00023">sceneObjects</a> , 以及 <a class="el" href="scene_controller_8m_source.html#l00270">stopAnimation</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_scene_controller_8mm_source.html#l00087">MCSceneController::dealloc</a> , 以及 <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00190">MCRandomSolveSceneController::dealloc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2405d1ff0b9c655f688f8870cfd4f832"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) gameLoop </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00138">138</a> 行定义.</p>
+
+<p>参考 <a class="el" href="scene_controller_8h_source.html#l00055">collisionController</a>, <a class="el" href="scene_controller_8h_source.html#l00046">deltaTime</a>, <a class="el" href="_m_c_collision_controller_8mm_source.html#l00017">MCCollisionController::handleCollisions</a>, <a class="el" href="scene_controller_8h_source.html#l00047">lastFrameStartTime</a>, <a class="el" href="scene_controller_8h_source.html#l00052">levelStartDate</a>, <a class="el" href="scene_controller_8m_source.html#l00061">loadScene</a>, <a class="el" href="scene_controller_8h_source.html#l00054">needToLoadScene</a>, <a class="el" href="scene_controller_8h_source.html#l00031">objectsToAdd</a>, <a class="el" href="scene_controller_8h_source.html#l00027">objectsToRemove</a>, <a class="el" href="scene_controller_8m_source.html#l00198">renderScene</a>, <a class="el" href="scene_controller_8h_source.html#l00023">sceneObjects</a>, <a class="el" href="scene_controller_8h_source.html#l00048">thisFrameStartTime</a> , 以及 <a class="el" href="scene_controller_8m_source.html#l00186">updateModel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aca81ea9accf198eee160fbfb466ee6bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) gameOver </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>该方法最终没有实现 </p>
+
+<p>被 <a class="el" href="interface_m_c_scene_controller.html#ae42c74bbf7adf9109871bbff512b9f7d">MCSceneController</a> 重载.</p>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00180">180</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_cube_8m_source.html#l00293">Cube::deadUpdate</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa31de38d02c97b3998bdbaa0db0ffe72"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) loadScene </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="interface_m_c_normal_play_scene_controller.html#a5ab3aa9081bc41b85bc694c3f7d845e7">MCNormalPlaySceneController</a>, <a class="el" href="interface_m_c_random_solve_scene_controller.html#acb4c20238086626061be15038db70791">MCRandomSolveSceneController</a>, <a class="el" href="interface_m_c_counting_play_scene_controller.html#aeaf252e3a7428383114df1f3b60b39d9">MCCountingPlaySceneController</a> , 以及 <a class="el" href="interface_m_c_scene_controller.html#a1cef63d3c1614f19a07f15469fbc9e03">MCSceneController</a> 重载.</p>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00061">61</a> 行定义.</p>
+
+<p>参考 <a class="el" href="scene_controller_8h_source.html#l00034">inputController</a>, <a class="el" href="_input_controller_8mm_source.html#l00314">InputController::loadInterface</a>, <a class="el" href="scene_controller_8h_source.html#l00054">needToLoadScene</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00024">RANDOM_SEED</a> , 以及 <a class="el" href="scene_controller_8h_source.html#l00023">sceneObjects</a>.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00138">gameLoop</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00157">CoordinatingController::loadCountingPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00238">CoordinatingController::loadMainMenuScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00211">CoordinatingController::loadNormalPlayScene</a> , 以及 <a class="el" href="_coordinating_controller_8m_source.html#l00184">CoordinatingController::loadRandomSolveScene</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7b3c283904962f342fcfad3789a3d1f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) releaseSrc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="interface_m_c_normal_play_scene_controller.html#a246a9479f85926ad3b3154748d897016">MCNormalPlaySceneController</a>, <a class="el" href="interface_m_c_random_solve_scene_controller.html#adeaba20e29c097aef46b3497ef51e9c4">MCRandomSolveSceneController</a>, <a class="el" href="interface_m_c_counting_play_scene_controller.html#ab08e212a44f842e0cf87995be526a5e8">MCCountingPlaySceneController</a> , 以及 <a class="el" href="interface_m_c_scene_controller.html#ab70f625074c00b4b420c61eaf5370626">MCSceneController</a> 重载.</p>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00300">300</a> 行定义.</p>
+
+<p>参考 <a class="el" href="scene_controller_8h_source.html#l00034">inputController</a> , 以及 <a class="el" href="_input_controller_8mm_source.html#l00374">InputController::releaseInterface</a>.</p>
+
+<p>参考自 <a class="el" href="_coordinating_controller_8m_source.html#l00157">CoordinatingController::loadCountingPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00238">CoordinatingController::loadMainMenuScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00211">CoordinatingController::loadNormalPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00184">CoordinatingController::loadRandomSolveScene</a>, <a class="el" href="_m_c_scene_controller_8mm_source.html#l00093">MCSceneController::releaseSrc</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00161">MCCountingPlaySceneController::releaseSrc</a>, <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00186">MCRandomSolveSceneController::releaseSrc</a> , 以及 <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00331">MCNormalPlaySceneController::releaseSrc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2b0279598275be6e601228034509aad6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) removeAllObjectFromScene </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section see"><dt>参见</dt><dd>sceneController::removeObjectFromScene </dd></dl>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00119">119</a> 行定义.</p>
+
+<p>参考 <a class="el" href="scene_controller_8h_source.html#l00023">sceneObjects</a>.</p>
+
+<p>参考自 <a class="el" href="_coordinating_controller_8m_source.html#l00157">CoordinatingController::loadCountingPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00238">CoordinatingController::loadMainMenuScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00211">CoordinatingController::loadNormalPlayScene</a> , 以及 <a class="el" href="_coordinating_controller_8m_source.html#l00184">CoordinatingController::loadRandomSolveScene</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8f384bd6b6d5d6c59493c44740b0045a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) removeObjectFromScene: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_scene_object.html">MCSceneObject</a>*)&#160;</td>
+          <td class="paramname"><em>sceneObject</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>将需要加载的场景对象移除到“预备移除”队列中。</p>
+<p>similar to adding objects, we cannot just remove objects from the scene at any time. we want to queue them for removal and purge them at the end of the game loop</p>
+<p>实际的移除场景对象将推迟到当前游戏循环的结束</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sceneObject</td><td>MC应用的GUI组件的基类，所谓的场景对象 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00110">110</a> 行定义.</p>
+
+<p>参考 <a class="el" href="scene_controller_8h_source.html#l00027">objectsToRemove</a>.</p>
+
+<p>参考自 <a class="el" href="_cube_8m_source.html#l00293">Cube::deadUpdate</a> , 以及 <a class="el" href="_cube_8m_source.html#l00305">Cube::dealloc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7462c942bfea39f7be16bfda520deccc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) renderScene </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>渲染场景内的各个对象和场景 </p>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00198">198</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_e_a_g_l_view_8mm_source.html#l00126">EAGLView::beginDraw</a>, <a class="el" href="_e_a_g_l_view_8mm_source.html#l00138">EAGLView::finishDraw</a>, <a class="el" href="scene_controller_8h_source.html#l00034">inputController</a>, <a class="el" href="scene_controller_8h_source.html#l00035">openGLView</a>, <a class="el" href="_input_controller_8mm_source.html#l00348">InputController::renderInterface</a> , 以及 <a class="el" href="scene_controller_8h_source.html#l00023">sceneObjects</a>.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00138">gameLoop</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a870af134b5aa2c159105106d2928e76e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) restartScene </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>记录当前场景对象，准备加载新的场景 </p>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00052">52</a> 行定义.</p>
+
+<p>参考 <a class="el" href="scene_controller_8h_source.html#l00054">needToLoadScene</a> , 以及 <a class="el" href="scene_controller_8h_source.html#l00027">objectsToRemove</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5c045fe255f1ef67aa018b715c18583c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setAnimationInterval: </td>
+          <td></td>
+          <td class="paramtype">(NSTimeInterval)&#160;</td>
+          <td class="paramname"><em>interval</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3c547bf20614ed4d37a9d3d5fb54de8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setAnimationTimer: </td>
+          <td></td>
+          <td class="paramtype">(NSTimer *)&#160;</td>
+          <td class="paramname"><em>newTimer</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>为动画指定一个计时器</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newTimer</td><td>计时器 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00279">279</a> 行定义.</p>
+
+<p>参考 <a class="el" href="scene_controller_8h_source.html#l00039">animationTimer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a775a6fab11c602176647b5f024580b9f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setupLighting </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>从左上角处产生光照效果，并且使其他部位相对变得昏暗。 由于美观的原因，该方法最终没有被调用。 </p>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00225">225</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7d772c30da053343baa7c07b9ae42a6a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setupLookAt </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>该方法没有实现 </p>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00217">217</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac30a8f64f2f48b8b9165da1700db33ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (<a class="el" href="interfacescene_controller.html">sceneController</a> *) sharedsceneController </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Singleton accessor. this is how you should ALWAYS get a reference to the scene controller. Never init your own.</p>
+<p>使用该静态方法返回单件，切勿调用init </p>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00036">36</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aec2978664633d01274755367803dd53a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) startAnimation </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00266">266</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_coordinating_controller_8m_source.html#l00157">CoordinatingController::loadCountingPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00238">CoordinatingController::loadMainMenuScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00211">CoordinatingController::loadNormalPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00184">CoordinatingController::loadRandomSolveScene</a> , 以及 <a class="el" href="scene_controller_8m_source.html#l00128">startScene</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a88ec46048e2aff05b4678403e84ec7b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) startScene </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>makes everything go </p>
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00128">128</a> 行定义.</p>
+
+<p>参考 <a class="el" href="scene_controller_8h_source.html#l00047">lastFrameStartTime</a>, <a class="el" href="_m_c_configuration_8h_source.html#l00070">MC_FPS</a> , 以及 <a class="el" href="scene_controller_8m_source.html#l00266">startAnimation</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_game_app_delegate_8mm_source.html#l00043">MCGameAppDelegate::applicationDidFinishLaunching:</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00157">CoordinatingController::loadCountingPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00238">CoordinatingController::loadMainMenuScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00211">CoordinatingController::loadNormalPlayScene</a> , 以及 <a class="el" href="_coordinating_controller_8m_source.html#l00184">CoordinatingController::loadRandomSolveScene</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a36918a384df60d62887b611d6a023a4a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) stopAnimation </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00270">270</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00287">dealloc</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00157">CoordinatingController::loadCountingPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00238">CoordinatingController::loadMainMenuScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00211">CoordinatingController::loadNormalPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00184">CoordinatingController::loadRandomSolveScene</a> , 以及 <a class="el" href="_coordinating_controller_8m_source.html#l00062">CoordinatingController::requestViewChangeByObject:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a77da8453bc2352cf7f1fe1e0fb166570"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) updateModel </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="scene_controller_8m_source.html">sceneController.m</a> 第 <a class="el" href="scene_controller_8m_source.html#l00186">186</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_input_controller_8mm_source.html#l00085">InputController::clearEvents</a>, <a class="el" href="scene_controller_8h_source.html#l00034">inputController</a>, <a class="el" href="scene_controller_8h_source.html#l00023">sceneObjects</a> , 以及 <a class="el" href="_input_controller_8mm_source.html#l00339">InputController::updateInterface</a>.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00138">gameLoop</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a65c8831016366a4026a90e6ca1ac11f1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_m_c_collision_controller.html">MCCollisionController</a>*) collisionController</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00055">55</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00138">gameLoop</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00057">MCCountingPlaySceneController::loadScene</a>, <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00039">MCRandomSolveSceneController::loadScene</a> , 以及 <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00045">MCNormalPlaySceneController::loadScene</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa219f75bf67336d4b271006c8b65b8cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSTimeInterval) lastFrameStartTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00047">47</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00138">gameLoop</a> , 以及 <a class="el" href="scene_controller_8m_source.html#l00128">startScene</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a79e74921d4289d7b5421211c605e5e88"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) needToLoadScene</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00054">54</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00138">gameLoop</a>, <a class="el" href="_m_c_scene_controller_8mm_source.html#l00042">MCSceneController::loadScene</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00057">MCCountingPlaySceneController::loadScene</a>, <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00039">MCRandomSolveSceneController::loadScene</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00045">MCNormalPlaySceneController::loadScene</a>, <a class="el" href="scene_controller_8m_source.html#l00061">loadScene</a> , 以及 <a class="el" href="scene_controller_8m_source.html#l00052">restartScene</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af2d0297ecdb024b99a1f1b0bee0d192b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSMutableArray*) objectsToAdd</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>queue that store object to add next update gameloop,and add to the sceneObject array. </p>
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00031">31</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00090">addObjectToScene:</a>, <a class="el" href="scene_controller_8m_source.html#l00287">dealloc</a> , 以及 <a class="el" href="scene_controller_8m_source.html#l00138">gameLoop</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3b56d0f6aedc47d0db4a225ea5595ad7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSMutableArray*) objectsToRemove</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>queue that store object to remove next update gameloop </p>
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00027">27</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00287">dealloc</a>, <a class="el" href="scene_controller_8m_source.html#l00138">gameLoop</a>, <a class="el" href="scene_controller_8m_source.html#l00110">removeObjectFromScene:</a> , 以及 <a class="el" href="scene_controller_8m_source.html#l00052">restartScene</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a932983cc866edd2ddcee069b7a1e380e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSTimeInterval) thisFrameStartTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00048">48</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00138">gameLoop</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="a94476d66e5b6aeaa0018e5d1cc1b4159"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSTimeInterval) animationInterval</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00040">40</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf87d400d070af742838a59128277216"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSTimer *) animationTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00039">39</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00279">setAnimationTimer:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a657e079fa58f50a45815ab3182090b19"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSTimeInterval) deltaTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>每次gameloop需要的时间 </p>
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00046">46</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00138">gameLoop</a>, <a class="el" href="_m_c_mobile_object_8m_source.html#l00022">MCMobileObject::update</a>, <a class="el" href="_m_c_timer_8m_source.html#l00130">MCTimer::update</a> , 以及 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l00321">MCMagicCubeUIModelController::update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5655feb90a8322981b5cc6777ca6dd43"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_input_controller.html">InputController</a> *) inputController</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00034">34</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_game_app_delegate_8mm_source.html#l00043">MCGameAppDelegate::applicationDidFinishLaunching:</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00108">MCCountingPlaySceneController::checkIsOver</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00309">MCNormalPlaySceneController::checkIsOver</a>, <a class="el" href="scene_controller_8m_source.html#l00287">dealloc</a>, <a class="el" href="_m_c_scene_controller_8mm_source.html#l00076">MCSceneController::gameOver</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00157">CoordinatingController::loadCountingPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00238">CoordinatingController::loadMainMenuScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00211">CoordinatingController::loadNormalPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00184">CoordinatingController::loadRandomSolveScene</a>, <a class="el" href="_m_c_scene_controller_8mm_source.html#l00042">MCSceneController::loadScene</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00057">MCCountingPlaySceneController::loadScene</a>, <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00039">MCRandomSolveSceneController::loadScene</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00045">MCNormalPlaySceneController::loadScene</a>, <a class="el" href="scene_controller_8m_source.html#l00061">loadScene</a>, <a class="el" href="scene_controller_8m_source.html#l00300">releaseSrc</a>, <a class="el" href="scene_controller_8m_source.html#l00198">renderScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00062">CoordinatingController::requestViewChangeByObject:</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00177">MCNormalPlaySceneController::showQueue</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00091">MCCountingPlaySceneController::stepcounterAdd</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00113">MCNormalPlaySceneController::stepcounterAdd</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00099">MCCountingPlaySceneController::stepcounterMinus</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00121">MCNormalPlaySceneController::stepcounterMinus</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00105">MCNormalPlaySceneController::stepcounterReset</a> , 以及 <a class="el" href="scene_controller_8m_source.html#l00186">updateModel</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6d572c1d0dbb3350c04dc81ed4ba6f71"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSDate *) levelStartDate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>场景开始时间 </p>
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00052">52</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00138">gameLoop</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ada14feb6b8402f4b704e7f290b751754"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="class_e_a_g_l_view.html">EAGLView</a> *) openGLView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00035">35</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_game_app_delegate_8mm_source.html#l00043">MCGameAppDelegate::applicationDidFinishLaunching:</a>, <a class="el" href="scene_controller_8m_source.html#l00287">dealloc</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00157">CoordinatingController::loadCountingPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00238">CoordinatingController::loadMainMenuScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00211">CoordinatingController::loadNormalPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00184">CoordinatingController::loadRandomSolveScene</a>, <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00039">MCRandomSolveSceneController::loadScene</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00045">MCNormalPlaySceneController::loadScene</a> , 以及 <a class="el" href="scene_controller_8m_source.html#l00198">renderScene</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a85d25703a7e887303624cf046c620a6f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSMutableArray *) sceneObjects</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>maintain all the scene objects </p>
+
+<p>在文件 <a class="el" href="scene_controller_8h_source.html">sceneController.h</a> 第 <a class="el" href="scene_controller_8h_source.html#l00023">23</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="scene_controller_8m_source.html#l00287">dealloc</a>, <a class="el" href="scene_controller_8m_source.html#l00138">gameLoop</a>, <a class="el" href="_m_c_scene_controller_8mm_source.html#l00042">MCSceneController::loadScene</a>, <a class="el" href="_m_c_counting_play_scene_controller____1_8mm_source.html#l00057">MCCountingPlaySceneController::loadScene</a>, <a class="el" href="_m_c_random_solve_scene_controller_8m_source.html#l00039">MCRandomSolveSceneController::loadScene</a>, <a class="el" href="_m_c_normal_play_scene_controller_8m_source.html#l00045">MCNormalPlaySceneController::loadScene</a>, <a class="el" href="scene_controller_8m_source.html#l00061">loadScene</a>, <a class="el" href="scene_controller_8m_source.html#l00119">removeAllObjectFromScene</a>, <a class="el" href="scene_controller_8m_source.html#l00198">renderScene</a> , 以及 <a class="el" href="scene_controller_8m_source.html#l00186">updateModel</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="scene_controller_8h_source.html">sceneController.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="scene_controller_8m_source.html">sceneController.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interfacescene_controller.html">sceneController</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:39 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

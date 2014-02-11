@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/MCMobileObject.m 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_m_c_mobile_object_8m_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">MCMobileObject.m</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_m_c_mobile_object_8m.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  MCMobileObject.m</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  MCGame</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by kwan terry on 12-10-3.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_mobile_object_8h.html">MCMobileObject.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_coordinating_controller_8h.html">CoordinatingController.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">@implementation </span><a class="code" href="interface_m_c_mobile_object.html">MCMobileObject</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">@synthesize</span> <a class="code" href="interface_m_c_mobile_object.html#a526d2cc663715de0e11fb68bc95cc30f">speed</a>,<a class="code" href="interface_m_c_mobile_object.html#abaed096dc339feccbc6fdef2a017d64f">rotationalSpeed</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="interface_m_c_mobile_object.html#a7744ea6703d27fbc9adbf3d7fc374875">   22</a></span>&#160;-(void)<a class="code" href="interface_m_c_mobile_object.html#a7744ea6703d27fbc9adbf3d7fc374875">update</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    CGFloat deltaTime = [[[<a class="code" href="interface_coordinating_controller.html">CoordinatingController</a> <a class="code" href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">sharedCoordinatingController</a>] <a class="code" href="interface_coordinating_controller.html#ace8b4c7677a3c17b5012a9ef835aee31">currentController</a>] <a class="code" href="interfacescene_controller.html#a657e079fa58f50a45815ab3182090b19">deltaTime</a>];</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a>.<a class="code" href="struct_m_c_point.html#a55b334b6a548b231389850e03d40839e">x</a> += <a class="code" href="interface_m_c_mobile_object.html#a526d2cc663715de0e11fb68bc95cc30f">speed</a>.<a class="code" href="struct_m_c_point.html#a55b334b6a548b231389850e03d40839e">x</a> * deltaTime;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a>.<a class="code" href="struct_m_c_point.html#a207523cd2ff0ca2b42c2e7e3fac06f4f">y</a> += <a class="code" href="interface_m_c_mobile_object.html#a526d2cc663715de0e11fb68bc95cc30f">speed</a>.<a class="code" href="struct_m_c_point.html#a207523cd2ff0ca2b42c2e7e3fac06f4f">y</a> * deltaTime;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a>.<a class="code" href="struct_m_c_point.html#a9b33d8d3803d499ccb5b7d5664dbac52">z</a> += <a class="code" href="interface_m_c_mobile_object.html#a526d2cc663715de0e11fb68bc95cc30f">speed</a>.<a class="code" href="struct_m_c_point.html#a9b33d8d3803d499ccb5b7d5664dbac52">z</a> * deltaTime;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a71e4629285258a415e222e9f32ccaad3">prerotation</a>.<a class="code" href="struct_m_c_point.html#a55b334b6a548b231389850e03d40839e">x</a> += <a class="code" href="interface_m_c_mobile_object.html#abaed096dc339feccbc6fdef2a017d64f">rotationalSpeed</a>.<a class="code" href="struct_m_c_point.html#a55b334b6a548b231389850e03d40839e">x</a> * deltaTime;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a71e4629285258a415e222e9f32ccaad3">prerotation</a>.<a class="code" href="struct_m_c_point.html#a207523cd2ff0ca2b42c2e7e3fac06f4f">y</a> += <a class="code" href="interface_m_c_mobile_object.html#abaed096dc339feccbc6fdef2a017d64f">rotationalSpeed</a>.<a class="code" href="struct_m_c_point.html#a207523cd2ff0ca2b42c2e7e3fac06f4f">y</a> * deltaTime;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="interface_m_c_scene_object.html#a71e4629285258a415e222e9f32ccaad3">prerotation</a>.<a class="code" href="struct_m_c_point.html#a9b33d8d3803d499ccb5b7d5664dbac52">z</a> += <a class="code" href="interface_m_c_mobile_object.html#abaed096dc339feccbc6fdef2a017d64f">rotationalSpeed</a>.<a class="code" href="struct_m_c_point.html#a9b33d8d3803d499ccb5b7d5664dbac52">z</a> * deltaTime;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    [<span class="keyword">self</span> <a class="code" href="interface_m_c_mobile_object.html#a2df7209aa86e5552e848661555a7b38c">checkArenaBounds</a>];</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    [<span class="keyword">super</span> <a class="code" href="interface_m_c_scene_object.html#a525fd1511e6a4d0bd9e1b39420542252">update</a>];</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="interface_m_c_mobile_object.html#a2df7209aa86e5552e848661555a7b38c">   46</a></span>&#160;-(void)<a class="code" href="interface_m_c_mobile_object.html#a2df7209aa86e5552e848661555a7b38c">checkArenaBounds</a></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">// 注意这里的屏幕大小是硬编码的。需要修改。TODO：修改硬编码的屏幕大小</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">float</span> width = 1024;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">float</span> height = 768;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a>.<a class="code" href="struct_m_c_point.html#a55b334b6a548b231389850e03d40839e">x</a> &gt; (width/2 + CGRectGetWidth(<span class="keyword">self</span>.<a class="code" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">meshBounds</a>)/2.0))</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a>.<a class="code" href="struct_m_c_point.html#a55b334b6a548b231389850e03d40839e">x</a> -= width + CGRectGetWidth(<span class="keyword">self</span>.<a class="code" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">meshBounds</a>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a>.<a class="code" href="struct_m_c_point.html#a55b334b6a548b231389850e03d40839e">x</a> &lt; (-width/2 - CGRectGetWidth(<span class="keyword">self</span>.<a class="code" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">meshBounds</a>)/2.0))</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a>.<a class="code" href="struct_m_c_point.html#a55b334b6a548b231389850e03d40839e">x</a> += width + CGRectGetWidth(<span class="keyword">self</span>.<a class="code" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">meshBounds</a>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a>.<a class="code" href="struct_m_c_point.html#a207523cd2ff0ca2b42c2e7e3fac06f4f">y</a> &gt; (height/2 + CGRectGetHeight(<span class="keyword">self</span>.<a class="code" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">meshBounds</a>)/2.0))</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a>.<a class="code" href="struct_m_c_point.html#a207523cd2ff0ca2b42c2e7e3fac06f4f">y</a> -= height + CGRectGetHeight(<span class="keyword">self</span>.<a class="code" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">meshBounds</a>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a>.<a class="code" href="struct_m_c_point.html#a207523cd2ff0ca2b42c2e7e3fac06f4f">y</a> &lt; (-height/2 - CGRectGetHeight(<span class="keyword">self</span>.<a class="code" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">meshBounds</a>)/2.0))</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">translation</a>.<a class="code" href="struct_m_c_point.html#a207523cd2ff0ca2b42c2e7e3fac06f4f">y</a> += height + CGRectGetHeight(<span class="keyword">self</span>.<a class="code" href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">meshBounds</a>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">@end</span></div>
+<div class="ttc" id="struct_m_c_point_html_a207523cd2ff0ca2b42c2e7e3fac06f4f"><div class="ttname"><a href="struct_m_c_point.html#a207523cd2ff0ca2b42c2e7e3fac06f4f">MCPoint::y</a></div><div class="ttdeci">CGFloat y</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_point_8h_source.html#l00035">MCPoint.h:35</a></div></div>
+<div class="ttc" id="interface_m_c_mobile_object_html_a7744ea6703d27fbc9adbf3d7fc374875"><div class="ttname"><a href="interface_m_c_mobile_object.html#a7744ea6703d27fbc9adbf3d7fc374875">-[MCMobileObject update]</a></div><div class="ttdeci">void update()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mobile_object_8m_source.html#l00022">MCMobileObject.m:22</a></div></div>
+<div class="ttc" id="_m_c_mobile_object_8h_html"><div class="ttname"><a href="_m_c_mobile_object_8h.html">MCMobileObject.h</a></div></div>
+<div class="ttc" id="struct_m_c_point_html_a55b334b6a548b231389850e03d40839e"><div class="ttname"><a href="struct_m_c_point.html#a55b334b6a548b231389850e03d40839e">MCPoint::x</a></div><div class="ttdeci">CGFloat x</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_point_8h_source.html#l00035">MCPoint.h:35</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_adb90bb7dadb9e9e44f19768120315cf3"><div class="ttname"><a href="interface_m_c_scene_object.html#adb90bb7dadb9e9e44f19768120315cf3">MCSceneObject::meshBounds</a></div><div class="ttdeci">CGRect meshBounds</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00063">MCSceneObject.h:63</a></div></div>
+<div class="ttc" id="interface_m_c_mobile_object_html_abaed096dc339feccbc6fdef2a017d64f"><div class="ttname"><a href="interface_m_c_mobile_object.html#abaed096dc339feccbc6fdef2a017d64f">MCMobileObject::rotationalSpeed</a></div><div class="ttdeci">MCPoint rotationalSpeed</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mobile_object_8h_source.html#l00021">MCMobileObject.h:21</a></div></div>
+<div class="ttc" id="interface_coordinating_controller_html"><div class="ttname"><a href="interface_coordinating_controller.html">CoordinatingController</a></div><div class="ttdef"><b>Definition:</b> <a href="_coordinating_controller_8h_source.html#l00023">CoordinatingController.h:23</a></div></div>
+<div class="ttc" id="_coordinating_controller_8h_html"><div class="ttname"><a href="_coordinating_controller_8h.html">CoordinatingController.h</a></div></div>
+<div class="ttc" id="interface_coordinating_controller_html_a0d275e488bdda11656b6b675b5a2245d"><div class="ttname"><a href="interface_coordinating_controller.html#a0d275e488bdda11656b6b675b5a2245d">+[CoordinatingController sharedCoordinatingController]</a></div><div class="ttdeci">CoordinatingController * sharedCoordinatingController()</div><div class="ttdef"><b>Definition:</b> <a href="_coordinating_controller_8m_source.html#l00031">CoordinatingController.m:31</a></div></div>
+<div class="ttc" id="interface_m_c_mobile_object_html"><div class="ttname"><a href="interface_m_c_mobile_object.html">MCMobileObject</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mobile_object_8h_source.html#l00013">MCMobileObject.h:13</a></div></div>
+<div class="ttc" id="struct_m_c_point_html_a9b33d8d3803d499ccb5b7d5664dbac52"><div class="ttname"><a href="struct_m_c_point.html#a9b33d8d3803d499ccb5b7d5664dbac52">MCPoint::z</a></div><div class="ttdeci">CGFloat z</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_point_8h_source.html#l00035">MCPoint.h:35</a></div></div>
+<div class="ttc" id="interfacescene_controller_html_a657e079fa58f50a45815ab3182090b19"><div class="ttname"><a href="interfacescene_controller.html#a657e079fa58f50a45815ab3182090b19">sceneController::deltaTime</a></div><div class="ttdeci">NSTimeInterval deltaTime</div><div class="ttdef"><b>Definition:</b> <a href="scene_controller_8h_source.html#l00046">sceneController.h:46</a></div></div>
+<div class="ttc" id="interface_m_c_mobile_object_html_a2df7209aa86e5552e848661555a7b38c"><div class="ttname"><a href="interface_m_c_mobile_object.html#a2df7209aa86e5552e848661555a7b38c">-[MCMobileObject checkArenaBounds]</a></div><div class="ttdeci">void checkArenaBounds()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mobile_object_8m_source.html#l00046">MCMobileObject.m:46</a></div></div>
+<div class="ttc" id="interface_coordinating_controller_html_ace8b4c7677a3c17b5012a9ef835aee31"><div class="ttname"><a href="interface_coordinating_controller.html#ace8b4c7677a3c17b5012a9ef835aee31">CoordinatingController::currentController</a></div><div class="ttdeci">sceneController * currentController</div><div class="ttdef"><b>Definition:</b> <a href="_coordinating_controller_8h_source.html#l00027">CoordinatingController.h:27</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_ac51fd997445bf143626cff3f2a76814c"><div class="ttname"><a href="interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c">MCSceneObject::translation</a></div><div class="ttdeci">MCPoint translation</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00044">MCSceneObject.h:44</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a525fd1511e6a4d0bd9e1b39420542252"><div class="ttname"><a href="interface_m_c_scene_object.html#a525fd1511e6a4d0bd9e1b39420542252">-[MCSceneObject update]</a></div><div class="ttdeci">void update()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8mm_source.html#l00061">MCSceneObject.mm:61</a></div></div>
+<div class="ttc" id="interface_m_c_scene_object_html_a71e4629285258a415e222e9f32ccaad3"><div class="ttname"><a href="interface_m_c_scene_object.html#a71e4629285258a415e222e9f32ccaad3">MCSceneObject::prerotation</a></div><div class="ttdeci">MCPoint prerotation</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_scene_object_8h_source.html#l00039">MCSceneObject.h:39</a></div></div>
+<div class="ttc" id="interface_m_c_mobile_object_html_a526d2cc663715de0e11fb68bc95cc30f"><div class="ttname"><a href="interface_m_c_mobile_object.html#a526d2cc663715de0e11fb68bc95cc30f">MCMobileObject::speed</a></div><div class="ttdeci">MCPoint speed</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mobile_object_8h_source.html#l00017">MCMobileObject.h:17</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_m_c_mobile_object_8m.html">MCMobileObject.m</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:37 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

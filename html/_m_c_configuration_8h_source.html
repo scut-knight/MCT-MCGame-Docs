@@ -1,0 +1,403 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/MCConfiguration.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_m_c_configuration_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">MCConfiguration.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_m_c_configuration_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  MCConfiguration.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  MCGame</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by kwan terry on 12-9-29.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"></span><span class="preprocessor">#pragma mark - #define</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a53ec97d409d05b0ed9e77837596527a5">   24</a></span>&#160;<span class="preprocessor">#define RANDOM_SEED() srandom(time(NULL))</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a9fe9e0da760d38f316942c77bc4dbefe">   33</a></span>&#160;<span class="preprocessor">#define RANDOM_INT(__MIN__, __MAX__) ((__MIN__) + random() % ((__MAX__+1) - (__MIN__)))</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a6100ea416a805fd127d96dc3186ae761">   39</a></span>&#160;<span class="preprocessor">#define DEBUG_DRAW_COLLIDERS 0</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">//以下四项在其他文件没有用到</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a644fc2ef788fd1c044383044aa6b2619">   47</a></span>&#160;<span class="preprocessor">#define SMASH_SPEED_FACTOR 40</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a8268383797ad9cd257a6d2b2849ad97b">   48</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TURN_SPEED_FACTOR 3.0</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a3637568b704578ada5543a03973d665f">   49</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define THRUST_SPEED_FACTOR 1.2</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"></span><span class="comment">// a handy constant to keep around</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a1fa7a21ff6bc02dcf50eb08520735a31">   51</a></span>&#160;<span class="preprocessor">#define MCRADIANS_TO_DEGREES 57.2958</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a7640d4be2432573f8f8716fb7190234d">   58</a></span>&#160;<span class="preprocessor">#define MC_CONVERT_TO_4444 0</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">// for particles</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#adf477d1d8e5c46ed64ce255c47faf4d5">   65</a></span>&#160;<span class="comment"></span><span class="preprocessor">#define MC_MAX_PARTICLES 500</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#aa62a8962ce3db6702aaf26edd36fdb10">   70</a></span>&#160;<span class="preprocessor">#define MC_FPS 60.0</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#ae1731d85e2bb359ce0691075fb6dea35">   76</a></span>&#160;<span class="comment"></span><span class="preprocessor">#define RandomRotateMaxCount 20</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a890c4ad9d87f1fbdf1e8a718158207e5">   81</a></span>&#160;<span class="preprocessor">#define MaxDistance 160</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#pragma mark - enum</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49a">   87</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49a">_AskReloadType</a> {</div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49aa2f6cd710776804da012c80b3e3a61195">   88</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49aa2f6cd710776804da012c80b3e3a61195">kAskReloadView_LoadLastTime</a>  = 0,</div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49aa5eeffd155c2d62aec88847ae242c9eaa">   89</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49aa5eeffd155c2d62aec88847ae242c9eaa">kAskReloadView_Reload</a>,</div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49aa7a6213ddc85c08d430c37401d7101b3a">   90</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49aa7a6213ddc85c08d430c37401d7101b3a">kAskReloadView_Cancel</a>,</div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49aa7b64f4a1c74ec8e42c146dd43f0b93b9">   91</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49aa7b64f4a1c74ec8e42c146dd43f0b93b9">kAskReloadView_Default</a></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;} <a class="code" href="_m_c_configuration_8h.html#afe428806caa43ead0988341db6053905">AskReloadType</a>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2">   97</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2a7ecd5c823c493444a7399a6a4a99d2e9">   98</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2a7ecd5c823c493444a7399a6a4a99d2e9">kCountingPlay</a>,</div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2a124b675fae15ed487f60faaaf9d54fa3">   99</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2a124b675fae15ed487f60faaaf9d54fa3">kNormalPlay</a>,</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2afb222900512efd67932c1a36e36ced47">  100</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2afb222900512efd67932c1a36e36ced47">kRandomSolve</a>,</div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2a952d06a03f0b6d4e0412ba53db091d1c">  101</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2a952d06a03f0b6d4e0412ba53db091d1c">kSystemSetting</a>,</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2ac0013c8923fc5d31e55bf6072c7177c2">  102</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2ac0013c8923fc5d31e55bf6072c7177c2">kHeroBoard</a>,</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2a0b525936216cbe1ad427cfbfc335e785">  103</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2a0b525936216cbe1ad427cfbfc335e785">kMainMenu</a>,</div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2ac2f279db131125969355025e9e6517da">  104</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2ac2f279db131125969355025e9e6517da">kScoreBoard2MainMenu</a>,</div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2aa5c27450700dfd0ee300ad6297c5931d">  105</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2aa5c27450700dfd0ee300ad6297c5931d">kSystemSetting2MainMenu</a></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}<a class="code" href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2">ViewTransitionTag</a>;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537da">  111</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> <a class="code" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537da">_FinishViewType</a> {</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa37ccf987d5582bb8c5e65dce7a54337e">  112</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa37ccf987d5582bb8c5e65dce7a54337e">kFinishView_GoBack</a>= 0,</div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa82fff6ec0c625b19b59ddea09c3b2173">  113</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa82fff6ec0c625b19b59ddea09c3b2173">kFinishView_ChangeName</a>,</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa425a54a2dd621c4bc0d64d2ae9b7e8ff">  114</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa425a54a2dd621c4bc0d64d2ae9b7e8ff">kFinishView_OneMore</a>,</div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa17628dbd4c0b8fd6659a33ad5e8921b3">  115</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa17628dbd4c0b8fd6659a33ad5e8921b3">kFinishView_GoCountingPlay</a>,</div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa7d096aae33b38de52ffb03ce464e9b89">  116</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa7d096aae33b38de52ffb03ce464e9b89">kFinishView_Share</a>,</div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa8868a597e42e9083463b2f99761d1060">  117</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa8868a597e42e9083463b2f99761d1060">kFinishView_Default</a></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;} <a class="code" href="_m_c_configuration_8h.html#a3443e30cac01f3c736fc4891b37a8e09">FinishViewType</a>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9f">  125</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fa25c190b370284234d46230a6162aa90b">  129</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fa25c190b370284234d46230a6162aa90b">kState_None</a>,</div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fa5dc65a14c1000a1a2278f7ff74d28fde">  133</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fa5dc65a14c1000a1a2278f7ff74d28fde">kState_S1</a>,</div>
+<div class="line"><a name="l00137"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9faeb0c76a27555a52ce64dcf2ba3f692f0">  137</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9faeb0c76a27555a52ce64dcf2ba3f692f0">kState_M1</a>,</div>
+<div class="line"><a name="l00142"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fabb8451c5ce31fccdea2b5647681ea1e4">  142</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fabb8451c5ce31fccdea2b5647681ea1e4">kState_F1</a>,</div>
+<div class="line"><a name="l00146"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9faf9f0bbf005fba0dccf79034ff414295a">  146</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9faf9f0bbf005fba0dccf79034ff414295a">kState_A1</a>,</div>
+<div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9faf02f540d37541dd0ebd21226f433bdef">  150</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9faf02f540d37541dd0ebd21226f433bdef">kState_S2</a>,</div>
+<div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fa2efa291428527bf42be475f999c209ec">  154</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fa2efa291428527bf42be475f999c209ec">kState_M2</a>,</div>
+<div class="line"><a name="l00159"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9facc54b38cbf51519f7cce12214e65bf82">  159</a></span>&#160;    <a class="code" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9facc54b38cbf51519f7cce12214e65bf82">kState_F2</a></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;}<a class="code" href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9f">FSM_Interaction_State</a>;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="preprocessor">#pragma mark cubre mesh</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="preprocessor"></span><span class="comment">// 以下内容均被用于.mm文件中，却被编译器错误地当作未使用变量。所以不要除去这一部分</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment">// 以下内容用于debug状态下调试用</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#aa74732e007db24365872ad9eb6fd6dc7">  169</a></span>&#160;<span class="keyword">static</span> NSInteger <a class="code" href="_m_c_configuration_8h.html#aa74732e007db24365872ad9eb6fd6dc7">MCCubreVertexStride</a> = 3;</div>
+<div class="line"><a name="l00170"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a508c480ec773eac40e16af2ddbf53a65">  170</a></span>&#160;<span class="keyword">static</span> NSInteger <a class="code" href="_m_c_configuration_8h.html#a508c480ec773eac40e16af2ddbf53a65">MCCubreColorStride</a> = 4;</div>
+<div class="line"><a name="l00171"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a510b563040435d29edf8aafddd649bae">  171</a></span>&#160;<span class="keyword">static</span> NSInteger <a class="code" href="_m_c_configuration_8h.html#a510b563040435d29edf8aafddd649bae">MCCubreOutlineVertexesCount</a> = 36;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
+<div class="line"><a name="l00173"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a0507f293a24f925be41f6fc40f4c39cf">  173</a></span>&#160;<span class="keyword">static</span> CGFloat <a class="code" href="_m_c_configuration_8h.html#a0507f293a24f925be41f6fc40f4c39cf">MCCubreOutlineVertexes</a>[108] = {    </div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="comment">//Define the front face</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    -0.5,0.5,0.5,<span class="comment">//left top</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    -0.5,-0.5,0.5,<span class="comment">//left buttom</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    0.5,0.5,0.5,<span class="comment">//top right</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    -0.5,-0.5,0.5,<span class="comment">//left buttom     </span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    0.5,-0.5,0.5,<span class="comment">//right buttom</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    0.5,0.5,0.5,<span class="comment">//top right</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="comment">//top face</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    -0.5,0.5,-0.5,<span class="comment">//left top(at rear)</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    -0.5,0.5,0.5,<span class="comment">//left buttom(at front)</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    0.5,0.5,-0.5,<span class="comment">//top right(at rear)</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    -0.5,0.5,0.5,<span class="comment">//left buttom(at front)</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    0.5,0.5,0.5,<span class="comment">//right buttom(at front)</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    0.5,0.5,-0.5,<span class="comment">//top right(at rear)</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="comment">//rear face</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    0.5,0.5,-0.5,<span class="comment">//right top(when viewed from front)    </span></div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    0.5,-0.5,-0.5,<span class="comment">//left top</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    -0.5,0.5,-0.5,<span class="comment">//rigtht buttom</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    0.5,-0.5,-0.5,<span class="comment">//rigtht buttom</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    -0.5,-0.5,-0.5,<span class="comment">//left top</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    -0.5,0.5,-0.5,<span class="comment">//left buttom</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="comment">//buttom face</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    -0.5,-0.5,0.5,<span class="comment">//buttom left front</span></div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    -0.5,-0.5,-0.5,<span class="comment">//left rear</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    0.5,-0.5,0.5,<span class="comment">//rigtht buttom</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    0.5,-0.5,0.5,<span class="comment">//rigtht buttom</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    -0.5,-0.5,-0.5,<span class="comment">//left rear</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    0.5,-0.5,-0.5,<span class="comment">//right rear</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="comment">//left face</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    -0.5,0.5,-0.5,<span class="comment">// top left</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    -0.5,-0.5,-0.5,<span class="comment">//buttom left</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    -0.5,0.5,0.5,<span class="comment">// top right</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    -0.5,-0.5,-0.5,<span class="comment">//buttom left</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    -0.5,-0.5,0.5,<span class="comment">//buttom right</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    -0.5,0.5,0.5,<span class="comment">// top right</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="comment">//right face</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    0.5,0.5,0.5,<span class="comment">//top left    </span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    0.5,-0.5,0.5,<span class="comment">//left</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    0.5,0.5,-0.5,<span class="comment">//top right</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    0.5,-0.5,0.5,<span class="comment">//left</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    0.5,-0.5,-0.5,<span class="comment">//right</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    0.5,0.5,-0.5<span class="comment">//top right</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;};</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
+<div class="line"><a name="l00218"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a9f0b94423746c4be62d2d793c4c1aa4b">  218</a></span>&#160;<span class="keyword">static</span> CGFloat <a class="code" href="_m_c_configuration_8h.html#a9f0b94423746c4be62d2d793c4c1aa4b">MCCubreColorValues</a>[144] = </div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;{   1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, </div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, </div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, </div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, </div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0,</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0,</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0,</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0,</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0} ;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
+<div class="line"><a name="l00230"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a4c9a09dd2ed89ed5c2dafd28368dda46">  230</a></span>&#160;<span class="keyword">static</span> NSInteger <a class="code" href="_m_c_configuration_8h.html#a4c9a09dd2ed89ed5c2dafd28368dda46">MCCubreVertexStride_line</a> = 3;</div>
+<div class="line"><a name="l00231"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#aac2392a92fb7fc97b1dc40d663beb56f">  231</a></span>&#160;<span class="keyword">static</span> NSInteger <a class="code" href="_m_c_configuration_8h.html#aac2392a92fb7fc97b1dc40d663beb56f">MCCubreColorStride_line</a> = 4;</div>
+<div class="line"><a name="l00232"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#abecfe37b29283bab8fa88d2171b2aaab">  232</a></span>&#160;<span class="keyword">static</span> NSInteger <a class="code" href="_m_c_configuration_8h.html#abecfe37b29283bab8fa88d2171b2aaab">MCCubreOutlineVertexesCount_line</a> = 48;</div>
+<div class="line"><a name="l00233"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#a5ee722905e9cd8cac408f2ec9e709668">  233</a></span>&#160;<span class="keyword">static</span> CGFloat <a class="code" href="_m_c_configuration_8h.html#a5ee722905e9cd8cac408f2ec9e709668">MCCubreOutlineVertexes_line</a>[144] = {    </div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="comment">//Define the front face</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    -0.5,0.5,0.5,<span class="comment">//left top</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    -0.5,-0.5,0.5,<span class="comment">//left buttom</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    </div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    -0.5,0.5,0.5,<span class="comment">//left top</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    0.5,0.5,0.5,<span class="comment">//top right</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    </div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    -0.5,-0.5,0.5,<span class="comment">//left buttom     </span></div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    0.5,-0.5,0.5,<span class="comment">//right buttom</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    </div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    0.5,0.5,0.5,<span class="comment">//top right</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    0.5,-0.5,0.5,<span class="comment">//right buttom</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    </div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="comment">//top face</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    </div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    -0.5,0.5,-0.5,<span class="comment">//left top(at rear)</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    -0.5,0.5,0.5,<span class="comment">//left buttom(at front)</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    </div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    -0.5,0.5,-0.5,<span class="comment">//left top(at rear)</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    0.5,0.5,-0.5,<span class="comment">//top right(at rear)</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    </div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    -0.5,0.5,0.5,<span class="comment">//left buttom(at front)</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    0.5,0.5,0.5,<span class="comment">//right buttom(at front)</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    </div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    0.5,0.5,0.5,<span class="comment">//right buttom(at front)</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    0.5,0.5,-0.5,<span class="comment">//top right(at rear)</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    </div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="comment">//rear face</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    0.5,0.5,-0.5,<span class="comment">//right top(when viewed from front)    </span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    0.5,-0.5,-0.5,<span class="comment">//left top</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    </div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    0.5,0.5,-0.5,<span class="comment">//right top(when viewed from front) </span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    -0.5,0.5,-0.5,<span class="comment">//rigtht buttom</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    </div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    0.5,-0.5,-0.5,<span class="comment">//rigtht buttom</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    -0.5,-0.5,-0.5,<span class="comment">//left top</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    </div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    -0.5,-0.5,-0.5,<span class="comment">//left top</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    -0.5,0.5,-0.5,<span class="comment">//left buttom</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="comment">//buttom face</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    -0.5,-0.5,0.5,<span class="comment">//buttom left front</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    -0.5,-0.5,-0.5,<span class="comment">//left rear</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    </div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    -0.5,-0.5,0.5,<span class="comment">//buttom left front</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    0.5,-0.5,0.5,<span class="comment">//rigtht buttom</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    </div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    0.5,-0.5,0.5,<span class="comment">//rigtht buttom</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    0.5,-0.5,-0.5,<span class="comment">//left rear</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    </div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    -0.5,-0.5,-0.5,<span class="comment">//left rear</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    0.5,-0.5,-0.5,<span class="comment">//right rear</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="comment">//left face</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    -0.5,0.5,-0.5,<span class="comment">// top left</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    -0.5,-0.5,-0.5,<span class="comment">//buttom left</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    </div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    -0.5,0.5,-0.5,<span class="comment">// top left</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    -0.5,0.5,0.5,<span class="comment">// top right</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    </div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    -0.5,-0.5,-0.5,<span class="comment">//buttom left</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    -0.5,-0.5,0.5,<span class="comment">//buttom right</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    </div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    -0.5,-0.5,0.5,<span class="comment">//buttom right</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    -0.5,0.5,0.5,<span class="comment">// top right</span></div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="comment">//right face</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    0.5,0.5,0.5,<span class="comment">//top left    </span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    0.5,-0.5,0.5,<span class="comment">//left</span></div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    </div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    0.5,0.5,0.5,<span class="comment">//top left    </span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    0.5,0.5,-0.5,<span class="comment">//top right</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    </div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    0.5,-0.5,0.5,<span class="comment">//left</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    0.5,-0.5,-0.5,<span class="comment">//right</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    </div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    0.5,-0.5,-0.5,<span class="comment">//right</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    0.5,0.5,-0.5<span class="comment">//top right</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;};</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;</div>
+<div class="line"><a name="l00311"></a><span class="lineno"><a class="line" href="_m_c_configuration_8h.html#ae31f9f2517040de01e9a1ee347015c4d">  311</a></span>&#160;<span class="keyword">static</span> CGFloat <a class="code" href="_m_c_configuration_8h.html#ae31f9f2517040de01e9a1ee347015c4d">MCCubreColorValues_line</a>[192] = </div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;{   1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, </div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, </div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, </div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, </div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0,</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0,</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0,</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0,</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0,</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0,</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0,</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0, 1.0,0.0,0.0,1.0} ;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
+<div class="ttc" id="_m_c_configuration_8h_html_a5ff8ec50a71a5debcd309dd69e29ac9fa5dc65a14c1000a1a2278f7ff74d28fde"><div class="ttname"><a href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fa5dc65a14c1000a1a2278f7ff74d28fde">kState_S1</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00133">MCConfiguration.h:133</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_aaadfa555a8c9e9232e011d717636e49aa7a6213ddc85c08d430c37401d7101b3a"><div class="ttname"><a href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49aa7a6213ddc85c08d430c37401d7101b3a">kAskReloadView_Cancel</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00090">MCConfiguration.h:90</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a0507f293a24f925be41f6fc40f4c39cf"><div class="ttname"><a href="_m_c_configuration_8h.html#a0507f293a24f925be41f6fc40f4c39cf">MCCubreOutlineVertexes</a></div><div class="ttdeci">static CGFloat MCCubreOutlineVertexes[108]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00173">MCConfiguration.h:173</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a033295f0e2501d400c9a63e1d62537daa8868a597e42e9083463b2f99761d1060"><div class="ttname"><a href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa8868a597e42e9083463b2f99761d1060">kFinishView_Default</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00117">MCConfiguration.h:117</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_aaadfa555a8c9e9232e011d717636e49a"><div class="ttname"><a href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49a">_AskReloadType</a></div><div class="ttdeci">_AskReloadType</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00087">MCConfiguration.h:87</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a889962fecfeaedd176b2dec7b5ecc7e2a124b675fae15ed487f60faaaf9d54fa3"><div class="ttname"><a href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2a124b675fae15ed487f60faaaf9d54fa3">kNormalPlay</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00099">MCConfiguration.h:99</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a889962fecfeaedd176b2dec7b5ecc7e2a7ecd5c823c493444a7399a6a4a99d2e9"><div class="ttname"><a href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2a7ecd5c823c493444a7399a6a4a99d2e9">kCountingPlay</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00098">MCConfiguration.h:98</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a889962fecfeaedd176b2dec7b5ecc7e2a0b525936216cbe1ad427cfbfc335e785"><div class="ttname"><a href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2a0b525936216cbe1ad427cfbfc335e785">kMainMenu</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00103">MCConfiguration.h:103</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a4c9a09dd2ed89ed5c2dafd28368dda46"><div class="ttname"><a href="_m_c_configuration_8h.html#a4c9a09dd2ed89ed5c2dafd28368dda46">MCCubreVertexStride_line</a></div><div class="ttdeci">static NSInteger MCCubreVertexStride_line</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00230">MCConfiguration.h:230</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_aaadfa555a8c9e9232e011d717636e49aa2f6cd710776804da012c80b3e3a61195"><div class="ttname"><a href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49aa2f6cd710776804da012c80b3e3a61195">kAskReloadView_LoadLastTime</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00088">MCConfiguration.h:88</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a5ff8ec50a71a5debcd309dd69e29ac9fa25c190b370284234d46230a6162aa90b"><div class="ttname"><a href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fa25c190b370284234d46230a6162aa90b">kState_None</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00129">MCConfiguration.h:129</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a9f0b94423746c4be62d2d793c4c1aa4b"><div class="ttname"><a href="_m_c_configuration_8h.html#a9f0b94423746c4be62d2d793c4c1aa4b">MCCubreColorValues</a></div><div class="ttdeci">static CGFloat MCCubreColorValues[144]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00218">MCConfiguration.h:218</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_afe428806caa43ead0988341db6053905"><div class="ttname"><a href="_m_c_configuration_8h.html#afe428806caa43ead0988341db6053905">AskReloadType</a></div><div class="ttdeci">enum _AskReloadType AskReloadType</div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a033295f0e2501d400c9a63e1d62537daa425a54a2dd621c4bc0d64d2ae9b7e8ff"><div class="ttname"><a href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa425a54a2dd621c4bc0d64d2ae9b7e8ff">kFinishView_OneMore</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00114">MCConfiguration.h:114</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a5ff8ec50a71a5debcd309dd69e29ac9f"><div class="ttname"><a href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9f">FSM_Interaction_State</a></div><div class="ttdeci">FSM_Interaction_State</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00125">MCConfiguration.h:125</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a5ff8ec50a71a5debcd309dd69e29ac9faeb0c76a27555a52ce64dcf2ba3f692f0"><div class="ttname"><a href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9faeb0c76a27555a52ce64dcf2ba3f692f0">kState_M1</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00137">MCConfiguration.h:137</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a889962fecfeaedd176b2dec7b5ecc7e2"><div class="ttname"><a href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2">ViewTransitionTag</a></div><div class="ttdeci">ViewTransitionTag</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00097">MCConfiguration.h:97</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_ae31f9f2517040de01e9a1ee347015c4d"><div class="ttname"><a href="_m_c_configuration_8h.html#ae31f9f2517040de01e9a1ee347015c4d">MCCubreColorValues_line</a></div><div class="ttdeci">static CGFloat MCCubreColorValues_line[192]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00311">MCConfiguration.h:311</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a510b563040435d29edf8aafddd649bae"><div class="ttname"><a href="_m_c_configuration_8h.html#a510b563040435d29edf8aafddd649bae">MCCubreOutlineVertexesCount</a></div><div class="ttdeci">static NSInteger MCCubreOutlineVertexesCount</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00171">MCConfiguration.h:171</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a033295f0e2501d400c9a63e1d62537daa7d096aae33b38de52ffb03ce464e9b89"><div class="ttname"><a href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa7d096aae33b38de52ffb03ce464e9b89">kFinishView_Share</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00116">MCConfiguration.h:116</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a889962fecfeaedd176b2dec7b5ecc7e2ac0013c8923fc5d31e55bf6072c7177c2"><div class="ttname"><a href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2ac0013c8923fc5d31e55bf6072c7177c2">kHeroBoard</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00102">MCConfiguration.h:102</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_abecfe37b29283bab8fa88d2171b2aaab"><div class="ttname"><a href="_m_c_configuration_8h.html#abecfe37b29283bab8fa88d2171b2aaab">MCCubreOutlineVertexesCount_line</a></div><div class="ttdeci">static NSInteger MCCubreOutlineVertexesCount_line</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00232">MCConfiguration.h:232</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_aac2392a92fb7fc97b1dc40d663beb56f"><div class="ttname"><a href="_m_c_configuration_8h.html#aac2392a92fb7fc97b1dc40d663beb56f">MCCubreColorStride_line</a></div><div class="ttdeci">static NSInteger MCCubreColorStride_line</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00231">MCConfiguration.h:231</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a033295f0e2501d400c9a63e1d62537daa37ccf987d5582bb8c5e65dce7a54337e"><div class="ttname"><a href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa37ccf987d5582bb8c5e65dce7a54337e">kFinishView_GoBack</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00112">MCConfiguration.h:112</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a033295f0e2501d400c9a63e1d62537daa82fff6ec0c625b19b59ddea09c3b2173"><div class="ttname"><a href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa82fff6ec0c625b19b59ddea09c3b2173">kFinishView_ChangeName</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00113">MCConfiguration.h:113</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a508c480ec773eac40e16af2ddbf53a65"><div class="ttname"><a href="_m_c_configuration_8h.html#a508c480ec773eac40e16af2ddbf53a65">MCCubreColorStride</a></div><div class="ttdeci">static NSInteger MCCubreColorStride</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00170">MCConfiguration.h:170</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a5ff8ec50a71a5debcd309dd69e29ac9faf9f0bbf005fba0dccf79034ff414295a"><div class="ttname"><a href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9faf9f0bbf005fba0dccf79034ff414295a">kState_A1</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00146">MCConfiguration.h:146</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a3443e30cac01f3c736fc4891b37a8e09"><div class="ttname"><a href="_m_c_configuration_8h.html#a3443e30cac01f3c736fc4891b37a8e09">FinishViewType</a></div><div class="ttdeci">enum _FinishViewType FinishViewType</div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a889962fecfeaedd176b2dec7b5ecc7e2aa5c27450700dfd0ee300ad6297c5931d"><div class="ttname"><a href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2aa5c27450700dfd0ee300ad6297c5931d">kSystemSetting2MainMenu</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00105">MCConfiguration.h:105</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a5ff8ec50a71a5debcd309dd69e29ac9facc54b38cbf51519f7cce12214e65bf82"><div class="ttname"><a href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9facc54b38cbf51519f7cce12214e65bf82">kState_F2</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00159">MCConfiguration.h:159</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a5ee722905e9cd8cac408f2ec9e709668"><div class="ttname"><a href="_m_c_configuration_8h.html#a5ee722905e9cd8cac408f2ec9e709668">MCCubreOutlineVertexes_line</a></div><div class="ttdeci">static CGFloat MCCubreOutlineVertexes_line[144]</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00233">MCConfiguration.h:233</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a5ff8ec50a71a5debcd309dd69e29ac9fabb8451c5ce31fccdea2b5647681ea1e4"><div class="ttname"><a href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fabb8451c5ce31fccdea2b5647681ea1e4">kState_F1</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00142">MCConfiguration.h:142</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a5ff8ec50a71a5debcd309dd69e29ac9fa2efa291428527bf42be475f999c209ec"><div class="ttname"><a href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9fa2efa291428527bf42be475f999c209ec">kState_M2</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00154">MCConfiguration.h:154</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_aaadfa555a8c9e9232e011d717636e49aa7b64f4a1c74ec8e42c146dd43f0b93b9"><div class="ttname"><a href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49aa7b64f4a1c74ec8e42c146dd43f0b93b9">kAskReloadView_Default</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00091">MCConfiguration.h:91</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a033295f0e2501d400c9a63e1d62537da"><div class="ttname"><a href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537da">_FinishViewType</a></div><div class="ttdeci">_FinishViewType</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00111">MCConfiguration.h:111</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a889962fecfeaedd176b2dec7b5ecc7e2afb222900512efd67932c1a36e36ced47"><div class="ttname"><a href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2afb222900512efd67932c1a36e36ced47">kRandomSolve</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00100">MCConfiguration.h:100</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a5ff8ec50a71a5debcd309dd69e29ac9faf02f540d37541dd0ebd21226f433bdef"><div class="ttname"><a href="_m_c_configuration_8h.html#a5ff8ec50a71a5debcd309dd69e29ac9faf02f540d37541dd0ebd21226f433bdef">kState_S2</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00150">MCConfiguration.h:150</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a889962fecfeaedd176b2dec7b5ecc7e2ac2f279db131125969355025e9e6517da"><div class="ttname"><a href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2ac2f279db131125969355025e9e6517da">kScoreBoard2MainMenu</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00104">MCConfiguration.h:104</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a889962fecfeaedd176b2dec7b5ecc7e2a952d06a03f0b6d4e0412ba53db091d1c"><div class="ttname"><a href="_m_c_configuration_8h.html#a889962fecfeaedd176b2dec7b5ecc7e2a952d06a03f0b6d4e0412ba53db091d1c">kSystemSetting</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00101">MCConfiguration.h:101</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_aaadfa555a8c9e9232e011d717636e49aa5eeffd155c2d62aec88847ae242c9eaa"><div class="ttname"><a href="_m_c_configuration_8h.html#aaadfa555a8c9e9232e011d717636e49aa5eeffd155c2d62aec88847ae242c9eaa">kAskReloadView_Reload</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00089">MCConfiguration.h:89</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_aa74732e007db24365872ad9eb6fd6dc7"><div class="ttname"><a href="_m_c_configuration_8h.html#aa74732e007db24365872ad9eb6fd6dc7">MCCubreVertexStride</a></div><div class="ttdeci">static NSInteger MCCubreVertexStride</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00169">MCConfiguration.h:169</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_a033295f0e2501d400c9a63e1d62537daa17628dbd4c0b8fd6659a33ad5e8921b3"><div class="ttname"><a href="_m_c_configuration_8h.html#a033295f0e2501d400c9a63e1d62537daa17628dbd4c0b8fd6659a33ad5e8921b3">kFinishView_GoCountingPlay</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00115">MCConfiguration.h:115</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_m_c_configuration_8h.html">MCConfiguration.h</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:37 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

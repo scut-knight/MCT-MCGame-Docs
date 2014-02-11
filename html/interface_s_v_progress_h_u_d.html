@@ -1,0 +1,1152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: SVProgressHUD类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_s_v_progress_h_u_d.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pub-static-methods">Class Methods</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_s_v_progress_h_u_d-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">SVProgressHUD类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_s_v_progress_h_u_d_8h_source.html">SVProgressHUD.h</a>&gt;</code></p>
+<div class="dynheader">
+类 SVProgressHUD 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_s_v_progress_h_u_d.png" usemap="#SVProgressHUD_map" alt=""/>
+  <map id="SVProgressHUD_map" name="SVProgressHUD_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:a20f6737c50824e37dfd6c0af572dfa31"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#a20f6737c50824e37dfd6c0af572dfa31">dealloc</a><code> [implementation]</code></td></tr>
+<tr class="separator:a20f6737c50824e37dfd6c0af572dfa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302d58e9e7a59364147b14da1177a6ba"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#a302d58e9e7a59364147b14da1177a6ba">initWithFrame:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a302d58e9e7a59364147b14da1177a6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d6ae5f683ea60ef3568fad016d64a2f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#a9d6ae5f683ea60ef3568fad016d64a2f">drawRect:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a9d6ae5f683ea60ef3568fad016d64a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb63898c41c9c992fb56638f24d74277"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#aeb63898c41c9c992fb56638f24d74277">setFadeOutTimer:</a><code> [implementation]</code></td></tr>
+<tr class="separator:aeb63898c41c9c992fb56638f24d74277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60be2c8be5aa429f962b680ba1db40d4"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#a60be2c8be5aa429f962b680ba1db40d4">registerNotifications</a><code> [implementation]</code></td></tr>
+<tr class="separator:a60be2c8be5aa429f962b680ba1db40d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a9f756358039a20aa945ebfe4adc2cf"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#a0a9f756358039a20aa945ebfe4adc2cf">positionHUD:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a0a9f756358039a20aa945ebfe4adc2cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5845663af48f05a7adf925e5a64880d"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#ab5845663af48f05a7adf925e5a64880d">moveToPoint:rotateAngle:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ab5845663af48f05a7adf925e5a64880d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b22766ab3e3de613e95856cbeede7da"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#a2b22766ab3e3de613e95856cbeede7da">showWithStatus:maskType:networkIndicator:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a2b22766ab3e3de613e95856cbeede7da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf450560368b27166a8573e977999c3c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#aaf450560368b27166a8573e977999c3c">dismissWithStatus:error:</a><code> [implementation]</code></td></tr>
+<tr class="separator:aaf450560368b27166a8573e977999c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa00033ebd7921027c446fcfc4fd1a450"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#aa00033ebd7921027c446fcfc4fd1a450">dismissWithStatus:error:afterDelay:</a><code> [implementation]</code></td></tr>
+<tr class="separator:aa00033ebd7921027c446fcfc4fd1a450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d2b88108d2c209d6c4715fa6311f3b"><td class="memItemLeft" align="right" valign="top">(UIWindow *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#a33d2b88108d2c209d6c4715fa6311f3b">overlayWindow</a><code> [implementation]</code></td></tr>
+<tr class="separator:a33d2b88108d2c209d6c4715fa6311f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec95d51542e0bc49ffbb2b6ee0c5cd77"><td class="memItemLeft" align="right" valign="top">(UIView *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#aec95d51542e0bc49ffbb2b6ee0c5cd77">hudView</a><code> [implementation]</code></td></tr>
+<tr class="separator:aec95d51542e0bc49ffbb2b6ee0c5cd77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ce9f1d6356a4fb8a05c6493346eacd"><td class="memItemLeft" align="right" valign="top">(UILabel *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#a60ce9f1d6356a4fb8a05c6493346eacd">stringLabel</a><code> [implementation]</code></td></tr>
+<tr class="separator:a60ce9f1d6356a4fb8a05c6493346eacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae57a4314aab2e6f49fdbb8262689a08"><td class="memItemLeft" align="right" valign="top">(UIImageView *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#aae57a4314aab2e6f49fdbb8262689a08">imageView</a><code> [implementation]</code></td></tr>
+<tr class="separator:aae57a4314aab2e6f49fdbb8262689a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08d4ca6791a102a3bc8006728da8e706"><td class="memItemLeft" align="right" valign="top">(UIActivityIndicatorView *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#a08d4ca6791a102a3bc8006728da8e706">spinnerView</a><code> [implementation]</code></td></tr>
+<tr class="separator:a08d4ca6791a102a3bc8006728da8e706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae7ad64d5b65d80bff997f4975a194c3"><td class="memItemLeft" align="right" valign="top">(CGFloat)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_s_v_progress_h_u_d.html#aae7ad64d5b65d80bff997f4975a194c3">visibleKeyboardHeight</a><code> [implementation]</code></td></tr>
+<tr class="separator:aae7ad64d5b65d80bff997f4975a194c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Class Methods</h2></td></tr>
+<tr class="memitem:a880393385091ec99c56f586ff6169380"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#a880393385091ec99c56f586ff6169380">show</a></td></tr>
+<tr class="separator:a880393385091ec99c56f586ff6169380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60c29bb6af2ff2d7734e57a5804f4958"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#a60c29bb6af2ff2d7734e57a5804f4958">showWithStatus:</a></td></tr>
+<tr class="separator:a60c29bb6af2ff2d7734e57a5804f4958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a358a8c1ad1536982726cd9a461ef67"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#a0a358a8c1ad1536982726cd9a461ef67">showWithStatus:maskType:</a></td></tr>
+<tr class="separator:a0a358a8c1ad1536982726cd9a461ef67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e36e7f9a5cbf825a5d0303df4e749cd"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#a7e36e7f9a5cbf825a5d0303df4e749cd">showWithMaskType:</a></td></tr>
+<tr class="separator:a7e36e7f9a5cbf825a5d0303df4e749cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a869192f8fa7670e0e361cba5efbc4c9d"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#a869192f8fa7670e0e361cba5efbc4c9d">showSuccessWithStatus:</a></td></tr>
+<tr class="separator:a869192f8fa7670e0e361cba5efbc4c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add6736b523d0707cd7549fce47fdd861"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#add6736b523d0707cd7549fce47fdd861">showSuccessWithStatus:duration:</a></td></tr>
+<tr class="separator:add6736b523d0707cd7549fce47fdd861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8128a4e1addbb9e840fc308dc0321753"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#a8128a4e1addbb9e840fc308dc0321753">showErrorWithStatus:</a></td></tr>
+<tr class="separator:a8128a4e1addbb9e840fc308dc0321753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acecad58eb4e480fe23f22129eea32e9a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#acecad58eb4e480fe23f22129eea32e9a">showErrorWithStatus:duration:</a></td></tr>
+<tr class="separator:acecad58eb4e480fe23f22129eea32e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8676af89efaaba13543aa9cb2b72a8a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#af8676af89efaaba13543aa9cb2b72a8a">setStatus:</a></td></tr>
+<tr class="separator:af8676af89efaaba13543aa9cb2b72a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed897a5b64a03fea94b402edef361f55"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#aed897a5b64a03fea94b402edef361f55">dismiss</a></td></tr>
+<tr class="separator:aed897a5b64a03fea94b402edef361f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c5c78233c2bf25279940beac508a4ee"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#a3c5c78233c2bf25279940beac508a4ee">dismissWithSuccess:</a></td></tr>
+<tr class="separator:a3c5c78233c2bf25279940beac508a4ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5a07ec988bcef0b74dffc5699b96251"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#aa5a07ec988bcef0b74dffc5699b96251">dismissWithSuccess:afterDelay:</a></td></tr>
+<tr class="separator:aa5a07ec988bcef0b74dffc5699b96251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2501662ecc1692fb056d9e4d0ef7084"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#ad2501662ecc1692fb056d9e4d0ef7084">dismissWithError:</a></td></tr>
+<tr class="separator:ad2501662ecc1692fb056d9e4d0ef7084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e1a23b90bb162824c68c71f51f2d10"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#a59e1a23b90bb162824c68c71f51f2d10">dismissWithError:afterDelay:</a></td></tr>
+<tr class="separator:a59e1a23b90bb162824c68c71f51f2d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d37e07a5739b10d9429bd1dbaa0206c"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#a2d37e07a5739b10d9429bd1dbaa0206c">isVisible</a></td></tr>
+<tr class="separator:a2d37e07a5739b10d9429bd1dbaa0206c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7859e144162a6aa0b4409aaa480944a"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_s_v_progress_h_u_d.html">SVProgressHUD</a> *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_s_v_progress_h_u_d.html#af7859e144162a6aa0b4409aaa480944a">sharedView</a><code> [implementation]</code></td></tr>
+<tr class="separator:af7859e144162a6aa0b4409aaa480944a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:abbc5f4e42861008adfcd3b5c38a1b1ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_v_progress_h_u_d_8h.html#ab28f024d12b1ce5f1c955617191ce9dc">SVProgressHUDMaskType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_v_progress_h_u_d.html#abbc5f4e42861008adfcd3b5c38a1b1ad">maskType</a><code> [implementation]</code></td></tr>
+<tr class="separator:abbc5f4e42861008adfcd3b5c38a1b1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb08fe2aa349ee9001309521938f3374"><td class="memItemLeft" align="right" valign="top">NSTimer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_s_v_progress_h_u_d.html#aeb08fe2aa349ee9001309521938f3374">fadeOutTimer</a><code> [implementation]</code></td></tr>
+<tr class="separator:aeb08fe2aa349ee9001309521938f3374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock">
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8h_source.html">SVProgressHUD.h</a> 第 <a class="el" href="_s_v_progress_h_u_d_8h_source.html#l00029">29</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a20f6737c50824e37dfd6c0af572dfa31"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00043">43</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aed897a5b64a03fea94b402edef361f55"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) dismiss </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00101">101</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00101">dismiss</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00050">sharedView</a>.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00101">dismiss</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00382">dismissWithStatus:error:afterDelay:</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00157">CoordinatingController::loadCountingPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00238">CoordinatingController::loadMainMenuScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00211">CoordinatingController::loadNormalPlayScene</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00184">CoordinatingController::loadRandomSolveScene</a> , 以及 <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00477">MCRandomSolveViewInputControllerViewController::solveMagicCube</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad2501662ecc1692fb056d9e4d0ef7084"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) dismissWithError: </td>
+          <td></td>
+          <td class="paramtype">(NSString*)&#160;</td>
+          <td class="paramname"><em>errorString</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00113">113</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00377">dismissWithStatus:error:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00050">sharedView</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a59e1a23b90bb162824c68c71f51f2d10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) <a class="el" href="interface_s_v_progress_h_u_d.html#ad2501662ecc1692fb056d9e4d0ef7084">dismissWithError:</a> </td>
+          <td></td>
+          <td class="paramtype">(NSString*)&#160;</td>
+          <td class="paramname"><em>errorString</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">afterDelay:</td>
+          <td></td>
+          <td class="paramtype">(NSTimeInterval)&#160;</td>
+          <td class="paramname"><em>seconds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00117">117</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00382">dismissWithStatus:error:afterDelay:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00050">sharedView</a>.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00093">showErrorWithStatus:duration:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaf450560368b27166a8573e977999c3c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dismissWithStatus: </td>
+          <td></td>
+          <td class="paramtype">(NSString*)&#160;</td>
+          <td class="paramname"><em>string</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">error:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00377">377</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00382">dismissWithStatus:error:afterDelay:</a>.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00113">dismissWithError:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00105">dismissWithSuccess:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa00033ebd7921027c446fcfc4fd1a450"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dismissWithStatus: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>string</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">error:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>error</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">afterDelay:</td>
+          <td></td>
+          <td class="paramtype">(NSTimeInterval)&#160;</td>
+          <td class="paramname"><em>seconds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00382">382</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00101">dismiss</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00488">imageView</a>.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00117">dismissWithError:afterDelay:</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00377">dismissWithStatus:error:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00109">dismissWithSuccess:afterDelay:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3c5c78233c2bf25279940beac508a4ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) dismissWithSuccess: </td>
+          <td></td>
+          <td class="paramtype">(NSString*)&#160;</td>
+          <td class="paramname"><em>successString</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00105">105</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00377">dismissWithStatus:error:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00050">sharedView</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa5a07ec988bcef0b74dffc5699b96251"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) <a class="el" href="interface_s_v_progress_h_u_d.html#a3c5c78233c2bf25279940beac508a4ee">dismissWithSuccess:</a> </td>
+          <td></td>
+          <td class="paramtype">(NSString*)&#160;</td>
+          <td class="paramname"><em>successString</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">afterDelay:</td>
+          <td></td>
+          <td class="paramtype">(NSTimeInterval)&#160;</td>
+          <td class="paramname"><em>seconds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00109">109</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00382">dismissWithStatus:error:afterDelay:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00050">sharedView</a>.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00084">showSuccessWithStatus:duration:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9d6ae5f683ea60ef3568fad016d64a2f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) drawRect: </td>
+          <td></td>
+          <td class="paramtype">(CGRect)&#160;</td>
+          <td class="paramname"><em>rect</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00136">136</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00015">maskType</a>, <a class="el" href="_s_v_progress_h_u_d_8h_source.html#l00023">SVProgressHUDMaskTypeBlack</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8h_source.html#l00024">SVProgressHUDMaskTypeGradient</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aec95d51542e0bc49ffbb2b6ee0c5cd77"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIView *) hudView </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00455">455</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00337">showWithStatus:maskType:networkIndicator:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aae57a4314aab2e6f49fdbb8262689a08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIImageView *) imageView </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00488">488</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00382">dismissWithStatus:error:afterDelay:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a302d58e9e7a59364147b14da1177a6ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initWithFrame: </td>
+          <td></td>
+          <td class="paramtype">(CGRect)&#160;</td>
+          <td class="paramname"><em>frame</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00124">124</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2d37e07a5739b10d9429bd1dbaa0206c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (BOOL) isVisible </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00438">438</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab5845663af48f05a7adf925e5a64880d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) moveToPoint: </td>
+          <td></td>
+          <td class="paramtype">(CGPoint)&#160;</td>
+          <td class="paramname"><em>newCenter</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">rotateAngle:</td>
+          <td></td>
+          <td class="paramtype">(CGFloat)&#160;</td>
+          <td class="paramname"><em>angle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00330">330</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00248">positionHUD:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a33d2b88108d2c209d6c4715fa6311f3b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIWindow *) overlayWindow </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00445">445</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00337">showWithStatus:maskType:networkIndicator:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0a9f756358039a20aa945ebfe4adc2cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) positionHUD: </td>
+          <td></td>
+          <td class="paramtype">(NSNotification*)&#160;</td>
+          <td class="paramname"><em>notification</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00248">248</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00330">moveToPoint:rotateAngle:</a>.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00337">showWithStatus:maskType:networkIndicator:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a60be2c8be5aa429f962b680ba1db40d4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) registerNotifications </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00220">220</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00337">showWithStatus:maskType:networkIndicator:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeb63898c41c9c992fb56638f24d74277"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setFadeOutTimer: </td>
+          <td></td>
+          <td class="paramtype">(NSTimer *)&#160;</td>
+          <td class="paramname"><em>newTimer</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00210">210</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00016">fadeOutTimer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af8676af89efaaba13543aa9cb2b72a8a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) setStatus: </td>
+          <td></td>
+          <td class="paramtype">(NSString*)&#160;</td>
+          <td class="paramname"><em>string</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00058">58</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00058">setStatus:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00050">sharedView</a>.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00058">setStatus:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00337">showWithStatus:maskType:networkIndicator:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af7859e144162a6aa0b4409aaa480944a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (<a class="el" href="interface_s_v_progress_h_u_d.html">SVProgressHUD</a> *) sharedView </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00050">50</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00101">dismiss</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00113">dismissWithError:</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00117">dismissWithError:afterDelay:</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00105">dismissWithSuccess:</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00109">dismissWithSuccess:afterDelay:</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00058">setStatus:</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00064">show</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00072">showWithMaskType:</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00068">showWithStatus:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00076">showWithStatus:maskType:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a880393385091ec99c56f586ff6169380"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) show </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00064">64</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00050">sharedView</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00337">showWithStatus:maskType:networkIndicator:</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00285">MCRandomSolveViewInputControllerViewController::qSolveBtnUp</a>, <a class="el" href="_coordinating_controller_8m_source.html#l00062">CoordinatingController::requestViewChangeByObject:</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00093">showErrorWithStatus:duration:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00084">showSuccessWithStatus:duration:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8128a4e1addbb9e840fc308dc0321753"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) showErrorWithStatus: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>string</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00089">89</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00093">showErrorWithStatus:duration:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acecad58eb4e480fe23f22129eea32e9a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) <a class="el" href="interface_s_v_progress_h_u_d.html#a8128a4e1addbb9e840fc308dc0321753">showErrorWithStatus:</a> </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>string</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">duration:</td>
+          <td></td>
+          <td class="paramtype">(NSTimeInterval)&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00093">93</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00117">dismissWithError:afterDelay:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00064">show</a>.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00089">showErrorWithStatus:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a869192f8fa7670e0e361cba5efbc4c9d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) showSuccessWithStatus: </td>
+          <td></td>
+          <td class="paramtype">(NSString*)&#160;</td>
+          <td class="paramname"><em>string</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00080">80</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00084">showSuccessWithStatus:duration:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add6736b523d0707cd7549fce47fdd861"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) <a class="el" href="interface_s_v_progress_h_u_d.html#a869192f8fa7670e0e361cba5efbc4c9d">showSuccessWithStatus:</a> </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>string</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">duration:</td>
+          <td></td>
+          <td class="paramtype">(NSTimeInterval)&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00084">84</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00109">dismissWithSuccess:afterDelay:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00064">show</a>.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00080">showSuccessWithStatus:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7e36e7f9a5cbf825a5d0303df4e749cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) showWithMaskType: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_s_v_progress_h_u_d_8h.html#ab28f024d12b1ce5f1c955617191ce9dc">SVProgressHUDMaskType</a>)&#160;</td>
+          <td class="paramname"><em>maskType</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00072">72</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00050">sharedView</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00337">showWithStatus:maskType:networkIndicator:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a60c29bb6af2ff2d7734e57a5804f4958"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) showWithStatus: </td>
+          <td></td>
+          <td class="paramtype">(NSString*)&#160;</td>
+          <td class="paramname"><em>status</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00068">68</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00050">sharedView</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00337">showWithStatus:maskType:networkIndicator:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0a358a8c1ad1536982726cd9a461ef67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) <a class="el" href="interface_s_v_progress_h_u_d.html#a60c29bb6af2ff2d7734e57a5804f4958">showWithStatus:</a> </td>
+          <td></td>
+          <td class="paramtype">(NSString*)&#160;</td>
+          <td class="paramname"><em>status</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">maskType:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_s_v_progress_h_u_d_8h.html#ab28f024d12b1ce5f1c955617191ce9dc">SVProgressHUDMaskType</a>)&#160;</td>
+          <td class="paramname"><em>maskType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00076">76</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00050">sharedView</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00337">showWithStatus:maskType:networkIndicator:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2b22766ab3e3de613e95856cbeede7da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) <a class="el" href="interface_s_v_progress_h_u_d.html#a60c29bb6af2ff2d7734e57a5804f4958">showWithStatus:</a> </td>
+          <td></td>
+          <td class="paramtype">(NSString*)&#160;</td>
+          <td class="paramname"><em>string</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">maskType:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_s_v_progress_h_u_d_8h.html#ab28f024d12b1ce5f1c955617191ce9dc">SVProgressHUDMaskType</a>)&#160;</td>
+          <td class="paramname"><em>hudMaskType</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">networkIndicator:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>show</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00337">337</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00455">hudView</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00015">maskType</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00445">overlayWindow</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00248">positionHUD:</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00220">registerNotifications</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00058">setStatus:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8h_source.html#l00021">SVProgressHUDMaskTypeNone</a>.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00064">show</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00072">showWithMaskType:</a>, <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00068">showWithStatus:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00076">showWithStatus:maskType:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a08d4ca6791a102a3bc8006728da8e706"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIActivityIndicatorView *) spinnerView </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00498">498</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a60ce9f1d6356a4fb8a05c6493346eacd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UILabel *) stringLabel </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00468">468</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aae7ad64d5b65d80bff997f4975a194c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGFloat) visibleKeyboardHeight </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00511">511</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="aeb08fe2aa349ee9001309521938f3374"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSTimer*) fadeOutTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">nonatomic</span><span class="mlabel">strong</span><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00016">16</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00210">setFadeOutTimer:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abbc5f4e42861008adfcd3b5c38a1b1ad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="_s_v_progress_h_u_d_8h.html#ab28f024d12b1ce5f1c955617191ce9dc">SVProgressHUDMaskType</a>) maskType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a> 第 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00015">15</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00136">drawRect:</a> , 以及 <a class="el" href="_s_v_progress_h_u_d_8m_source.html#l00337">showWithStatus:maskType:networkIndicator:</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_s_v_progress_h_u_d_8h_source.html">SVProgressHUD.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_s_v_progress_h_u_d_8m_source.html">SVProgressHUD.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_s_v_progress_h_u_d.html">SVProgressHUD</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:39 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

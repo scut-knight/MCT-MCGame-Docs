@@ -1,0 +1,987 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: QuadCurveMenu类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_quad_curve_menu.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_quad_curve_menu-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">QuadCurveMenu类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a>&gt;</code></p>
+<div class="dynheader">
+类 QuadCurveMenu 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_quad_curve_menu.png" usemap="#QuadCurveMenu_map" alt=""/>
+  <map id="QuadCurveMenu_map" name="QuadCurveMenu_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:ad0c6610917cacb41229cf2102b1ce33d"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#ad0c6610917cacb41229cf2102b1ce33d">initWithFrame:menus:</a></td></tr>
+<tr class="separator:ad0c6610917cacb41229cf2102b1ce33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab67becee49e1d40c0d979b11c1ace71d"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#ab67becee49e1d40c0d979b11c1ace71d">setExpanding:</a></td></tr>
+<tr class="separator:ab67becee49e1d40c0d979b11c1ace71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40b11b3d1ae1a78ed8cf661c3be91834"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#a40b11b3d1ae1a78ed8cf661c3be91834">dealloc</a><code> [implementation]</code></td></tr>
+<tr class="separator:a40b11b3d1ae1a78ed8cf661c3be91834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d44f9d6a4abd61b6104a9102e0903aa"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#a3d44f9d6a4abd61b6104a9102e0903aa">quadCurveMenuItemTouchesBegan:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a3d44f9d6a4abd61b6104a9102e0903aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d6e94bfb36a614e5ccedf46cbbe6944"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#a2d6e94bfb36a614e5ccedf46cbbe6944">quadCurveMenuItemTouchesEnd:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a2d6e94bfb36a614e5ccedf46cbbe6944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9118ef6685d855666b94accba4c25ca8"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#a9118ef6685d855666b94accba4c25ca8">_setMenu</a><code> [implementation]</code></td></tr>
+<tr class="separator:a9118ef6685d855666b94accba4c25ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02df57a1d94df972d1ee34b33bc99ac9"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#a02df57a1d94df972d1ee34b33bc99ac9">_expand</a><code> [implementation]</code></td></tr>
+<tr class="separator:a02df57a1d94df972d1ee34b33bc99ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88c2bfa0105630f46fffe88052503d04"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#a88c2bfa0105630f46fffe88052503d04">_close</a><code> [implementation]</code></td></tr>
+<tr class="separator:a88c2bfa0105630f46fffe88052503d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3062fc9277c315dfb14f404f4ec47ca9"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#a3062fc9277c315dfb14f404f4ec47ca9">stopProtection</a><code> [implementation]</code></td></tr>
+<tr class="separator:a3062fc9277c315dfb14f404f4ec47ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae358256bd89b8e4a664165adcc47d0ee"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#ae358256bd89b8e4a664165adcc47d0ee">didClosed</a><code> [implementation]</code></td></tr>
+<tr class="separator:ae358256bd89b8e4a664165adcc47d0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7dfc156d34065639acba8143c67ee60"><td class="memItemLeft" align="right" valign="top">(CAAnimationGroup *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#ad7dfc156d34065639acba8143c67ee60">_blowupAnimationAtPoint:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ad7dfc156d34065639acba8143c67ee60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8b82bbc656d56e42d3c5d36b098232e"><td class="memItemLeft" align="right" valign="top">(CAAnimationGroup *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#aa8b82bbc656d56e42d3c5d36b098232e">_shrinkAnimationAtPoint:</a><code> [implementation]</code></td></tr>
+<tr class="separator:aa8b82bbc656d56e42d3c5d36b098232e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6af52aef52116bd2b1109dfb9436719"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#ac6af52aef52116bd2b1109dfb9436719">setCenter:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ac6af52aef52116bd2b1109dfb9436719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0b3879473e9006b835cdd944f60fed9"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_quad_curve_menu.html#ad0b3879473e9006b835cdd944f60fed9">setMenusArray:</a><code> [implementation]</code></td></tr>
+<tr class="separator:ad0b3879473e9006b835cdd944f60fed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a8ce4e510c7a503f4850489e3d1eab8c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#a8ce4e510c7a503f4850489e3d1eab8c5">_flag</a></td></tr>
+<tr class="separator:a8ce4e510c7a503f4850489e3d1eab8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac976df6becf3dad5d27d0e7ca3cde73f"><td class="memItemLeft" align="right" valign="top">NSTimer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#ac976df6becf3dad5d27d0e7ca3cde73f">_timer</a></td></tr>
+<tr class="separator:ac976df6becf3dad5d27d0e7ca3cde73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1972464c98be2a4c7d0c36bdcc07b5fb"><td class="memItemLeft" align="right" valign="top">id&lt; QuadCurveMenuDelegate &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#a1972464c98be2a4c7d0c36bdcc07b5fb">_delegate</a></td></tr>
+<tr class="separator:a1972464c98be2a4c7d0c36bdcc07b5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:a1e2f6ad0e65f74b2475c8c0bfd6b18b4"><td class="memItemLeft" align="right" valign="top">NSArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#a1e2f6ad0e65f74b2475c8c0bfd6b18b4">menusArray</a></td></tr>
+<tr class="separator:a1e2f6ad0e65f74b2475c8c0bfd6b18b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefe6fb60036d37af7cece1618754c5a0"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#aefe6fb60036d37af7cece1618754c5a0">isProtection</a></td></tr>
+<tr class="separator:aefe6fb60036d37af7cece1618754c5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb2acf7ed2a92d55d9c383f1d0537d7"><td class="memItemLeft" align="right" valign="top">NSTimer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#aefb2acf7ed2a92d55d9c383f1d0537d7">closeTimer</a></td></tr>
+<tr class="separator:aefb2acf7ed2a92d55d9c383f1d0537d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa606538f897ceec7fe4cb794c0d21409"><td class="memItemLeft" align="right" valign="top">NSTimer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#aa606538f897ceec7fe4cb794c0d21409">animationProtectionTimer</a></td></tr>
+<tr class="separator:aa606538f897ceec7fe4cb794c0d21409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c8bb8c8267f49ac4c24c26e94f49934"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#a9c8bb8c8267f49ac4c24c26e94f49934">expanding</a></td></tr>
+<tr class="separator:a9c8bb8c8267f49ac4c24c26e94f49934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a754854fffcc39b1db7de6d12ff36702b"><td class="memItemLeft" align="right" valign="top">id&lt; QuadCurveMenuDelegate &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#a754854fffcc39b1db7de6d12ff36702b">delegate</a></td></tr>
+<tr class="separator:a754854fffcc39b1db7de6d12ff36702b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eecfd7ed459d17d0a375bd1cbabecaa"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#a6eecfd7ed459d17d0a375bd1cbabecaa">nearRadius</a></td></tr>
+<tr class="separator:a6eecfd7ed459d17d0a375bd1cbabecaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69440bfcc329e4d6436974a8c218822c"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#a69440bfcc329e4d6436974a8c218822c">endRadius</a></td></tr>
+<tr class="separator:a69440bfcc329e4d6436974a8c218822c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77e4e520f858a8bf364b11e247b80ef4"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#a77e4e520f858a8bf364b11e247b80ef4">farRadius</a></td></tr>
+<tr class="separator:a77e4e520f858a8bf364b11e247b80ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ddaaeb5c4c50934f67c852fc5cc43c4"><td class="memItemLeft" align="right" valign="top">CGPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#a6ddaaeb5c4c50934f67c852fc5cc43c4">startPoint</a></td></tr>
+<tr class="separator:a6ddaaeb5c4c50934f67c852fc5cc43c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d026a31e35a8404ab2f3c66718f7e88"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#a0d026a31e35a8404ab2f3c66718f7e88">timeOffset</a></td></tr>
+<tr class="separator:a0d026a31e35a8404ab2f3c66718f7e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20517e92e8bcf22415de50cb7c179088"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#a20517e92e8bcf22415de50cb7c179088">rotateAngle</a></td></tr>
+<tr class="separator:a20517e92e8bcf22415de50cb7c179088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c6219dbe7e28a2b7c9635c73b644ff"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_quad_curve_menu.html#a06c6219dbe7e28a2b7c9635c73b644ff">menuWholeAngle</a></td></tr>
+<tr class="separator:a06c6219dbe7e28a2b7c9635c73b644ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>曲面菜单，就是求解模式下的纹理选择器 </p>
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00017">17</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="ad7dfc156d34065639acba8143c67ee60"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CAAnimationGroup *) _blowupAnimationAtPoint: </td>
+          <td></td>
+          <td class="paramtype">(CGPoint)&#160;</td>
+          <td class="paramname"><em>p</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00304">304</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00310">K_QUADCURVE_MENU_DEFAULT_SELECT_ANIM_LAST_TIME</a>.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00091">quadCurveMenuItemTouchesEnd:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a88c2bfa0105630f46fffe88052503d04"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) _close </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00255">255</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quad_curve_menu_8h_source.html#l00021">_flag</a>, <a class="el" href="_quad_curve_menu_8h_source.html#l00022">_timer</a>, <a class="el" href="_quad_curve_menu_item_8h_source.html#l00029">QuadCurveMenuItem::endPoint</a>, <a class="el" href="_quad_curve_menu_item_8h_source.html#l00031">QuadCurveMenuItem::farPoint</a>, <a class="el" href="_global_8h_source.html#l00312">K_QUADCURVE_MENU_DEFAULT_CLOSE_ANIM_LAST_TIME</a> , 以及 <a class="el" href="_quad_curve_menu_item_8h_source.html#l00028">QuadCurveMenuItem::startPoint</a>.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00161">setExpanding:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a02df57a1d94df972d1ee34b33bc99ac9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) _expand </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00211">211</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quad_curve_menu_8h_source.html#l00021">_flag</a>, <a class="el" href="_quad_curve_menu_8h_source.html#l00022">_timer</a>, <a class="el" href="_quad_curve_menu_item_8h_source.html#l00029">QuadCurveMenuItem::endPoint</a>, <a class="el" href="_quad_curve_menu_item_8h_source.html#l00031">QuadCurveMenuItem::farPoint</a>, <a class="el" href="_global_8h_source.html#l00311">K_QUADCURVE_MENU_DEFAULT_OPEN_ANIM_LAST_TIME</a>, <a class="el" href="_quad_curve_menu_item_8h_source.html#l00030">QuadCurveMenuItem::nearPoint</a> , 以及 <a class="el" href="_quad_curve_menu_item_8h_source.html#l00028">QuadCurveMenuItem::startPoint</a>.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00161">setExpanding:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9118ef6685d855666b94accba4c25ca8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) _setMenu </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00140">140</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quad_curve_menu_item_8h_source.html#l00033">QuadCurveMenuItem::delegate</a>, <a class="el" href="_quad_curve_menu_item_8h_source.html#l00029">QuadCurveMenuItem::endPoint</a>, <a class="el" href="_quad_curve_menu_8h_source.html#l00036">endRadius</a>, <a class="el" href="_quad_curve_menu_item_8h_source.html#l00031">QuadCurveMenuItem::farPoint</a>, <a class="el" href="_quad_curve_menu_8h_source.html#l00037">farRadius</a>, <a class="el" href="_quad_curve_menu_8h_source.html#l00041">menuWholeAngle</a>, <a class="el" href="_quad_curve_menu_item_8h_source.html#l00030">QuadCurveMenuItem::nearPoint</a>, <a class="el" href="_quad_curve_menu_8h_source.html#l00035">nearRadius</a>, <a class="el" href="_quad_curve_menu_8h_source.html#l00040">rotateAngle</a>, <a class="el" href="_quad_curve_menu_8m_source.html#l00022">RotateCGPointAroundCenter()</a>, <a class="el" href="_quad_curve_menu_item_8h_source.html#l00028">QuadCurveMenuItem::startPoint</a> , 以及 <a class="el" href="_quad_curve_menu_8h_source.html#l00038">startPoint</a>.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00161">setExpanding:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa8b82bbc656d56e42d3c5d36b098232e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CAAnimationGroup *) _shrinkAnimationAtPoint: </td>
+          <td></td>
+          <td class="paramtype">(CGPoint)&#160;</td>
+          <td class="paramname"><em>p</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00324">324</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00310">K_QUADCURVE_MENU_DEFAULT_SELECT_ANIM_LAST_TIME</a>.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00091">quadCurveMenuItemTouchesEnd:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a40b11b3d1ae1a78ed8cf661c3be91834"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00073">73</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quad_curve_menu_8h_source.html#l00022">_timer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae358256bd89b8e4a664165adcc47d0ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) didClosed </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00299">299</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0c6610917cacb41229cf2102b1ce33d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initWithFrame: </td>
+          <td></td>
+          <td class="paramtype">(CGRect)&#160;</td>
+          <td class="paramname"><em>frame</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">menus:</td>
+          <td></td>
+          <td class="paramtype">(NSArray *)&#160;</td>
+          <td class="paramname"><em>aMenusArray</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00049">49</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00305">K_QUADCURVE_MENU_DEFAULT_END_RADIUS</a>, <a class="el" href="_global_8h_source.html#l00306">K_QUADCURVE_MENU_DEFAULT_FAR_RADIUS</a>, <a class="el" href="_global_8h_source.html#l00304">K_QUADCURVE_MENU_DEFAULT_NEAR_RADIUS</a>, <a class="el" href="_global_8h_source.html#l00308">K_QUADCURVE_MENU_DEFAULT_ROTATE_ANGLE</a>, <a class="el" href="_global_8h_source.html#l00307">K_QUADCURVE_MENU_DEFAULT_TIME_OFFSET</a> , 以及 <a class="el" href="_global_8h_source.html#l00309">K_QUADCURVE_MENU_DEFAULT_WHOLE_ANGLE</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3d44f9d6a4abd61b6104a9102e0903aa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) quadCurveMenuItemTouchesBegan: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_quad_curve_menu_item.html">QuadCurveMenuItem</a> *)&#160;</td>
+          <td class="paramname"><em>item</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00082">82</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2d6e94bfb36a614e5ccedf46cbbe6944"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) quadCurveMenuItemTouchesEnd: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_quad_curve_menu_item.html">QuadCurveMenuItem</a> *)&#160;</td>
+          <td class="paramname"><em>item</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>当一个颜色选择器的菜单项被选中之后，该选项爆开，而其他选项缩小而消失。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>被选中的菜单项 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00091">91</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quad_curve_menu_8m_source.html#l00304">_blowupAnimationAtPoint:</a>, <a class="el" href="_quad_curve_menu_8h_source.html#l00023">_delegate</a> , 以及 <a class="el" href="_quad_curve_menu_8m_source.html#l00324">_shrinkAnimationAtPoint:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac6af52aef52116bd2b1109dfb9436719"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setCenter: </td>
+          <td></td>
+          <td class="paramtype">(CGPoint)&#160;</td>
+          <td class="paramname"><em>center</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00344">344</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab67becee49e1d40c0d979b11c1ace71d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setExpanding: </td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>expanding</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00161">161</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quad_curve_menu_8m_source.html#l00255">_close</a>, <a class="el" href="_quad_curve_menu_8m_source.html#l00211">_expand</a>, <a class="el" href="_quad_curve_menu_8h_source.html#l00021">_flag</a>, <a class="el" href="_quad_curve_menu_8m_source.html#l00140">_setMenu</a>, <a class="el" href="_quad_curve_menu_8h_source.html#l00022">_timer</a> , 以及 <a class="el" href="_quad_curve_menu_8h_source.html#l00032">expanding</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0b3879473e9006b835cdd944f60fed9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setMenusArray: </td>
+          <td></td>
+          <td class="paramtype">(NSArray *)&#160;</td>
+          <td class="paramname"><em>menusArray</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00351">351</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quad_curve_menu_8h_source.html#l00028">menusArray</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3062fc9277c315dfb14f404f4ec47ca9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) stopProtection </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a> 第 <a class="el" href="_quad_curve_menu_8m_source.html#l00295">295</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a1972464c98be2a4c7d0c36bdcc07b5fb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id&lt;QuadCurveMenuDelegate&gt;) _delegate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00023">23</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00091">quadCurveMenuItemTouchesEnd:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8ce4e510c7a503f4850489e3d1eab8c5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (int) _flag</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00021">21</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00255">_close</a>, <a class="el" href="_quad_curve_menu_8m_source.html#l00211">_expand</a> , 以及 <a class="el" href="_quad_curve_menu_8m_source.html#l00161">setExpanding:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac976df6becf3dad5d27d0e7ca3cde73f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSTimer*) _timer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00022">22</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00255">_close</a>, <a class="el" href="_quad_curve_menu_8m_source.html#l00211">_expand</a>, <a class="el" href="_quad_curve_menu_8m_source.html#l00073">dealloc</a> , 以及 <a class="el" href="_quad_curve_menu_8m_source.html#l00161">setExpanding:</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="aa606538f897ceec7fe4cb794c0d21409"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSTimer*) animationProtectionTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00031">31</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aefb2acf7ed2a92d55d9c383f1d0537d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSTimer*) closeTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00030">30</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a754854fffcc39b1db7de6d12ff36702b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id&lt;QuadCurveMenuDelegate&gt;) delegate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00033">33</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a69440bfcc329e4d6436974a8c218822c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGFloat) endRadius</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00036">36</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00140">_setMenu</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9c8bb8c8267f49ac4c24c26e94f49934"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) expanding</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00032">32</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00161">setExpanding:</a> , 以及 <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00373">MCRandomSolveViewInputControllerViewController::touchesEnded:withEvent:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a77e4e520f858a8bf364b11e247b80ef4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGFloat) farRadius</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00037">37</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00140">_setMenu</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aefe6fb60036d37af7cece1618754c5a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isProtection</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00029">29</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00373">MCRandomSolveViewInputControllerViewController::touchesEnded:withEvent:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1e2f6ad0e65f74b2475c8c0bfd6b18b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSArray*) menusArray</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">copy</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00028">28</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00351">setMenusArray:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a06c6219dbe7e28a2b7c9635c73b644ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGFloat) menuWholeAngle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00041">41</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00140">_setMenu</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6eecfd7ed459d17d0a375bd1cbabecaa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGFloat) nearRadius</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00035">35</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00140">_setMenu</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a20517e92e8bcf22415de50cb7c179088"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGFloat) rotateAngle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00040">40</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00140">_setMenu</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6ddaaeb5c4c50934f67c852fc5cc43c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGPoint) startPoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00038">38</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quad_curve_menu_8m_source.html#l00140">_setMenu</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0d026a31e35a8404ab2f3c66718f7e88"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGFloat) timeOffset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a> 第 <a class="el" href="_quad_curve_menu_8h_source.html#l00039">39</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_quad_curve_menu_8h_source.html">QuadCurveMenu.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_quad_curve_menu_8m_source.html">QuadCurveMenu.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_quad_curve_menu.html">QuadCurveMenu</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:39 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

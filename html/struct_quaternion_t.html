@@ -1,0 +1,793 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: QuaternionT&lt; T &gt; 模板结构体 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('struct_quaternion_t.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="struct_quaternion_t-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">QuaternionT&lt; T &gt; 模板结构体 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:aa3d65218bf75f448cbd66604dbe28b99"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#aa3d65218bf75f448cbd66604dbe28b99">QuaternionT</a> ()</td></tr>
+<tr class="separator:aa3d65218bf75f448cbd66604dbe28b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b5157e3d9b3bbf9c4abdefc3eb46d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#a69b5157e3d9b3bbf9c4abdefc3eb46d2">QuaternionT</a> (T <a class="el" href="struct_quaternion_t.html#a14f80ead50453037e1391e7404d30c72">x</a>, T <a class="el" href="struct_quaternion_t.html#a5ff3302f6d8a9f346e6990802b618ade">y</a>, T <a class="el" href="struct_quaternion_t.html#a8bba0a0e34a2eab3a4b98efefbf6946c">z</a>, T <a class="el" href="struct_quaternion_t.html#ac5d5061bc5d2128a316e4ccf334861ad">w</a>)</td></tr>
+<tr class="separator:a69b5157e3d9b3bbf9c4abdefc3eb46d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d1d1aaddbe8e6b285207d88ce06b964"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#a0d1d1aaddbe8e6b285207d88ce06b964">Slerp</a> (T mu, const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;q) const </td></tr>
+<tr class="separator:a0d1d1aaddbe8e6b285207d88ce06b964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9cfd3b0a1646198d2e188a221882442"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#ae9cfd3b0a1646198d2e188a221882442">Rotated</a> (const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;b) const </td></tr>
+<tr class="separator:ae9cfd3b0a1646198d2e188a221882442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd69c80ecfab536d0c050da02907d00a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#afd69c80ecfab536d0c050da02907d00a">Scaled</a> (T scale) const </td></tr>
+<tr class="separator:afd69c80ecfab536d0c050da02907d00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53f101c158de3589d86174aa4d7cd6a"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#ad53f101c158de3589d86174aa4d7cd6a">Dot</a> (const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;q) const </td></tr>
+<tr class="separator:ad53f101c158de3589d86174aa4d7cd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f22df8863ed14fefb3fed20c13d4ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_matrix3.html">Matrix3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#a73f22df8863ed14fefb3fed20c13d4ae">ToMatrix</a> () const </td></tr>
+<tr class="separator:a73f22df8863ed14fefb3fed20c13d4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5361d4e9c7eae5a3e7abaa427d02fcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vector4.html">Vector4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#ab5361d4e9c7eae5a3e7abaa427d02fcb">ToVector</a> () const </td></tr>
+<tr class="separator:ab5361d4e9c7eae5a3e7abaa427d02fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04dc7a5d07e9576c92259c53b53fbda7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#a04dc7a5d07e9576c92259c53b53fbda7">operator-</a> (const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;q) const </td></tr>
+<tr class="separator:a04dc7a5d07e9576c92259c53b53fbda7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a177bd3017c5f7d37f439689df590f7c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#a177bd3017c5f7d37f439689df590f7c0">operator+</a> (const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;q) const </td></tr>
+<tr class="separator:a177bd3017c5f7d37f439689df590f7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adac923be22a6d4fff5dad0871927555e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#adac923be22a6d4fff5dad0871927555e">operator==</a> (const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;q) const </td></tr>
+<tr class="separator:adac923be22a6d4fff5dad0871927555e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d06ee156eb9a45f79f23c033a8aca03"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#a4d06ee156eb9a45f79f23c033a8aca03">operator!=</a> (const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;q) const </td></tr>
+<tr class="separator:a4d06ee156eb9a45f79f23c033a8aca03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cca0699e40fa5630fb7ba992e91de75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#a7cca0699e40fa5630fb7ba992e91de75">Normalize</a> ()</td></tr>
+<tr class="separator:a7cca0699e40fa5630fb7ba992e91de75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c866c3c44f25f20d07d68c8298f814"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#af3c866c3c44f25f20d07d68c8298f814">Rotate</a> (const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;q)</td></tr>
+<tr class="separator:af3c866c3c44f25f20d07d68c8298f814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a393eb46fdc1a78e25a5de7bee7b092dc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#a393eb46fdc1a78e25a5de7bee7b092dc">CreateFromVectors</a> (const <a class="el" href="struct_vector3.html">Vector3</a>&lt; T &gt; &amp;v0, const <a class="el" href="struct_vector3.html">Vector3</a>&lt; T &gt; &amp;v1)</td></tr>
+<tr class="separator:a393eb46fdc1a78e25a5de7bee7b092dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac80fa204182e6b2249be257672748490"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#ac80fa204182e6b2249be257672748490">CreateFromAxisAngle</a> (const <a class="el" href="struct_vector3.html">Vector3</a>&lt; T &gt; &amp;axis, float radians)</td></tr>
+<tr class="separator:ac80fa204182e6b2249be257672748490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a14f80ead50453037e1391e7404d30c72"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#a14f80ead50453037e1391e7404d30c72">x</a></td></tr>
+<tr class="separator:a14f80ead50453037e1391e7404d30c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ff3302f6d8a9f346e6990802b618ade"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#a5ff3302f6d8a9f346e6990802b618ade">y</a></td></tr>
+<tr class="separator:a5ff3302f6d8a9f346e6990802b618ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bba0a0e34a2eab3a4b98efefbf6946c"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#a8bba0a0e34a2eab3a4b98efefbf6946c">z</a></td></tr>
+<tr class="separator:a8bba0a0e34a2eab3a4b98efefbf6946c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5d5061bc5d2128a316e4ccf334861ad"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_quaternion_t.html#ac5d5061bc5d2128a316e4ccf334861ad">w</a></td></tr>
+<tr class="separator:ac5d5061bc5d2128a316e4ccf334861ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br/>
+struct QuaternionT&lt; T &gt;</h3>
+
+<p>四元数</p>
+<p>如在这里的其他数学模型一样，支持旋转、缩放、点乘等基础操作，此外还可以转换成矢量或矩阵 一个四元数（Quaternion）描述了一个旋转轴和一个旋转角度。 当用一个四元数乘以一个向量时，实际上就是让该向量围绕着这个四元数所描述的旋转轴，转动这个四元数所描述的角度而得到的向量。</p>
+<dl class="section see"><dt>参见</dt><dd><a href="http://www.cppblog.com/kongque/archive/2010/08/18/123824.html">http://www.cppblog.com/kongque/archive/2010/08/18/123824.html</a> </dd></dl>
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00014">14</a> 行定义.</p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a class="anchor" id="aa3d65218bf75f448cbd66604dbe28b99"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::<a class="el" href="struct_quaternion_t.html">QuaternionT</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00045">45</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a69b5157e3d9b3bbf9c4abdefc3eb46d2"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::<a class="el" href="struct_quaternion_t.html">QuaternionT</a> </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>w</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00050">50</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="ac80fa204182e6b2249be257672748490"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::CreateFromAxisAngle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>axis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radians</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>指定一个角度一个旋转轴来构造一个Quaternion。这个角度是相对于单位四元数而言的，也可以说是相对于物体的初始方向而言的。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">axis</td><td>旋转轴 </td></tr>
+    <tr><td class="paramname">radians</td><td>角度(弧度制) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00214">214</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quaternion_8hpp_source.html#l00018">QuaternionT&lt; T &gt;::w</a>, <a class="el" href="_quaternion_8hpp_source.html#l00015">QuaternionT&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00257">Vector3&lt; T &gt;::x</a>, <a class="el" href="_quaternion_8hpp_source.html#l00016">QuaternionT&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00258">Vector3&lt; T &gt;::y</a>, <a class="el" href="_quaternion_8hpp_source.html#l00017">QuaternionT&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00259">Vector3&lt; T &gt;::z</a>.</p>
+
+<p>参考自 <a class="el" href="_quaternion_8hpp_source.html#l00190">QuaternionT&lt; T &gt;::CreateFromVectors()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a393eb46fdc1a78e25a5de7bee7b092dc"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::CreateFromVectors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_vector3.html">Vector3</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>就是通过向量来构造四元数啦 Compute the quaternion that rotates from a to b, avoiding numerical instability. Taken from "The Shortest Arc Quaternion" by Stan Melax in "Game Programming Gems". </p>
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00190">190</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quaternion_8hpp_source.html#l00214">QuaternionT&lt; T &gt;::CreateFromAxisAngle()</a>, <a class="el" href="_vector_8hpp_source.html#l00155">Vector3&lt; T &gt;::Cross()</a>, <a class="el" href="_vector_8hpp_source.html#l00165">Vector3&lt; T &gt;::Dot()</a>, <a class="el" href="_vector_8hpp_source.html#l00011">Pi</a>, <a class="el" href="_quaternion_8hpp_source.html#l00018">QuaternionT&lt; T &gt;::w</a>, <a class="el" href="_quaternion_8hpp_source.html#l00015">QuaternionT&lt; T &gt;::x</a>, <a class="el" href="_vector_8hpp_source.html#l00257">Vector3&lt; T &gt;::x</a>, <a class="el" href="_quaternion_8hpp_source.html#l00016">QuaternionT&lt; T &gt;::y</a>, <a class="el" href="_vector_8hpp_source.html#l00258">Vector3&lt; T &gt;::y</a>, <a class="el" href="_quaternion_8hpp_source.html#l00017">QuaternionT&lt; T &gt;::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00259">Vector3&lt; T &gt;::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad53f101c158de3589d86174aa4d7cd6a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::Dot </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00112">112</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quaternion_8hpp_source.html#l00018">QuaternionT&lt; T &gt;::w</a>, <a class="el" href="_quaternion_8hpp_source.html#l00015">QuaternionT&lt; T &gt;::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_quaternion_8hpp_source.html#l00016">QuaternionT&lt; T &gt;::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_quaternion_8hpp_source.html#l00017">QuaternionT&lt; T &gt;::z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7cca0699e40fa5630fb7ba992e91de75"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::Normalize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>四元数多次运算后会积攒误差，需要对其做规范化 </p>
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00229">229</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quaternion_8hpp_source.html#l00235">QuaternionT&lt; T &gt;::Rotate()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00094">QuaternionT&lt; T &gt;::Rotated()</a> , 以及 <a class="el" href="_quaternion_8hpp_source.html#l00065">QuaternionT&lt; T &gt;::Slerp()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4d06ee156eb9a45f79f23c033a8aca03"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00179">179</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a177bd3017c5f7d37f439689df590f7c0"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00167">167</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quaternion_8hpp_source.html#l00018">QuaternionT&lt; T &gt;::w</a>, <a class="el" href="_quaternion_8hpp_source.html#l00015">QuaternionT&lt; T &gt;::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_quaternion_8hpp_source.html#l00016">QuaternionT&lt; T &gt;::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_quaternion_8hpp_source.html#l00017">QuaternionT&lt; T &gt;::z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a04dc7a5d07e9576c92259c53b53fbda7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::operator- </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00161">161</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quaternion_8hpp_source.html#l00018">QuaternionT&lt; T &gt;::w</a>, <a class="el" href="_quaternion_8hpp_source.html#l00015">QuaternionT&lt; T &gt;::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_quaternion_8hpp_source.html#l00016">QuaternionT&lt; T &gt;::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_quaternion_8hpp_source.html#l00017">QuaternionT&lt; T &gt;::z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adac923be22a6d4fff5dad0871927555e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00173">173</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quaternion_8hpp_source.html#l00018">QuaternionT&lt; T &gt;::w</a>, <a class="el" href="_quaternion_8hpp_source.html#l00015">QuaternionT&lt; T &gt;::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_quaternion_8hpp_source.html#l00016">QuaternionT&lt; T &gt;::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_quaternion_8hpp_source.html#l00017">QuaternionT&lt; T &gt;::z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af3c866c3c44f25f20d07d68c8298f814"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::Rotate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>q</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00235">235</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quaternion_8hpp_source.html#l00229">QuaternionT&lt; T &gt;::Normalize()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00018">QuaternionT&lt; T &gt;::w</a>, <a class="el" href="_quaternion_8hpp_source.html#l00015">QuaternionT&lt; T &gt;::x</a>, <a class="el" href="_quaternion_8hpp_source.html#l00016">QuaternionT&lt; T &gt;::y</a> , 以及 <a class="el" href="_quaternion_8hpp_source.html#l00017">QuaternionT&lt; T &gt;::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae9cfd3b0a1646198d2e188a221882442"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::Rotated </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00094">94</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quaternion_8hpp_source.html#l00229">QuaternionT&lt; T &gt;::Normalize()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00018">QuaternionT&lt; T &gt;::w</a>, <a class="el" href="_quaternion_8hpp_source.html#l00015">QuaternionT&lt; T &gt;::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_quaternion_8hpp_source.html#l00016">QuaternionT&lt; T &gt;::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_quaternion_8hpp_source.html#l00017">QuaternionT&lt; T &gt;::z</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd69c80ecfab536d0c050da02907d00a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::Scaled </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>scale</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00106">106</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+<p>参考自 <a class="el" href="_quaternion_8hpp_source.html#l00065">QuaternionT&lt; T &gt;::Slerp()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0d1d1aaddbe8e6b285207d88ce06b964"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::Slerp </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>球状线性插值 球状线性插值对于三位模型进行动画处理非常有用，因为这种方式在模型的各种方向之间提供了平滑的转换。 注 ： Ken Shoemake 是把四元数引入3D编程界的大牛 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>插值参数 </td></tr>
+    <tr><td class="paramname">v1</td><td>插值前的矩阵</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>插值后的矩阵 </dd></dl>
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00065">65</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_quaternion_8hpp_source.html#l00229">QuaternionT&lt; T &gt;::Normalize()</a> , 以及 <a class="el" href="_quaternion_8hpp_source.html#l00106">QuaternionT&lt; T &gt;::Scaled()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a73f22df8863ed14fefb3fed20c13d4ae"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_matrix3.html">Matrix3</a>&lt; T &gt; <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::ToMatrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>转换成矩阵形式，用于矩阵乘法。</p>
+<p>Quaternion x,y,z,w</p>
+<p>Matrix(注意后置的2是²的意思，如果不能正常显示) =</p>
+<p>1 - 2y² - 2z² 2xy - 2wz 2xz + 2wy</p>
+<p>2xy + 2wz 1 - 2x² - 2z² 2yz - 2wx</p>
+<p>2xz - 2wy 2yz + 2wx 1 - 2x² - 2y²</p>
+<dl class="section return"><dt>返回</dt><dd>三阶矩阵 </dd></dl>
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00133">133</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_matrix_8hpp_source.html#l00057">Matrix3&lt; T &gt;::x</a>, <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_vector_8hpp_source.html#l00257">Vector3&lt; T &gt;::x</a>, <a class="el" href="_matrix_8hpp_source.html#l00058">Matrix3&lt; T &gt;::y</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a>, <a class="el" href="_vector_8hpp_source.html#l00258">Vector3&lt; T &gt;::y</a>, <a class="el" href="_matrix_8hpp_source.html#l00059">Matrix3&lt; T &gt;::z</a>, <a class="el" href="_global_8h_source.html#l00186">MC::z</a> , 以及 <a class="el" href="_vector_8hpp_source.html#l00259">Vector3&lt; T &gt;::z</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01808">MCMagicCubeUIModelController::adjustWithCenter</a>, <a class="el" href="_m_c_magic_cube_u_i_model_controller_8m_source.html#l01953">MCMagicCubeUIModelController::adjustWithCenter_2</a>, <a class="el" href="_m_c_g_l_8mm_source.html#l00438">MCGL::rotateWithQuaternion:</a> , 以及 <a class="el" href="_m_c_scene_object_8mm_source.html#l00061">MCSceneObject::update</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab5361d4e9c7eae5a3e7abaa427d02fcb"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_vector4.html">Vector4</a>&lt; T &gt; <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::ToVector </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>直接返回由四元数四个维度x,y,z,w构成的向量 </p>
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00155">155</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00184">MC::x</a>, <a class="el" href="_global_8h_source.html#l00185">MC::y</a> , 以及 <a class="el" href="_global_8h_source.html#l00186">MC::z</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="ac5d5061bc5d2128a316e4ccf334861ad"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::w</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00018">18</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quaternion_8hpp_source.html#l00214">QuaternionT&lt; T &gt;::CreateFromAxisAngle()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00190">QuaternionT&lt; T &gt;::CreateFromVectors()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00112">QuaternionT&lt; T &gt;::Dot()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00167">QuaternionT&lt; T &gt;::operator+()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00161">QuaternionT&lt; T &gt;::operator-()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00173">QuaternionT&lt; T &gt;::operator==()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00235">QuaternionT&lt; T &gt;::Rotate()</a> , 以及 <a class="el" href="_quaternion_8hpp_source.html#l00094">QuaternionT&lt; T &gt;::Rotated()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a14f80ead50453037e1391e7404d30c72"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::x</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00015">15</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quaternion_8hpp_source.html#l00214">QuaternionT&lt; T &gt;::CreateFromAxisAngle()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00190">QuaternionT&lt; T &gt;::CreateFromVectors()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00112">QuaternionT&lt; T &gt;::Dot()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00167">QuaternionT&lt; T &gt;::operator+()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00161">QuaternionT&lt; T &gt;::operator-()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00173">QuaternionT&lt; T &gt;::operator==()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00235">QuaternionT&lt; T &gt;::Rotate()</a> , 以及 <a class="el" href="_quaternion_8hpp_source.html#l00094">QuaternionT&lt; T &gt;::Rotated()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5ff3302f6d8a9f346e6990802b618ade"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::y</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00016">16</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quaternion_8hpp_source.html#l00214">QuaternionT&lt; T &gt;::CreateFromAxisAngle()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00190">QuaternionT&lt; T &gt;::CreateFromVectors()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00112">QuaternionT&lt; T &gt;::Dot()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00167">QuaternionT&lt; T &gt;::operator+()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00161">QuaternionT&lt; T &gt;::operator-()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00173">QuaternionT&lt; T &gt;::operator==()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00235">QuaternionT&lt; T &gt;::Rotate()</a> , 以及 <a class="el" href="_quaternion_8hpp_source.html#l00094">QuaternionT&lt; T &gt;::Rotated()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8bba0a0e34a2eab3a4b98efefbf6946c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="struct_quaternion_t.html">QuaternionT</a>&lt; T &gt;::z</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a> 第 <a class="el" href="_quaternion_8hpp_source.html#l00017">17</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_quaternion_8hpp_source.html#l00214">QuaternionT&lt; T &gt;::CreateFromAxisAngle()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00190">QuaternionT&lt; T &gt;::CreateFromVectors()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00112">QuaternionT&lt; T &gt;::Dot()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00167">QuaternionT&lt; T &gt;::operator+()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00161">QuaternionT&lt; T &gt;::operator-()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00173">QuaternionT&lt; T &gt;::operator==()</a>, <a class="el" href="_quaternion_8hpp_source.html#l00235">QuaternionT&lt; T &gt;::Rotate()</a> , 以及 <a class="el" href="_quaternion_8hpp_source.html#l00094">QuaternionT&lt; T &gt;::Rotated()</a>.</p>
+
+</div>
+</div>
+<hr/>该结构体的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="struct_quaternion_t.html">QuaternionT</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:39 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

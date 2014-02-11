@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/Classes/UAModalPanel.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_u_a_modal_panel_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">UAModalPanel.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_u_a_modal_panel_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  UAModalDisplayPanelView.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  UAModalPanel</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by Matt Coneybeare on 1/8/12.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright (c) 2012 Urban Apps. All rights reserved.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#import &lt;Foundation/Foundation.h&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_u_a_rounded_rect_view_8h.html">UARoundedRectView.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">// Logging Helpers</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#ifdef UAMODALVIEW_DEBUG</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define UADebugLog( s, ... ) NSLog( @&quot;&lt;%@:%d&gt; %@&quot;, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__,  [NSString stringWithFormat:(s), ##__VA_ARGS__] )</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="_u_a_modal_panel_8h.html#a1dd2cd429d29befc3e25737a59e1c8b3">   26</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define UADebugLog( s, ... ) </span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">@class</span> <a class="code" href="interface_u_a_modal_panel.html">UAModalPanel</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="protocol_u_a_modal_panel_delegate-p.html">   31</a></span>&#160;<span class="keyword">@protocol </span><a class="code" href="protocol_u_a_modal_panel_delegate-p.html">UAModalPanelDelegate</a></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">@optional</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;- (void)willShowModalPanel:(<a class="code" href="interface_u_a_modal_panel.html">UAModalPanel</a> *)modalPanel;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;- (void)didShowModalPanel:(<a class="code" href="interface_u_a_modal_panel.html">UAModalPanel</a> *)modalPanel;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;- (BOOL)shouldCloseModalPanel:(<a class="code" href="interface_u_a_modal_panel.html">UAModalPanel</a> *)modalPanel;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;- (void)willCloseModalPanel:(<a class="code" href="interface_u_a_modal_panel.html">UAModalPanel</a> *)modalPanel;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;- (void)didCloseModalPanel:(<a class="code" href="interface_u_a_modal_panel.html">UAModalPanel</a> *)modalPanel;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">@end</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="_u_a_modal_panel_8h.html#a5cda9a948002deb716981437ec0bc0b4">   40</a></span>&#160;<span class="keyword">typedef</span> void (^<a class="code" href="_u_a_modal_panel_8h.html#a5cda9a948002deb716981437ec0bc0b4">UAModalDisplayPanelEvent</a>)(<a class="code" href="interface_u_a_modal_panel.html">UAModalPanel</a>* panel);</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="_u_a_modal_panel_8h.html#a71b420518d6afd204ff56cd352a82358">   41</a></span>&#160;<span class="keyword">typedef</span> void (^<a class="code" href="_u_a_modal_panel_8h.html#a71b420518d6afd204ff56cd352a82358">UAModalDisplayPanelAnimationComplete</a>)(BOOL finished);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html">   43</a></span>&#160;<span class="keyword">@interface </span><a class="code" href="interface_u_a_modal_panel.html">UAModalPanel</a> : UIView {  </div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#ae42ea52c5b8a35422cd4d281c6526eb8">   44</a></span>&#160;    NSObject&lt;UAModalPanelDelegate&gt;  *<a class="code" href="interface_u_a_modal_panel.html#ae42ea52c5b8a35422cd4d281c6526eb8">delegate</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    </div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#a73502efd92ec6127b55c9811a5123d59">   46</a></span>&#160;    UIView      *<a class="code" href="interface_u_a_modal_panel.html#a73502efd92ec6127b55c9811a5123d59">contentContainer</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#ad19eeea268562b2ecbdbce2779d7671a">   47</a></span>&#160;    UIView      *<a class="code" href="interface_u_a_modal_panel.html#ad19eeea268562b2ecbdbce2779d7671a">roundedRect</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#a63b48a2220ff8dbecd8aac45b78692f7">   48</a></span>&#160;    UIButton    *<a class="code" href="interface_u_a_modal_panel.html#a63b48a2220ff8dbecd8aac45b78692f7">closeButton</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#ac50929e16953bdbb98a9f8ff93755680">   49</a></span>&#160;    UIView      *<a class="code" href="interface_u_a_modal_panel.html#ac50929e16953bdbb98a9f8ff93755680">contentView</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    </div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#a3c8a580f3fb4f2f22189123293eea58a">   51</a></span>&#160;    CGPoint     <a class="code" href="interface_u_a_modal_panel.html#a3c8a580f3fb4f2f22189123293eea58a">startEndPoint</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    </div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#a4f1035d07ea416544c55dc8b8bfc2d0a">   53</a></span>&#160;    CGFloat     <a class="code" href="interface_u_a_modal_panel.html#a4f1035d07ea416544c55dc8b8bfc2d0a">x_outerMargin</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#a7a819e0b987786fec75a69c0da8f587a">   54</a></span>&#160;    CGFloat     <a class="code" href="interface_u_a_modal_panel.html#a7a819e0b987786fec75a69c0da8f587a">y_outerMargin</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#a7562ce2bb225246a1f9afad89a7ed7e5">   55</a></span>&#160;    CGFloat     <a class="code" href="interface_u_a_modal_panel.html#a7562ce2bb225246a1f9afad89a7ed7e5">innerMargin</a>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#a132a2fc0a2fb2852669ff2f1e5181316">   56</a></span>&#160;    UIColor     *<a class="code" href="interface_u_a_modal_panel.html#a132a2fc0a2fb2852669ff2f1e5181316">borderColor</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#afd0377345bf0ee92043c14a47c55c722">   57</a></span>&#160;    CGFloat     <a class="code" href="interface_u_a_modal_panel.html#afd0377345bf0ee92043c14a47c55c722">borderWidth</a>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#ac9c948eb2be61cde9375c147fbf0fa1e">   58</a></span>&#160;    CGFloat     <a class="code" href="interface_u_a_modal_panel.html#ac9c948eb2be61cde9375c147fbf0fa1e">cornerRadius</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#a37658864fdea07962b032f7adf33b669">   59</a></span>&#160;    UIColor     *<a class="code" href="interface_u_a_modal_panel.html#a37658864fdea07962b032f7adf33b669">contentColor</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#a48cde5789551860b055703e48805f5de">   60</a></span>&#160;    BOOL        <a class="code" href="interface_u_a_modal_panel.html#a48cde5789551860b055703e48805f5de">shouldBounce</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#a0b7e5be84391fa8ba125f0e5ce8143c4">   61</a></span>&#160;    BOOL        <a class="code" href="interface_u_a_modal_panel.html#a0b7e5be84391fa8ba125f0e5ce8143c4">isShowColseBtn</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">@property</span> (nonatomic, assign) NSObject&lt;UAModalPanelDelegate&gt;    *delegate;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keyword">@property</span> (nonatomic, retain) UIView        *contentContainer;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keyword">@property</span> (nonatomic, retain) UIView        *roundedRect;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">@property</span> (nonatomic, retain) UIButton      *closeButton;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">@property</span> (nonatomic, retain) UIView        *contentView;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">// Margin between edge of container frame and panel. Default = 20.0</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat       x_outerMargin;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">// Margin between edge of container frame and panel. Default = 20.0</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat       y_outerMargin;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">// Margin between edge of panel and the content area. Default = 20.0</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat       innerMargin;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">// Border color of the panel. Default = [UIColor whiteColor]</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">@property</span> (nonatomic, retain) UIColor       *borderColor;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">// Border width of the panel. Default = 1.5f</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat       borderWidth;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">// Corner radius of the panel. Default = 4.0f</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keyword">@property</span> (nonatomic, assign) CGFloat       cornerRadius;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">// Color of the panel itself. Default = [UIColor colorWithWhite:0.0 alpha:0.8]</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keyword">@property</span> (nonatomic, retain) UIColor       *contentColor;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">// Shows the bounce animation. Default = YES</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL          shouldBounce;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">// Shows the colse btn. Default = YES</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">@property</span> (nonatomic, assign) BOOL          isShowColseBtn;</div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="interface_u_a_modal_panel.html#aeb987edaac38e8b2383b44f746bde101">   90</a></span>&#160;<span class="keyword">@property</span> (readwrite, copy) <a class="code" href="_u_a_modal_panel_8h.html#a5cda9a948002deb716981437ec0bc0b4">UAModalDisplayPanelEvent</a> onClosePressed;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;- (void)show;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;- (void)showFromPoint:(CGPoint)point;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;- (void)hide;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;- (void)hideWithOnComplete:(<a class="code" href="_u_a_modal_panel_8h.html#a71b420518d6afd204ff56cd352a82358">UAModalDisplayPanelAnimationComplete</a>)onComplete;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;- (CGRect)roundedRectFrame;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;- (CGRect)closeButtonFrame;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;- (CGRect)contentViewFrame;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="keyword">@end</span></div>
+<div class="ttc" id="_u_a_rounded_rect_view_8h_html"><div class="ttname"><a href="_u_a_rounded_rect_view_8h.html">UARoundedRectView.h</a></div></div>
+<div class="ttc" id="_u_a_modal_panel_8h_html_a5cda9a948002deb716981437ec0bc0b4"><div class="ttname"><a href="_u_a_modal_panel_8h.html#a5cda9a948002deb716981437ec0bc0b4">UAModalDisplayPanelEvent</a></div><div class="ttdeci">void(^ UAModalDisplayPanelEvent)(UAModalPanel *panel)</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00040">UAModalPanel.h:40</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_afd0377345bf0ee92043c14a47c55c722"><div class="ttname"><a href="interface_u_a_modal_panel.html#afd0377345bf0ee92043c14a47c55c722">UAModalPanel::borderWidth</a></div><div class="ttdeci">CGFloat borderWidth</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00057">UAModalPanel.h:57</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_a0b7e5be84391fa8ba125f0e5ce8143c4"><div class="ttname"><a href="interface_u_a_modal_panel.html#a0b7e5be84391fa8ba125f0e5ce8143c4">UAModalPanel::isShowColseBtn</a></div><div class="ttdeci">BOOL isShowColseBtn</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00061">UAModalPanel.h:61</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_a48cde5789551860b055703e48805f5de"><div class="ttname"><a href="interface_u_a_modal_panel.html#a48cde5789551860b055703e48805f5de">UAModalPanel::shouldBounce</a></div><div class="ttdeci">BOOL shouldBounce</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00060">UAModalPanel.h:60</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_ac9c948eb2be61cde9375c147fbf0fa1e"><div class="ttname"><a href="interface_u_a_modal_panel.html#ac9c948eb2be61cde9375c147fbf0fa1e">UAModalPanel::cornerRadius</a></div><div class="ttdeci">CGFloat cornerRadius</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00058">UAModalPanel.h:58</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_ac50929e16953bdbb98a9f8ff93755680"><div class="ttname"><a href="interface_u_a_modal_panel.html#ac50929e16953bdbb98a9f8ff93755680">UAModalPanel::contentView</a></div><div class="ttdeci">UIView * contentView</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00049">UAModalPanel.h:49</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_a7a819e0b987786fec75a69c0da8f587a"><div class="ttname"><a href="interface_u_a_modal_panel.html#a7a819e0b987786fec75a69c0da8f587a">UAModalPanel::y_outerMargin</a></div><div class="ttdeci">CGFloat y_outerMargin</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00054">UAModalPanel.h:54</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_a37658864fdea07962b032f7adf33b669"><div class="ttname"><a href="interface_u_a_modal_panel.html#a37658864fdea07962b032f7adf33b669">UAModalPanel::contentColor</a></div><div class="ttdeci">UIColor * contentColor</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00059">UAModalPanel.h:59</a></div></div>
+<div class="ttc" id="_u_a_modal_panel_8h_html_a71b420518d6afd204ff56cd352a82358"><div class="ttname"><a href="_u_a_modal_panel_8h.html#a71b420518d6afd204ff56cd352a82358">UAModalDisplayPanelAnimationComplete</a></div><div class="ttdeci">void(^ UAModalDisplayPanelAnimationComplete)(BOOL finished)</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00041">UAModalPanel.h:41</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_ae42ea52c5b8a35422cd4d281c6526eb8"><div class="ttname"><a href="interface_u_a_modal_panel.html#ae42ea52c5b8a35422cd4d281c6526eb8">UAModalPanel::delegate</a></div><div class="ttdeci">NSObject&lt; UAModalPanelDelegate &gt; * delegate</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00044">UAModalPanel.h:44</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_a63b48a2220ff8dbecd8aac45b78692f7"><div class="ttname"><a href="interface_u_a_modal_panel.html#a63b48a2220ff8dbecd8aac45b78692f7">UAModalPanel::closeButton</a></div><div class="ttdeci">UIButton * closeButton</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00048">UAModalPanel.h:48</a></div></div>
+<div class="ttc" id="protocol_u_a_modal_panel_delegate-p_html"><div class="ttname"><a href="protocol_u_a_modal_panel_delegate-p.html">UAModalPanelDelegate-p</a></div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00031">UAModalPanel.h:31</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_a7562ce2bb225246a1f9afad89a7ed7e5"><div class="ttname"><a href="interface_u_a_modal_panel.html#a7562ce2bb225246a1f9afad89a7ed7e5">UAModalPanel::innerMargin</a></div><div class="ttdeci">CGFloat innerMargin</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00055">UAModalPanel.h:55</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_ad19eeea268562b2ecbdbce2779d7671a"><div class="ttname"><a href="interface_u_a_modal_panel.html#ad19eeea268562b2ecbdbce2779d7671a">UAModalPanel::roundedRect</a></div><div class="ttdeci">UIView * roundedRect</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00047">UAModalPanel.h:47</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_a3c8a580f3fb4f2f22189123293eea58a"><div class="ttname"><a href="interface_u_a_modal_panel.html#a3c8a580f3fb4f2f22189123293eea58a">UAModalPanel::startEndPoint</a></div><div class="ttdeci">CGPoint startEndPoint</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00051">UAModalPanel.h:51</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_a4f1035d07ea416544c55dc8b8bfc2d0a"><div class="ttname"><a href="interface_u_a_modal_panel.html#a4f1035d07ea416544c55dc8b8bfc2d0a">UAModalPanel::x_outerMargin</a></div><div class="ttdeci">CGFloat x_outerMargin</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00053">UAModalPanel.h:53</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html"><div class="ttname"><a href="interface_u_a_modal_panel.html">UAModalPanel</a></div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00043">UAModalPanel.h:43</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_a132a2fc0a2fb2852669ff2f1e5181316"><div class="ttname"><a href="interface_u_a_modal_panel.html#a132a2fc0a2fb2852669ff2f1e5181316">UAModalPanel::borderColor</a></div><div class="ttdeci">UIColor * borderColor</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00056">UAModalPanel.h:56</a></div></div>
+<div class="ttc" id="interface_u_a_modal_panel_html_a73502efd92ec6127b55c9811a5123d59"><div class="ttname"><a href="interface_u_a_modal_panel.html#a73502efd92ec6127b55c9811a5123d59">UAModalPanel::contentContainer</a></div><div class="ttdeci">UIView * contentContainer</div><div class="ttdef"><b>Definition:</b> <a href="_u_a_modal_panel_8h_source.html#l00046">UAModalPanel.h:46</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="dir_f0e894b74ed0db073ce7d81a62f42160.html">Classes</a></li><li class="navelem"><a class="el" href="_u_a_modal_panel_8h.html">UAModalPanel.h</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:38 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

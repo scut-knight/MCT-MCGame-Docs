@@ -1,0 +1,593 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCApplyQueue类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_m_c_apply_queue.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pub-static-methods">Class Methods</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_m_c_apply_queue-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">MCApplyQueue类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_m_c_apply_queue_8h_source.html">MCApplyQueue.h</a>&gt;</code></p>
+<div class="dynheader">
+类 MCApplyQueue 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_m_c_apply_queue.png" usemap="#MCApplyQueue_map" alt=""/>
+  <map id="MCApplyQueue_map" name="MCApplyQueue_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:a5169c91749b63d6f73b5c719b42dd2c7"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_apply_queue.html#a5169c91749b63d6f73b5c719b42dd2c7">initWithRotationAction:withMagicCube:</a></td></tr>
+<tr class="separator:a5169c91749b63d6f73b5c719b42dd2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9735becbd5168b131c9ee26378aa8375"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_apply_queue.html#a9735becbd5168b131c9ee26378aa8375">reset</a></td></tr>
+<tr class="memdesc:a9735becbd5168b131c9ee26378aa8375"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset the current position  <a href="#a9735becbd5168b131c9ee26378aa8375">更多...</a><br/></td></tr>
+<tr class="separator:a9735becbd5168b131c9ee26378aa8375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb798cee926e4f51ad0b7c367bd10e7b"><td class="memItemLeft" align="right" valign="top">(long)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_apply_queue.html#adb798cee926e4f51ad0b7c367bd10e7b">count</a></td></tr>
+<tr class="memdesc:adb798cee926e4f51ad0b7c367bd10e7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the queue length  <a href="#adb798cee926e4f51ad0b7c367bd10e7b">更多...</a><br/></td></tr>
+<tr class="separator:adb798cee926e4f51ad0b7c367bd10e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66ae47f6cd08e21f0055f3a827cd8bfe"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_apply_queue.html#a66ae47f6cd08e21f0055f3a827cd8bfe">applyRotation:</a></td></tr>
+<tr class="separator:a66ae47f6cd08e21f0055f3a827cd8bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a847b511641d1b06a801c6f1cad58cadb"><td class="memItemLeft" align="right" valign="top">(NSArray *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_apply_queue.html#a847b511641d1b06a801c6f1cad58cadb">getQueueWithStringFormat</a></td></tr>
+<tr class="separator:a847b511641d1b06a801c6f1cad58cadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa930bd23153e12fda05c6d4dea0e4269"><td class="memItemLeft" align="right" valign="top">(NSArray *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_apply_queue.html#aa930bd23153e12fda05c6d4dea0e4269">getExtraQueueWithStringFormat</a></td></tr>
+<tr class="separator:aa930bd23153e12fda05c6d4dea0e4269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba56163e47470fdf4f14b4aa317662c6"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_apply_queue.html#aba56163e47470fdf4f14b4aa317662c6">currentRotation</a></td></tr>
+<tr class="separator:aba56163e47470fdf4f14b4aa317662c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba82f4ba1808aaa7c1a3202b119665c9"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_apply_queue.html#aba82f4ba1808aaa7c1a3202b119665c9">isFinished</a></td></tr>
+<tr class="separator:aba82f4ba1808aaa7c1a3202b119665c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab9e3a5455f65fbb7d514e2d30b39149"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_apply_queue.html#aab9e3a5455f65fbb7d514e2d30b39149">dealloc</a><code> [implementation]</code></td></tr>
+<tr class="separator:aab9e3a5455f65fbb7d514e2d30b39149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Class Methods</h2></td></tr>
+<tr class="memitem:af9fa35ad11a411ebd47d248b6eb46cd8"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_m_c_apply_queue.html">MCApplyQueue</a> *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_apply_queue.html#af9fa35ad11a411ebd47d248b6eb46cd8">applyQueueWithRotationAction:withMagicCube:</a></td></tr>
+<tr class="separator:af9fa35ad11a411ebd47d248b6eb46cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:acc27f46afe66b2d12f5f773b8bb7e51b"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_apply_queue.html#acc27f46afe66b2d12f5f773b8bb7e51b">rotationQueue</a></td></tr>
+<tr class="separator:acc27f46afe66b2d12f5f773b8bb7e51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3075bb76ee7d98692987aea94de0af64"><td class="memItemLeft" align="right" valign="top">NSMutableArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_apply_queue.html#a3075bb76ee7d98692987aea94de0af64">extraRotations</a></td></tr>
+<tr class="separator:a3075bb76ee7d98692987aea94de0af64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dae472bd66a4ce68e95134217c10f76"><td class="memItemLeft" align="right" valign="top">NSInteger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_apply_queue.html#a5dae472bd66a4ce68e95134217c10f76">currentRotationQueuePosition</a></td></tr>
+<tr class="separator:a5dae472bd66a4ce68e95134217c10f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97685f716a9568bc9f3e7ab82a5b2e1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_apply_queue.html#a97685f716a9568bc9f3e7ab82a5b2e1f">previousRotation</a></td></tr>
+<tr class="separator:a97685f716a9568bc9f3e7ab82a5b2e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb23de482dbe2b249c60d8a84f13d4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_c.html#a02966feb4be8145e75402af76fd4a364">RotationResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_apply_queue.html#abdb23de482dbe2b249c60d8a84f13d4e">previousResult</a></td></tr>
+<tr class="separator:abdb23de482dbe2b249c60d8a84f13d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60bf18e67170b940c1b19a48e7af7b3a"><td class="memItemLeft" align="right" valign="top">NSObject&lt; <a class="el" href="protocol_queue_complete_delegate-p.html">QueueCompleteDelegate</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_apply_queue.html#a60bf18e67170b940c1b19a48e7af7b3a">queueCompleteDelegate</a></td></tr>
+<tr class="memdesc:a60bf18e67170b940c1b19a48e7af7b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Once the queue is complete, the delegate's onQueueComplete will be invoked.  <a href="#a60bf18e67170b940c1b19a48e7af7b3a">更多...</a><br/></td></tr>
+<tr class="separator:a60bf18e67170b940c1b19a48e7af7b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>旋转动作的队列类 </p>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8h_source.html">MCApplyQueue.h</a> 第 <a class="el" href="_m_c_apply_queue_8h_source.html#l00028">28</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="af9fa35ad11a411ebd47d248b6eb46cd8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (<a class="el" href="interface_m_c_apply_queue.html">MCApplyQueue</a> *) applyQueueWithRotationAction: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_tree_node.html">MCTreeNode</a> *)&#160;</td>
+          <td class="paramname"><em>action</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withMagicCube:</td>
+          <td></td>
+          <td class="paramtype">(NSObject&lt;<a class="el" href="protocol_m_c_magic_cube_data_souce_delegate-p.html">MCMagicCubeDataSouceDelegate</a>&gt; *)&#160;</td>
+          <td class="paramname"><em>mc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>对旋转动作进行排队</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">action</td><td>经过处理后，构造的旋转动作的抽象语法树 </td></tr>
+    <tr><td class="paramname">mc</td><td>魔方</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>MCApplyQueue的一个实例 </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8m_source.html">MCApplyQueue.m</a> 第 <a class="el" href="_m_c_apply_queue_8m_source.html#l00030">30</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_action_performer_8m_source.html#l00331">MCActionPerformer::decomposeRule:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a66ae47f6cd08e21f0055f3a827cd8bfe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) applyRotation: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>)&#160;</td>
+          <td class="paramname"><em>currentRotation</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>应用旋转动作，并且改变currentRotationQueuePosition</p>
+<p>apply rotation and return result，the position will move to next position </p>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8m_source.html">MCApplyQueue.m</a> 第 <a class="el" href="_m_c_apply_queue_8m_source.html#l00104">104</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00204">MC::Accord</a>, <a class="el" href="_m_c_apply_queue_8m_source.html#l00095">count</a>, <a class="el" href="_m_c_apply_queue_8m_source.html#l00201">currentRotation</a>, <a class="el" href="_m_c_apply_queue_8h_source.html#l00035">currentRotationQueuePosition</a>, <a class="el" href="_global_8h_source.html#l00205">MC::Disaccord</a>, <a class="el" href="_global_8h_source.html#l00207">MC::Finished</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l00195">MCTransformUtil::getContrarySingmasterNotation:</a>, <a class="el" href="_m_c_apply_queue_8m_source.html#l00167">isFinished</a>, <a class="el" href="_m_c_apply_queue_8h_source.html#l00040">previousResult</a>, <a class="el" href="_m_c_apply_queue_8h_source.html#l00036">previousRotation</a>, <a class="el" href="_m_c_apply_queue_8h_source.html#l00030">rotationQueue</a> , 以及 <a class="el" href="_global_8h_source.html#l00206">MC::StayForATime</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adb798cee926e4f51ad0b7c367bd10e7b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (long) count </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return the queue length </p>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8m_source.html">MCApplyQueue.m</a> 第 <a class="el" href="_m_c_apply_queue_8m_source.html#l00095">95</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_apply_queue_8m_source.html#l00095">count</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_apply_queue_8m_source.html#l00104">applyRotation:</a>, <a class="el" href="_m_c_apply_queue_8m_source.html#l00095">count</a>, <a class="el" href="_m_c_apply_queue_8m_source.html#l00190">getExtraQueueWithStringFormat</a>, <a class="el" href="_m_c_apply_queue_8m_source.html#l00177">getQueueWithStringFormat</a> , 以及 <a class="el" href="_m_c_apply_queue_8m_source.html#l00167">isFinished</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aba56163e47470fdf4f14b4aa317662c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>) currentRotation </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>返回当前的动作类型 </p>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8m_source.html">MCApplyQueue.m</a> 第 <a class="el" href="_m_c_apply_queue_8m_source.html#l00201">201</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_apply_queue_8m_source.html#l00104">applyRotation:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aab9e3a5455f65fbb7d514e2d30b39149"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8m_source.html">MCApplyQueue.m</a> 第 <a class="el" href="_m_c_apply_queue_8m_source.html#l00205">205</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_apply_queue_8h_source.html#l00034">extraRotations</a>, <a class="el" href="_m_c_apply_queue_8h_source.html#l00042">queueCompleteDelegate</a> , 以及 <a class="el" href="_m_c_apply_queue_8h_source.html#l00030">rotationQueue</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa930bd23153e12fda05c6d4dea0e4269"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSArray *) getExtraQueueWithStringFormat </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>以RotationTag的形式返回临时队列</p>
+<dl class="section return"><dt>返回</dt><dd>包括RotationTag的NSArray </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8m_source.html">MCApplyQueue.m</a> 第 <a class="el" href="_m_c_apply_queue_8m_source.html#l00190">190</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_apply_queue_8m_source.html#l00095">count</a>, <a class="el" href="_m_c_apply_queue_8h_source.html#l00034">extraRotations</a> , 以及 <a class="el" href="_m_c_transform_util_8m_source.html#l00047">MCTransformUtil::getRotationTagFromSingmasterNotation:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a847b511641d1b06a801c6f1cad58cadb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSArray *) getQueueWithStringFormat </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>以RotationTag的形式返回当前的队列 如果传递一个空的NSMutableArray作为参数，就可以避免将Queue里的内容复制两遍</p>
+<dl class="section return"><dt>返回</dt><dd>包括RotationTag的NSArray </dd></dl>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8m_source.html">MCApplyQueue.m</a> 第 <a class="el" href="_m_c_apply_queue_8m_source.html#l00177">177</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_apply_queue_8m_source.html#l00095">count</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l00047">MCTransformUtil::getRotationTagFromSingmasterNotation:</a> , 以及 <a class="el" href="_m_c_apply_queue_8h_source.html#l00030">rotationQueue</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5169c91749b63d6f73b5c719b42dd2c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initWithRotationAction: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_m_c_tree_node.html">MCTreeNode</a> *)&#160;</td>
+          <td class="paramname"><em>action</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">withMagicCube:</td>
+          <td></td>
+          <td class="paramtype">(NSObject&lt;<a class="el" href="protocol_m_c_magic_cube_data_souce_delegate-p.html">MCMagicCubeDataSouceDelegate</a>&gt; *)&#160;</td>
+          <td class="paramname"><em>mc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>使用一棵构造成的动作语法树，和一个符合&lt;MCMagicCubeDataSourceDelegate&gt;的类构造MCApplyQueue实例</p>
+<p>队列的初始容量为10个，另外还有一个extraRotations数组一开始可以容纳3个</p>
+<p>在该函数中根据action的不同向rotationQueue加入一个或多个代表SingmasterNotation的NSNumber 加入节点后currentRotationQueuePosition依旧为零 </p>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8m_source.html">MCApplyQueue.m</a> 第 <a class="el" href="_m_c_apply_queue_8m_source.html#l00042">42</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_global_8h_source.html#l00188">MC::Bw2</a>, <a class="el" href="_m_c_basic_element_8h_source.html#l00022">MCTreeNode::children</a>, <a class="el" href="_global_8h_source.html#l00192">MC::Dw2</a>, <a class="el" href="_global_8h_source.html#l00135">MC::FaceToOrientation</a>, <a class="el" href="_global_8h_source.html#l00187">MC::Fw2</a>, <a class="el" href="_m_c_transform_util_8m_source.html#l00226">MCTransformUtil::getPathToMakeCenterCubieAtPosition:inOrientation:</a>, <a class="el" href="_global_8h_source.html#l00190">MC::Lw2</a>, <a class="el" href="_global_8h_source.html#l00196">MC::NoneNotation</a>, <a class="el" href="_global_8h_source.html#l00208">MC::NoneResult</a>, <a class="el" href="_global_8h_source.html#l00134">MC::Rotate</a>, <a class="el" href="_m_c_apply_queue_8h_source.html#l00030">rotationQueue</a>, <a class="el" href="_global_8h_source.html#l00189">MC::Rw2</a>, <a class="el" href="_global_8h_source.html#l00191">MC::Uw2</a> , 以及 <a class="el" href="_m_c_basic_element_8h_source.html#l00024">MCTreeNode::value</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aba82f4ba1808aaa7c1a3202b119665c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isFinished </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>通过比较currentRotationQueuePosition和self.count,确定队列中所有的动作是否处理完毕 </p>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8m_source.html">MCApplyQueue.m</a> 第 <a class="el" href="_m_c_apply_queue_8m_source.html#l00167">167</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_apply_queue_8m_source.html#l00095">count</a> , 以及 <a class="el" href="_m_c_apply_queue_8h_source.html#l00035">currentRotationQueuePosition</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_apply_queue_8m_source.html#l00104">applyRotation:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9735becbd5168b131c9ee26378aa8375"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) reset </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>reset the current position </p>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8m_source.html">MCApplyQueue.m</a> 第 <a class="el" href="_m_c_apply_queue_8m_source.html#l00090">90</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_m_c_apply_queue_8h_source.html#l00035">currentRotationQueuePosition</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="a5dae472bd66a4ce68e95134217c10f76"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSInteger) currentRotationQueuePosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8h_source.html">MCApplyQueue.h</a> 第 <a class="el" href="_m_c_apply_queue_8h_source.html#l00035">35</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_apply_queue_8m_source.html#l00104">applyRotation:</a>, <a class="el" href="_m_c_apply_queue_8m_source.html#l00167">isFinished</a> , 以及 <a class="el" href="_m_c_apply_queue_8m_source.html#l00090">reset</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3075bb76ee7d98692987aea94de0af64"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSMutableArray*) extraRotations</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>临时队列 </p>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8h_source.html">MCApplyQueue.h</a> 第 <a class="el" href="_m_c_apply_queue_8h_source.html#l00034">34</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_apply_queue_8m_source.html#l00205">dealloc</a> , 以及 <a class="el" href="_m_c_apply_queue_8m_source.html#l00190">getExtraQueueWithStringFormat</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abdb23de482dbe2b249c60d8a84f13d4e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="namespace_m_c.html#a02966feb4be8145e75402af76fd4a364">RotationResult</a>) previousResult</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>RotationResult请见Global.h </p>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8h_source.html">MCApplyQueue.h</a> 第 <a class="el" href="_m_c_apply_queue_8h_source.html#l00040">40</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_apply_queue_8m_source.html#l00104">applyRotation:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a97685f716a9568bc9f3e7ab82a5b2e1f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="namespace_m_c.html#ac0f29c8fad1561ca474573b3de3a3a68">SingmasterNotation</a>) previousRotation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8h_source.html">MCApplyQueue.h</a> 第 <a class="el" href="_m_c_apply_queue_8h_source.html#l00036">36</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_apply_queue_8m_source.html#l00104">applyRotation:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a60bf18e67170b940c1b19a48e7af7b3a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSObject&lt;<a class="el" href="protocol_queue_complete_delegate-p.html">QueueCompleteDelegate</a>&gt;*) queueCompleteDelegate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Once the queue is complete, the delegate's onQueueComplete will be invoked. </p>
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8h_source.html">MCApplyQueue.h</a> 第 <a class="el" href="_m_c_apply_queue_8h_source.html#l00042">42</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_apply_queue_8m_source.html#l00205">dealloc</a> , 以及 <a class="el" href="_m_c_action_performer_8m_source.html#l00030">MCActionPerformer::initActionPerformerWithWorkingMemory:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acc27f46afe66b2d12f5f773b8bb7e51b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSMutableArray*) rotationQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_m_c_apply_queue_8h_source.html">MCApplyQueue.h</a> 第 <a class="el" href="_m_c_apply_queue_8h_source.html#l00030">30</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_apply_queue_8m_source.html#l00104">applyRotation:</a>, <a class="el" href="_m_c_apply_queue_8m_source.html#l00205">dealloc</a>, <a class="el" href="_m_c_apply_queue_8m_source.html#l00177">getQueueWithStringFormat</a> , 以及 <a class="el" href="_m_c_apply_queue_8m_source.html#l00042">initWithRotationAction:withMagicCube:</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_apply_queue_8h_source.html">MCApplyQueue.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_m_c_apply_queue_8m_source.html">MCApplyQueue.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_m_c_apply_queue.html">MCApplyQueue</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:38 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

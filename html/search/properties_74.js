@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['target',['target',['../interface_m_c_button.html#abdc830d5745ac22162ef9985da9d9bd8',1,'MCButton::target()'],['../interface_m_c_magic_cube_u_i_model_controller.html#ac5c526e18888a6815e5c44364d424e32',1,'MCMagicCubeUIModelController::target()']]],
+  ['taskinprogress',['taskInProgress',['../interface_m_b_progress_h_u_d.html#a6077ea42c37c18b3058ed63ac10ede8f',1,'MBProgressHUD']]],
+  ['texture_5fkey',['texture_key',['../interface_m_c_o_b_j_loader.html#a26808e1a3b4bcef96f1c832824422e1c',1,'MCOBJLoader']]],
+  ['time',['time',['../interface_m_c_learn.html#a0f8d4c2c885ae93b77e46aaeaf69fc0e',1,'MCLearn::time()'],['../interface_m_c_score.html#affd58a67faee8d47c92f008df0bd6e89',1,'MCScore::time()']]],
+  ['timelabel',['timeLabel',['../interface_score_cell.html#a5aae6ae5f20f18cced9d1faa658c8f09',1,'ScoreCell']]],
+  ['timeoffset',['timeOffset',['../interface_quad_curve_menu.html#a0d026a31e35a8404ab2f3c66718f7e88',1,'QuadCurveMenu']]],
+  ['timer',['timer',['../interface_m_c_counting_play_input_view_controller.html#a4820be6f178f67d0f4f0df87626d44d4',1,'MCCountingPlayInputViewController::timer()'],['../interface_m_c_normal_play_input_view_controller.html#abd2c78533e488f14f59dab1d233969bc',1,'MCNormalPlayInputViewController::timer()']]],
+  ['tipslabel',['tipsLabel',['../interface_m_c_normal_play_scene_controller.html#a9a724d034fbf57620426f50e2fd70dd3',1,'MCNormalPlaySceneController::tipsLabel()'],['../interface_m_c_random_solve_scene_controller.html#a51fabe9e5cf046b0d52c55b8d01ee42d',1,'MCRandomSolveSceneController::tipsLabel()']]],
+  ['titlebar',['titleBar',['../interface_u_a_titled_modal_panel.html#a2f8167381a58713779702537da21ed99',1,'UATitledModalPanel']]],
+  ['titlebarheight',['titleBarHeight',['../interface_u_a_titled_modal_panel.html#a76250c193a4c016dc7ad96ffb68f7cab',1,'UATitledModalPanel']]],
+  ['topscore',['topScore',['../interface_m_c_user_manager_model.html#a3596a4411c1532407a2e375bdbda92d5',1,'MCUserManagerModel']]],
+  ['totalfinish',['totalFinish',['../interface_m_c_user.html#a663596d7b89ff0fafa06ab57df113d6c',1,'MCUser']]],
+  ['totalfinishlabel',['totalFinishLabel',['../interface_user_manager_system_view_controller.html#aa699fa8213dec4c3500e1740e9e9b7ef',1,'UserManagerSystemViewController']]],
+  ['totalgametime',['totalGameTime',['../interface_m_c_user.html#a18f7f23f629cd7f2f522aac9fa85c92f',1,'MCUser']]],
+  ['totalgametimelabel',['totalGameTimeLabel',['../interface_user_manager_system_view_controller.html#a545a9239e59ff8cc071bedc48c030280',1,'UserManagerSystemViewController']]],
+  ['totallearntime',['totalLearnTime',['../interface_m_c_user.html#a3f4187ffb027765d18b87864c14e23bc',1,'MCUser']]],
+  ['totallearntimelabel',['totalLearnTimeLabel',['../interface_user_manager_system_view_controller.html#afcf64bb7f2b4b97e50c4c49289974aab',1,'UserManagerSystemViewController']]],
+  ['totalmoves',['totalMoves',['../interface_m_c_user.html#aaebaef378d0ff4777bc8311726f2609a',1,'MCUser']]],
+  ['totalmoveslabel',['totalMovesLabel',['../interface_user_manager_system_view_controller.html#a558f22aba7b3410fa70579e5fdc4f7e2',1,'UserManagerSystemViewController']]],
+  ['totalrankbtn',['totalRankBtn',['../interface_user_manager_system_view_controller.html#af15b00e8741e7bb7cf51d34f7a1e185d',1,'UserManagerSystemViewController']]],
+  ['totaltime',['totalTime',['../interface_m_c_timer.html#a43e95db451ea6d5ff342062ea4cc62e2',1,'MCTimer']]],
+  ['touchcount',['touchCount',['../interface_input_controller.html#a32595ddc7a47c9245e4f31e49bd30644',1,'InputController']]],
+  ['touchevents',['touchEvents',['../interface_input_controller.html#aadcd300939d5f614fd49f06e6c473331',1,'InputController']]],
+  ['translation',['translation',['../interface_m_c_scene_object.html#ac51fd997445bf143626cff3f2a76814c',1,'MCSceneObject']]],
+  ['type',['type',['../interface_m_c_tree_node.html#a41ef0c04f3c435b905f9a2751a192214',1,'MCTreeNode::type()'],['../class_m_c_cubie.html#a4e7559d21b20e1a3a5d3cd9d3d95ed94',1,'MCCubie::type()']]]
+];

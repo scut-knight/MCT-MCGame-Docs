@@ -1,0 +1,452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: MCT-MCGame/MCParticleSystem.m 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_m_c_particle_system_8m_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">MCParticleSystem.m</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_m_c_particle_system_8m.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">//  MCPartilcleSystem.m</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//  MCGame</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//  Created by kwan terry on 12-9-29.</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_particle_system_8h.html">MCParticleSystem.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_configuration_8h.html">MCConfiguration.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#import &quot;<a class="code" href="_m_c_particle_8h.html">MCParticle.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html">   13</a></span>&#160;<span class="keyword">@implementation </span><a class="code" href="class_m_c_particle_system.html">MCParticleSystem</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">@synthesize</span> emit,materialKey;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">@synthesize</span> emissionRange, sizeRange, growRange, xVelocityRange, yVelocityRange;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">@synthesize</span> lifeRange,decayRange,emitCounter;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#aa801f72730c6aef85859cb385d2b8aba">   19</a></span>&#160;- (id) <a class="code" href="class_m_c_particle_system.html#aa801f72730c6aef85859cb385d2b8aba">init</a></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">self</span> = [<span class="keyword">super</span> init];</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span> != nil) {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        [<span class="keyword">self</span> <a class="code" href="class_m_c_particle_system.html#a2711d614c739500d055b5acc449e0ff8">setDefaultSystem</a>];</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">self</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#a2711d614c739500d055b5acc449e0ff8">   33</a></span>&#160;-(void)<a class="code" href="class_m_c_particle_system.html#a2711d614c739500d055b5acc449e0ff8">setDefaultSystem</a></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">// just some decent defaults so a naked emitter</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">// will do something.</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">self</span>.emissionRange = <a class="code" href="_m_c_point_8h.html#a339279171edcfb00920e60979e64331f">MCRangeMake</a>(1.0, 2.0);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">self</span>.sizeRange = <a class="code" href="_m_c_point_8h.html#a339279171edcfb00920e60979e64331f">MCRangeMake</a>(4.0, 8.0);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">// 只会渐渐消失</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">self</span>.growRange = <a class="code" href="_m_c_point_8h.html#a339279171edcfb00920e60979e64331f">MCRangeMake</a>(-0.5, -0.1);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// 向四面八方发射（应该是在同一个平面内扩散）</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">self</span>.xVelocityRange = <a class="code" href="_m_c_point_8h.html#a339279171edcfb00920e60979e64331f">MCRangeMake</a>(-3.0, 3.0);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">self</span>.yVelocityRange = <a class="code" href="_m_c_point_8h.html#a339279171edcfb00920e60979e64331f">MCRangeMake</a>(-3.0, 3.0);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">self</span>.lifeRange = <a class="code" href="_m_c_point_8h.html#a339279171edcfb00920e60979e64331f">MCRangeMake</a>(0.0, 2.0);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">self</span>.decayRange = <a class="code" href="_m_c_point_8h.html#a339279171edcfb00920e60979e64331f">MCRangeMake</a>(0.05, 0.2);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">// 暂时先不发射</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keyword">self</span>.emit = NO;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    emitCounter = -1;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#acc42e0fc9e90516a3e5bff96ffe16c31">   54</a></span>&#160;-(void)<a class="code" href="class_m_c_particle_system.html#acc42e0fc9e90516a3e5bff96ffe16c31">awake</a></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// alloc some space for our particles</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_m_c_particle_system.html#ab968a046c0878a9a3c428352d8f64ef0">activeParticles</a> == nil) <a class="code" href="class_m_c_particle_system.html#ab968a046c0878a9a3c428352d8f64ef0">activeParticles</a> = [[NSMutableArray alloc] init];</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">// we are going to pre-alloc a whole bunch of particles so</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// we dont wast time during gameplay allocing them</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">// 先初始化到粒子池中</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    particlePool = [[NSMutableArray alloc] initWithCapacity:MC_MAX_PARTICLES];</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    NSInteger count = 0;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">for</span> (count = 0; count &lt; <a class="code" href="_m_c_configuration_8h.html#adf477d1d8e5c46ed64ce255c47faf4d5">MC_MAX_PARTICLES</a>; count++) {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="interface_m_c_particle.html">MCParticle</a> * p = [[<a class="code" href="interface_m_c_particle.html">MCParticle</a> alloc] init];</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        [particlePool addObject:p];</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        [p release];</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="comment">// finally make some space for our final particle mesh</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">// our vertexes will be all 3 axes, and we need 6 axes per particle</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="comment">// 为粒子系统所在图层的描述坐标的数组分配内存</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    vertexes = (CGFloat *) malloc(3 * 6 * <a class="code" href="_m_c_configuration_8h.html#adf477d1d8e5c46ed64ce255c47faf4d5">MC_MAX_PARTICLES</a> * <span class="keyword">sizeof</span>(CGFloat));</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    uvCoordinates = (CGFloat *) malloc(2 * 6 * <a class="code" href="_m_c_configuration_8h.html#adf477d1d8e5c46ed64ce255c47faf4d5">MC_MAX_PARTICLES</a> * <span class="keyword">sizeof</span>(CGFloat));</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#a37ef56b795a401751475a232907aa374">   82</a></span>&#160;-(void)setParticle:(NSString*)atlasKey</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="comment">// ok, here we are going to go and get the quad that will be our particle image</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="comment">// however, we do not want to keep the mesh, we just want to get some information from it.</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="interface_m_c_textured_quad.html">MCTexturedQuad</a> * quad = [[<a class="code" href="interface_m_c_material_controller.html">MCMaterialController</a> <a class="code" href="interface_m_c_material_controller.html#a2229ae30dcdb3e391c16202e112477b4">sharedMaterialController</a>] <a class="code" href="interface_m_c_material_controller.html#af546a69525dd87c13a1c7b5fbab80643">quadFromAtlasKey</a>:atlasKey];</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="comment">// get the material key so we can bind it during render</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keyword">self</span>.<a class="code" href="interface_m_c_textured_quad.html#a34b3a355d89853cd1f7c1c7285e98d71">materialKey</a> = quad.<a class="code" href="interface_m_c_textured_quad.html#a34b3a355d89853cd1f7c1c7285e98d71">materialKey</a>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="comment">// now we need to find the max/min of the UV coordinates</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="comment">// this is the location in the atlas where our image is, and we are</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="comment">// going to be applying it to every particle</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    CGFloat u,v;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    NSInteger index;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    minU = minV = 1.0;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    maxU = maxV = 0.0;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    CGFloat * uvs = [quad <a class="code" href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">uvCoordinates</a>];</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordflow">for</span> (index = 0; index &lt; quad.<a class="code" href="interface_m_c_mesh.html#a443f1f90b7dccc0de24b8035101da7d3">vertexCount</a>; index++) {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        u = uvs[index * 2];</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        v = uvs[(index * 2) + 1];</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">if</span> (u &lt; minU) minU = u;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">if</span> (v &lt; minV) minV = v;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">if</span> (u &gt; maxU) maxU = u;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">if</span> (v &gt; maxV) maxV = v;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#ab42f351a486c18e08b74f76aa3f09890">  112</a></span>&#160;-(void)<a class="code" href="class_m_c_particle_system.html#ab42f351a486c18e08b74f76aa3f09890">update</a></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;{</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="comment">// update active particles, they will move themselves</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    [<span class="keyword">super</span> update];</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    </div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="comment">// build arrays</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    [<span class="keyword">self</span> <a class="code" href="class_m_c_particle_system.html#ae8b13cd3331d8c8ae1efd7ace89cb50a">buildVertexArrays</a>];</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="comment">// generate new particles and queue them for addition</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    [<span class="keyword">self</span> <a class="code" href="class_m_c_particle_system.html#a723305d7b6f6504256a14533fedd48f0">emitNewParticles</a>];</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    </div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="comment">//remove old particles</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    [<span class="keyword">self</span> <a class="code" href="class_m_c_particle_system.html#a46839b20aeb2476e1c0eb61f860600b9">clearDeadQueue</a>];</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#ab968a046c0878a9a3c428352d8f64ef0">  132</a></span>&#160;-(BOOL)<a class="code" href="class_m_c_particle_system.html#ab968a046c0878a9a3c428352d8f64ef0">activeParticles</a></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;{</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">if</span> ([<a class="code" href="class_m_c_particle_system.html#ab968a046c0878a9a3c428352d8f64ef0">activeParticles</a> count] &gt; 0) <span class="keywordflow">return</span> YES;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">return</span> NO;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;}</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00143"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#ae8b13cd3331d8c8ae1efd7ace89cb50a">  143</a></span>&#160;-(void)<a class="code" href="class_m_c_particle_system.html#ae8b13cd3331d8c8ae1efd7ace89cb50a">buildVertexArrays</a></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;{</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="comment">// go through all our individual particles and add their triangles</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="comment">// to our big mesh</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    vertexIndex = 0;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="interface_m_c_particle.html">MCParticle</a> * particle in <a class="code" href="class_m_c_particle_system.html#ab968a046c0878a9a3c428352d8f64ef0">activeParticles</a>) {</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="comment">// 先刷新，更新粒子状态</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        [particle update]; <span class="comment">// first, update each particle before we use it&#39;s data</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        </div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="comment">// check to see if we have run out of life, or are too small to see</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="comment">// and if they are, then queue them for removal</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordflow">if</span> ((particle.life &lt; 0) || (particle.size &lt; 0.3)) {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            [<span class="keyword">self</span> <a class="code" href="class_m_c_particle_system.html#ad9df6d42e8f748ca404b8a533dccd3dd">removeChildParticle</a>:particle];</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            <span class="keywordflow">continue</span>; <span class="comment">// skip to the next particle, no need to add this one</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        }</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        </div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="comment">// for each particle, need 2 triangles, so 6 verts</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="comment">// first triangle of the quad.  Need to load them in clockwise</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="comment">// order since our models are in that order</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        [<span class="keyword">self</span> <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">addVertex</a>:(particle.position.x - particle.size) </div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">y</a>:(particle.position.y + particle.size) </div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">u</a>:minU </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">v</a>:minV];</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        [<span class="keyword">self</span> <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">addVertex</a>:(particle.position.x + particle.size) </div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">y</a>:(particle.position.y - particle.size) </div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">u</a>:maxU </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">v</a>:maxV];      </div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        [<span class="keyword">self</span> <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">addVertex</a>:(particle.position.x - particle.size) </div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">y</a>:(particle.position.y - particle.size) </div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">u</a>:minU </div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">v</a>:maxV];</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        </div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="comment">// second triangle of the quad</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        [<span class="keyword">self</span> <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">addVertex</a>:(particle.position.x - particle.size) </div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">y</a>:(particle.position.y + particle.size) </div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">u</a>:minU </div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">v</a>:minV];</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        [<span class="keyword">self</span> <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">addVertex</a>:(particle.position.x + particle.size) </div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">y</a>:(particle.position.y + particle.size) </div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">u</a>:maxU </div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">v</a>:minV];</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        [<span class="keyword">self</span> <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">addVertex</a>:(particle.position.x + particle.size) </div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">y</a>:(particle.position.y - particle.size) </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">u</a>:maxU </div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                      <a class="code" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">v</a>:maxV];</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        </div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    }</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;}</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
+<div class="line"><a name="l00199"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#a48dfc8d370dad6ebc9846e7334b203de">  199</a></span>&#160;-(void)<a class="code" href="class_m_c_particle_system.html#a48dfc8d370dad6ebc9846e7334b203de">render</a></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;{</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordflow">if</span> (!active) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    </div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="comment">// 设置投影矩阵</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    glMatrixMode(GL_PROJECTION);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    glPushMatrix();</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="comment">// 加载投影矩阵</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    glLoadIdentity();</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="comment">//glRotatef(-90.0f, 0.0f, 0.0f, 1.0f);</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    </div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="comment">// set up the viewport so that it is analagous to the screen pixels</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="comment">// glOrthof将当前矩阵与一个投影矩阵相乘</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="comment">// 并且得到的结果将代替当前矩阵。</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="comment">// 它描述了一个产生平行投影的变换。</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    glOrthof(-512, 512, -384, 384, -1.0f, 50.0f);</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    glMatrixMode(GL_MODELVIEW);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <span class="comment">// bind our texture</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    [[<a class="code" href="interface_m_c_material_controller.html">MCMaterialController</a> <a class="code" href="interface_m_c_material_controller.html#a2229ae30dcdb3e391c16202e112477b4">sharedMaterialController</a>] <a class="code" href="interface_m_c_material_controller.html#a8728e3d49005ec9bd2d6e99e1758b24c">bindMaterial</a>:materialKey];</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    </div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="comment">// 因为要重绘，停止（光照和屏蔽看不到的地方）</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    glDisable(GL_LIGHTING);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    glDisable(GL_CULL_FACE);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    </div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    glEnableClientState(GL_VERTEX_ARRAY);</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    glEnableClientState(GL_TEXTURE_COORD_ARRAY);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    glDisableClientState(GL_NORMAL_ARRAY);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    </div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="comment">// send the arrays to the rendered</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    glVertexPointer(3, GL_FLOAT, 0, vertexes);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    glTexCoordPointer(2, GL_FLOAT, 0, uvCoordinates);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="comment">//draw</span></div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    glDrawArrays(GL_TRIANGLES, 0, vertexIndex);</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    glMatrixMode(GL_PROJECTION);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    glPopMatrix();</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    glMatrixMode(GL_MODELVIEW);</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;}</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;</div>
+<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#a723305d7b6f6504256a14533fedd48f0">  246</a></span>&#160;-(void)<a class="code" href="class_m_c_particle_system.html#a723305d7b6f6504256a14533fedd48f0">emitNewParticles</a></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;{</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordflow">if</span> (!emit) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordflow">if</span> (emitCounter &gt; 0) emitCounter --; <span class="comment">// if emitCounter == -1, then emit forever</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">if</span> (emitCounter == 0) emit = NO; <span class="comment">// this will be our last time through the emit method</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    </div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    NSInteger newParticles = (NSInteger)<a class="code" href="_m_c_point_8h.html#ab165e210544f88b64e9c888f830733fa">MCRandomFloat</a>(emissionRange); <span class="comment">// grab a random number to be emitted</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    </div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    NSInteger index;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    CGFloat veloX,veloY;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="comment">// 一个个粒子准备发射</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <span class="keywordflow">for</span> (index = 0; index &lt; newParticles; index++) {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordflow">if</span> ([particlePool count] == 0) {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <span class="comment">// if we are out of particles, then just get out early</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        } </div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <span class="comment">// grab a premade particle and set it up with some new random nubmers</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <a class="code" href="interface_m_c_particle.html">MCParticle</a> * p = [particlePool lastObject];</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keyword">self</span>.translation = <a class="code" href="_m_c_point_8h.html#ac0e03321ee4d440dceac6bdf2fbe7b18">MCPointMake</a>(<span class="keyword">self</span>.translation.x, <span class="keyword">self</span>.translation.y, <span class="keyword">self</span>.translation.z-0.001);</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        p.<a class="code" href="interface_m_c_particle.html#ae1f73a6f1001f5195e40882d4a151cec">position</a> = <span class="keyword">self</span>.translation;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        veloX = <a class="code" href="_m_c_point_8h.html#ab165e210544f88b64e9c888f830733fa">MCRandomFloat</a>(xVelocityRange);</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        veloY = <a class="code" href="_m_c_point_8h.html#ab165e210544f88b64e9c888f830733fa">MCRandomFloat</a>(yVelocityRange);</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        p.<a class="code" href="interface_m_c_particle.html#ac5b4ed5bf662c6a2e2ade653f286c3d9">velocity</a> = <a class="code" href="_m_c_point_8h.html#ac0e03321ee4d440dceac6bdf2fbe7b18">MCPointMake</a>(veloX, veloY, -0.001);</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        p.<a class="code" href="interface_m_c_particle.html#a380213ea38fad7964b71ce73dcd33dbb">life</a> = <a class="code" href="_m_c_point_8h.html#ab165e210544f88b64e9c888f830733fa">MCRandomFloat</a>(lifeRange);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        p.<a class="code" href="interface_m_c_particle.html#a4d7842727aee72695b406f0d695a2764">size</a> = <a class="code" href="_m_c_point_8h.html#ab165e210544f88b64e9c888f830733fa">MCRandomFloat</a>(sizeRange);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        p.<a class="code" href="interface_m_c_particle.html#aa194522364ebd551b9266e60bf138556">grow</a> = <a class="code" href="_m_c_point_8h.html#ab165e210544f88b64e9c888f830733fa">MCRandomFloat</a>(growRange);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        p.<a class="code" href="interface_m_c_particle.html#ac1cb696e2ac9af88e5d9cd53bcd9cdfa">decay</a> = <a class="code" href="_m_c_point_8h.html#ab165e210544f88b64e9c888f830733fa">MCRandomFloat</a>(decayRange);</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        </div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="comment">// 同时更新粒子池和存活粒子数。</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <span class="comment">// add this particle</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        [<a class="code" href="class_m_c_particle_system.html#ab968a046c0878a9a3c428352d8f64ef0">activeParticles</a> addObject:p];</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="comment">// remove this particle from the unused array</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        [particlePool removeLastObject];</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    }</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;}</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;</div>
+<div class="line"><a name="l00287"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#ad9df6d42e8f748ca404b8a533dccd3dd">  287</a></span>&#160;-(void)removeChildParticle:(<a class="code" href="interface_m_c_particle.html">MCParticle</a>*)particle</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;{</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordflow">if</span> (particlesToRemove == nil) particlesToRemove = [[NSMutableArray alloc] init];</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    [particlesToRemove addObject:particle];</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;}</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
+<div class="line"><a name="l00297"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#a46839b20aeb2476e1c0eb61f860600b9">  297</a></span>&#160;-(void)<a class="code" href="class_m_c_particle_system.html#a46839b20aeb2476e1c0eb61f860600b9">clearDeadQueue</a></div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;{</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <span class="comment">// remove any objects that need removal</span></div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    <span class="keywordflow">if</span> ([particlesToRemove count] &gt; 0) {</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        [<a class="code" href="class_m_c_particle_system.html#ab968a046c0878a9a3c428352d8f64ef0">activeParticles</a> removeObjectsInArray:particlesToRemove];</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        [particlePool addObjectsFromArray:particlesToRemove];</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        [particlesToRemove removeAllObjects];</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    }</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;}</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;</div>
+<div class="line"><a name="l00318"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">  318</a></span>&#160;-(void)addVertex:(CGFloat)x y:(CGFloat)y u:(CGFloat)u v:(CGFloat)v</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;{</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="comment">// our position in the vertex array</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    NSInteger pos = vertexIndex * 3.0;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    vertexes[pos] = <a class="code" href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a9f5a1830e6064706ca9dbb980403b966">x</a>;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    vertexes[pos + 1] = <a class="code" href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a873893470a60333e1385382b83c85fee">y</a>;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    vertexes[pos + 2] = <span class="keyword">self</span>.translation.z;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    </div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="comment">// the UV array has a different position</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    pos = vertexIndex * 2.0;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    uvCoordinates[pos] = u;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    uvCoordinates[pos + 1] = v;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="comment">// increment our vertex count</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    vertexIndex++;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;}</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
+<div class="line"><a name="l00334"></a><span class="lineno"><a class="line" href="class_m_c_particle_system.html#a171509f8ac65380efb19acf541512af8">  334</a></span>&#160;- (void) <a class="code" href="class_m_c_particle_system.html#a171509f8ac65380efb19acf541512af8">dealloc</a></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;{</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    [particlePool release];</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    [<a class="code" href="class_m_c_particle_system.html#ab968a046c0878a9a3c428352d8f64ef0">activeParticles</a> release];</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    [particlesToRemove release];</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    </div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    free(vertexes);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    free(uvCoordinates);</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    </div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    [<span class="keyword">super</span> dealloc];</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;}</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="keyword">@end</span></div>
+<div class="ttc" id="interface_m_c_textured_quad_html"><div class="ttname"><a href="interface_m_c_textured_quad.html">MCTexturedQuad</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_textured_quad_8h_source.html#l00030">MCTexturedQuad.h:30</a></div></div>
+<div class="ttc" id="namespace_m_c_html_a533f8ce8fb01810e66c16263c376fbd7a873893470a60333e1385382b83c85fee"><div class="ttname"><a href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a873893470a60333e1385382b83c85fee">MC::y</a></div><div class="ttdef"><b>Definition:</b> <a href="_global_8h_source.html#l00185">Global.h:185</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html_a171509f8ac65380efb19acf541512af8"><div class="ttname"><a href="class_m_c_particle_system.html#a171509f8ac65380efb19acf541512af8">-[MCParticleSystem dealloc]</a></div><div class="ttdeci">void dealloc()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00334">MCParticleSystem.m:334</a></div></div>
+<div class="ttc" id="interface_m_c_particle_html_ac5b4ed5bf662c6a2e2ade653f286c3d9"><div class="ttname"><a href="interface_m_c_particle.html#ac5b4ed5bf662c6a2e2ade653f286c3d9">MCParticle::velocity</a></div><div class="ttdeci">MCPoint velocity</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_8h_source.html#l00022">MCParticle.h:22</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_af546a69525dd87c13a1c7b5fbab80643"><div class="ttname"><a href="interface_m_c_material_controller.html#af546a69525dd87c13a1c7b5fbab80643">-[MCMaterialController quadFromAtlasKey:]</a></div><div class="ttdeci">MCTexturedQuad * quadFromAtlasKey:(NSString *atlasKey)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00181">MCMaterialController.m:181</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html_ab42f351a486c18e08b74f76aa3f09890"><div class="ttname"><a href="class_m_c_particle_system.html#ab42f351a486c18e08b74f76aa3f09890">-[MCParticleSystem update]</a></div><div class="ttdeci">void update()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00112">MCParticleSystem.m:112</a></div></div>
+<div class="ttc" id="namespace_m_c_html_a533f8ce8fb01810e66c16263c376fbd7a9f5a1830e6064706ca9dbb980403b966"><div class="ttname"><a href="namespace_m_c.html#a533f8ce8fb01810e66c16263c376fbd7a9f5a1830e6064706ca9dbb980403b966">MC::x</a></div><div class="ttdef"><b>Definition:</b> <a href="_global_8h_source.html#l00184">Global.h:184</a></div></div>
+<div class="ttc" id="_m_c_point_8h_html_ac0e03321ee4d440dceac6bdf2fbe7b18"><div class="ttname"><a href="_m_c_point_8h.html#ac0e03321ee4d440dceac6bdf2fbe7b18">MCPointMake</a></div><div class="ttdeci">static MCPoint MCPointMake(CGFloat x, CGFloat y, CGFloat z)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_point_8h_source.html#l00046">MCPoint.h:46</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html_a1d8536b07506ba186d53c5c6401e45df"><div class="ttname"><a href="class_m_c_particle_system.html#a1d8536b07506ba186d53c5c6401e45df">-[MCParticleSystem addVertex:y:u:v:]</a></div><div class="ttdeci">void addVertex:y:u:v:(CGFloat x, [y] CGFloat y, [u] CGFloat u, [v] CGFloat v)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00318">MCParticleSystem.m:318</a></div></div>
+<div class="ttc" id="interface_m_c_particle_html_a4d7842727aee72695b406f0d695a2764"><div class="ttname"><a href="interface_m_c_particle.html#a4d7842727aee72695b406f0d695a2764">MCParticle::size</a></div><div class="ttdeci">CGFloat size</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_8h_source.html#l00034">MCParticle.h:34</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html_aa801f72730c6aef85859cb385d2b8aba"><div class="ttname"><a href="class_m_c_particle_system.html#aa801f72730c6aef85859cb385d2b8aba">-[MCParticleSystem init]</a></div><div class="ttdeci">id init()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00019">MCParticleSystem.m:19</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html_a2711d614c739500d055b5acc449e0ff8"><div class="ttname"><a href="class_m_c_particle_system.html#a2711d614c739500d055b5acc449e0ff8">-[MCParticleSystem setDefaultSystem]</a></div><div class="ttdeci">void setDefaultSystem()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00033">MCParticleSystem.m:33</a></div></div>
+<div class="ttc" id="_m_c_point_8h_html_ab165e210544f88b64e9c888f830733fa"><div class="ttname"><a href="_m_c_point_8h.html#ab165e210544f88b64e9c888f830733fa">MCRandomFloat</a></div><div class="ttdeci">static CGFloat MCRandomFloat(MCRange range)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_point_8h_source.html#l00088">MCPoint.h:88</a></div></div>
+<div class="ttc" id="interface_m_c_particle_html_ae1f73a6f1001f5195e40882d4a151cec"><div class="ttname"><a href="interface_m_c_particle.html#ae1f73a6f1001f5195e40882d4a151cec">MCParticle::position</a></div><div class="ttdeci">MCPoint position</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_8h_source.html#l00018">MCParticle.h:18</a></div></div>
+<div class="ttc" id="interface_m_c_textured_quad_html_a34b3a355d89853cd1f7c1c7285e98d71"><div class="ttname"><a href="interface_m_c_textured_quad.html#a34b3a355d89853cd1f7c1c7285e98d71">MCTexturedQuad::materialKey</a></div><div class="ttdeci">NSString * materialKey</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_textured_quad_8h_source.html#l00032">MCTexturedQuad.h:32</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_a8728e3d49005ec9bd2d6e99e1758b24c"><div class="ttname"><a href="interface_m_c_material_controller.html#a8728e3d49005ec9bd2d6e99e1758b24c">-[MCMaterialController bindMaterial:]</a></div><div class="ttdeci">void bindMaterial:(NSString *materialKey)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00279">MCMaterialController.m:279</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html_a723305d7b6f6504256a14533fedd48f0"><div class="ttname"><a href="class_m_c_particle_system.html#a723305d7b6f6504256a14533fedd48f0">-[MCParticleSystem emitNewParticles]</a></div><div class="ttdeci">void emitNewParticles()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00246">MCParticleSystem.m:246</a></div></div>
+<div class="ttc" id="interface_m_c_particle_html_a380213ea38fad7964b71ce73dcd33dbb"><div class="ttname"><a href="interface_m_c_particle.html#a380213ea38fad7964b71ce73dcd33dbb">MCParticle::life</a></div><div class="ttdeci">CGFloat life</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_8h_source.html#l00026">MCParticle.h:26</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html_a46839b20aeb2476e1c0eb61f860600b9"><div class="ttname"><a href="class_m_c_particle_system.html#a46839b20aeb2476e1c0eb61f860600b9">-[MCParticleSystem clearDeadQueue]</a></div><div class="ttdeci">void clearDeadQueue()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00297">MCParticleSystem.m:297</a></div></div>
+<div class="ttc" id="interface_m_c_mesh_html_a443f1f90b7dccc0de24b8035101da7d3"><div class="ttname"><a href="interface_m_c_mesh.html#a443f1f90b7dccc0de24b8035101da7d3">MCMesh::vertexCount</a></div><div class="ttdeci">NSInteger vertexCount</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_mesh_8h_source.html#l00032">MCMesh.h:32</a></div></div>
+<div class="ttc" id="interface_m_c_textured_quad_html_adb0ac3d11aee7f065f7b0fcd3524bd9d"><div class="ttname"><a href="interface_m_c_textured_quad.html#adb0ac3d11aee7f065f7b0fcd3524bd9d">MCTexturedQuad::uvCoordinates</a></div><div class="ttdeci">GLfloat * uvCoordinates</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_textured_quad_8h_source.html#l00031">MCTexturedQuad.h:31</a></div></div>
+<div class="ttc" id="_m_c_particle_system_8h_html"><div class="ttname"><a href="_m_c_particle_system_8h.html">MCParticleSystem.h</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html_a48dfc8d370dad6ebc9846e7334b203de"><div class="ttname"><a href="class_m_c_particle_system.html#a48dfc8d370dad6ebc9846e7334b203de">-[MCParticleSystem render]</a></div><div class="ttdeci">void render()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00199">MCParticleSystem.m:199</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html_acc42e0fc9e90516a3e5bff96ffe16c31"><div class="ttname"><a href="class_m_c_particle_system.html#acc42e0fc9e90516a3e5bff96ffe16c31">-[MCParticleSystem awake]</a></div><div class="ttdeci">void awake()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00054">MCParticleSystem.m:54</a></div></div>
+<div class="ttc" id="interface_m_c_particle_html_ac1cb696e2ac9af88e5d9cd53bcd9cdfa"><div class="ttname"><a href="interface_m_c_particle.html#ac1cb696e2ac9af88e5d9cd53bcd9cdfa">MCParticle::decay</a></div><div class="ttdeci">CGFloat decay</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_8h_source.html#l00030">MCParticle.h:30</a></div></div>
+<div class="ttc" id="_m_c_particle_8h_html"><div class="ttname"><a href="_m_c_particle_8h.html">MCParticle.h</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html_ab968a046c0878a9a3c428352d8f64ef0"><div class="ttname"><a href="class_m_c_particle_system.html#ab968a046c0878a9a3c428352d8f64ef0">-[MCParticleSystem activeParticles]</a></div><div class="ttdeci">BOOL activeParticles()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00132">MCParticleSystem.m:132</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html_a2229ae30dcdb3e391c16202e112477b4"><div class="ttname"><a href="interface_m_c_material_controller.html#a2229ae30dcdb3e391c16202e112477b4">+[MCMaterialController sharedMaterialController]</a></div><div class="ttdeci">MCMaterialController * sharedMaterialController()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8m_source.html#l00023">MCMaterialController.m:23</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html"><div class="ttname"><a href="class_m_c_particle_system.html">MCParticleSystem</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00013">MCParticleSystem.m:13</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html_adf477d1d8e5c46ed64ce255c47faf4d5"><div class="ttname"><a href="_m_c_configuration_8h.html#adf477d1d8e5c46ed64ce255c47faf4d5">MC_MAX_PARTICLES</a></div><div class="ttdeci">#define MC_MAX_PARTICLES</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_configuration_8h_source.html#l00065">MCConfiguration.h:65</a></div></div>
+<div class="ttc" id="_m_c_configuration_8h_html"><div class="ttname"><a href="_m_c_configuration_8h.html">MCConfiguration.h</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html_ad9df6d42e8f748ca404b8a533dccd3dd"><div class="ttname"><a href="class_m_c_particle_system.html#ad9df6d42e8f748ca404b8a533dccd3dd">-[MCParticleSystem removeChildParticle:]</a></div><div class="ttdeci">void removeChildParticle:(MCParticle *particle)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00287">MCParticleSystem.m:287</a></div></div>
+<div class="ttc" id="interface_m_c_particle_html"><div class="ttname"><a href="interface_m_c_particle.html">MCParticle</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_8h_source.html#l00014">MCParticle.h:14</a></div></div>
+<div class="ttc" id="class_m_c_particle_system_html_ae8b13cd3331d8c8ae1efd7ace89cb50a"><div class="ttname"><a href="class_m_c_particle_system.html#ae8b13cd3331d8c8ae1efd7ace89cb50a">-[MCParticleSystem buildVertexArrays]</a></div><div class="ttdeci">void buildVertexArrays()</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_system_8m_source.html#l00143">MCParticleSystem.m:143</a></div></div>
+<div class="ttc" id="interface_m_c_material_controller_html"><div class="ttname"><a href="interface_m_c_material_controller.html">MCMaterialController</a></div><div class="ttdef"><b>Definition:</b> <a href="_m_c_material_controller_8h_source.html#l00019">MCMaterialController.h:19</a></div></div>
+<div class="ttc" id="_m_c_point_8h_html_a339279171edcfb00920e60979e64331f"><div class="ttname"><a href="_m_c_point_8h.html#a339279171edcfb00920e60979e64331f">MCRangeMake</a></div><div class="ttdeci">static MCRange MCRangeMake(CGFloat start, CGFloat len)</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_point_8h_source.html#l00070">MCPoint.h:70</a></div></div>
+<div class="ttc" id="interface_m_c_particle_html_aa194522364ebd551b9266e60bf138556"><div class="ttname"><a href="interface_m_c_particle.html#aa194522364ebd551b9266e60bf138556">MCParticle::grow</a></div><div class="ttdeci">CGFloat grow</div><div class="ttdef"><b>Definition:</b> <a href="_m_c_particle_8h_source.html#l00038">MCParticle.h:38</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1159ed5f48753b1240615987f272ce7b.html">MCT-MCGame</a></li><li class="navelem"><a class="el" href="_m_c_particle_system_8m.html">MCParticleSystem.m</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:38 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

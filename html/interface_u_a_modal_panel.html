@@ -1,0 +1,1171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>MCT-MCGame: UAModalPanel类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Icon-72@2x.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">MCT-MCGame
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">ipad上的魔方学习软件</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="pages.html"><span>相关页面</span></a></li>
+      <li><a href="namespaces.html"><span>命名空间</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>类列表</span></a></li>
+      <li><a href="classes.html"><span>类索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interface_u_a_modal_panel.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>命名空间</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>枚举</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>枚举值</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>属性</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>宏定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>页</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Instance Methods</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#properties">属性</a> &#124;
+<a href="class_u_a_modal_panel-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">UAModalPanel类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#import &lt;<a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a>&gt;</code></p>
+<div class="dynheader">
+类 UAModalPanel 继承关系图:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_u_a_modal_panel.png" usemap="#UAModalPanel_map" alt=""/>
+  <map id="UAModalPanel_map" name="UAModalPanel_map">
+<area href="interface_u_a_titled_modal_panel.html" alt="UATitledModalPanel" shape="rect" coords="377,112,518,136"/>
+<area href="interface_ask_reload_view.html" alt="AskReloadView" shape="rect" coords="0,168,141,192"/>
+<area href="interface_counting_finish_view.html" alt="CountingFinishView" shape="rect" coords="151,168,292,192"/>
+<area href="interface_finish_view.html" alt="FinishView" shape="rect" coords="302,168,443,192"/>
+<area href="interface_learn_page_pause_menu.html" alt="LearnPagePauseMenu" shape="rect" coords="453,168,594,192"/>
+<area href="interface_pause_menu.html" alt="PauseMenu" shape="rect" coords="604,168,745,192"/>
+<area href="interface_solve_page_pause_menu.html" alt="SolvePagePauseMenu" shape="rect" coords="755,168,896,192"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Instance Methods</h2></td></tr>
+<tr class="memitem:ae7698cc0f5ce218ddcdffc40f633b767"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#ae7698cc0f5ce218ddcdffc40f633b767">show</a></td></tr>
+<tr class="separator:ae7698cc0f5ce218ddcdffc40f633b767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3be2d91a8469575da443b0c42859910"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#af3be2d91a8469575da443b0c42859910">showFromPoint:</a></td></tr>
+<tr class="separator:af3be2d91a8469575da443b0c42859910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9128afc319d8d7fd7b82ebf115af737"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#aa9128afc319d8d7fd7b82ebf115af737">hide</a></td></tr>
+<tr class="separator:aa9128afc319d8d7fd7b82ebf115af737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54f7e95544ec216d6a47321fd1781d5b"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a54f7e95544ec216d6a47321fd1781d5b">hideWithOnComplete:</a></td></tr>
+<tr class="separator:a54f7e95544ec216d6a47321fd1781d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d658970eae078e138fd654067cdec7e"><td class="memItemLeft" align="right" valign="top">(CGRect)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a7d658970eae078e138fd654067cdec7e">roundedRectFrame</a></td></tr>
+<tr class="separator:a7d658970eae078e138fd654067cdec7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f15e9a5a914d944a5f56c6f7b59577"><td class="memItemLeft" align="right" valign="top">(CGRect)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a92f15e9a5a914d944a5f56c6f7b59577">closeButtonFrame</a></td></tr>
+<tr class="separator:a92f15e9a5a914d944a5f56c6f7b59577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a801bf71527661500a051ae4a7bcbc56d"><td class="memItemLeft" align="right" valign="top">(CGRect)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a801bf71527661500a051ae4a7bcbc56d">contentViewFrame</a></td></tr>
+<tr class="separator:a801bf71527661500a051ae4a7bcbc56d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e4ce9d243aecb80b64a90990c95f403"><td class="memItemLeft" align="right" valign="top">(id)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a9e4ce9d243aecb80b64a90990c95f403">initWithFrame:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a9e4ce9d243aecb80b64a90990c95f403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac897c57ff85790b52dd39eb374f7c8e8"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#ac897c57ff85790b52dd39eb374f7c8e8">dealloc</a><code> [implementation]</code></td></tr>
+<tr class="separator:ac897c57ff85790b52dd39eb374f7c8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a313b6cf8bb1916169dabed953da8ce27"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a313b6cf8bb1916169dabed953da8ce27">description</a><code> [implementation]</code></td></tr>
+<tr class="separator:a313b6cf8bb1916169dabed953da8ce27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a993bac770c9b2fd4e2ab6888072a26fc"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a993bac770c9b2fd4e2ab6888072a26fc">setCornerRadius:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a993bac770c9b2fd4e2ab6888072a26fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a204efb1f29139b2d270a3986d5b67f34"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a204efb1f29139b2d270a3986d5b67f34">setBorderWidth:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a204efb1f29139b2d270a3986d5b67f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cf5069d182f42c30150df73da74f2c8"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a8cf5069d182f42c30150df73da74f2c8">setBorderColor:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a8cf5069d182f42c30150df73da74f2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af55f116f2bc1f61ea30316f669547072"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#af55f116f2bc1f61ea30316f669547072">setContentColor:</a><code> [implementation]</code></td></tr>
+<tr class="separator:af55f116f2bc1f61ea30316f669547072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a408666808ab0ba5f6384ca8b3f829397"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a408666808ab0ba5f6384ca8b3f829397">layoutSubviews</a><code> [implementation]</code></td></tr>
+<tr class="separator:a408666808ab0ba5f6384ca8b3f829397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c73f1d786c7e76587928bde6d48072c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a4c73f1d786c7e76587928bde6d48072c">closePressed:</a><code> [implementation]</code></td></tr>
+<tr class="separator:a4c73f1d786c7e76587928bde6d48072c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5272f9e5db3069ef08dc0b5a3cc89a92"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a5272f9e5db3069ef08dc0b5a3cc89a92">showAnimationStarting</a><code> [implementation]</code></td></tr>
+<tr class="separator:a5272f9e5db3069ef08dc0b5a3cc89a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac1cee44f26740f443108bdf8a6f05ef"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#aac1cee44f26740f443108bdf8a6f05ef">showAnimationPart1Finished</a><code> [implementation]</code></td></tr>
+<tr class="separator:aac1cee44f26740f443108bdf8a6f05ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f6f8489a6f224bc807e7e6502fb2e8e"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a0f6f8489a6f224bc807e7e6502fb2e8e">showAnimationPart2Finished</a><code> [implementation]</code></td></tr>
+<tr class="separator:a0f6f8489a6f224bc807e7e6502fb2e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a811afa124b76ae221b88e421f04850d4"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a811afa124b76ae221b88e421f04850d4">showAnimationPart3Finished</a><code> [implementation]</code></td></tr>
+<tr class="separator:a811afa124b76ae221b88e421f04850d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e18f46b93a265820e19847118d85dbe"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_u_a_modal_panel.html#a5e18f46b93a265820e19847118d85dbe">showAnimationFinished</a><code> [implementation]</code></td></tr>
+<tr class="separator:a5e18f46b93a265820e19847118d85dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a3c8a580f3fb4f2f22189123293eea58a"><td class="memItemLeft" align="right" valign="top">CGPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#a3c8a580f3fb4f2f22189123293eea58a">startEndPoint</a></td></tr>
+<tr class="separator:a3c8a580f3fb4f2f22189123293eea58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:ae42ea52c5b8a35422cd4d281c6526eb8"><td class="memItemLeft" align="right" valign="top">NSObject&lt; <a class="el" href="protocol_u_a_modal_panel_delegate-p.html">UAModalPanelDelegate</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#ae42ea52c5b8a35422cd4d281c6526eb8">delegate</a></td></tr>
+<tr class="separator:ae42ea52c5b8a35422cd4d281c6526eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73502efd92ec6127b55c9811a5123d59"><td class="memItemLeft" align="right" valign="top">UIView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#a73502efd92ec6127b55c9811a5123d59">contentContainer</a></td></tr>
+<tr class="separator:a73502efd92ec6127b55c9811a5123d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad19eeea268562b2ecbdbce2779d7671a"><td class="memItemLeft" align="right" valign="top">UIView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#ad19eeea268562b2ecbdbce2779d7671a">roundedRect</a></td></tr>
+<tr class="separator:ad19eeea268562b2ecbdbce2779d7671a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b48a2220ff8dbecd8aac45b78692f7"><td class="memItemLeft" align="right" valign="top">UIButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#a63b48a2220ff8dbecd8aac45b78692f7">closeButton</a></td></tr>
+<tr class="separator:a63b48a2220ff8dbecd8aac45b78692f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50929e16953bdbb98a9f8ff93755680"><td class="memItemLeft" align="right" valign="top">UIView *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#ac50929e16953bdbb98a9f8ff93755680">contentView</a></td></tr>
+<tr class="separator:ac50929e16953bdbb98a9f8ff93755680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f1035d07ea416544c55dc8b8bfc2d0a"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#a4f1035d07ea416544c55dc8b8bfc2d0a">x_outerMargin</a></td></tr>
+<tr class="separator:a4f1035d07ea416544c55dc8b8bfc2d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a819e0b987786fec75a69c0da8f587a"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#a7a819e0b987786fec75a69c0da8f587a">y_outerMargin</a></td></tr>
+<tr class="separator:a7a819e0b987786fec75a69c0da8f587a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7562ce2bb225246a1f9afad89a7ed7e5"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#a7562ce2bb225246a1f9afad89a7ed7e5">innerMargin</a></td></tr>
+<tr class="separator:a7562ce2bb225246a1f9afad89a7ed7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a132a2fc0a2fb2852669ff2f1e5181316"><td class="memItemLeft" align="right" valign="top">UIColor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#a132a2fc0a2fb2852669ff2f1e5181316">borderColor</a></td></tr>
+<tr class="separator:a132a2fc0a2fb2852669ff2f1e5181316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd0377345bf0ee92043c14a47c55c722"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#afd0377345bf0ee92043c14a47c55c722">borderWidth</a></td></tr>
+<tr class="separator:afd0377345bf0ee92043c14a47c55c722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9c948eb2be61cde9375c147fbf0fa1e"><td class="memItemLeft" align="right" valign="top">CGFloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#ac9c948eb2be61cde9375c147fbf0fa1e">cornerRadius</a></td></tr>
+<tr class="separator:ac9c948eb2be61cde9375c147fbf0fa1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37658864fdea07962b032f7adf33b669"><td class="memItemLeft" align="right" valign="top">UIColor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#a37658864fdea07962b032f7adf33b669">contentColor</a></td></tr>
+<tr class="separator:a37658864fdea07962b032f7adf33b669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48cde5789551860b055703e48805f5de"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#a48cde5789551860b055703e48805f5de">shouldBounce</a></td></tr>
+<tr class="separator:a48cde5789551860b055703e48805f5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b7e5be84391fa8ba125f0e5ce8143c4"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#a0b7e5be84391fa8ba125f0e5ce8143c4">isShowColseBtn</a></td></tr>
+<tr class="separator:a0b7e5be84391fa8ba125f0e5ce8143c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb987edaac38e8b2383b44f746bde101"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_u_a_modal_panel_8h.html#a5cda9a948002deb716981437ec0bc0b4">UAModalDisplayPanelEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_u_a_modal_panel.html#aeb987edaac38e8b2383b44f746bde101">onClosePressed</a></td></tr>
+<tr class="separator:aeb987edaac38e8b2383b44f746bde101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock">
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00043">43</a> 行定义.</p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a class="anchor" id="a92f15e9a5a914d944a5f56c6f7b59577"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGRect) closeButtonFrame </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00157">157</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00048">closeButton</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00149">roundedRectFrame</a>.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00169">layoutSubviews</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4c73f1d786c7e76587928bde6d48072c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) closePressed: </td>
+          <td></td>
+          <td class="paramtype">(id)&#160;</td>
+          <td class="paramname"><em>sender</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00180">180</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00044">delegate</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00271">hide</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00090">onClosePressed</a> , 以及 <a class="el" href="_u_a_modal_panel_8h_source.html#l00026">UADebugLog</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a801bf71527661500a051ae4a7bcbc56d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGRect) contentViewFrame </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="interface_u_a_titled_modal_panel.html#ae6244423300d28b86a161906606f36e7">UATitledModalPanel</a> 重载.</p>
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00163">163</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00055">innerMargin</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00149">roundedRectFrame</a>.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00169">layoutSubviews</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac897c57ff85790b52dd39eb374f7c8e8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) dealloc </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="interface_counting_finish_view.html#aa9b63d0a90d7cb8451395b1a28dc5f01">CountingFinishView</a>, <a class="el" href="interface_finish_view.html#ae06b1581a139e32487996f13812a9942">FinishView</a>, <a class="el" href="interface_pause_menu.html#adacb15f49a7be5c3df6be6558ce61094">PauseMenu</a>, <a class="el" href="interface_solve_page_pause_menu.html#a5331e5a87c006bc05261d8043de7db37">SolvePagePauseMenu</a>, <a class="el" href="interface_learn_page_pause_menu.html#a84eaccfe1f72c373aadaf81a6911d017">LearnPagePauseMenu</a>, <a class="el" href="interface_u_a_titled_modal_panel.html#a54fef12970907376bd9705050d8115a5">UATitledModalPanel</a> , 以及 <a class="el" href="interface_ask_reload_view.html#a261af7f0250b33b2da6251cd6085bb0b">AskReloadView</a> 重载.</p>
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00067">67</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00044">delegate</a>.</p>
+
+<p>参考自 <a class="el" href="_u_a_titled_modal_panel_8m_source.html#l00018">UATitledModalPanel::dealloc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a313b6cf8bb1916169dabed953da8ce27"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSString *) description </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00079">79</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa9128afc319d8d7fd7b82ebf115af737"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) hide </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00271">271</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00044">delegate</a>.</p>
+
+<p>参考自 <a class="el" href="_ask_reload_view_8m_source.html#l00132">AskReloadView::cancelBtnPressed:</a>, <a class="el" href="_solve_page_pause_menu_8m_source.html#l00153">SolvePagePauseMenu::cleanBtnPressed:</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00180">closePressed:</a>, <a class="el" href="_finish_view_8m_source.html#l00127">FinishView::goBackBtnPressed:</a>, <a class="el" href="_counting_finish_view_8m_source.html#l00129">CountingFinishView::goBackBtnPressed:</a>, <a class="el" href="_learn_page_pause_menu_8m_source.html#l00138">LearnPagePauseMenu::goBackMainMenuBtnPressed:</a>, <a class="el" href="_pause_menu_8m_source.html#l00137">PauseMenu::goBackMainMenuBtnPressed:</a>, <a class="el" href="_learn_page_pause_menu_8m_source.html#l00107">LearnPagePauseMenu::goOnBtnPressed:</a>, <a class="el" href="_solve_page_pause_menu_8m_source.html#l00107">SolvePagePauseMenu::goOnBtnPressed:</a>, <a class="el" href="_pause_menu_8m_source.html#l00106">PauseMenu::goOnBtnPressed:</a>, <a class="el" href="_ask_reload_view_8m_source.html#l00102">AskReloadView::loadLastTimeBtnPressed:</a>, <a class="el" href="_ask_reload_view_8m_source.html#l00118">AskReloadView::reloadBtnPressed:</a>, <a class="el" href="_learn_page_pause_menu_8m_source.html#l00123">LearnPagePauseMenu::restartBtnPressed:</a>, <a class="el" href="_pause_menu_8m_source.html#l00122">PauseMenu::restartBtnPressed:</a>, <a class="el" href="_solve_page_pause_menu_8m_source.html#l00138">SolvePagePauseMenu::returnDirectoryBtnPressed:</a> , 以及 <a class="el" href="_solve_page_pause_menu_8m_source.html#l00123">SolvePagePauseMenu::saveAndReturnBtnPressed:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a54f7e95544ec216d6a47321fd1781d5b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) hideWithOnComplete: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="_u_a_modal_panel_8h.html#a71b420518d6afd204ff56cd352a82358">UAModalDisplayPanelAnimationComplete</a>)&#160;</td>
+          <td class="paramname"><em>onComplete</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00293">293</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9e4ce9d243aecb80b64a90990c95f403"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (id) initWithFrame: </td>
+          <td></td>
+          <td class="paramtype">(CGRect)&#160;</td>
+          <td class="paramname"><em>frame</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="interface_u_a_titled_modal_panel.html#a1844ce3299c37dc43e962509ffddc928">UATitledModalPanel</a> 重载.</p>
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">30</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00056">borderColor</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00057">borderWidth</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00048">closeButton</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00059">contentColor</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00049">contentView</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00058">cornerRadius</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00018">DEFAULT_BORDER_WIDTH</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00020">DEFAULT_BOUNCE</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00017">DEFAULT_CORNER_RADIUS</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00015">DEFAULT_MARGIN</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00021">DEFAULT_SHOW_CLOSE</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00044">delegate</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00055">innerMargin</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00061">isShowColseBtn</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00047">roundedRect</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00060">shouldBounce</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00051">startEndPoint</a>, <a class="el" href="_u_a_modal_panel_8h_source.html#l00053">x_outerMargin</a> , 以及 <a class="el" href="_u_a_modal_panel_8h_source.html#l00054">y_outerMargin</a>.</p>
+
+<p>参考自 <a class="el" href="_u_a_titled_modal_panel_8m_source.html#l00024">UATitledModalPanel::initWithFrame:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a408666808ab0ba5f6384ca8b3f829397"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) layoutSubviews </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="interface_pause_menu.html#ae8482875dd647d673d927bbb74155f25">PauseMenu</a>, <a class="el" href="interface_solve_page_pause_menu.html#ab3cfe7febbdb001eea070fb310770370">SolvePagePauseMenu</a>, <a class="el" href="interface_learn_page_pause_menu.html#a18fd3cad2e72d2887af0d5efb0691130">LearnPagePauseMenu</a>, <a class="el" href="interface_u_a_titled_modal_panel.html#af9a5edb8f0b5df5b3fb95e3e005bd774">UATitledModalPanel</a> , 以及 <a class="el" href="interface_ask_reload_view.html#ab97175f4faccbfeac2d44f13f65b18f4">AskReloadView</a> 重载.</p>
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00169">169</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8m_source.html#l00157">closeButtonFrame</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00163">contentViewFrame</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00149">roundedRectFrame</a>.</p>
+
+<p>参考自 <a class="el" href="_u_a_titled_modal_panel_8m_source.html#l00078">UATitledModalPanel::layoutSubviews</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7d658970eae078e138fd654067cdec7e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGRect) roundedRectFrame </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00149">149</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00053">x_outerMargin</a>.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00157">closeButtonFrame</a>, <a class="el" href="_u_a_titled_modal_panel_8m_source.html#l00066">UATitledModalPanel::contentViewFrame</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00163">contentViewFrame</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00169">layoutSubviews</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8cf5069d182f42c30150df73da74f2c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setBorderColor: </td>
+          <td></td>
+          <td class="paramtype">(UIColor *)&#160;</td>
+          <td class="paramname"><em>newColor</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00093">93</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00056">borderColor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a204efb1f29139b2d270a3986d5b67f34"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setBorderWidth: </td>
+          <td></td>
+          <td class="paramtype">(CGFloat)&#160;</td>
+          <td class="paramname"><em>newWidth</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00089">89</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00057">borderWidth</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af55f116f2bc1f61ea30316f669547072"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setContentColor: </td>
+          <td></td>
+          <td class="paramtype">(UIColor *)&#160;</td>
+          <td class="paramname"><em>newColor</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00100">100</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00059">contentColor</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a993bac770c9b2fd4e2ab6888072a26fc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setCornerRadius: </td>
+          <td></td>
+          <td class="paramtype">(CGFloat)&#160;</td>
+          <td class="paramname"><em>newRadius</em></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00085">85</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00058">cornerRadius</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae7698cc0f5ce218ddcdffc40f633b767"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) show </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00207">207</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8h_source.html#l00044">delegate</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00206">showAnimationFinished</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00203">showAnimationPart1Finished</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00204">showAnimationPart2Finished</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00205">showAnimationPart3Finished</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00202">showAnimationStarting</a>.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00265">showFromPoint:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5e18f46b93a265820e19847118d85dbe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) showAnimationFinished </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="interface_u_a_titled_modal_panel.html#ac194b5dd8513b251cc5c5aed8ff08e31">UATitledModalPanel</a> 重载.</p>
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00206">206</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00207">show</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac1cee44f26740f443108bdf8a6f05ef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) showAnimationPart1Finished </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00203">203</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00207">show</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0f6f8489a6f224bc807e7e6502fb2e8e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) showAnimationPart2Finished </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00204">204</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00207">show</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a811afa124b76ae221b88e421f04850d4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) showAnimationPart3Finished </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00205">205</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00207">show</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5272f9e5db3069ef08dc0b5a3cc89a92"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) showAnimationStarting </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>被 <a class="el" href="interface_u_a_titled_modal_panel.html#a9d0f910ea7c7370922fdc6b8203c3efd">UATitledModalPanel</a> 重载.</p>
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00202">202</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00207">show</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af3be2d91a8469575da443b0c42859910"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) showFromPoint: </td>
+          <td></td>
+          <td class="paramtype">(CGPoint)&#160;</td>
+          <td class="paramname"><em>point</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a> 第 <a class="el" href="_u_a_modal_panel_8m_source.html#l00265">265</a> 行定义.</p>
+
+<p>参考 <a class="el" href="_u_a_modal_panel_8m_source.html#l00207">show</a> , 以及 <a class="el" href="_u_a_modal_panel_8h_source.html#l00051">startEndPoint</a>.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00725">MCRandomSolveViewInputControllerViewController::askReload</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00345">MCCountingPlayInputViewController::askReload</a>, <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00481">MCNormalPlayInputViewController::askReload</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00131">MCCountingPlayInputViewController::pauseSolutionBtnUp</a>, <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00328">MCRandomSolveViewInputControllerViewController::pauseSolutionBtnUp</a>, <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00258">MCNormalPlayInputViewController::pauseSolutionBtnUp</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00305">MCCountingPlayInputViewController::showFinishView</a> , 以及 <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00444">MCNormalPlayInputViewController::showFinishView</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a class="anchor" id="a3c8a580f3fb4f2f22189123293eea58a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGPoint) startEndPoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00051">51</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00265">showFromPoint:</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a class="anchor" id="a132a2fc0a2fb2852669ff2f1e5181316"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIColor *) borderColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00056">56</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00093">setBorderColor:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd0377345bf0ee92043c14a47c55c722"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGFloat) borderWidth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00057">57</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00089">setBorderWidth:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a63b48a2220ff8dbecd8aac45b78692f7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIButton *) closeButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00048">48</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00157">closeButtonFrame</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a37658864fdea07962b032f7adf33b669"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIColor *) contentColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00059">59</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00100">setContentColor:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a73502efd92ec6127b55c9811a5123d59"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIView *) contentContainer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00046">46</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_finish_view_8m_source.html#l00035">FinishView::initWithFrame:title:</a> , 以及 <a class="el" href="_counting_finish_view_8m_source.html#l00035">CountingFinishView::initWithFrame:title:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac50929e16953bdbb98a9f8ff93755680"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIView *) contentView</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00049">49</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac9c948eb2be61cde9375c147fbf0fa1e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGFloat) cornerRadius</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00058">58</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00085">setCornerRadius:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae42ea52c5b8a35422cd4d281c6526eb8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSObject&lt; <a class="el" href="protocol_u_a_modal_panel_delegate-p.html">UAModalPanelDelegate</a> &gt; *) delegate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00044">44</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00725">MCRandomSolveViewInputControllerViewController::askReload</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00345">MCCountingPlayInputViewController::askReload</a>, <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00481">MCNormalPlayInputViewController::askReload</a>, <a class="el" href="_ask_reload_view_8m_source.html#l00132">AskReloadView::cancelBtnPressed:</a>, <a class="el" href="_solve_page_pause_menu_8m_source.html#l00153">SolvePagePauseMenu::cleanBtnPressed:</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00180">closePressed:</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00067">dealloc</a>, <a class="el" href="_finish_view_8m_source.html#l00127">FinishView::goBackBtnPressed:</a>, <a class="el" href="_counting_finish_view_8m_source.html#l00129">CountingFinishView::goBackBtnPressed:</a>, <a class="el" href="_learn_page_pause_menu_8m_source.html#l00138">LearnPagePauseMenu::goBackMainMenuBtnPressed:</a>, <a class="el" href="_pause_menu_8m_source.html#l00137">PauseMenu::goBackMainMenuBtnPressed:</a>, <a class="el" href="_learn_page_pause_menu_8m_source.html#l00107">LearnPagePauseMenu::goOnBtnPressed:</a>, <a class="el" href="_solve_page_pause_menu_8m_source.html#l00107">SolvePagePauseMenu::goOnBtnPressed:</a>, <a class="el" href="_pause_menu_8m_source.html#l00106">PauseMenu::goOnBtnPressed:</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00271">hide</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a>, <a class="el" href="_ask_reload_view_8m_source.html#l00102">AskReloadView::loadLastTimeBtnPressed:</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00131">MCCountingPlayInputViewController::pauseSolutionBtnUp</a>, <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00328">MCRandomSolveViewInputControllerViewController::pauseSolutionBtnUp</a>, <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00258">MCNormalPlayInputViewController::pauseSolutionBtnUp</a>, <a class="el" href="_ask_reload_view_8m_source.html#l00118">AskReloadView::reloadBtnPressed:</a>, <a class="el" href="_learn_page_pause_menu_8m_source.html#l00123">LearnPagePauseMenu::restartBtnPressed:</a>, <a class="el" href="_pause_menu_8m_source.html#l00122">PauseMenu::restartBtnPressed:</a>, <a class="el" href="_solve_page_pause_menu_8m_source.html#l00138">SolvePagePauseMenu::returnDirectoryBtnPressed:</a>, <a class="el" href="_solve_page_pause_menu_8m_source.html#l00123">SolvePagePauseMenu::saveAndReturnBtnPressed:</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00207">show</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00305">MCCountingPlayInputViewController::showFinishView</a> , 以及 <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00444">MCNormalPlayInputViewController::showFinishView</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7562ce2bb225246a1f9afad89a7ed7e5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGFloat) innerMargin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00055">55</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_titled_modal_panel_8m_source.html#l00066">UATitledModalPanel::contentViewFrame</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00163">contentViewFrame</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0b7e5be84391fa8ba125f0e5ce8143c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) isShowColseBtn</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00061">61</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00725">MCRandomSolveViewInputControllerViewController::askReload</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00345">MCCountingPlayInputViewController::askReload</a>, <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00481">MCNormalPlayInputViewController::askReload</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00131">MCCountingPlayInputViewController::pauseSolutionBtnUp</a>, <a class="el" href="_m_c_random_solve_view_input_controller_view_controller_8m_source.html#l00328">MCRandomSolveViewInputControllerViewController::pauseSolutionBtnUp</a>, <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00258">MCNormalPlayInputViewController::pauseSolutionBtnUp</a>, <a class="el" href="_m_c_counting_play_input_view_controller____1_8mm_source.html#l00305">MCCountingPlayInputViewController::showFinishView</a> , 以及 <a class="el" href="_m_c_normal_play_input_view_controller_8m_source.html#l00444">MCNormalPlayInputViewController::showFinishView</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeb987edaac38e8b2383b44f746bde101"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="_u_a_modal_panel_8h.html#a5cda9a948002deb716981437ec0bc0b4">UAModalDisplayPanelEvent</a>) onClosePressed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">copy</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00090">90</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00180">closePressed:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad19eeea268562b2ecbdbce2779d7671a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (UIView *) roundedRect</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">retain</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00047">47</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a48cde5789551860b055703e48805f5de"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) shouldBounce</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00060">60</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4f1035d07ea416544c55dc8b8bfc2d0a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGFloat) x_outerMargin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00053">53</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_titled_modal_panel_8m_source.html#l00066">UATitledModalPanel::contentViewFrame</a>, <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00149">roundedRectFrame</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7a819e0b987786fec75a69c0da8f587a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (CGFloat) y_outerMargin</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">nonatomic</span><span class="mlabel">assign</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>在文件 <a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a> 第 <a class="el" href="_u_a_modal_panel_8h_source.html#l00054">54</a> 行定义.</p>
+
+<p>参考自 <a class="el" href="_u_a_titled_modal_panel_8m_source.html#l00066">UATitledModalPanel::contentViewFrame</a> , 以及 <a class="el" href="_u_a_modal_panel_8m_source.html#l00030">initWithFrame:</a>.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>MCT-MCGame/Classes/<a class="el" href="_u_a_modal_panel_8h_source.html">UAModalPanel.h</a></li>
+<li>MCT-MCGame/Classes/<a class="el" href="_u_a_modal_panel_8m_source.html">UAModalPanel.m</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="interface_u_a_modal_panel.html">UAModalPanel</a></li>
+    <li class="footer">生成于 2014年 二月 6日 星期四 18:27:39 , 为 MCT-MCGame使用 
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>
